@@ -1,0 +1,239 @@
+#aboutus {
+    background-image: linear-gradient(to bottom, #60bfec, #42a1d7, #0b6bb1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* height: 100%; */
+    /* margin: 0%; */
+}
+
+.content {
+    /* position: fixed;
+    top: 17%;
+    right: 5%; */
+    margin-top: -35%;
+    margin-left: 40%;
+    width: 728px;
+    height: 550px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.08;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.abo {
+    /* position: fixed;
+    top:65.1%;
+    left:6.3%; */
+    margin-top: -20%;
+    margin-left: 7%;
+    width: 602px;
+    height: 171px;
+    font-family: Poppins;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 6.1px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.svg {
+    margin-left: 0%;
+    width: 45%;
+    margin-top: 3%;
+}
+
+/* ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    word-spacing: 200px;
+} */
+.so {
+    font-family: "poppins";
+    color: white;
+    font-size: 30px;
+    margin-top: -11%;
+    margin-left: 45%;
+}
+
+.so2 {
+    margin-top: -10.5%;
+    margin-left: 32%;
+}
+
+.so3 {
+    margin-top: -10.5%;
+    margin-left: 64%;
+}
+
+.campusam {
+    /* bottom: 28px;
+    left: 35px; */
+    margin-top: -3%;
+    margin-left: -13%;
+    width: 300px;
+
+    height: 35px;
+
+    font-family: Raleway;
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+    font-style: normal;
+
+    font-stretch: normal;
+
+    line-height: 1.17;
+
+    letter-spacing: normal;
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.rectangle {
+    /* left: 68px;
+bottom: 25px; */
+    margin-left: 5%;
+    margin-top: 4%;
+    width: 230px;
+    height: 30px;
+    border-radius: 30px;
+    border: solid 1px #ffffff;
+}
+
+@media only screen and (max-device-width: 480px) {
+    body {
+        background-image: linear-gradient(to bottom, #60bfec, #42a1d7, #0b6bb1);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100%;
+        margin: 0%;
+    }
+
+    .content {
+        /* position: fixed;
+        top: 17%;
+        right: 5%; */
+        margin-top: 7%;
+        margin-left: 5%;
+        width: 80%;
+        height: 550px;
+        font-family: "Poppins";
+        font-size: 2.75vw;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.08;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .abo {
+        /* position: fixed;
+        top:65.1%;
+        left:6.3%; */
+        margin-top: -23%;
+        margin-left: 5%;
+        width: 90%;
+        height: 171px;
+        font-family: Poppins;
+        font-size: 12vw;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 6.1px;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .svg {
+        margin-left: 0%;
+        width: 48%;
+        margin-top: 3%;
+        margin-left: 45%;
+    }
+
+    /* ul{
+        list-style-type: none;
+    }
+    li{
+        display: inline;
+        word-spacing: 200px;
+    } */
+    .so {
+        font-family: "poppins";
+        color: white;
+        font-size: 4.5vw;
+        margin-top: 35%;
+        margin-left: 0%;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        width: 100%;
+    }
+
+    .so2 {
+        margin-top: auto;
+        margin-left: 0%;
+    }
+
+    .so3 {
+        margin-top: auto;
+        margin-left: 0%;
+    }
+
+    .campusam {
+        /* bottom: 28px;
+        left: 35px; */
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+
+        height: auto;
+
+        font-family: Raleway;
+
+        font-size: 3.4vw;
+
+        font-weight: 500;
+
+        font-style: normal;
+
+        font-stretch: normal;
+
+        line-height: 1.17;
+
+        letter-spacing: normal;
+
+        color: #ffffff;
+    }
+
+    .rectangle {
+        /* left: 68px;
+    bottom: 25px; */
+        margin-left: 20%;
+        margin-top: 3%;
+        width: 50%;
+        height: 2%;
+        border-radius: 30px;
+        border: solid 1px #ffffff;
+        text-align: center;
+    }
+}
