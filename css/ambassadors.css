@@ -1,0 +1,140 @@
+body {
+    background: linear-gradient(to right, rgba(157, 22, 184, 1) 0%, rgba(180, 29, 194, 1) 51%, rgba(179, 20, 219, 1) 100%);
+
+    color: #ffffff;
+}
+
+#container {
+    margin: 1% 1%;
+}
+
+#heading {
+    width: 100%;
+    height: 130px;
+    font-family: Poppins;
+    font-size: 500%;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#content {
+    height: 85px;
+    font-family: Poppins;
+    font-size: 180%;
+    line-height: 1.5;
+    text-align: right;
+}
+
+button {
+    cursor: pointer;
+    height: 60px;
+    text-height: 39px;
+    font-family: LuckiestGuy;
+    font-size: 24px;
+    line-height: 1.2;
+    width: 167px;
+    border-radius: 46px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.72);
+    border: solid 1px #707070;
+    background-color: #a7219e;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn {
+    padding-left: 25%;
+    align-items: center;
+    text-align: center;
+}
+
+#ca {
+
+    width: 250px;
+    height: 35px;
+    border-radius: 30px;
+    border: solid 1px #ffffff;
+    text-align: center;
+    line-height: 1.17;
+    margin: auto 0;
+    vertical-align: center;
+    font-size: 28px;
+    margin-right: 0px;
+}
+
+#logo {
+    width: 70px;
+    height: 80px;
+}
+
+#mid {
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+
+}
+
+#images img {
+
+    width: 33px;
+    height: 53.1px;
+}
+
+#pic img {
+    height: 300px;
+    width: 350px;
+    padding-left: 50px;
+}
+
+#pic {
+    height: 335px;
+    width: 320px;
+    text-align: left;
+}
+
+#images {
+    float: right;
+    margin-top: -20px;
+}
+
+#footer {
+    width: 92%;
+}
+
+@media only screen and (max-width: 768px) {
+    #pic {
+        display: none;
+    }
+
+    #heading {
+        width: 100%;
+        height: 130px;
+        font-family: Poppins;
+        font-size: 350%;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    #mid {
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: 80% 80%;
+    }
+
+    #footer {
+        margin-top: 10%;
+    }
+
+    #ca {
+        width: 210px;
+        height: 35px;
+        border-radius: 30px;
+        border: solid 1px #ffffff;
+        line-height: 1.50;
+        margin: auto 0;
+        font-size: 145%;
+    }
+
+    #content {
+        text-align: center;
+    }
+}

@@ -171,7 +171,7 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
-        height: 100%;
+        height: 100vh;
         margin: 0%;
         /* background-image: url("../images/Asset\ 1.svg") ; */
         background-image: url("../images/Asset\ 1.svg"),

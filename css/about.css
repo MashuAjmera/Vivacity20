@@ -3,8 +3,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    /* height: 100%; */
-    /* margin: 0%; */
+    height: 100vh;
+    margin: 0%;
 }
 
 .content {
