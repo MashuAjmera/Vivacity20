@@ -1,7 +1,30 @@
+/* Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
 body {
+    overflow: hidden;
+    overscroll-behavior: contain;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+/* scroll end */
+
+
+#ambassador {
     background: linear-gradient(to right, rgba(157, 22, 184, 1) 0%, rgba(180, 29, 194, 1) 51%, rgba(179, 20, 219, 1) 100%);
 
     color: #ffffff;
+    height: 100vh;
 }
 
 #container {
