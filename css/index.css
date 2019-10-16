@@ -384,6 +384,30 @@ body {
   width: 50px;
   height: 50px;
 }
+.rectangle {
+  width: 100%;
+  position: fixed;
+  bottom: 5%;
+  color: #fff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.campusam {
+  font-family: "Poppins";
+  font-size: 1.3vw;
+  color: #fff;
+  border: 2px #fff solid;
+  padding: 0.005vw 2.5vw;
+  border-radius: 2vw;
+  font-weight: 600;
+  height: 3vw;
+  text-transform: uppercase;
+  margin-left: 7vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
 
 #aboutus {
   margin-top: 0vw;
