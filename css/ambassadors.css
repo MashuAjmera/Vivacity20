@@ -26,7 +26,6 @@ body {
     background: linear-gradient(to right, rgba(157, 22, 184, 1) 0%, rgba(180, 29, 194, 1) 51%, rgba(179, 20, 219, 1) 100%);
 
     color: #ffffff;
-    height: 100vh;
 }
 
 #container {
@@ -34,12 +33,13 @@ body {
 }
 
 #heading {
-    width: 100%;
-    height: 130px;
-    font-family: Poppins;
-    font-size: 500%;
-    line-height: 1.5;
+    font-size: 5em;
+    font-family: 'Poppins', sans serif;
     text-align: center;
+    margin: 0%;
+    font-weight: bold;
+    color: white;
+    animation: animate 1s linear forwards;
 }
 
 #content {
@@ -47,12 +47,11 @@ body {
     font-family: Poppins;
     font-size: 180%;
     line-height: 1.5;
-    text-align: right;
 }
 
 button {
     cursor: pointer;
-    height: 60px;
+    height: 50px;
     text-height: 39px;
     font-family: LuckiestGuy;
     font-size: 24px;
@@ -67,13 +66,14 @@ button {
 }
 
 .btn {
-    padding-left: 25%;
+    margin-top: 2%;
     align-items: center;
     text-align: center;
 }
 
 #ca {
-
+    font-family: Poppins;
+    background: none;
     width: 250px;
     height: 35px;
     border-radius: 30px;
@@ -82,13 +82,13 @@ button {
     line-height: 1.17;
     margin: auto 0;
     vertical-align: center;
-    font-size: 28px;
+    font-size: 18px;
     margin-right: 0px;
 }
 
 #logo {
     width: 70px;
-    height: 80px;
+    height: 60px;
 }
 
 #mid {
@@ -111,55 +111,102 @@ button {
 }
 
 #pic {
-    height: 335px;
-    width: 320px;
-    text-align: left;
+    height: 70%;
+    width: 80%;
+    text-align: center;
 }
 
 #images {
     float: right;
-    margin-top: -20px;
+    margin-top: -16px;
 }
 
 #footer {
-    width: 92%;
+    position: absolute;
+    width: 91%;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-right: 4%;
+    animation: animate 2s linear forwards;
+    height: 50px;
+    bottom: 10px;
 }
 
 @media only screen and (max-width: 768px) {
-    #pic {
-        display: none;
+    #logo {
+        width: 40px;
+        height: 40px;
     }
 
     #heading {
         width: 100%;
-        height: 130px;
+        height: 50px;
         font-family: Poppins;
-        font-size: 350%;
+        font-size: 200%;
         line-height: 1.5;
         text-align: center;
     }
 
-    #mid {
-        margin-left: 0px;
-        display: grid;
-        grid-template-columns: 80% 80%;
-    }
-
-    #footer {
-        margin-top: 10%;
-    }
-
     #ca {
-        width: 210px;
+        width: 42%;
         height: 35px;
         border-radius: 30px;
         border: solid 1px #ffffff;
         line-height: 1.50;
         margin: auto 0;
-        font-size: 145%;
+        font-size: 100%;
     }
 
     #content {
         text-align: center;
+        font-size: 145%;
+    }
+
+    #mid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+    }
+
+    .btn {
+        text-align: center;
+    }
+
+    #images {
+        margin-top: -10px;
+    }
+
+    #pic img {
+        height: 200px;
+        width: 250px;
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #heading {
+        width: 100%;
+        height: 75px;
+        font-family: Poppins;
+        font-size: 400%;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+
+    #pic img {
+        height: 100%;
+        width: 120%;
+        padding-left: 50px;
+    }
+
+    #mid {
+        margin-top: 5%;
+    }
+
+    #content {
+        width: 125%;
+        text-align: center;
+        font-size: 145%;
     }
 }

@@ -3,6 +3,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 body::-webkit-scrollbar {
     width: 0;
 }
@@ -37,6 +39,7 @@ body {
 }
 
 #heading {
+    font-size: 5em;
     font-family: 'Poppins', sans serif;
     text-align: center;
     margin: 0%;
@@ -69,86 +72,111 @@ body {
     }
 }
 
-#bodyPage {
-    display: flex;
-    color: white;
-    margin: 1%;
-    justify-content: center;
-}
-
-#bodyPage>div {
-    margin: 3%;
-    width: 500px;
-    height: 200px;
-    font-size: 1.2em;
-    animation: animatehead 1s linear forwards;
-}
-
-.hline {
-    font-size: 1.7em;
-    margin-bottom: 10%;
-}
-
-#footer {
-    margin-left: 4%;
-    margin-top: 4%;
-    margin-right: 4%;
-    animation: animate 2s linear forwards;
-    height: 50px;
-}
-
-button {
-    background: none;
-    border: 1px solid white;
-    color: white;
-    padding: 10px 0;
-    border-radius: 30px;
-    font-family: Poppins, sans serif;
-    font-size: 20px;
-    width: 250px;
-}
-
-
-.icons {
-    width: 25px;
-    height: 25px;
-    float: right;
-    border: 1px solid white;
-    border-radius: 50%;
-    padding: 7px;
-    margin-left: 6px;
-    margin-top: 4px;
-}
-
-.icons>img {
-    width: 25px;
-    height: 25px;
-}
-
-
-/*responsive*/
-@media(min-width: 1050px) {
-    #heading {
-        font-size: 5em;
+@media (min-width: 950px) {
+    #bodyPage {
+        display: flex;
+        color: white;
+        margin: 1%;
+        justify-content: space-around;
     }
 }
 
-@media(max-width: 1050px) {
-    #heading {
-        font-size: 4em;
+@media only screen and (max-width: 1150px) and (orientation: portrait) {
+    #bodyPage {
+        display: flex;
+        color: white;
+        margin: 1%;
+        justify-content: space-around;
     }
 
-    #footer {
-        margin-top: 6%;
-    }
-}
 
-@media(max-width: 745px) {
-    #footer {
-        margin-top: 8%;
+    #bodyPage {
+        color: white;
+        margin: 1%;
+    }
+
+    #bodyPage>div {
+        flex: 1;
+        margin: 3%;
+        font-size: 1.2em;
+        animation: animatehead 1s linear forwards;
     }
 
     .hline {
-        font-size: 1.3em;
+        font-size: 1.7em;
+    }
+
+    p {
+        margin-top: -1%;
+
+    }
+
+    #footer {
+        position: absolute;
+        width: 91%;
+        margin-left: 4%;
+        margin-top: 4%;
+        margin-right: 4%;
+        animation: animate 2s linear forwards;
+        height: 50px;
+        bottom: 10px;
+    }
+
+    button {
+        background: none;
+        border: 1px solid white;
+        color: white;
+        padding: 5px 0px;
+        border-radius: 30px;
+        font-family: Poppins, sans serif;
+        font-size: 100%;
+        width: 225px;
+        margin-right: 5%;
+    }
+
+    #map {
+        width: 175px;
+        color: #424242;
+        background-color: rgb(237, 235, 235);
+    }
+
+    .icons {
+        float: right;
+        width: 25px;
+        height: 25px;
+        ;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 7px;
+        margin-left: 6px;
+        margin-top: 4px;
+    }
+
+    .icons>img {
+        width: 25px;
+        height: 25px;
+    }
+
+    @media(max-width: 1200px) {
+        #heading {
+            font-size: 3em;
+        }
+
+        #logo {
+            width: 50.53px;
+            height: 58.26px;
+        }
+    }
+
+    @media(max-width: 768px) {
+        .hline {
+            font-size: 1.3em;
+        }
+
+        #bodyPage {
+            color: white;
+            margin: 1%;
+            margin-left: 20%;
+        }
     }
 }
