@@ -1,239 +1,221 @@
-#aboutus {
-    background-image: linear-gradient(to bottom, #60bfec, #42a1d7, #0b6bb1);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    margin: 0%;
+body {
+  background: rgb(0, 183, 255);
+  margin: 0px;
+  padding: 0px;
 }
-
-.content {
-    /* position: fixed;
-    top: 17%;
-    right: 5%; */
-    margin-top: -35%;
-    margin-left: 40%;
-    width: 728px;
-    height: 550px;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2.08;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
+.main {
+  width: 100%;
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.a {
+  width: 100%;
 
-.abo {
-    /* position: fixed;
-    top:65.1%;
-    left:6.3%; */
-    margin-top: -20%;
-    margin-left: 7%;
-    width: 602px;
-    height: 171px;
-    font-family: Poppins;
-    font-size: 80px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: 6.1px;
-    text-align: left;
-    color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-
+.first {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vw;
+}
 .svg {
-    margin-left: 0%;
-    width: 45%;
-    margin-top: 3%;
+  height: 40vw;
+  width: 40vw;
+  margin-left: 5vw;
+  margin-top: -5vw;
 }
-
-/* ul{
-    list-style-type: none;
+.abo {
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 5vw;
+  color: #fff;
+  margin-top: -15vw;
 }
-li{
-    display: inline;
-    word-spacing: 200px;
-} */
+.content {
+  font-family: "Poppins";
+  font-size: 1.3vw;
+  color: #fff;
+  font-weight: 300;
+  width: 80%;
+}
 .so {
-    font-family: "poppins";
-    color: white;
-    font-size: 30px;
-    margin-top: -11%;
-    margin-left: 45%;
+  width: 80%;
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-
-.so2 {
-    margin-top: -10.5%;
-    margin-left: 32%;
+.so-h {
+  font-family: "Poppins";
+  font-size: 1.3vw;
+  color: #fff;
+  border: 2px #fff solid;
+  padding: 0.55vw 1.5vw;
+  border-radius: 2vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-
-.so3 {
-    margin-top: -10.5%;
-    margin-left: 64%;
-}
-
-.campusam {
-    /* bottom: 28px;
-    left: 35px; */
-    margin-top: -3%;
-    margin-left: -13%;
-    width: 300px;
-
-    height: 35px;
-
-    font-family: Raleway;
-
-    font-size: 15px;
-
-    font-weight: 500;
-
-    font-style: normal;
-
-    font-stretch: normal;
-
-    line-height: 1.17;
-
-    letter-spacing: normal;
-
-    text-align: center;
-
-    color: #ffffff;
-}
-
 .rectangle {
-    /* left: 68px;
-bottom: 25px; */
-    margin-left: 5%;
-    margin-top: 4%;
-    width: 230px;
-    height: 30px;
-    border-radius: 30px;
-    border: solid 1px #ffffff;
+  width: 100%;
+  position: fixed;
+  bottom: 5%;
+  color: #fff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.campusam {
+  font-family: "Poppins";
+  font-size: 1.3vw;
+  color: #fff;
+  border: 2px #fff solid;
+  padding: 0.005vw 2.5vw;
+  border-radius: 2vw;
+  font-weight: 600;
+  height: 3vw;
+  text-transform: uppercase;
+  margin-left: 7vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 @media only screen and (max-device-width: 480px) {
-    body {
-        background-image: linear-gradient(to bottom, #60bfec, #42a1d7, #0b6bb1);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        height: 100%;
-        margin: 0%;
-    }
+  body {
+    background: rgb(0, 183, 255);
+    margin: 0px;
+    padding: 0px;
+  }
+  .main {
+    width: 100%;
+    margin-top: 0vw;
+    height: 100%;
 
-    .content {
-        /* position: fixed;
-        top: 17%;
-        right: 5%; */
-        margin-top: 7%;
-        margin-left: 5%;
-        width: 80%;
-        height: 550px;
-        font-family: "Poppins";
-        font-size: 2.75vw;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 2.08;
-        letter-spacing: normal;
-        text-align: left;
-        color: #ffffff;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .a {
+    width: 100%;
 
-    .abo {
-        /* position: fixed;
-        top:65.1%;
-        left:6.3%; */
-        margin-top: -23%;
-        margin-left: 5%;
-        width: 90%;
-        height: 171px;
-        font-family: Poppins;
-        font-size: 12vw;
-        font-weight: bold;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.5;
-        letter-spacing: 6.1px;
-        text-align: left;
-        color: #ffffff;
-    }
-
-    .svg {
-        margin-left: 0%;
-        width: 48%;
-        margin-top: 3%;
-        margin-left: 45%;
-    }
-
-    /* ul{
-        list-style-type: none;
-    }
-    li{
-        display: inline;
-        word-spacing: 200px;
-    } */
-    .so {
-        font-family: "poppins";
-        color: white;
-        font-size: 4.5vw;
-        margin-top: 35%;
-        margin-left: 0%;
-        display: flex;
-        justify-content: space-around;
-        align-self: center;
-        width: 100%;
-    }
-
-    .so2 {
-        margin-top: auto;
-        margin-left: 0%;
-    }
-
-    .so3 {
-        margin-top: auto;
-        margin-left: 0%;
-    }
-
-    .campusam {
-        /* bottom: 28px;
-        left: 35px; */
-        margin-top: 0px;
-        margin-left: 0px;
-        width: 100%;
-
-        height: auto;
-
-        font-family: Raleway;
-
-        font-size: 3.4vw;
-
-        font-weight: 500;
-
-        font-style: normal;
-
-        font-stretch: normal;
-
-        line-height: 1.17;
-
-        letter-spacing: normal;
-
-        color: #ffffff;
-    }
-
-    .rectangle {
-        /* left: 68px;
-    bottom: 25px; */
-        margin-left: 20%;
-        margin-top: 3%;
-        width: 50%;
-        height: 2%;
-        border-radius: 30px;
-        border: solid 1px #ffffff;
-        text-align: center;
-    }
+    margin-top: -30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .second {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+  }
+  .svg {
+    height: 30vw;
+    width: 30vw;
+    margin-left: -30vw;
+    margin-top: 3vw;
+    position: absolute;
+  }
+  .abo {
+    font-family: "Raleway";
+    font-weight: 900;
+    font-size: 13vw;
+    color: #fff;
+    margin-top: 5vw;
+    width: 60%;
+    margin-right: -15vw;
+  }
+  .content {
+    font-family: "Poppins";
+    font-size: 3.3vw;
+    color: #fff;
+    font-weight: 300;
+    width: 80%;
+  }
+  .so {
+    width: 100%;
+    margin-top: 3vw;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: -20vw;
+  }
+  .so-h {
+    font-family: "Poppins";
+    font-size: 3.3vw;
+    color: #fff;
+    border: 4px #fff solid;
+    padding: 0.55vw 2.5vw;
+    border-radius: 7vw;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .rectangle {
+    width: 80%;
+    position: relative;
+    bottom: 0vw;
+    margin-bottom: -30vw;
+    margin-left: 0vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+  }
+  .campusam {
+    font-family: "Poppins";
+    font-size: 4.3vw;
+    color: #fff;
+    border: 5px #fff solid;
+    padding: 2.5vw 7.5vw;
+    border-radius: 6vw;
+    font-weight: 600;
+    height: 3vw;
+    text-transform: uppercase;
+    margin-left: 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -5vw;
+  }
 }
