@@ -1,7 +1,21 @@
 const arrow = document.querySelectorAll(".arrow");
+const navigation = document.querySelector(".navigation");
+const slidershow = document.querySelector(".slidershow");
 const prev = document.querySelectorAll(".prev");
 const s1 = document.querySelector(".s1");
 const i1 = document.querySelector(".i1");
+let prevWidth = Number(getComputedStyle(document.documentElement).getPropertyValue('--prevWidth').slice(1, -2));
+//console.log(prevWidth);
+//.setProperty('--my-variable-name', 'pink')
+// let prevWidth = 6;
+// function getOrientation() {
+//   return Math.abs(window.orientation) - 90 == 0 ? "landscape" : "portrait";
+// };
+if (screen.width <= 800) {
+  document.documentElement.style.setProperty('--prevWidth', 16 + 'vw');
+  prevWidth = 16;
+}
+
 var img = prev.length - 4;
 var click = 0;
 let k = 2;
@@ -22,18 +36,18 @@ function setImg(i) {
     curimg = i;
     if (i < 2) {
       k = i + img;
-      q = -75 * (img - (2 - i));
+      q = -prevWidth * (img - (2 - i));
       prev[k].classList.add("cur");
     } else if (i > 9) {
       k = i % img;
-      q = -75 * (i - img - 2);
+      q = -prevWidth * (i - img - 2);
       prev[k].classList.add("cur");
     } else {
       k = i;
-      q = -75 * (i - 2);
+      q = -prevWidth * (i - 2);
       prev[k].classList.add("cur");
     }
-    i1.style.marginLeft = q + "px";
+    i1.style.marginLeft = q + "vw";
 
   }
 }
@@ -45,11 +59,11 @@ function nextImg() {
       p = 0;
     }
     s1.style.marginLeft = p + "%";
-    q = -1 * Number(i1.style.marginLeft.slice(1, -2)) - 75;
-    if (Number(i1.style.marginLeft.slice(1, -2)) >= 75 * (img - 1)) {
+    q = -1 * Number(i1.style.marginLeft.slice(1, -2)) - prevWidth;
+    if (Number(i1.style.marginLeft.slice(1, -2)) >= prevWidth * (img - 1)) {
       q = 0;
     }
-    i1.style.marginLeft = q + "px";
+    i1.style.marginLeft = q + "vw";
     prev[curimg].classList.remove("cur");
     curimg = 2 + ((curimg - 1) % img);
     prev[curimg].classList.add("cur");
@@ -63,11 +77,11 @@ function prevImg() {
       p = -100 * (img - 1) / img;
     }
     s1.style.marginLeft = p + "%";
-    q = -1 * Number(i1.style.marginLeft.slice(1, -2)) + 75;
+    q = -1 * Number(i1.style.marginLeft.slice(1, -2)) + prevWidth;
     if (Number(i1.style.marginLeft.slice(1, -2)) <= 0) {
-      q = -75 * (img - 1);
+      q = -prevWidth * (img - 1);
     }
-    i1.style.marginLeft = q + "px";
+    i1.style.marginLeft = q + "vw";
     prev[curimg].classList.remove("cur");
     curimg = 2 + ((curimg - 3 + img) % img);
     console.log(curimg);
@@ -83,11 +97,11 @@ document.addEventListener("keydown", function (event) {
       p = 0;
     }
     s1.style.marginLeft = p + "%";
-    q = -1 * Number(i1.style.marginLeft.slice(1, -2)) - 75;
-    if (Number(i1.style.marginLeft.slice(1, -2)) >= 75 * (img - 1)) {
+    q = -1 * Number(i1.style.marginLeft.slice(1, -2)) - prevWidth;
+    if (Number(i1.style.marginLeft.slice(1, -2)) >= prevWidth * (img - 1)) {
       q = 0;
     }
-    i1.style.marginLeft = q + "px";
+    i1.style.marginLeft = q + "vw";
     prev[curimg].classList.remove("cur");
     curimg = 2 + ((curimg - 1) % img);
     prev[curimg].classList.add("cur");
@@ -99,11 +113,11 @@ document.addEventListener("keydown", function (event) {
     }
     console.log(Number(s1.style.marginLeft.slice(1, -1)));
     s1.style.marginLeft = p + "%";
-    q = -1 * Number(i1.style.marginLeft.slice(1, -2)) + 75;
+    q = -1 * Number(i1.style.marginLeft.slice(1, -2)) + prevWidth;
     if (Number(i1.style.marginLeft.slice(1, -2)) <= 0) {
-      q = -75 * (img - 1);
+      q = -prevWidth * (img - 1);
     }
-    i1.style.marginLeft = q + "px";
+    i1.style.marginLeft = q + "vw";
     prev[curimg].classList.remove("cur");
     curimg = 2 + ((curimg - 3 + img) % img);
     console.log(curimg);
@@ -120,8 +134,10 @@ for (i = 0; i < img + 4; i++) {
 
 // for swipe
 
-document.addEventListener('touchstart', handleTouchStart, false);
-document.addEventListener('touchmove', handleTouchMove, false);
+slidershow.addEventListener('touchstart', handleTouchStart, false);
+slidershow.addEventListener('touchmove', handleTouchMove, false);
+navigation.addEventListener('touchstart', handleTouchStart, false);
+navigation.addEventListener('touchmove', handleTouchMove, false);
 
 var xDown = null;
 var yDown = null;
@@ -156,11 +172,11 @@ function handleTouchMove(evt) {
         p = 0;
       }
       s1.style.marginLeft = p + "%";
-      q = -1 * Number(i1.style.marginLeft.slice(1, -2)) - 75;
-      if (Number(i1.style.marginLeft.slice(1, -2)) >= 75 * (img - 1)) {
+      q = -1 * Number(i1.style.marginLeft.slice(1, -2)) - prevWidth;
+      if (Number(i1.style.marginLeft.slice(1, -2)) >= prevWidth * (img - 1)) {
         q = 0;
       }
-      i1.style.marginLeft = q + "px";
+      i1.style.marginLeft = q + "vw";
       prev[curimg].classList.remove("cur");
       curimg = 2 + ((curimg - 1) % img);
       prev[curimg].classList.add("cur");
@@ -172,11 +188,11 @@ function handleTouchMove(evt) {
       }
       console.log(Number(s1.style.marginLeft.slice(1, -1)));
       s1.style.marginLeft = p + "%";
-      q = -1 * Number(i1.style.marginLeft.slice(1, -2)) + 75;
+      q = -1 * Number(i1.style.marginLeft.slice(1, -2)) + prevWidth;
       if (Number(i1.style.marginLeft.slice(1, -2)) <= 0) {
-        q = -75 * (img - 1);
+        q = -prevWidth * (img - 1);
       }
-      i1.style.marginLeft = q + "px";
+      i1.style.marginLeft = q + "vw";
       prev[curimg].classList.remove("cur");
       curimg = 2 + ((curimg - 3 + img) % img);
       console.log(curimg);

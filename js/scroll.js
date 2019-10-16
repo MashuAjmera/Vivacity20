@@ -32,7 +32,7 @@ if (browser == "firefox") {
 
 
 
-var delayInAddRemove = 800; //do not touch
+var delayInAddRemove = 700; //do not touch
 // window.onload() = function () {
 //     var container = document.querySelectorAll(".container");
 
