@@ -122,44 +122,6 @@ body {
     height: 50px;
 }
 
-.campusam {
-    /* bottom: 28px;
-        left: 35px; */
-    margin-top: -3%;
-    margin-left: -13%;
-    width: 300px;
-
-    height: 35px;
-
-    font-family: Raleway;
-
-    font-size: 15px;
-
-    font-weight: 500;
-
-    font-style: normal;
-
-    font-stretch: normal;
-
-    line-height: 1.17;
-
-    letter-spacing: normal;
-
-    text-align: center;
-
-    color: #ffffff;
-}
-
-.rectangle {
-    /* left: 68px;
-    bottom: 25px; */
-    margin-left: 5%;
-    margin-top: 5%;
-    width: 230px;
-    height: 30px;
-    border-radius: 30px;
-    border: solid 1px #ffffff;
-}
 
 @media only screen and (max-device-width: 480px) {
     @font-face {
