@@ -1,8 +1,10 @@
-body {
+#aboutUs {
   background: rgb(0, 183, 255);
   margin: 0px;
   padding: 0px;
+  height: 100vh;
 }
+
 .main {
   width: 100%;
   margin-top: 3vw;
@@ -11,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .a {
   width: 100%;
 
@@ -19,6 +22,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .first {
   width: 40%;
   height: 100%;
@@ -27,6 +31,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .second {
   width: 60%;
   height: 100%;
@@ -36,12 +41,14 @@ body {
   align-items: center;
   margin-top: 3vw;
 }
+
 .svg {
   height: 40vw;
   width: 40vw;
   margin-left: 5vw;
   margin-top: -5vw;
 }
+
 .abo {
   font-family: "Raleway";
   font-weight: 900;
@@ -49,6 +56,7 @@ body {
   color: #fff;
   margin-top: -15vw;
 }
+
 .content {
   font-family: "Poppins";
   font-size: 1.3vw;
@@ -56,6 +64,7 @@ body {
   font-weight: 300;
   width: 80%;
 }
+
 .so {
   width: 80%;
   margin-top: 1vw;
@@ -66,6 +75,7 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
 .so-h {
   font-family: "Poppins";
   font-size: 1.3vw;
@@ -80,6 +90,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .rectangle {
   width: 100%;
   position: fixed;
@@ -89,6 +100,7 @@ body {
   justify-content: left;
   align-items: center;
 }
+
 .campusam {
   font-family: "Poppins";
   font-size: 1.3vw;
@@ -111,6 +123,7 @@ body {
     margin: 0px;
     padding: 0px;
   }
+
   .main {
     width: 100%;
     margin-top: 0vw;
@@ -121,6 +134,7 @@ body {
     justify-content: center;
     align-items: center;
   }
+
   .a {
     width: 100%;
 
@@ -130,6 +144,7 @@ body {
     justify-content: center;
     align-items: center;
   }
+
   .first {
     width: 100%;
     height: 100%;
@@ -138,6 +153,7 @@ body {
     justify-content: center;
     align-items: center;
   }
+
   .second {
     width: 100%;
     height: 100%;
@@ -147,6 +163,7 @@ body {
     align-items: center;
     margin-top: 5vw;
   }
+
   .svg {
     height: 30vw;
     width: 30vw;
@@ -154,6 +171,7 @@ body {
     margin-top: 3vw;
     position: absolute;
   }
+
   .abo {
     font-family: "Raleway";
     font-weight: 900;
@@ -163,6 +181,7 @@ body {
     width: 60%;
     margin-right: -15vw;
   }
+
   .content {
     font-family: "Poppins";
     font-size: 3.3vw;
@@ -170,6 +189,7 @@ body {
     font-weight: 300;
     width: 80%;
   }
+
   .so {
     width: 100%;
     margin-top: 3vw;
@@ -180,6 +200,7 @@ body {
     align-items: center;
     margin-bottom: -20vw;
   }
+
   .so-h {
     font-family: "Poppins";
     font-size: 3.3vw;
@@ -190,6 +211,7 @@ body {
     font-weight: 600;
     text-transform: uppercase;
   }
+
   .rectangle {
     width: 80%;
     position: relative;
@@ -202,6 +224,7 @@ body {
     align-items: center;
     border: 0px;
   }
+
   .campusam {
     font-family: "Poppins";
     font-size: 4.3vw;

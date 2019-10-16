@@ -98,7 +98,7 @@ button {
 
 }
 
-#images img {
+#imagess img {
 
     width: 33px;
     height: 53.1px;
@@ -116,7 +116,7 @@ button {
     text-align: center;
 }
 
-#images {
+#imagess {
     float: right;
     margin-top: -16px;
 }
@@ -172,7 +172,7 @@ button {
         text-align: center;
     }
 
-    #images {
+    #imagess {
         margin-top: -10px;
     }
 
