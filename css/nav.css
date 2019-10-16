@@ -495,8 +495,8 @@ li {
         -webkit-clip-path: circle(0 at 100% -10%);
     }
     .nav-links.open{
-        clip-path: circle(2000px at 100% -10%);
-        -webkit-clip-path: circle(2000px at 100% -10%);
+        clip-path: circle(3000px at 100% -10%);
+        -webkit-clip-path: circle(3000px at 100% -10%);
     }
     .small-li{
         display: block;
