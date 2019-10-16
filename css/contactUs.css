@@ -16,7 +16,7 @@ body {
 
 .container {
     width: 100%;
-    height: 80vw;
+    height: 100vh;
 }
 
 /* scroll end */
@@ -180,9 +180,10 @@ body {
         }
     }
 }
+
 @media only screen and (max-device-width: 480px) {
-.container {
-    width: 100%;
-    height: 100vh;
-}
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
 }
