@@ -439,4 +439,9 @@
          align-items: center;
          margin-top: 9vw;
      }
+  iframe{
+   height:35vw !important;
+   width:80vw !important;
+   border-radius: 2vw;
+  }
  }
