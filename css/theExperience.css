@@ -12,6 +12,7 @@
   padding: 0;
   background-color: #6617cb;
   background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);
+  user-select: none;
 }
 
 
@@ -132,35 +133,42 @@
 @media only screen and (max-width: 950px) {
   .slidershow {
     display: inline-block;
-    width: 75%;
-    height: auto;
+    width: 70%;
+    height: 60vh;
     /* overflow: hidden; */
   }
 
   .middle {
     position: absolute;
-    top: 350vh;
+    top: 357vh;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
   .a1,
   .a2 {
-    top: 355vh;
+    top: 330vh;
+    display: none;
+    width: 10px;
+    height: 10px;
   }
 
   .theExp {
     font-size: 8vw;
-    top: 320vh;
+    top: 315vh;
+    left: 20%;
   }
 
   .theExpTop {
-    top: 320vh;
+    top: 315vh;
+    left: 20%;
     font-size: 8vw;
   }
 
   .navigation {
-    bottom: 7.5vh;
+    top: 350vh;
+    z-index: -2;
+    /* display: hidden; */
   }
 
 }
@@ -172,6 +180,11 @@
     width: 90%;
     height: auto;
     overflow: hidden;
+  }
+
+  .a1,
+  .a2 {
+    display: none;
   }
 
   .middle {
