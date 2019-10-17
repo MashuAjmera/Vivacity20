@@ -5,7 +5,7 @@
 nav {
     position: fixed;
     /* background: inherit; */
-    z-index: 3;
+    z-index: 4;
 
 
 }
@@ -139,6 +139,7 @@ li {
 }
 
 .nav-links-bottom.open {
+    z-index: 5;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
     /* -webkit-clip-path: polygon(0% 0%, 100% 0%, 150% 50%, 100% 100%, 0% 100%);
