@@ -147,10 +147,9 @@
 
   .a1,
   .a2 {
-    top: 330vh;
-    display: none;
-    width: 10px;
-    height: 10px;
+    top: 360vh;
+    /* display: none; */
+    font-size: 50px;
   }
 
   .theExp {
@@ -182,9 +181,18 @@
     overflow: hidden;
   }
 
+
+  .a1 {
+    left: 10%;
+  }
+
+  .a2 {
+    right: 10%;
+  }
+
   .a1,
   .a2 {
-    display: none;
+    top: 350vh;
   }
 
   .middle {
