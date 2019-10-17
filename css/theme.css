@@ -363,20 +363,20 @@
      }
 
      .five {
-         display: flex;
-         flex-direction: column;
-         justify-content: space-around;
-         align-items: center;
-         width: 100%;
-         transition: 0.3s;
-     }
-
-     .four {
          display: none;
          flex-direction: column;
          justify-content: space-around;
          align-items: center;
          width: 0%;
+         transition: 0.3s;
+     }
+
+     .four {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+         width: 100%;
          transition: 0.3s;
      }
 
@@ -439,4 +439,9 @@
          align-items: center;
          margin-top: 9vw;
      }
+  iframe{
+   height:35vw !important;
+   width:80vw !important;
+   border-radius: 2vw;
+  }
  }
