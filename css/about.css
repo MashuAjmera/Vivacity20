@@ -213,11 +213,11 @@
   }
 
   .rectangle {
-    width: 80%;
-    position: relative;
-    bottom: 0vw;
-    margin-bottom: -30vw;
-    margin-left: 0vw;
+    width: 57%;
+    position: fixed;
+    bottom: 7vw;
+/*     margin-bottom: -30vw; */
+    margin-left: 1vw;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -227,9 +227,9 @@
 
   .campusam {
     font-family: "Poppins";
-    font-size: 4.3vw;
+    font-size: 3.5vw;
     color: #fff;
-    border: 5px #fff solid;
+    border: 3px #fff solid;
     padding: 2.5vw 7.5vw;
     border-radius: 6vw;
     font-weight: 600;
