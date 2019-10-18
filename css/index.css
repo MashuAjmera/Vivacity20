@@ -277,6 +277,8 @@ body {
 }
 
 #ad {
+  font-weight: 500;
+  font-size: 17vw;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -409,6 +411,7 @@ body {
   }
 
   #ad {
+    font-size:26vw;
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -443,6 +446,7 @@ body {
   }
 
   .date {
+    
     font-family: "Raleway", sans-serif;
     font-size: 8vw;
     font-weight: 800;
@@ -452,7 +456,7 @@ body {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    margin-top: 13%;
+    margin-top: 0px;
   }
 
   .date::after {
