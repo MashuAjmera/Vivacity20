@@ -38,6 +38,9 @@ body {
 
 
 
+
+
+
 #home {
   /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
 
@@ -124,6 +127,16 @@ body {
   height: 50px;
 }
 
+.campusam a {
+  padding: 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 0.93em;
+  outline: none;
+}
 
 @media only screen and (max-device-width: 480px) {
   @font-face {
@@ -221,6 +234,7 @@ body {
     margin-left: 0%;
     width: 100%;
 
+
     height: 0px;
 
     font-family: Raleway;
@@ -245,6 +259,7 @@ body {
   .rectangle {
     /* left: 68px;
           bottom: 25px; */
+    z-index: 3;
     margin-left: 40%;
     margin-top: 25%;
     width: 20%;
@@ -411,7 +426,7 @@ body {
   }
 
   #ad {
-    font-size:26vw;
+    font-size: 26vw;
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -446,7 +461,7 @@ body {
   }
 
   .date {
-    
+
     font-family: "Raleway", sans-serif;
     font-size: 8vw;
     font-weight: 800;

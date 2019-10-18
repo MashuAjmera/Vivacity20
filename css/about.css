@@ -92,6 +92,7 @@
 }
 
 .rectangle {
+  z-index: 3;
   width: 100%;
   position: fixed;
   bottom: 5%;
@@ -216,7 +217,7 @@
     width: 57%;
     position: fixed;
     bottom: 7vw;
-/*     margin-bottom: -30vw; */
+    /*     margin-bottom: -30vw; */
     margin-left: 1vw;
     color: #fff;
     display: flex;

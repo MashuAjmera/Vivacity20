@@ -11,7 +11,35 @@ const navlinksbottommid = document.querySelector('.nav-links-bottom-mid');
 const bar3 = document.querySelector('.bar3');
 
 
-menu.addEventListener('click', () => {
+for (var o = 1; o <= 10; o++) {
+    var t = 'menuAfterClick' + o;
+    document.querySelector('.' + t).addEventListener('click', function menuToggle() {
+        //mainBody.classList.toggle("blur");
+        navlinks.classList.toggle("open");
+        links.forEach(link => {
+            link.classList.toggle("fade");
+        });
+        navlinkstop.classList.toggle("open");
+        linkstop.forEach(link => {
+            link.classList.toggle("fade");
+        });
+        navlinksbottom.classList.toggle("open");
+        linksbottom.forEach(link => {
+            link.classList.toggle("fade");
+        });
+        navlinkstopmid.classList.toggle("open");
+        navlinksbottommid.classList.toggle("open");
+    });
+    menu.addEventListener('mouseenter', () => {
+        bar3.classList.add('hvr');
+    });
+    menu.addEventListener('mouseleave', () => {
+        bar3.classList.remove('hvr');
+    });
+
+}
+
+menu.addEventListener('click', function menuToggle() {
     //mainBody.classList.toggle("blur");
     navlinks.classList.toggle("open");
     links.forEach(link => {
