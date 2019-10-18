@@ -456,7 +456,7 @@ body {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    margin-top: 0px;
+    margin-top: 10%;
   }
 
   .date::after {
