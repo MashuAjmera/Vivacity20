@@ -1,0 +1,164 @@
+.nav-menu,
+.nav-menu * {
+    margin: 8px;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+}
+
+.nav-menu li {
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav-menu>li {
+    float: left;
+}
+
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
+    display: block;
+}
+
+.nav-menu ul ul {
+    top: 0;
+    left: 100%;
+}
+
+.nav-menu ul li {
+    min-width: 180px;
+}
+
+
+/* Nav Menu Arrows */
+
+.sf-arrows .sf-with-ul {
+    padding-right: 30px;
+}
+
+.sf-arrows .sf-with-ul:after {
+    content: "\f107";
+    position: absolute;
+    right: 15px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+    content: "\f105";
+}
+
+
+/* Nav Meu Container */
+
+#nav-menu-container {
+    float: right;
+    top: 1%;
+    margin-left: 50%;
+
+}
+
+
+/* Nav Meu Styling */
+
+.nav-menu a {
+    padding: 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+}
+
+.nav-menu .menu-active a,
+.nav-menu a:hover {
+    color: black;
+}
+
+.nav-menu>li {
+    margin-left: 8px;
+}
+
+.nav-menu>li>a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(123, 145, 44);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-menu a:hover:before,
+.nav-menu li:hover>a:before,
+.nav-menu .menu-active>a:before {
+    visibility: visible;
+    width: 100%;
+}
+
+.nav-menu li.buy-tickets a {
+    color: #fff;
+    background: #f82249;
+    padding: 7px 22px;
+    border-radius: 50px;
+    border: 2px solid yellow;
+    transition: all ease-in-out 0.3s;
+    /* font-weight: 500; */
+    margin-left: 8px;
+    margin-top: 2px;
+    line-height: 1;
+    font-size: 13px;
+}
+
+.nav-menu li.buy-tickets a:hover {
+    background: none;
+    /* color: black !important */
+}
+
+.nav-menu li.buy-tickets:hover a:before,
+.nav-menu li.buy-tickets.menu-active a:before {
+    visibility: hidden;
+}
+
+.nav-menu ul {
+    margin: 4px 0 0 0;
+    padding: 10px;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    background: #fff;
+    border-radius: 3px;
+}
+
+.nav-menu ul li {
+    transition: 0.3s;
+}
+
+.nav-menu ul li a {
+    padding: 10px;
+    color: #060c22;
+    transition: 0.3s;
+    display: block;
+    font-size: 13px;
+    text-transform: none;
+    border-radius: 3px;
+}
+
+.nav-menu ul li:hover>a {
+    background: #f82249;
+    color: #fff;
+}
+
+.nav-menu ul ul {
+    margin: 0;
+}
