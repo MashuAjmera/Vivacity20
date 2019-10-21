@@ -73,6 +73,10 @@ li {
     transition: all 0.5s ease 0.5s;
 }
 
+.nav-links li:nth-child(5) {
+    transition: all 0.5s ease 0.6s;
+}
+
 .nav-links li.fade {
     opacity: 1;
 }
@@ -414,27 +418,31 @@ li {
     width: 30px;
 }
 
-.small-li{
+.small-li {
     display: none;
 }
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1100px) {
 
-    .nav-links-bottom-mid{
+    .nav-links-bottom-mid {
         display: none;
     }
-    .nav-links-top-mid.open{
+
+    .nav-links-top-mid.open {
         display: none;
     }
-    .nav-links{
-        width: 35%;media
+
+    .nav-links {
+        width: 35%;
     }
-    .nav-links-bottom{
+
+    .nav-links-bottom {
         width: 25%;
         -webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
         clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
     }
-    .nav-links-top{
+
+    .nav-links-top {
         width: 25%;
         -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
         clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
@@ -442,39 +450,52 @@ li {
 }
 
 @media only screen and (max-width: 800px) {
-    .nav-links-bottom{
+    .nav-links-bottom {
         display: none;
     }
-    .nav-links-top{
+
+    .nav-links-top {
         display: none;
     }
-    .nav-links{
-        font-size: 34px;
+
+    .nav-links {
+        font-size: 3.4vw;
         width: 45%;
         padding: 100px 20% 150px 35%;
         clip-path: circle(0 at 100% -10%);
         -webkit-clip-path: circle(0 at 100% -10%);
     }
-    .nav-links.open{
+
+    .nav-links .fade a {
+        font-size: 2em;
+    }
+
+    .nav-links.open {
         clip-path: circle(2000px at 100% -10%);
         -webkit-clip-path: circle(2000px at 100% -10%);
     }
-    .small-li{
+
+    .small-li {
         display: block;
         font-size: 34px;
     }
+
     .nav-links li:nth-child(5) {
         transition: all 0.5s ease 0.6s;
     }
+
     .nav-links li:nth-child(6) {
         transition: all 0.5s ease 0.7s;
     }
+
     .nav-links li:nth-child(7) {
         transition: all 0.5s ease 0.8s;
     }
+
     .nav-links li:nth-child(8) {
         transition: all 0.5s ease 0.9s;
     }
+
     .nav-links li:nth-child(9) {
         transition: all 0.5s ease 1.0s;
 
@@ -482,41 +503,52 @@ li {
 }
 
 @media only screen and (orientation: portrait) {
-    .nav-links-bottom{
+    .nav-links-bottom {
         display: none;
     }
-    .nav-links-top{
+
+    .nav-links-top {
         display: none;
     }
-    .nav-links{
-        font-size: 34px;
+
+    .nav-links {
+        /* font-size: 3.4vw; */
         width: 45%;
         padding: 100px 20% 150px 35%;
         clip-path: circle(0 at 100% -10%);
         -webkit-clip-path: circle(0 at 100% -10%);
     }
-    .nav-links.open{
+
+
+
+    .nav-links.open {
         clip-path: circle(3000px at 100% -10%);
         -webkit-clip-path: circle(3000px at 100% -10%);
     }
-    .small-li{
+
+    .small-li {
         display: block;
-        font-size: 34px;
+        font-size: 35.40px;
     }
+
     .nav-links li:nth-child(5) {
         transition: all 0.5s ease 0.6s;
     }
+
     .nav-links li:nth-child(6) {
         transition: all 0.5s ease 0.7s;
     }
+
     .nav-links li:nth-child(7) {
         transition: all 0.5s ease 0.8s;
     }
+
     .nav-links li:nth-child(8) {
         transition: all 0.5s ease 0.9s;
     }
+
     .nav-links li:nth-child(9) {
         transition: all 0.5s ease 1.0s;
-        
+
     }
 }

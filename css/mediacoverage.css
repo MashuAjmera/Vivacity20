@@ -1,0 +1,127 @@
+/* * {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+} */
+
+#media {
+    /* margin: 0; */
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a52775f8), to(#8b0a5ae1));
+    background-image: linear-gradient(to bottom, #a52775f8, #8b0a5ae1);
+
+    width: 100%;
+    /* position: absolute; */
+}
+
+
+
+
+.media-title {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    /* position: absolute; */
+    top: 5%;
+    left: 20%;
+    font-size: 75px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: bolder;
+    line-height: 1.5;
+    letter-spacing: 2.7px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.media .containor {
+    /* position: absolute; */
+    margin-top: 30%;
+    position: relative;
+    top: 57.5%;
+    left: 52.75%;
+    height: 65vh;
+    width: 92.5%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* width */
+    /* Track */
+    /* Handle */
+}
+
+.media .containor::-webkit-scrollbar {
+    height: 2.5px;
+}
+
+.media .containor::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.media .containor::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+.media .containor .grid {
+    height: 50%;
+    display: -ms-grid;
+    display: grid;
+    grid-auto-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    grid-gap: 30px;
+}
+
+.media .containor .grid:first-child {
+    padding: 15px 0px 10px 0px;
+}
+
+.media .containor .grid:last-child {
+    padding: 10px 0px 15px 0px;
+}
+
+.media .containor .grid-upper .grid-item {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.media .containor .grid-upper .grid-item:nth-child(3n+1) {
+    width: 350px;
+}
+
+.media .containor .grid-upper .grid-item:nth-child(3n+2) {
+    width: 275px;
+}
+
+.media .containor .grid-upper .grid-item:nth-child(3n) {
+    width: 375px;
+}
+
+.media .containor .grid-lower .grid-item {
+    /* margin-left: 20%; */
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.media .containor .grid-lower .grid-item:nth-child(3n+1) {
+    width: 250px;
+}
+
+.media .containor .grid-lower .grid-item:nth-child(3n+2) {
+    width: 400px;
+}
+
+.media .containor .grid-lower .grid-item:nth-child(3n) {
+    width: 325px;
+}

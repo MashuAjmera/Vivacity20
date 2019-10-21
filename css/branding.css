@@ -1,0 +1,125 @@
+/* * {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+} */
+
+#branding {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a52775f8), to(#8b0a5ae1));
+    background-image: linear-gradient(to bottom, #a52775f8, #8b0a5ae1);
+
+}
+
+#branding .media {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+#branding .media-title {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    font-size: 75px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: bolder;
+    line-height: 1.5;
+    letter-spacing: 2.7px;
+    text-align: left;
+    color: #ffffff;
+}
+
+#branding .media .containar {
+    position: absolute;
+    top: 57.5%;
+    left: 52.75%;
+    height: 65%;
+    width: 92.5%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* width */
+    /* Track */
+    /* Handle */
+}
+
+#branding .media .containar::-webkit-scrollbar {
+    height: 2.5px;
+}
+
+#branding .media .containar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#branding .media .containar::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+#branding .media .containar .grid {
+    height: 50%;
+    display: -ms-grid;
+    display: grid;
+    grid-auto-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    grid-gap: 30px;
+}
+
+#branding .media .containar .grid:first-child {
+    padding: 15px 0px 10px 0px;
+}
+
+#branding .media .containar .grid:last-child {
+    padding: 10px 0px 15px 0px;
+}
+
+#branding .media .containar .grid-upper .grid-item {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+#branding .media .containar .grid-upper .grid-item:nth-child(3n+1) {
+    width: 350px;
+}
+
+#branding .media .containar .grid-upper .grid-item:nth-child(3n+2) {
+    width: 275px;
+}
+
+#branding .media .containar .grid-upper .grid-item:nth-child(3n) {
+    width: 375px;
+}
+
+#branding .media .containar .grid-lower .grid-item {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+#branding .media .containar .grid-lower .grid-item:nth-child(3n+1) {
+    width: 250px;
+}
+
+#branding .media .containar .grid-lower .grid-item:nth-child(3n+2) {
+    width: 400px;
+}
+
+#branding .media .containar .grid-lower .grid-item:nth-child(3n) {
+    width: 325px;
+}
