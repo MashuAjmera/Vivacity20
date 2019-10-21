@@ -16,9 +16,6 @@
     /* position: absolute; */
 }
 
-
-
-
 .media-title {
     margin: 0;
     padding: 0;
@@ -41,9 +38,9 @@
     /* position: absolute; */
     margin-top: 30%;
     position: relative;
-    top: 57.5%;
+
     left: 52.75%;
-    height: 65vh;
+    height: 55vh;
     width: 92.5%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -90,7 +87,7 @@
 }
 
 .media .containor .grid-upper .grid-item {
-    height: 100%;
+    height: 25vh;
     width: 100%;
     background-color: #fff;
 }
@@ -109,7 +106,7 @@
 
 .media .containor .grid-lower .grid-item {
     /* margin-left: 20%; */
-    height: 100%;
+    height: 30vh;
     width: 100%;
     background-color: #fff;
 }
@@ -124,4 +121,15 @@
 
 .media .containor .grid-lower .grid-item:nth-child(3n) {
     width: 325px;
+}
+
+@media only screen and (max-width: 950px) {
+    .media-title {
+        font-size: 8vw;
+    }
+
+    .media .containor {
+        margin-top: 70%;
+    }
+
 }
