@@ -40,7 +40,7 @@ body {
 .heading {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 5em;
+    font-size: 7vw;
     font-weight: bolder;
     font-style: normal;
     font-stretch: normal;
@@ -48,16 +48,18 @@ body {
     letter-spacing: 2.7px;
     color: #ffffff;
     padding: 0%;
-
+    padding-top: 15%;
     /* margin-top: -3%; */
     margin-right: 38%;
+
 }
 
 .svg {
-    margin-top: -10vw;
-    width: 33vw;
-    margin-left: 14.3vw;
+    margin-top: -40vw;
+    width: 65vw;
+    margin-left: 14.55vw;
     position: relative;
+    /* z-index: 1; */
 }
 
 .content {
@@ -71,7 +73,7 @@ body {
     text-align: justify;
     padding: 2% 4% 2% 4%;
     color: rgb(255, 255, 255);
-    margin-top: -30%;
+    margin-top: -60%;
 }
 
 .value {

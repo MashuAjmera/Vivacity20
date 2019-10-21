@@ -9,8 +9,8 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 100vh;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#a52775f8), to(#8b0a5ae1));
-    background-image: linear-gradient(to bottom, #a52775f8, #8b0a5ae1);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a52775f8), to(#c44796e1));
+    background-image: linear-gradient(to bottom, #f8617af8, #993071e1);
 
     width: 100%;
     /* position: absolute; */
@@ -18,7 +18,8 @@
 
 .media-title {
     margin: 0;
-    padding: 0;
+    padding-left: 4%;
+    padding-top: 4%;
     font-family: Poppins;
     /* position: absolute; */
     top: 5%;
@@ -36,12 +37,12 @@
 
 .media .containor {
     /* position: absolute; */
-    margin-top: 30%;
+    margin-top: 20%;
     position: relative;
 
-    left: 52.75%;
+    left: 50%;
     height: 55vh;
-    width: 92.5%;
+    width: 80%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: transparent;
