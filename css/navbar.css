@@ -1,8 +1,9 @@
 .nav-menu,
 .nav-menu * {
     margin: 8px;
-    padding: 0;
+
     list-style: none;
+    padding-right: 1vw;
 }
 
 .nav-menu ul {
@@ -11,11 +12,6 @@
     top: 100%;
     left: 0;
     z-index: 99;
-}
-
-.nav-menu li {
-    position: relative;
-    white-space: nowrap;
 }
 
 .nav-menu>li {
@@ -62,7 +58,8 @@
 #nav-menu-container {
     float: right;
     top: 1%;
-    margin-left: 50%;
+    margin-left: 10%;
+    margin-right: 20%;
 
 }
 
@@ -76,7 +73,7 @@
     color: white;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1.4em;
     outline: none;
 }
 
@@ -161,4 +158,10 @@
 
 .nav-menu ul ul {
     margin: 0;
+}
+
+@media only screen and (max-width: 950px) {
+    .nav-menu {
+        display: none;
+    }
 }
