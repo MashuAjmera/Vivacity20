@@ -1,0 +1,154 @@
+body{
+	background: #667db6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+
+#logo{
+	width: 75.8px;
+	height: 87.4px;
+	color: #ffffff;
+	animation: animate 1s linear forwards;
+}
+
+#heading{
+	font-size: 4.5em;
+	font-family: 'Poppins', sans serif;
+	text-align: center;
+	margin:0;
+	font-weight: bold;
+	color:white;
+	animation: animate 1s linear forwards;
+}
+
+@keyframes animatehead{
+	0%{
+		opacity: 0;
+		transform: rotateY(10deg);
+		filter: blur(3px);
+	}
+	100%{
+		opacity:1;
+		transform: rotateY(0deg);
+		filter: blur(0);
+	}
+}
+@keyframes animate{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+#bodyPage{
+	color: white;
+	margin: 1%;
+	
+}
+
+@media(min-width: 768px){
+	#bodyPage{
+		display: flex;
+		color: white;
+		margin: 1%;
+		justify-content: space-around;
+		margin-top: -60px;
+	}
+	.mid{
+		padding-top: 40px;
+		margin-right: 2%;
+	}
+}
+
+
+
+#bodyPage > div{
+	flex: 1;
+	margin: 3%;
+	font-size: 1.2em;
+	animation: animatehead 1s linear forwards;
+	max-width: 500px;
+	max-height:300px;
+}
+
+.hline{
+	font-size: 1.7em; 
+}
+
+p{
+	margin-top: 3%;
+
+}
+
+#footer{
+	position: absolute;
+	width: 91%;
+	margin-left: 4%;
+	margin-top: 4%;
+	margin-right: 4%;
+	animation: animate 2s linear forwards;
+	height: 50px;
+	bottom: 10px;
+}
+
+button{
+	background: none;
+	border: 1px solid white;
+	color: white;
+	padding: 10px;
+	border-radius:30px;
+	font-family: Poppins,sans serif;
+	font-size: 15px;
+	width:225px;
+	margin-right: 5%;
+}
+
+
+.icons{
+	float:right;
+	width: 25px;
+	height: 25px;;
+	border:1px solid white;
+	border-radius:50%;
+	padding: 7px;
+	margin-left: 6px;
+	margin-top: 4px;
+}
+
+.icons>img{
+	width: 25px;
+	height: 25px;
+}
+
+@media(max-width: 1200px){
+	#heading{
+		font-size: 3em;
+	}
+	#logo{
+		width: 50.53px;
+		height: 58.26px;
+	}
+}
+@media(max-width: 768px){
+	.hline{
+		font-size: 1.3em;
+	}
+	p{
+		font-size: 0.9em;
+	}
+}
+
+#ca2 > img{
+	z-index: 1;
+	margin-left: 3%;
+	height: 280px;
+}
+
+@media(max-width: 820px){
+	#ca2>img{
+		display: none;
+	}
+}

@@ -373,13 +373,14 @@ li {
 .menu {
     position: fixed;
     cursor: pointer;
-    right: 50px;
-    top: 45px;
+    right: 150px;
+    top: 55px;
+
     transform: translate(-5%, -50%);
     z-index: 5;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
 
 }
 
@@ -403,11 +404,13 @@ li {
     height: 3px;
     background: white;
     margin: 5px;
+    margin-left: 9px;
     transition: transform 0.4s ease;
 }
 
 .bar3 {
     margin: 5px 5px 5px auto;
+
     width: 20px;
     height: 3px;
     background: white;
@@ -453,6 +456,34 @@ li {
     .nav-links-bottom {
         display: none;
     }
+
+    .menu {
+        padding-top: 10px;
+        right: 30px;
+        top: 30px;
+        font-size: 0;
+
+    }
+
+    .bar {
+
+        width: 50px;
+        height: 5px;
+        margin: 6px;
+
+
+    }
+
+    .bar3 {
+        height: 4px;
+        width: 30px;
+        margin-right: 6px;
+    }
+
+    .bar3.hvr {
+        width: 40px;
+    }
+
 
     .nav-links-top {
         display: none;

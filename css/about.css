@@ -63,6 +63,11 @@
   color: #fff;
   font-weight: 300;
   width: 80%;
+  overflow: scroll;
+}
+
+.content::-webkit-scrollbar {
+  width: 0px;
 }
 
 .so {

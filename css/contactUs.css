@@ -1,4 +1,14 @@
 /* Scroll */
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('webfonts/3A65CF_0_0.eot');
+    src: url('webfonts/3A65CF_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/3A65CF_0_0.woff2') format('woff2'), url('webfonts/3A65CF_0_0.woff') format('woff'), url('webfonts/3A65CF_0_0.ttf') format('truetype');
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -47,6 +57,16 @@ body {
     animation: animate 1s linear forwards;
     padding-top: 10%;
     font-size: 4vw;
+}
+
+.hline {
+    font-family: 'BebasNeue-Regular';
+}
+
+.hline p {
+    font-family: 'Poppins',
+        sans serif;
+
 }
 
 @keyframes animatehead {
