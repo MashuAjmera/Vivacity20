@@ -400,7 +400,7 @@ li {
 }
 
 .bar {
-    width: 30px;
+    width: 35px;
     height: 3px;
     background: white;
     margin: 5px;
@@ -411,7 +411,7 @@ li {
 .bar3 {
     margin: 5px 5px 5px auto;
 
-    width: 20px;
+    width: 25px;
     height: 3px;
     background: white;
     transition: all 0.4s ease;
@@ -459,7 +459,7 @@ li {
 
     .menu {
         padding-top: 10px;
-        right: 30px;
+        right: 10px;
         top: 30px;
         font-size: 0;
 
