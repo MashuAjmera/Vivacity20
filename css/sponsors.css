@@ -1,11 +1,11 @@
 body {
     padding: 0;
     margin: 0;
-    user-select: none;
 }
 
 html {
     scroll-behavior: smooth;
+    user-select: none;
 }
 
 body::-webkit-scrollbar {

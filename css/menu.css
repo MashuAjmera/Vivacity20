@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
 
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap'); */
 
 
 nav {
@@ -373,12 +374,14 @@ li {
 .menu {
     position: fixed;
     cursor: pointer;
-    right: 150px;
+    right: 140px;
     top: 55px;
 
     transform: translate(-5%, -50%);
     z-index: 5;
     font-family: 'Josefin Sans', sans-serif;
+
+    /* font-family: 'Poppins', sans serif; */
     color: white;
     font-size: 35px;
 
@@ -404,7 +407,7 @@ li {
     height: 3px;
     background: white;
     margin: 5px;
-    margin-left: 9px;
+    margin-left: 6px;
     transition: transform 0.4s ease;
 }
 

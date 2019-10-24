@@ -1,379 +1,41 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Past Sponsor</title>
-        <link rel="stylesheet"  type="text/css" href="pastSponsor.css">
-        <link rel="stylesheet" type="text/css" href="nav.css">
-        <link rel="stylesheet" href="main1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Past Sponsor</title>
+    <link rel="stylesheet" type="text/css" href="pastSponsor.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" href="main1.css">
 
-        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<!--LOGO-->
-    <div class="logoBlock">
-    <img id="logo" src="Svg/whiteLogo.svg">
 
-<!--NAVIGATION BAR-->    
-    <nav id="nav-menu-container">
-    <ul class="nav-menu">
-        <li><a href="#intro">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#theme">Theme</a></li>
-        <li><a href="#gallery"> Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-    </nav>
+    <!--HEADING-->
 
-    <!--MENU-->
-<nav class="men">
-    <div class="menu">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar3"></div>
-    </div>
-    <ul class="nav-links">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">EVENTS</a></li>
-        <li><a href="#">COMPETITIONS</a></li>
-        <li><a href="#">SCHEDULE</a></li>
-        <li class="small-li"><a href="#">TEAM</a></li>
-        <li class="small-li"><a href="#">SPONSORS</a></li>
-        <li class="small-li"><a href="#">TERMS OF USE</a></li>
-        <li class="small-li"><a href="#">PRIVACY POLICY</a></li>
-        <li class="small-li"><a href="#">COOKIES</a></li>
-    </ul>
-    <ul class="nav-links-top">
-        
-        <li><a href="#">TEAM</a></li>
-        <li><a href="#">SPONSORS</a></li>
-    </ul>
-    <ul class="nav-links-bottom">
-        <li><a href="#">TERMS OF USE</a></li>
-        <li><a href="#">PRIVACY POLICY</a></li>
-        <li><a href="#">COOKIES</a></li>
-    </ul>
-    <div class="nav-links-top-mid">
-        <div class="logo">
-            <img class="logoimg" src="assets/images/svgg.svg">
-        </div>
-    </div>
-    <div class="nav-links-bottom-mid">
-    </div>
-</nav>
-</div>
+    </section>
+    <script type="text/javascript">
+        document.getElementsByClassName('sponsor__grid').item(0).onscroll = function () {
+            scroll()
+        };
 
-<!--HEADING-->
-<h1 class="heading">Past Sponsor</h1>
+        function scroll() {
+            let scrollTop = document.getElementsByClassName('sponsor__grid').item(0).scrollTop;
+            let scrollHeight = document.getElementsByClassName('sponsor__grid').item(0).scrollHeight - document
+                .getElementsByClassName('sponsor__grid').item(0).clientHeight;
 
-<!--CONTAINER-->
-<div class="sponsor__grid">
+            let progress = 100.1 * scrollTop / scrollHeight;
+            document.getElementsByClassName('scroll-lining').item(0).style.width = progress + "%";
+        }
+    </script>
+    <!--Javascript-->
+    <script src="js/nav.js"></script>
+    <script src="js/scroll.js"></script>
 
-        <!-- (.col>.card>(.card__side.card__side--front>h3{Media Partner}+img[src=http://vivacity.lnmiit.ac.in/images/sponser/sponsor$.png])+(.card__side.card__side--back.card__side--back-$))*24 -->
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Building Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor1.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-1">
-               <div class="backSideCard">
-                <h2 class="partnerType">Building Partner</h2>
-                <h3 class="vivaYear">Vivacity 18</h3><br>
-            </div>
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Career Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor2.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-2">
-                <div class="backSideCard">
-                    <h2 class="partnerType">Career Partner</h2>
-                    <h3 class="vivaYear">Vivacity 18</h3><br>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Beverage Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor3.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-3">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Beverage Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Rental Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor4.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-4">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Rental Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Sound Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor5.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-5">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Sound Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Travel Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor6.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-6">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Travel Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Warehouse Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor7.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-1">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Warehouse Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Escape Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor8.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-2">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Escape Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Comedy Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor9.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-3">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Comedy Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Entertainment Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor10.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-4">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Entertainment Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>timepass Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor11.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-5">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">timepass Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Accessories Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor12.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-6">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Accessories Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Media Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor13.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-1">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Media Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Style Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor14.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-2">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Style Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Food Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor15.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-3">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Food Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Car Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor16.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-4">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Car Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Outsource Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor18.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-6">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Outsource Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Food Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor19.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-1">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Food Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
+</body>
 
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Hospitality Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor23.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-5">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Hospitality Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card__side card__side--front">
-                    <!-- <h3>Dhaaba Partner</h3> -->
-                    <img src="http://vivacity.lnmiit.ac.in/images/sponser/sponsor24.png" alt="">
-                </div>
-                <div class="card__side card__side--back card__side--back-6">
-                    <div class="backSideCard">
-                        <h2 class="partnerType">Dhaaba Partner</h2>
-                        <h3 class="vivaYear">Vivacity 18</h3><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-<script type="text/javascript">
-
-    document.getElementsByClassName('sponsor__grid').item(0).onscroll = function () {
-        scroll()
-    };
-
-    function scroll() {
-        let scrollTop = document.getElementsByClassName('sponsor__grid').item(0).scrollTop;
-        let scrollHeight = document.getElementsByClassName('sponsor__grid').item(0).scrollHeight - document
-            .getElementsByClassName('sponsor__grid').item(0).clientHeight;
-
-        let progress = 100.1 * scrollTop / scrollHeight;
-        document.getElementsByClassName('scroll-lining').item(0).style.width = progress + "%";
-    }
-</script>
-<!--Javascript-->
-<script src="js/nav.js"></script>
-<script src="js/scroll.js"></script>
-            
-</body>    
 </html>
