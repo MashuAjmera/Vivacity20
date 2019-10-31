@@ -1,22 +1,20 @@
-body{
-    height: 100%;
+#pastsponsors {
+    height: 100vh;
     margin: 0%;
     background-attachment: fixed;
     /* background-image: linear-gradient(to bottom,#CE1572,#660034); */
-    background-image: linear-gradient(to bottom,#CE1572,#66003A);
+    background-image: linear-gradient(to bottom, #CE1572, #66003A);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-html{
-    height: 100%;
-}
-#logo{
+#logo {
     width: 4%;
-      height: 12%;
-      margin: 1.5%;
+    height: 12%;
+    margin: 1.5%;
 }
-.heading{
+
+.heading {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 62px;
@@ -37,39 +35,45 @@ html{
     #nav-menu-container{display: none;}
 } */
 
-@media screen and (max-width:1100px){
-    #nav-menu-container{display: none;}
+@media screen and (max-width:1100px) {
+    #nav-menu-container {
+        display: none;
+    }
 }
 
-@media screen and (max-width:480px){
-    .heading{
-      font-size: 32px;
-      margin-top: -2%;
-      margin-right: -5%;
+@media screen and (max-width:480px) {
+    .heading {
+        font-size: 32px;
+        margin-top: -2%;
+        margin-right: -5%;
     }
-    .content{
+
+    .content {
         font-size: 14px;
         padding: 2% 4% 2% 4%;
         margin-top: -4%;
     }
 
-    #logo{
+    #logo {
         width: 8%;
         height: 12%;
-        margin: 6.5%;   
+        margin: 6.5%;
     }
 }
-.backSideCard{
+
+.backSideCard {
     text-align: center;
-    margin:9%;
-    padding: 27% 0% 0% 0% ;
+    margin: 9%;
+    padding: 27% 0% 0% 0%;
 }
-.vivaYear{
-font-family: 'Poppins';
-font-size: 16px;
+
+.vivaYear {
+    font-family: 'Poppins';
+    font-size: 16px;
 }
-.partnerType{
-color: cornsilk;
-font-family: 'Poppins';
-font-size: 20px;
+
+.partnerType {
+    color: cornsilk;
+    font-family: 'Poppins';
+    font-size: 20px;
 }
