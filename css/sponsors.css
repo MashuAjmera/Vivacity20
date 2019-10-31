@@ -38,7 +38,7 @@ body {
 }
 
 
-#head {
+#headd {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 7vw;
@@ -49,15 +49,14 @@ body {
     letter-spacing: 2.7px;
     color: #ffffff;
     padding: 0%;
-    padding-top: 15%;
-    margin-right: 38%;
-    width: 100%;
+    padding-top: 25vh;
+    margin-right: 4vw;
 
 }
 
 
 .svg {
-    margin-top: -40vw;
+    margin-top: -38.7vw;
     width: 65vw;
     margin-left: 14vw;
     position: relative;
@@ -96,19 +95,31 @@ body {
         display: none;
     }
 
-    .svg {
-        display: none;
+
+    #headd {
+        font-size: 10vw;
+        margin-left: 1vw;
+        text-align: left;
+        padding-left: 6%;
+        padding-top: 10vh;
     }
 
-    .heading {
-        font-size: 40px;
-        margin-top: -2%;
+    .svg {
+        margin-top: -54.2vw;
+        width: 90vw;
+        margin-left: -15.7vw;
+
+
+        position: relative;
+
     }
 
     .content {
-        font-size: 15px;
+        font-size: 1em;
         padding: 2% 4% 2% 4%;
-        margin-top: 10%;
+        /* overflow: scroll; */
+        margin-top: -70vw;
+        height: 50vh;
     }
 
     #logo {
