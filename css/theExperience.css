@@ -145,7 +145,7 @@ html {
 
   .middle {
     position: absolute;
-    top: 357vh;
+    top: 320vh;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -169,11 +169,7 @@ html {
     font-size: 8vw;
   }
 
-  .navigation {
-    top: 350vh;
-    z-index: -2;
-    /* display: hidden; */
-  }
+  
 
 }
 
@@ -197,18 +193,18 @@ html {
 
   .a1,
   .a2 {
-    top: 370vh;
+    top: 345vh;
   }
 
   .middle {
     position: absolute;
-    top: 370vh;
+    top: 345vh;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
   .navigation {
-    top: 375vh;
+    top: 370vh;
   }
 
   .theExp {

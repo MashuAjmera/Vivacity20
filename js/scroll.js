@@ -388,60 +388,111 @@ function touch(event) {
 
 
 
-document.addEventListener('touchstart', handleTouchStart, false);
-document.addEventListener('touchmove', handleTouchMove, false);
+// document.addEventListener('touchstart', handleTouchStart, false);
+// document.addEventListener('touchmove', handleTouchMove, false);
 
 
-var yDown = null;
+// var yDown = null;
 
-function getTouches(evt) {
-    return evt.touches ||
-        evt.originalEvent.touches;
-}
+// function getTouches(evt) {
+//     return evt.touches ||
+//         evt.originalEvent.touches;
+// }
 
-function handleTouchStart(evt) {
-    const firstTouch = getTouches(evt)[0];
+// function handleTouchStart(evt) {
+//     const firstTouch = getTouches(evt)[0];
 
-    yDown = firstTouch.clientY;
-};
+//     yDown = firstTouch.clientY;
+// };
 
-function handleTouchMove(evt) {
-    if (!yDown) {
-        return;
-    }
-
-
-    var yUp = evt.touches[0].clientY;
+// function handleTouchMove(evt) {
+//     if (!yDown) {
+//         return;
+//     }
 
 
-    var yDiff = yDown - yUp;
+//     var yUp = evt.touches[0].clientY;
 
 
-    if (yDiff > 0) {
-        /* up swipe */
-        console.log("up");
-        if (current == container.length) {
-            current = 0;
-        } else {
-            current++;
-        }
-
-        smoothScroll(container[current]);
+//     var yDiff = yDown - yUp;
 
 
+//     if (yDiff > 0) {
+//         /* up swipe */
+//         console.log("up");
+//         if (current == container.length) {
+//             current = 0;
+//         } else {
+//             current++;
+//         }
 
-    } else {
-        /* down swipe */
-        console.log("down");
-        if (current != 0) {
-            current--;
-            smoothScroll(container[current]);
-        }
-    }
+//         smoothScroll(container[current]);
 
 
 
-    yDown = null;
-};
+//     } else {
+//         /* down swipe */
+//         console.log("down");
+//         if (current != 0) {
+//             current--;
+//             smoothScroll(container[current]);
+//         }
+//     }
+
+
+
+//     yDown = null;
+// };
 
 // }
+
+var startX,
+    startY;
+
+document.addEventListener("touchstart", touchstart);
+
+function touchstart(event) {
+    var touches = event.touches;
+    if (touches && touches.length) {
+        startX = touches[0].pageX;
+        startY = touches[0].pageY;
+        document.addEventListener("touchmove", touchmove);
+    }
+}
+
+function touchmove(event) {
+    var touches = event.touches;
+    if (touches && touches.length) {
+        event.preventDefault();
+        var deltaX = startX - touches[0].pageX;
+        var deltaY = startY - touches[0].pageY;
+
+        if (deltaX >= 50) {
+            var event = new Event('swipeLeft');
+            document.dispatchEvent(event);
+        }
+        if (deltaX <= -50) {
+            var event = new Event('swipeRight');
+            document.dispatchEvent(event);
+        }
+        if (deltaY >= 50) {
+            if (current == container.length) {
+                current = 0;
+            } else {
+                current++;
+            }
+
+            smoothScroll(container[current]);
+        }
+        if (deltaY <= -50) {
+            if (current != 0) {
+                current--;
+                smoothScroll(container[current]);
+            }
+        }
+
+        if (Math.abs(deltaX) >= 50 || Math.abs(deltaY) >= 50) {
+            document.removeEventListener('touchmove', touchmove);
+        }
+    }
+}

@@ -119,15 +119,15 @@
      padding-bottom: calc((90vw - 5 * 22.5rem) / (5 + 1));
      border-radius: .25rem;
      height: 72.5vh;
-     width: 90vw;
+     width: 95vw;
      margin: 0 auto;
-     margin-top: .5rem;
+     margin-top: 1.5vw;
      display: -ms-grid;
      display: grid;
      overflow: auto;
 
-     -ms-grid-columns: (22.5rem)[5];
-     grid-template-columns: repeat(5, 22.5rem);
+     /* -ms-grid-columns: (22.5rem)[5]; */
+     grid-template-columns: repeat(10, 22.5rem);
      grid-row-gap: calc((90vw - 5 * 22.5rem) / (5 + 1));
      justify-items: center;
      -webkit-box-align: center;
@@ -254,6 +254,7 @@
 
  @media only screen and (max-width: 1350px) {
      .sponsor__grid {
+
          background-color: transparent;
          padding-top: calc((90vw - 4 * 22.5rem) / (4 + 1));
          padding-bottom: calc((90vw - 4 * 22.5rem) / (4 + 1));
@@ -261,11 +262,11 @@
          height: 72.5vh;
          width: 90vw;
          margin: 0 auto;
-         margin-top: .5rem;
+         margin-top: 3vw;
          display: -ms-grid;
          display: grid;
          -ms-grid-columns: (22.5rem)[4];
-         grid-template-columns: repeat(4, 22.5rem);
+         grid-template-columns: repeat(10, 22.5rem);
          grid-row-gap: calc((90vw - 4 * 22.5rem) / (4 + 1));
          justify-items: center;
          -webkit-box-align: center;
@@ -280,6 +281,7 @@
 
  @media only screen and (max-width: 1100px) {
      .sponsor__grid {
+
          background-color: transparent;
          padding-top: calc((90vw - 3 * 22.5rem) / (3 + 1));
          padding-bottom: calc((90vw - 3 * 22.5rem) / (3 + 1));
@@ -287,11 +289,11 @@
          height: 72.5vh;
          width: 90vw;
          margin: 0 auto;
-         margin-top: .5rem;
+         margin-top: 3vw;
          display: -ms-grid;
          display: grid;
          -ms-grid-columns: (22.5rem)[3];
-         grid-template-columns: repeat(3, 22.5rem);
+         grid-template-columns: repeat(10, 22.5rem);
          grid-row-gap: calc((90vw - 3 * 22.5rem) / (3 + 1));
          justify-items: center;
          -webkit-box-align: center;
@@ -313,11 +315,11 @@
          height: 72.5vh;
          width: 90vw;
          margin: 0 auto;
-         margin-top: .5rem;
+         margin-top: 3vw;
          display: -ms-grid;
          display: grid;
          -ms-grid-columns: (22.5rem)[2];
-         grid-template-columns: repeat(2, 22.5rem);
+         grid-template-columns: repeat(10, 22.5rem);
          grid-row-gap: calc((90vw - 2 * 22.5rem) / (2 + 1));
          justify-items: center;
          -webkit-box-align: center;
@@ -332,6 +334,7 @@
 
  @media only screen and (max-width: 550px) {
      .sponsor__grid {
+
          background-color: transparent;
          padding-top: calc((90vw - 1 * 22.5rem) / (1 + 1));
          padding-bottom: calc((90vw - 1 * 22.5rem) / (1 + 1));
@@ -339,11 +342,11 @@
          height: 72.5vh;
          width: 90vw;
          margin: 0 auto;
-         margin-top: .5rem;
+         margin-top: 20vh;
          display: -ms-grid;
          display: grid;
          -ms-grid-columns: (22.5rem)[1];
-         grid-template-columns: repeat(1, 22.5rem);
+         grid-template-columns: repeat(15, 22.5rem);
          grid-row-gap: calc((90vw - 1 * 22.5rem) / (1 + 1));
          justify-items: center;
          -webkit-box-align: center;
