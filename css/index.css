@@ -57,8 +57,10 @@ body {
     linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
     linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
 
-    background-size:100% 100%;
+  background-size: 100vw 100vh;
 }
+
+
 
 #ad {
   margin-top: auto;
@@ -139,6 +141,12 @@ body {
   font-weight: 600;
   font-size: 0.93em;
   outline: none;
+}
+
+@media only screen and (max-width: 950px) {
+  #home {
+    background-size: 1000vw 120vh;
+  }
 }
 
 @media only screen and (max-device-width: 480px) {
