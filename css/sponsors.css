@@ -63,7 +63,7 @@ body {
     /* z-index: 1; */
 }
 
-.content {
+.contentt {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
     font-weight: normal;
@@ -114,12 +114,13 @@ body {
 
     }
 
-    .content {
+    .contentt {
         font-size: 1em;
         padding: 2% 4% 2% 4%;
         /* overflow: scroll; */
-        margin-top: -70vw;
         height: 50vh;
+        margin-top: -80%;
+
     }
 
     #logo {

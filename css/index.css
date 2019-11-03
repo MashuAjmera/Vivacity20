@@ -56,6 +56,8 @@ body {
   background-image: url("../assets/images/Asset\ 1.svg"),
     linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
     linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+
+    background-size:100% 100%;
 }
 
 #ad {
