@@ -143,68 +143,13 @@ body {
 }
 
 
-#FOOTER {
-  position: fixed;
-  /* width: 175vh; */
-  right: -32%;
-  margin-left: 4%;
-  margin-top: 4%;
-  margin-right: 40%;
-  height: 50px;
-  bottom: 60px;
-  z-index: 10;
-}
-
-.icons {
-  float: right;
-  width: 2vw;
-  height: 2vw;
-
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 7px;
-  margin-left: 6px;
-  margin-top: 4px;
-}
-
-.icons>img {
-  width: 2vw;
-  height: 2vw;
-}
 
 @media only screen and (max-width: 950px) {
   #home {
     background-size: 1000vw 120vh;
   }
 
-  #FOOTER {
-    position: fixed;
-    /* width: 175vh; */
-    right: -15%;
-    margin-left: 4%;
-    margin-top: 4%;
-    margin-right: 40%;
-    height: 50px;
-    bottom: 60px;
-    z-index: 10;
-  }
-
-  .icons {
-    float: right;
-    width: 6vw;
-    height: 6vw;
-
-    border: 1px solid white;
-    border-radius: 50%;
-    padding: 9px;
-    margin-left: 6px;
-    margin-top: 4px;
-  }
-
-  .icons>img {
-    width: 25px;
-    height: 25px;
-  }
+ 
 
 }
 

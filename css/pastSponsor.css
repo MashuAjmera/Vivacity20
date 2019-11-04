@@ -117,7 +117,7 @@
      padding-top: calc((90vw - 10 * 22.5rem) / (10 + 1));
      padding-bottom: calc((90vw - 10 * 22.5rem) / (10 + 1));
      border-radius: .25rem;
-     height: 72.5vh;
+     height: 62vh;
      width: 95vw;
      margin: 0 auto;
      margin-top: 1.5vw;
@@ -314,7 +314,7 @@
          height: 72.5vh;
          width: 90vw;
          margin: 0 auto;
-         margin-top: 3vw;
+         margin-top: 40vw;
          display: -ms-grid;
          display: grid;
          -ms-grid-columns: (22.5rem)[2];
@@ -341,7 +341,7 @@
          height: 72.5vh;
          width: 90vw;
          margin: 0 auto;
-         margin-top: 20vh;
+         margin-top: 6vh;
          display: -ms-grid;
          display: grid;
          -ms-grid-columns: (22.5rem)[1];

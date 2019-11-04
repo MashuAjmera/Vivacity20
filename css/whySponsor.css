@@ -61,16 +61,16 @@ html {
 
 
 @media screen and (max-width:480px) {
-    .heading {
+    .heading-whySponsor {
         font-size: 32px;
-        margin-top: -2%;
-        margin-right: -5%;
+        padding-top: 20%;
+        margin-right: 0%;
     }
 
-    .content {
+    .content-whySponsor {
         font-size: 14px;
         padding: 2% 4% 2% 4%;
-        margin-top: -4%;
+        margin-top: 4%;
     }
 
     #logo {
