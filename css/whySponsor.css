@@ -1,30 +1,33 @@
-body{
+#whySponsorUs {
     height: 100%;
     margin: 0%;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom,#BC4E9C,#F80759);
+    background-image: linear-gradient(to bottom, #BC4E9C, #F80759);
     background-repeat: no-repeat;
     background-position: center;
 }
-html{
+
+html {
     height: 100%;
 }
-.heading{
+
+.heading-whySponsor {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-  font-size: 60px;
-  font-weight: bolder;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: 2.7px;
-  color: #ffffff;
-  margin-top: -3%;
-  margin-right: 24%;
+    font-size: 4vw;
+    font-weight: bolder;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 2.7px;
+    color: #ffffff;
+    padding-top: 7%;
+    margin-right: 24%;
 }
-.content{
+
+.content-whySponsor {
     font-family: 'Poppins', sans-serif;
-    font-size: 22px;
+    font-size: 1.5vw;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -32,211 +35,53 @@ html{
     letter-spacing: normal;
     text-align: justify;
     padding: 2% 4% 2% 4%;
-    color:white;
-    margin-top: -4%;
+    color: white;
+    padding-top: 6%;
 }
-.value{
+
+.value-whySponsor {
     padding: 0% 10% 0% 10%;
     text-align: justify;
 }
-#logo{
+
+#logo {
     width: 4%;
-      height: 12%;
-      margin: 1.5%;
+    height: 12%;
+    margin: 1.5%;
 }
-#footer{
+
+#footer {
     margin-top: 10%;
 }
-#images{
+
+#images {
     float: right;
     margin-top: -60px;
 }
 
-/* NAVIGATION BAR */
 
-.nav-menu,
-.nav-menu * {
-    margin: 8px;
-    padding: 0;
-    list-style: none;
-}
-
-.nav-menu ul {
-    position: absolute;
-    display: none;
-    top: 100%;
-    left: 0;
-    z-index: 99;
-}
-
-.nav-menu li {
-    position: relative;
-    white-space: nowrap;
-}
-
-.nav-menu>li {
-    float: left;
-}
-
-.nav-menu li:hover>ul,
-.nav-menu li.sfHover>ul {
-    display: block;
-}
-
-.nav-menu ul ul {
-    top: 0;
-    left: 100%;
-}
-
-.nav-menu ul li {
-    min-width: 180px;
-}
-
-
-/* Nav Menu Arrows */
-
-.sf-arrows .sf-with-ul {
-    padding-right: 30px;
-}
-
-.sf-arrows .sf-with-ul:after {
-    content: "\f107";
-    position: absolute;
-    right: 15px;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-}
-
-.sf-arrows ul .sf-with-ul:after {
-    content: "\f105";
-}
-
-
-/* Nav Meu Container */
-
-#nav-menu-container {
-    float: right;
-    top: 1%;
-    margin-left: 50%;
-
-}   
-
-
-/* Nav Meu Styling */
-
-.nav-menu a {
-    padding: 8px;
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    outline: none;
-}
-
-.nav-menu .menu-active a,
-.nav-menu a:hover {
-    color:black;
-}
-
-.nav-menu>li {
-    margin-left: 8px;
-}
-
-.nav-menu>li>a:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: rgb(123, 145, 44);
-    visibility: hidden;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.nav-menu a:hover:before,
-.nav-menu li:hover>a:before,
-.nav-menu .menu-active>a:before {
-    visibility: visible;
-    width: 100%;
-}
-
-.nav-menu li.buy-tickets a {
-    color: #fff;
-    background: #f82249;
-    padding: 7px 22px;
-    border-radius: 50px;
-    border: 2px solid yellow;
-    transition: all ease-in-out 0.3s;
-    /* font-weight: 500; */
-    margin-left: 8px;
-    margin-top: 2px;
-    line-height: 1;
-    font-size: 13px;
-}
-
-.nav-menu li.buy-tickets a:hover {
-    background: none;
-    /* color: black !important */
-}
-
-.nav-menu li.buy-tickets:hover a:before,
-.nav-menu li.buy-tickets.menu-active a:before {
-    visibility: hidden;
-}
-
-.nav-menu ul {
-    margin: 4px 0 0 0;
-    padding: 10px;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    background: #fff;
-    border-radius: 3px;
-}
-
-.nav-menu ul li {
-    transition: 0.3s;
-}
-
-.nav-menu ul li a {
-    padding: 10px;
-    color: #060c22;
-    transition: 0.3s;
-    display: block;
-    font-size: 13px;
-    text-transform: none;
-    border-radius: 3px;
-}
-
-.nav-menu ul li:hover>a {
-    background: #f82249;
-    color: #fff;
-}
-
-.nav-menu ul ul {
-    margin: 0;
-}
-
-@media screen and (max-width:480px){
-    .heading{
-      font-size: 32px;
-      margin-top: -2%;
-      margin-right: -5%;
+@media screen and (max-width:480px) {
+    .heading {
+        font-size: 32px;
+        margin-top: -2%;
+        margin-right: -5%;
     }
-    .content{
+
+    .content {
         font-size: 14px;
         padding: 2% 4% 2% 4%;
         margin-top: -4%;
     }
 
-    #logo{
+    #logo {
         width: 8%;
         height: 12%;
-        margin: 6.5%;   
+        margin: 6.5%;
     }
 }
-@media screen and (max-width:1100px){
-    #nav-menu-container{display: none;}
+
+@media screen and (max-width:1100px) {
+    #nav-menu-container {
+        display: none;
+    }
 }
