@@ -143,6 +143,35 @@ body {
   outline: none;
 }
 
+
+#FOOTER {
+  position: fixed;
+  width: 170vh;
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-right: 40%;
+  height: 50px;
+  bottom: 5vh;
+  z-index: 10;
+}
+
+.icons {
+  float: right;
+  width: 2vw;
+  height: 2vw;
+  ;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 7px;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+
+.icons>img {
+  width: 2vw;
+  height: 2vw;
+}
+
 @media only screen and (max-width: 950px) {
   #home {
     background-size: 1000vw 120vh;
