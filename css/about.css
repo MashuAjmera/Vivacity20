@@ -63,6 +63,7 @@
   color: #fff;
   font-weight: 300;
   width: 80%;
+  height: 50vh;
   overflow: scroll;
 }
 
@@ -144,7 +145,7 @@
   .a {
     width: 100%;
 
-    margin-top: -30vw;
+    margin-top: -50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;

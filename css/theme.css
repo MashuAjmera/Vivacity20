@@ -260,7 +260,7 @@ html {
         width: 100%;
         color: rgb(255, 255, 255);
         position: absolute;
-        top: 50%;
+        top: 15%;
         font-family: "Open Sans", sans-serif;
         display: flex;
         justify-content: center;
@@ -285,7 +285,7 @@ html {
         width: 90%;
 
         position: absolute;
-        top: 0%;
+        top: -10%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -350,6 +350,7 @@ html {
         height: 90%;
         width: 80%;
         color: rgb(255, 255, 255);
+        top: -20%;
 
         position: absolute;
         margin-top: 10vw;

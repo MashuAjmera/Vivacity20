@@ -31,7 +31,6 @@
      /* margin-top: 4%; */
 
      margin-right: 46%;
-     padding-top: 5%;
      width: 100%;
  }
 
@@ -115,8 +114,8 @@
 
  .sponsor__grid {
      background-color: transparent;
-     padding-top: calc((90vw - 5 * 22.5rem) / (5 + 1));
-     padding-bottom: calc((90vw - 5 * 22.5rem) / (5 + 1));
+     padding-top: calc((90vw - 10 * 22.5rem) / (10 + 1));
+     padding-bottom: calc((90vw - 10 * 22.5rem) / (10 + 1));
      border-radius: .25rem;
      height: 72.5vh;
      width: 95vw;
@@ -127,8 +126,8 @@
      overflow: auto;
 
      /* -ms-grid-columns: (22.5rem)[5]; */
-     grid-template-columns: repeat(10, 22.5rem);
-     grid-row-gap: calc((90vw - 5 * 22.5rem) / (5 + 1));
+     grid-template-columns: repeat(10, 25rem);
+     grid-row-gap: calc((90vw - 10 * 22.5rem) / (5 + 1));
      justify-items: center;
      -webkit-box-align: center;
      -ms-flex-align: center;
