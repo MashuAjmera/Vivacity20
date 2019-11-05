@@ -6,6 +6,7 @@
 
 
 
+
 body {
   padding: 0;
   margin: 0;
@@ -34,6 +35,12 @@ body {
 }
 
 /* scroll end */
+
+body,
+html {
+  margin: 0;
+  overflow: hidden;
+}
 
 
 
@@ -149,7 +156,7 @@ body {
     background-size: 1000vw 120vh;
   }
 
- 
+
 
 }
 

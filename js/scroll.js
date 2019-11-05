@@ -496,3 +496,6 @@ function touchmove(event) {
         }
     }
 }
+
+
+// add line 494 to 496 to wheel event
