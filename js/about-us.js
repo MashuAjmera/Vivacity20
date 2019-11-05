@@ -35,6 +35,12 @@ function countevents() {
     setTimeout(countevents, 1);
 }
 
-window.addEventListener('load', countfootfall);
-window.addEventListener('load', countcolleges);
-window.addEventListener('load', countevents);
+document.getElementById('aboutus').onshow = function () {
+    countcolleges();
+    countevents();
+    countfootfall();
+}
+
+// window.addEventListener('load', countfootfall);
+// window.addEventListener('load', countcolleges);
+// window.addEventListener('load', countevents);
