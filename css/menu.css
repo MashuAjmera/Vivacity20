@@ -23,7 +23,7 @@ li {
     z-index: 4;
     position: fixed;
     list-style: none;
-    width: 15%;
+    width: 40%;
     right: 0%;
     background-color: #f06543;
     background-image: linear-gradient(315deg, #f06543 0%, #ffbe3d 74%);
@@ -34,6 +34,8 @@ li {
     align-items: left;
     margin-left: auto;
     padding: 150px 10% 150px 15%;
+
+    /* padding-left: 100%; */
     line-height: 2;
     font-weight: 900;
     font-size: 2.4vw;
@@ -51,6 +53,8 @@ li {
     /* clip-path: circle(2000px at 100% -10%);
   -webkit-clip-path: circle(2000px at 100% -10%); */
     pointer-events: all;
+    /* margin-left: -30%; */
+
 }
 
 .nav-links li {
@@ -75,6 +79,8 @@ li {
 
 .nav-links li.fade {
     opacity: 1;
+    margin-left: 45%;
+    margin-right: -20%;
 }
 
 .nav-links li a {
@@ -83,6 +89,11 @@ li {
     text-decoration: none;
     font-size: 3vw;
     font-family: 'Josefin Sans', sans-serif;
+
+    /* padding-top: 30%; */
+    /* padding-left: 10%; */
+
+
 
 }
 
