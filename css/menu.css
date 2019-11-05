@@ -24,7 +24,7 @@ li {
     position: fixed;
     list-style: none;
     width: 15%;
-    right: 0;
+    right: 0%;
     background-color: #f06543;
     background-image: linear-gradient(315deg, #f06543 0%, #ffbe3d 74%);
     background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
