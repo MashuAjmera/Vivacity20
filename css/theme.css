@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('../assets/fonts/BebasNeue-Regular.ttf');
+}
+
 html {
     scroll-behavior: smooth;
     user-select: none;
@@ -131,7 +136,7 @@ html {
     color: rgb(255, 255, 255);
 
     position: absolute;
-    margin-top: 5vw;
+    margin-top: 3vw;
 
     display: flex;
     flex-direction: column;
@@ -197,14 +202,14 @@ html {
     font-size: 1.6vw;
     font-weight: 300;
     font-family: "Open Sans", sans-serif;
-    margin-top: 1vw;
+    margin-top: 2vw;
 }
 
 .middleTheme-p-title {
     font-size: 3.6vw;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'BebasNeue-Regular';
     font-weight: 800;
-    width: 100%;
+    width: 120%;
     margin-bottom: 0.5vw;
 }
 

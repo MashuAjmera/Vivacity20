@@ -5,8 +5,7 @@
 
 @font-face {
     font-family: 'BebasNeue-Regular';
-    src: url('webfonts/3A65CF_0_0.eot');
-    src: url('webfonts/3A65CF_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/3A65CF_0_0.woff2') format('woff2'), url('webfonts/3A65CF_0_0.woff') format('woff'), url('webfonts/3A65CF_0_0.ttf') format('truetype');
+    src: url('../assets/fonts/BebasNeue-Regular.ttf');
 }
 
 html {
@@ -40,6 +39,7 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
 /* 
 #logo {
     width: 75.8px;

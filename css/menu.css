@@ -289,7 +289,7 @@ li {
     width: 30%;
     left: 30%;
     top: 0;
-    bottom: 50%;
+    bottom: 40%;
     background-color: cyan;
     /* background-image: linear-gradient(315deg, purple 0%, pink 74%); */
     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
@@ -323,7 +323,7 @@ li {
     list-style: none;
     width: 30%;
     left: 30%;
-    top: 50%;
+    top: 60%;
     background-color: blue;
     /* background-image: linear-gradient(315deg, grey 0%, black 74%); */
     background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
