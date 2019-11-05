@@ -1,10 +1,45 @@
 .LOGO {
     /* position: fixed; */
 
-    width: 70px;
-    margin-top: 1%;
+    width: 40px;
+    margin-top: 20px;
     margin-left: 2%;
     z-index: 100;
+}
+
+.LOGO-aboutus,
+.LOGO-contactus {
+    /* position: fixed; */
+
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 2%;
+    z-index: 100;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    .LOGO-aboutus {
+        /* position: fixed; */
+
+        width: 40px;
+        margin-top: 20px;
+        margin-left: -400%;
+        z-index: 100;
+    }
+
+    .LOGO-contactus {
+        /* position: fixed; */
+
+        width: 40px;
+        margin-left: -75%;
+        margin-top: -45%;
+        z-index: 100;
+    }
+
+    #lg {
+        margin-top: -110%;
+    }
 }
 
 .nav-menu,

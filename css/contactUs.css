@@ -40,13 +40,13 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-
+/* 
 #logo {
     width: 75.8px;
     height: 87.4px;
     color: #ffffff;
     animation: animate 1s linear forwards;
-}
+} */
 
 #heading {
     font-family: 'Poppins', sans serif;
@@ -151,6 +151,7 @@ p {
 
     #heading {
         font-size: 3vh;
+        /* margin-top: -10%; */
     }
 }
 
