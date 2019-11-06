@@ -175,6 +175,10 @@ p {
 
     }
 
+    #map{
+        font-size: 6vw;
+    }
+
     #heading-contactus {
         font-size: 3vh;
         /* margin-top: -10%; */
