@@ -134,16 +134,6 @@ html {
   height: 50px;
 }
 
-.campusam a {
-  padding: 8px;
-  text-decoration: none;
-  display: inline-block;
-  color: white;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 0.93em;
-  outline: none;
-}
 
 
 
@@ -387,15 +377,6 @@ html {
   height: 50px;
 }
 
-.rectangle {
-  width: 100%;
-  position: fixed;
-  bottom: 5%;
-  color: #fff;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
 
 .campusam {
   font-family: "Poppins";

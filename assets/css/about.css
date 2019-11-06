@@ -109,21 +109,7 @@
   align-items: center;
 }
 
-.campusam {
-  font-family: "Poppins";
-  font-size: 1.3vw;
-  color: #fff;
-  border: 2px #fff solid;
-  padding: 0.005vw 2.5vw;
-  border-radius: 2vw;
-  font-weight: 600;
-  height: 3vw;
-  text-transform: uppercase;
-  margin-left: 7vw;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
+
 
 @media only screen and (max-device-width: 480px) {
   body {

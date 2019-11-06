@@ -17,6 +17,43 @@
     z-index: 100;
 }
 
+.campusam a {
+    padding: 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 0.93em;
+    outline: none;
+}
+
+.rectangle {
+    width: 100%;
+    position: fixed;
+    bottom: 5%;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.campusam {
+    font-family: "Poppins";
+    font-size: 1.3vw;
+    color: #fff;
+    border: 2px #fff solid;
+    padding: 0.005vw 2.5vw;
+    border-radius: 2vw;
+    font-weight: 600;
+    height: 3vw;
+    text-transform: uppercase;
+    margin-left: 7vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
 
 @media only screen and (max-device-width: 480px) {
     .LOGO {
