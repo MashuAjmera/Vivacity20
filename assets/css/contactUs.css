@@ -57,7 +57,7 @@ button {
 }
 
 
-#map-contactus {
+#map {
     -webkit-backdrop-filter: blur(30px);
     backdrop-filter: blur(30px);
     /* background-color: #485563; */
