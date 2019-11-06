@@ -64,21 +64,6 @@ body {
     font-size: .8em;
 }
 
-button {
-    cursor: pointer;
-    height: 50px;
-    font-size: 20vw;
-    font-family: Poppins;
-    font-size: 24px;
-    line-height: 1.2;
-    width: 167px;
-    border-radius: 46px;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.72);
-    border: solid 1px #707070;
-    background-color: #a7219e;
-    text-align: center;
-    color: #ffffff;
-}
 
 .btn {
     margin-top: 5vw;
