@@ -141,13 +141,14 @@ html {
   .slidershow {
     display: inline-block;
     width: 70%;
-    height: 60vh;
     /* overflow: hidden; */
   }
 
   .middle {
     position: absolute;
     top: 320vh;
+    height: 30vh;
+    width: 100vw;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -201,6 +202,10 @@ html {
   .middle {
     position: absolute;
     top: 345vh;
+    height: 30vh;
+    width: 90vw;
+
+
     left: 50%;
     transform: translate(-50%, -50%);
   }
