@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Past Sponsor</title>
+    <link rel="stylesheet" type="text/css" href="pastSponsor.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" href="main1.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--HEADING-->
+
+    </section>
+    <script type="text/javascript">
+        document.getElementsByClassName('sponsor__grid').item(0).onscroll = function () {
+            scroll()
+        };
+
+        function scroll() {
+            let scrollTop = document.getElementsByClassName('sponsor__grid').item(0).scrollTop;
+            let scrollHeight = document.getElementsByClassName('sponsor__grid').item(0).scrollHeight - document
+                .getElementsByClassName('sponsor__grid').item(0).clientHeight;
+
+            let progress = 100.1 * scrollTop / scrollHeight;
+            document.getElementsByClassName('scroll-lining').item(0).style.width = progress + "%";
+        }
+    </script>
+    <!--Javascript-->
+    <script src="js/nav.js"></script>
+    <script src="js/scroll.js"></script>
+
+</body>
+
+</html>

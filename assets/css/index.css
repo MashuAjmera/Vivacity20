@@ -1,0 +1,574 @@
+@font-face {
+  font-family: "atlantis";
+  src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf") format("truetype");
+}
+
+
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+
+/* Scroll */
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  overflow: hidden;
+  /* overscroll-behavior: contain; */
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+/* scroll end */
+
+body,
+html {
+  margin: 0;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+#home {
+  /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
+
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 0%;
+  /* background-image: url("../images/Asset\ 1.svg") ; */
+  background-image: url("../svg/Asset\ 1.svg"),
+    linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
+    linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+
+  background-size: 120vw 140vh;
+  z-index: 2;
+}
+
+
+
+#ad {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.svgg {
+  /* position: fixed;
+    left: 45.5%;
+    top: 13.5%; */
+  width: 100px;
+  height: 152.2px;
+  margin-left: 46%;
+  margin-bottom: -16%;
+  object-fit: contain;
+}
+
+.vivacity {
+  margin-top: 10%;
+  /* position: fixed;
+    top: 23.5%;
+    left: 24.2%; */
+  font-family: atlantis;
+  font-size: 130px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  /* line-height: 1.2; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.date {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  /* margin-top: -7%; */
+}
+
+.dash {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-top: -6%;
+}
+
+.college {
+  /* margin-top: -10%; */
+  top: -20%;
+  font-family: Raleway;
+  font-size: 55px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.icon_size {
+  width: 50px;
+  height: 50px;
+}
+
+.campusam a {
+  padding: 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 0.93em;
+  outline: none;
+}
+
+
+
+@media only screen and (max-width: 950px) {
+  #home {
+    background-size: 1000vw 120vh;
+  }
+
+
+
+}
+
+@media only screen and (max-device-width: 480px) {
+  @font-face {
+    font-family: "atlantis";
+    src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf") format("truetype");
+  }
+
+  .container {
+    /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0%;
+    /* background-image: url("../images/Asset\ 1.svg") ; */
+    background-image: url("../images/Asset\ 1.svg"),
+      linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
+      linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+  }
+
+  #ad {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .svgg {
+    /* position: fixed;
+          left: 45.5%;
+          top: 13.5%; */
+    width: 100px;
+    height: 152.2px;
+    margin-left: 46%;
+    margin-bottom: -16%;
+    object-fit: contain;
+  }
+
+  .vivacity {
+    margin-top: 48vw;
+    /* position: fixed;
+          top: 23.5%;
+          left: 24.2%; */
+    font-family: atlantis;
+    font-size: 16vw;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    /* line-height: 1.2; */
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .date {
+    font-family: "Raleway", sans-serif;
+    font-size: 5vw;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 13%;
+  }
+
+  .dash {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: -11%;
+  }
+
+  .college {
+    margin-top: 10%;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .icon_size {
+    width: 50px;
+    height: 50px;
+  }
+
+  .campusam {
+    /* bottom: 28px;
+              left: 35px; */
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+
+
+    height: 0px;
+
+    font-family: Raleway;
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+    font-style: normal;
+
+    font-stretch: normal;
+
+    line-height: 1.17;
+
+    letter-spacing: normal;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .rectangle {
+    /* left: 68px;
+          bottom: 25px; */
+    z-index: 3;
+    margin-left: 40%;
+    margin-top: 25%;
+    width: 20%;
+    height: 5vw;
+    border-radius: 30px;
+    border: solid 1px #ffffff;
+    text-align: center;
+  }
+}
+
+.container {
+  width: 100%;
+  height: 80vw;
+}
+
+/* scroll end */
+
+#home {
+  /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
+
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 0%;
+  /* background-image: url("../images/Asset\ 1.svg") ; */
+  background-image: url("../assets/images/Asset\ 1.svg"),
+    linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
+    linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+}
+
+#ad {
+  font-weight: 500;
+  font-size: 17vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.svgg {
+  /* position: fixed;
+    left: 45.5%;
+    top: 13.5%; */
+  width: 7vw;
+  height: 15vw;
+  margin-left: 46%;
+  margin-top: 3%;
+  object-fit: contain;
+}
+
+.vivacity {
+  margin-top: 10vw;
+  /* position: fixed;
+    top: 23.5%;
+    left: 24.2%; */
+  font-family: atlantis;
+  font-size: 7.5vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  /* line-height: 1.2; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.date {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 2.75vw;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -2%;
+  margin-bottom: 6%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.date::after {
+  content: "";
+  display: block;
+  width: 20vw;
+  height: 2px;
+  margin-top: 1vw;
+  background: #fff;
+}
+
+.college {
+  margin-top: -3.5%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.icon_size {
+  width: 50px;
+  height: 50px;
+}
+
+.rectangle {
+  width: 100%;
+  position: fixed;
+  bottom: 5%;
+  color: #fff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.campusam {
+  font-family: "Poppins";
+  font-size: 1.3vw;
+  color: #fff;
+  border: 2px #fff solid;
+  padding: 0.005vw 2.5vw;
+  border-radius: 2vw;
+  font-weight: 600;
+  height: 3vw;
+  text-transform: uppercase;
+  margin-left: 7vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+
+#aboutus {
+  margin-top: 0vw;
+  background: rgb(0, 183, 255);
+  padding-top: 0.25vw;
+}
+
+@media only screen and (max-device-width: 480px) {
+  @font-face {
+    font-family: "atlantis";
+    src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf") format("truetype");
+  }
+
+  .container {
+    /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0%;
+    /* background-image: url("../images/Asset\ 1.svg") ; */
+    background-image: url("../images/Asset\ 1.svg"),
+      linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
+      linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #ad {
+    font-size: 26vw;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .svgg {
+    /* position: fixed;
+          left: 45.5%;
+          top: 13.5%; */
+    width: 45vw;
+    height: 25vw;
+
+    position: absolute;
+    top: 15vw;
+    left: -18%;
+    object-fit: contain;
+  }
+
+  .vivacity {
+    margin-top: 2vw;
+    /* position: fixed;
+          top: 23.5%;
+          left: 24.2%; */
+    font-family: atlantis;
+    font-size: 16.5vw;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    /* line-height: 1.2; */
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .date {
+
+    font-family: "Raleway", sans-serif;
+    font-size: 8vw;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10%;
+  }
+
+  .date::after {
+    content: "";
+    display: block;
+    width: 50vw;
+    height: 2px;
+    margin-top: 3vw;
+    background: #fff;
+  }
+
+  .college {
+    font-family: Raleway;
+    font-size: 6vw;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 8vw;
+  }
+
+  .icon_size {
+    width: 50px;
+    height: 50px;
+  }
+
+  .campusam {
+    /* bottom: 28px;
+              left: 35px; */
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+
+    height: 0px;
+
+    font-family: Raleway;
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+    font-style: normal;
+
+    font-stretch: normal;
+
+    line-height: 1.17;
+
+    letter-spacing: normal;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .rectangle {
+    /* left: 68px;
+          bottom: 25px; */
+    margin-left: 40%;
+    margin-top: 25%;
+    width: 20%;
+    height: 5vw;
+    border-radius: 30px;
+    border: solid 1px #ffffff;
+    text-align: center;
+  }
+
+  #aboutus {
+    margin-top: 0vw;
+    background: rgb(0, 183, 255);
+    padding-top: 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

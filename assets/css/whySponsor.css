@@ -1,0 +1,87 @@
+#whySponsorUs {
+    height: 100%;
+    margin: 0%;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #BC4E9C, #F80759);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+html {
+    height: 100%;
+}
+
+.heading-whySponsor {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vw;
+    font-weight: bolder;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 2.7px;
+    color: #ffffff;
+    padding-top: 7%;
+    margin-right: 24%;
+}
+
+.content-whySponsor {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    padding: 2% 4% 2% 4%;
+    color: white;
+    padding-top: 6%;
+}
+
+.value-whySponsor {
+    padding: 0% 10% 0% 10%;
+    text-align: justify;
+}
+
+#logo {
+    width: 4%;
+    height: 12%;
+    margin: 1.5%;
+}
+
+#footer {
+    margin-top: 10%;
+}
+
+#images {
+    float: right;
+    margin-top: -60px;
+}
+
+
+@media screen and (max-width:480px) {
+    .heading-whySponsor {
+        font-size: 32px;
+        padding-top: 20%;
+        margin-right: 0%;
+    }
+
+    .content-whySponsor {
+        font-size: 14px;
+        padding: 2% 4% 2% 4%;
+        margin-top: 4%;
+    }
+
+    #logo {
+        width: 8%;
+        height: 12%;
+        margin: 6.5%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    #nav-menu-container {
+        display: none;
+    }
+}
