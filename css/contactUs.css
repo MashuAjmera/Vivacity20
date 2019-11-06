@@ -40,6 +40,15 @@ body {
 
 }
 
+#map {
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    /* background-color: #485563; */
+    background-color: #cebdbdd8;
+    color: #3c4a58;
+    font-size: 1.2vw;
+}
+
 /* 
 #logo {
     width: 75.8px;
@@ -48,7 +57,7 @@ body {
     animation: animate 1s linear forwards;
 } */
 
-#heading {
+#heading-contactus {
     font-family: 'Poppins', sans serif;
     text-align: center;
     margin: 0%;
@@ -59,7 +68,7 @@ body {
     font-size: 4vw;
 }
 
-.hline {
+.hline-contactus {
     font-family: 'BebasNeue-Regular';
     font-size: 10vw;
 }
@@ -93,7 +102,7 @@ p {
     }
 }
 
-#bodyPage {
+#bodyPage-contactus {
     /* display: inline-grid; */
     margin-top: 5%;
     display: flex;
@@ -103,7 +112,7 @@ p {
     font-size: 1.3em;
 }
 
-#bodyPage>div {
+#bodyPage-contactus>div {
 
     flex: 32%;
     max-width: 33%;
@@ -111,7 +120,7 @@ p {
     text-align: center;
 }
 
-.hline {
+.hline-contactus {
     font-size: 3vw;
     margin-bottom: 3%;
 }
@@ -137,26 +146,26 @@ p {
 
 
 @media screen and (max-width: 1100px) {
-    #bodyPage>div {
+    #bodyPage-contactus>div {
         flex: 50%;
         max-width: 100%;
         font-size: 4.5vw;
     }
 
-    .hline {
+    .hline-contactus {
         font-size: 5vw;
         padding-top: 3vw;
 
     }
 
-    #heading {
+    #heading-contactus {
         font-size: 3vh;
         /* margin-top: -10%; */
     }
 }
 
 @media screen and (max-width: 600px) {
-    #bodyPage>div {
+    #bodyPage-contactus>div {
 
         flex: 100%;
         max-width: 100%;

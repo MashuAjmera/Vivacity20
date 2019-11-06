@@ -268,7 +268,7 @@
     height: 3vw;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 480px) {
     .nav-menu {
         display: none;
     }

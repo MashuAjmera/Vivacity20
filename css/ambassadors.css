@@ -1,4 +1,12 @@
 /* Scroll */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('../assets/fonts/BebasNeue-Regular.ttf');
+}
+
 html {
     scroll-behavior: smooth;
     user-select: none;
@@ -45,10 +53,10 @@ body {
 }
 
 #content {
-    height: 85px;
+    height: 20%;
     width: 80%;
-    font-family: Poppins;
-    font-size: 1em;
+    font-family: 'BebasNeue-Regular';
+    font-size: 5vw;
 }
 
 #ambassador>p {
@@ -59,8 +67,8 @@ body {
 button {
     cursor: pointer;
     height: 50px;
-    text-height: 39px;
-    font-family: LuckiestGuy;
+    font-size: 20vw;
+    font-family: Poppins;
     font-size: 24px;
     line-height: 1.2;
     width: 167px;
@@ -72,12 +80,13 @@ button {
     color: #ffffff;
 }
 
-/* .btn {
-    margin-top: 10%;
+.btn {
+    margin-top: 5vw;
     align-items: center;
     text-align: center;
 }
 
+/*
 #ca {
     font-family: Poppins;
     background: none;
@@ -139,57 +148,7 @@ button {
     bottom: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
-    #logo {
-        width: 40px;
-        height: 40px;
-    }
 
-    #heading {
-        width: 100%;
-        height: 50px;
-        font-family: Poppins;
-        font-size: 1em;
-        line-height: 1.5;
-        text-align: center;
-        padding-top: 10%;
-    }
-
-    #ca {
-        width: 42%;
-        height: 35px;
-        border-radius: 30px;
-        border: solid 1px #ffffff;
-        line-height: 1.50;
-        margin: auto 0;
-        font-size: 100%;
-    }
-
-    #content {
-        text-align: center;
-        font-size: 145%;
-    }
-
-    #mid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 0px;
-    }
-
-    .btn {
-        text-align: center;
-    }
-
-    #imagess {
-        margin-top: -10px;
-    }
-
-    #pic img {
-        height: 200px;
-        width: 250px;
-        padding-left: 50px;
-    }
-}
 
 @media only screen and (min-width: 800px) {
     #heading {
@@ -216,6 +175,65 @@ button {
     #content {
         width: 100%;
         text-align: center;
-        font-size: 2.5em;
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    #heading {
+        width: 100%;
+        height: 50px;
+        font-family: Poppins;
+        font-size: 7.5vw;
+        line-height: 1.5;
+        text-align: center;
+        padding-top: 20%;
+    }
+
+    #ca {
+        width: 42%;
+        height: 35px;
+        border-radius: 30px;
+        border: solid 1px #ffffff;
+        line-height: 1.50;
+        margin: auto 0;
+        font-size: 100%;
+    }
+
+    #content {
+        text-align: center;
+        font-size: 7vw;
+    }
+
+    #mid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+    }
+
+    .btn {
+        text-align: center;
+        padding-top: 2vw;
+    }
+
+    .btn button {
+        height: 10vw;
+        width: 35vw;
+        font-size: 4.8vw;
+    }
+
+    #imagess {
+        margin-top: -10px;
+    }
+
+    #pic img {
+        height: 40vh;
+        width: 50vw;
+        padding-left: 15vw;
     }
 }
