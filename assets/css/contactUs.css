@@ -86,7 +86,7 @@ button {
 }
 
 .hline-contactus {
-    font-family: 'BebasNeue-Regular';
+    font-family: 'Poppins', sans serif;
     font-size: 10vw;
 }
 
@@ -175,7 +175,7 @@ p {
 
     }
 
-    #map{
+    #map {
         font-size: 6vw;
     }
 
