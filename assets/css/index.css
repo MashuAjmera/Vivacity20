@@ -44,10 +44,6 @@ html {
 
 
 
-
-
-
-
 #home {
   /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
 
@@ -57,9 +53,9 @@ html {
   width: 100%;
   margin: 0%;
   /* background-image: url("../images/Asset\ 1.svg") ; */
-  background-image: url("../svg/Asset\ 1.svg"),
+  /* background-image: url("../svg/Asset.svg"),
     linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
-    linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+    linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3); */
 
   background-size: 120vw 140vh;
   z-index: 2;
