@@ -441,7 +441,10 @@ li {
 
     .nav-links {
         width: 35%;
-        media
+    }
+
+    .nav-links li a {
+        font-size: 4vw;
     }
 
     .nav-links-bottom {
@@ -473,7 +476,8 @@ li {
         clip-path: circle(0 at 100% -10%);
         -webkit-clip-path: circle(0 at 100% -10%);
     }
-    .nav-links li a{
+
+    .nav-links li a {
         font-size: 4vw;
     }
 
@@ -519,12 +523,19 @@ li {
     }
 
     .nav-links {
-        font-size: 34px;
-        width: 45%;
+        font-size: 13vw;
+        width: 100vw;
         padding: 100px 20% 150px 35%;
         clip-path: circle(0 at 100% -10%);
         -webkit-clip-path: circle(0 at 100% -10%);
     }
+
+    .nav-links li a {
+        font-size: 7vw;
+    }
+
+
+
 
     .nav-links.open {
         clip-path: circle(3000px at 100% -10%);
