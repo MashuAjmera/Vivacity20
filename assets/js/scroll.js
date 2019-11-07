@@ -33,6 +33,8 @@ var current = 0;
 
 
 
+
+
 function hideAddressBar() {
     if (!window.location.hash) {
         if (document.height < window.outerHeight) {

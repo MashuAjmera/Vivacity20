@@ -35,11 +35,51 @@ function countevents() {
     setTimeout(countevents, 1);
 }
 
-document.getElementById('aboutus').onshow = function () {
-    countcolleges();
-    countevents();
-    countfootfall();
+
+function elementInViewport(el) {
+    var top = el.offsetTop;
+    var left = el.offsetLeft;
+    var width = el.offsetWidth;
+    var height = el.offsetHeight;
+
+    while (el.offsetParent) {
+        el = el.offsetParent;
+        top += el.offsetTop;
+        left += el.offsetLeft;
+    }
+
+    return (
+        top >= window.pageYOffset &&
+        left >= window.pageXOffset &&
+        (top + height) <= (window.pageYOffset + window.innerHeight) &&
+        (left + width) <= (window.pageXOffset + window.innerWidth)
+    );
 }
+
+
+// setTimeout(function () {
+//     if (elementInViewport(document.querySelector('.so'))) {
+//         countcolleges();
+//         countevents();
+//         countfootfall();
+
+//     }
+//     console.log("hellothere")
+// }, 50);
+var flag = 0;
+var aboutus = function () {
+    if (elementInViewport(document.querySelector('.so'))) {
+        countcolleges();
+        countevents();
+        countfootfall();
+    }
+    setTimeout(aboutus, 500);
+
+};
+aboutus();
+
+
+
 
 // window.addEventListener('load', countfootfall);
 // window.addEventListener('load', countcolleges);
