@@ -50,7 +50,7 @@ a:hover {
     display: flex;
     justify-content: left;
     align-items: center;
-    z-index: 10;
+    z-index: 3;
 }
 
 .campusam {
@@ -364,6 +364,7 @@ a:hover {
         justify-content: center;
         align-items: center;
         border: 0px;
+        z-index: 6;
     }
 
     .campusam {
