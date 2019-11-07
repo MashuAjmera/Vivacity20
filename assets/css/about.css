@@ -65,6 +65,8 @@
   width: 80%;
   height: 60vh;
   overflow: scroll;
+  scrollbar-width: none;
+
 }
 
 .content::-webkit-scrollbar {
@@ -98,20 +100,8 @@
   align-items: center;
 }
 
-.rectangle {
-  z-index: 3;
-  width: 100%;
-  position: fixed;
-  bottom: 5%;
-  color: #fff;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
 
-
-
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   body {
     background: rgb(0, 183, 255);
     margin: 0px;
@@ -207,33 +197,4 @@
     text-transform: uppercase;
   }
 
-  .rectangle {
-    width: 57%;
-    position: fixed;
-    bottom: 7vw;
-    /*     margin-bottom: -30vw; */
-    margin-left: 1vw;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0px;
-  }
-
-  .campusam {
-    font-family: "Poppins";
-    font-size: 3.5vw;
-    color: #fff;
-    border: 3px #fff solid;
-    padding: 2.5vw 7.5vw;
-    border-radius: 6vw;
-    font-weight: 600;
-    height: 3vw;
-    text-transform: uppercase;
-    margin-left: 0vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -5vw;
-  }
 }

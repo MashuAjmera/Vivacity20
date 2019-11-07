@@ -123,6 +123,7 @@
      display: -ms-grid;
      display: grid;
      overflow: auto;
+     scrollbar-width: none;
 
 
      /* -ms-grid-columns: (22.5rem)[5]; */

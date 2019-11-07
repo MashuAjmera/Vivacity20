@@ -48,6 +48,8 @@
     background-color: transparent;
     overflow-x: scroll;
     overflow-y: hidden;
+    scrollbar-width: none;
+
     /* width */
     /* Track */
     /* Handle */
