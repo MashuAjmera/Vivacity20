@@ -34,7 +34,7 @@
 }
 
 #heading-capage2 {
-    font-size: 9vw;
+    font-size: 5vw;
     font-family: 'Poppins', sans serif;
     text-align: center;
     font-weight: bold;
@@ -100,9 +100,9 @@
 }
 
 .hline-am {
-    font-size: 7vw;
+    font-size: 3vw;
     color: white;
-    padding-top: 3vw;
+    padding-top: 1vw;
     font-family: 'BebasNeue-Regular';
 
 }
