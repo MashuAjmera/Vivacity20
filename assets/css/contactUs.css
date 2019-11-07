@@ -66,6 +66,17 @@ button {
     font-size: 1.2vw;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
 /* 
 #logo {
     width: 75.8px;

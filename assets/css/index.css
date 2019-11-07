@@ -4,6 +4,7 @@
 }
 
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 
 
 
@@ -96,7 +97,7 @@ html {
 }
 
 .date {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 50px;
   font-weight: bold;
   font-style: normal;
@@ -110,15 +111,16 @@ html {
 
 .dash {
   text-align: center;
-  font-size: 40px;
+  font-size: 80px;
   color: white;
   margin-top: -6%;
+  width: 30vw;
 }
 
 .college {
   /* margin-top: -10%; */
   top: -20%;
-  font-family: Raleway;
+  font-family: "Poppins", sans-serif;
   font-size: 55px;
   font-weight: 500;
   font-style: normal;
