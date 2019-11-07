@@ -467,11 +467,14 @@ li {
     }
 
     .nav-links {
-        font-size: 34px;
+        /* font-size: 1vw; */
         width: 45%;
         padding: 100px 20% 150px 35%;
         clip-path: circle(0 at 100% -10%);
         -webkit-clip-path: circle(0 at 100% -10%);
+    }
+    .nav-links li a{
+        font-size: 4vw;
     }
 
     .nav-links.open {

@@ -92,13 +92,14 @@ a:hover {
     font-weight: bold;
     color: white;
     animation: animate 1s linear forwards;
-    padding-top: 3%;
-    font-size: 7vw;
+    padding-top: 20vh;
+    font-size: 6vw;
 }
 
 .hline-contactus {
-    font-family: 'Poppins', sans serif;
-    font-size: 10vw;
+    font-family: 'BebasNeue-Regular';
+    font-size: 4vw;
+    padding-top: 3vh;
 }
 
 p {
@@ -148,10 +149,10 @@ p {
     text-align: center;
 }
 
-.hline-contactus {
+/* .hline-contactus {
     font-size: 7vw;
     margin-bottom: 3%;
-}
+} */
 
 #secondpage {
     background: #DA4453;
