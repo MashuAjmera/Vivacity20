@@ -93,7 +93,7 @@ a:hover {
     color: white;
     animation: animate 1s linear forwards;
     padding-top: 3%;
-    font-size: 6vw;
+    font-size: 7vw;
 }
 
 .hline-contactus {
@@ -149,7 +149,7 @@ p {
 }
 
 .hline-contactus {
-    font-size: 3vw;
+    font-size: 7vw;
     margin-bottom: 3%;
 }
 
@@ -191,8 +191,8 @@ p {
     }
 
     #heading-contactus {
-        font-size: 3vh;
-        /* margin-top: -10%; */
+        font-size: 7vh;
+        margin-top: -35%;
     }
 }
 
