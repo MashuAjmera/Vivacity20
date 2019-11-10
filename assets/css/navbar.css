@@ -70,6 +70,49 @@ a:hover {
 }
 
 
+
+.campusam-menu a {
+    padding: 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    outline: none;
+}
+
+.rectangle-menu {
+
+    width: 120%;
+    position: fixed;
+    bottom: 6%;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    z-index: 3;
+}
+
+.campusam-menu {
+    font-family: "Poppins";
+    font-size: 1.3vw;
+    color: #fff;
+    border: 4px #fff solid;
+    padding: 0.005vw 2.5vw;
+    border-radius: 2vw;
+    font-weight: 600;
+    height: 3vw;
+    text-transform: uppercase;
+    margin-left: 3vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+
+
 @media only screen and (max-device-width: 480px) {
     .LOGO {
         /* position: fixed; */
@@ -295,9 +338,9 @@ a:hover {
 
 #FOOTER-menu {
     position: absolute;
-    margin-top: 15%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     z-index: 100;
 }
 

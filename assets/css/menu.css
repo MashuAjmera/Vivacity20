@@ -25,10 +25,10 @@ li {
     list-style: none;
     width: 40%;
     right: 0%;
-    background-color: #f06543;
-    background-image: linear-gradient(315deg, #f06543 0%, #ffbe3d 74%);
+    background-color: #0c0b07;
+    /* background-image: linear-gradient(315deg, #f06543 0%, #ffbe3d 74%);
     background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
     height: 100%;
     justify-content: space-around;
     align-items: left;
@@ -123,9 +123,9 @@ li {
     width: 15%;
     left: 0;
     top: 70%;
-    background-color: grey;
-    background-image: linear-gradient(315deg, grey 0%, black 74%);
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-color: #3c3c3c;
+    /* background-image: linear-gradient(315deg, grey 0%, black 74%);
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
     height: 30%;
     justify-content: space-around;
     align-items: left;
@@ -213,9 +213,9 @@ li {
     left: 0;
     top: 0;
     bottom: 30%;
-    background-color: purple;
-    background-image: linear-gradient(315deg, purple 0%, pink 74%);
-    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    background-color: #504646;
+    /* background-image: linear-gradient(315deg, purple 0%, pink 74%);
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); */
     justify-content: space-around;
     align-items: left;
     margin-left: auto;
@@ -301,10 +301,10 @@ li {
     left: 30%;
     top: 0;
     bottom: 40%;
-    background-color: cyan;
+    background-color: #504646;
     /* background-image: linear-gradient(315deg, purple 0%, pink 74%); */
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); */
     justify-content: space-around;
     align-items: left;
     margin-left: auto;
@@ -335,10 +335,10 @@ li {
     width: 30%;
     left: 30%;
     top: 60%;
-    background-color: blue;
+    background-color: #440a0a;
     /* background-image: linear-gradient(315deg, grey 0%, black 74%); */
-    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    /* background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
     height: 50%;
     justify-content: space-around;
     align-items: left;
