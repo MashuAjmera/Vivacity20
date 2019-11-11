@@ -42,7 +42,7 @@ body {
 }
 
 #heading {
-    font-size: 5vw;
+    font-size: 6vw;
     font-family: 'Poppins', sans serif;
     text-align: center;
     /* margin: 10%; */
@@ -56,7 +56,7 @@ body {
     height: 20%;
     width: 80%;
     font-family: 'BebasNeue-Regular';
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 #ambassador>p {
@@ -134,37 +134,38 @@ body {
 }
 
 
-
-@media only screen and (min-width: 800px) {
+/* 
+@media only screen and (min-width: 1000px) {
     #heading {
         width: 100%;
         height: 75px;
-        /* margin-top: 1%; */
-        font-family: Poppins;
-        font-size: 3em;
-        line-height: 1.5;
-        text-align: center;
-    }
-
-
-    #pic img {
-        height: 80%;
-        width: 100%;
-        padding-left: 50px;
-    }
-
-    #mid {
-        margin-top: 5%;
-    }
-
-    #content {
-        width: 100%;
-        text-align: center;
-        font-size: 3vw;
-    }
+        margin-top: 1%;
+font-family: Poppins;
+font-size: 3em;
+line-height: 1.5;
+text-align: center;
 }
 
-@media only screen and (max-width: 1000px) {
+
+#pic img {
+    height: 80%;
+    width: 100%;
+    padding-left: 50px;
+}
+
+#mid {
+    margin-top: 5%;
+}
+
+#content {
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+}
+}
+
+*/
+@media only screen and (max-width: 700px) {
     #logo {
         width: 40px;
         height: 40px;
@@ -172,12 +173,12 @@ body {
 
     #heading {
         width: 100%;
-        height: 50px;
+        height: 75px;
+        margin-top: 1%;
         font-family: Poppins;
-        font-size: 7.5vw;
+        font-size: 3em;
         line-height: 1.5;
         text-align: center;
-        padding-top: 20%;
     }
 
     #ca {
@@ -191,9 +192,11 @@ body {
     }
 
     #content {
+        width: 100%;
         text-align: center;
-        font-size: 7vw;
+        font-size: 3vw;
     }
+
 
     #mid {
         display: grid;
@@ -220,5 +223,9 @@ body {
         height: 40vh;
         width: 50vw;
         padding-left: 15vw;
+    }
+
+    .nav-menu {
+        display: none;
     }
 }
