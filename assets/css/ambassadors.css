@@ -175,7 +175,7 @@ text-align: center;
         width: 100%;
         height: 75px;
         margin-top: 1%;
-        font-family: Poppins;
+        font-family: Poppins;w  
         font-size: 3em;
         line-height: 1.5;
         text-align: center;
@@ -225,7 +225,5 @@ text-align: center;
         padding-left: 15vw;
     }
 
-    .nav-menu {
-        display: none;
-    }
+
 }

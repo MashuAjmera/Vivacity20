@@ -1,6 +1,3 @@
-/* Scroll */
-
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 
 @font-face {
@@ -92,6 +89,10 @@ button {
     font-family: 'BebasNeue-Regular';
     font-size: 4vw;
     padding-top: 3vh;
+}
+
+#clg {
+    margin-top: 0px;
 }
 
 p {
