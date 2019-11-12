@@ -88,6 +88,9 @@ body {
     margin: 1.5%;
 }
 
+.brochure {
+    padding-left: 17vw;
+}
 
 
 @media screen and (max-width:900px) {
