@@ -8,9 +8,7 @@ html {
   user-select: none;
 }
 
-body::-webkit-scrollbar {
-  width: 0;
-}
+
 
 * {
   padding: 0;
@@ -72,8 +70,14 @@ body {
   color: rgb(255, 255, 255);
   margin-top: -60%;
   height: 183px;
-  overflow: scroll;
+  overflow: hidden;
   overflow-x: hidden;
+
+}
+
+
+body::-webkit-scrollbar {
+  width: 0;
 }
 
 .value {
@@ -87,16 +91,10 @@ body {
   margin: 1.5%;
 }
 
-<<<<<<< HEAD
-.brochure {
-    padding-left: 17vw;
-}
-=======
 @media screen and (max-width: 900px) {
   #nav-menu-container {
     display: none;
   }
->>>>>>> f3fcc634889a30ec7a66fcd9c7caa35c37ff4f28
 
   #headd {
     font-size: 14vw;

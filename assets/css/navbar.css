@@ -400,8 +400,8 @@ a:hover {
         width: 57%;
         position: fixed;
         bottom: 7vw;
-        /*     margin-bottom: -30vw; */
-        margin-left: 1vw;
+        /* margin-bottom: -30vw; */
+        margin-left: 20vw;
         color: #fff;
         display: flex;
         justify-content: center;
