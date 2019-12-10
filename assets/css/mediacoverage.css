@@ -59,6 +59,11 @@
     height: 2.5px;
 }
 
+.grid-item img {
+    height: 100%;
+    width: 100%;
+}
+
 .media .containor::-webkit-scrollbar-track {
     background: transparent;
 }
