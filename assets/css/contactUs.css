@@ -81,7 +81,7 @@ button {
     font-weight: bold;
     color: white;
     animation: animate 1s linear forwards;
-    padding-top: 20vh;
+    padding-top: 15vh;
     font-size: 6vw;
 }
 
@@ -95,10 +95,12 @@ button {
     margin-top: 0px;
 }
 
-p {
+p,
+a {
     font-family: 'Poppins', sans serif;
-
+    /* text-align: left; */
 }
+
 
 @keyframes animatehead {
     0% {
