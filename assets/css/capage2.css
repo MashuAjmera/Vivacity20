@@ -76,12 +76,24 @@
 	margin: 1%;
 } */
 
+#bodyPage-am {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #bodyPage-am>div {
     /* flex: 1; */
+    flex: 27vw;
     margin: 3%;
     font-size: 1.5vw;
     animation: animatehead 1s linear forwards;
     color: white;
+}
+
+@media screen and (max-width:600px) {
+    #bodyPage-am>div {
+        flex: 50%;
+    }
 }
 
 
