@@ -1,75 +1,74 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
 
 @font-face {
-    font-family: 'BebasNeue-Regular';
-    src: url('../font/BebasNeue-Regular.ttf');
+  font-family: "BebasNeue-Regular";
+  src: url("../font/BebasNeue-Regular.ttf");
 }
 
 #secondpage {
-    background: #DA4453;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #89216B, #DA4453);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #89216B, #DA4453);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #da4453;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89216b, #da4453);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89216b, #da4453);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #thirdpage {
-
-    background: #667db6;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+  background: #667db6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #667db6,
+    #0082c8,
+    #0082c8,
+    #667db6
+  );
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #logo {
-    width: 75.8px;
-    height: 87.4px;
-    color: #ffffff;
-    animation: animate 1s linear forwards;
+  width: 75.8px;
+  height: 87.4px;
+  color: #ffffff;
+  animation: animate 1s linear forwards;
 }
 
 #heading-capage2 {
-    font-size: 5vw;
-    font-family: 'Poppins', sans serif;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 7vh;
-    color: white;
-    animation: animate 1s linear forwards;
+  font-size: 5vw;
+  font-family: "Poppins", sans serif;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 7vh;
+  color: white;
+  animation: animate 1s linear forwards;
 }
 
 @keyframes animatehead {
-    0% {
-        opacity: 0;
-        transform: rotateY(10deg);
-        filter: blur(3px);
-    }
+  0% {
+    opacity: 0;
+    transform: rotateY(10deg);
+    filter: blur(3px);
+  }
 
-    100% {
-        opacity: 1;
-        transform: rotateY(0deg);
-        filter: blur(0);
-    }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0);
+  }
 }
 
 @keyframes animate {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
-
-
-
-
 
 /* #bodyPage {
 	color: white;
@@ -77,48 +76,42 @@
 } */
 
 #bodyPage-am {
-    display: flex;
-    flex-wrap: wrap;
+  padding-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#bodyPage-am>div {
-    /* flex: 1; */
-    flex: 27vw;
-    margin: 3%;
-    font-size: 1.5vw;
-    animation: animatehead 1s linear forwards;
-    color: white;
+#bodyPage-am > div {
+  /* flex: 1; */
+  flex: 27vw;
+  margin: 3%;
+  font-size: 1.5vw;
+  animation: animatehead 1s linear forwards;
+  color: white;
 }
 
-@media screen and (max-width:600px) {
-    #bodyPage-am>div {
-        flex: 50%;
-    }
+@media screen and (max-width: 600px) {
+  #bodyPage-am > div {
+    flex: 50%;
+  }
 }
 
-
-
-#secondpage>p,
-#thirdpage>p {
-    margin-top: 3%;
-
+#secondpage > p,
+#thirdpage > p {
+  margin-top: 3%;
 }
 
 .element {
-    text-align: center;
-    font-family: Poppins;
-
-
+  text-align: center;
+  font-family: Poppins;
 }
 
 .hline-am {
-    font-size: 3vw;
-    color: white;
-    padding-top: 1vw;
-    font-family: 'BebasNeue-Regular';
-
+  font-size: 3vw;
+  color: white;
+  padding-top: 1vw;
+  font-family: "BebasNeue-Regular";
 }
-
 
 /* .icons {
     float: right;
@@ -136,8 +129,6 @@
     width: 25px;
     height: 25px;
 } */
-
-
 
 /* @media(max-width: 1100px) {
     #bodyPage-am {
@@ -165,10 +156,6 @@
 
 
 } */
-
-
-
-
 
 /* 
 @media(max-width: 768px) {
