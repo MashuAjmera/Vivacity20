@@ -1,70 +1,67 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
 
 @font-face {
-    font-family: 'BebasNeue-Regular';
-    src: url('../font/BebasNeue-Regular.ttf');
+  font-family: "BebasNeue-Regular";
+  src: url("../font/BebasNeue-Regular.ttf");
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-
-
 body::-webkit-scrollbar {
-    width: 0;
+  width: 0;
 }
 
 body {
-    overflow: hidden;
-    /* overscroll-behavior: contain; */
+  overflow: hidden;
+  /* overscroll-behavior: contain; */
 }
 
 .container {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
 /* scroll end */
 
 #contactUs {
-    background: #485563;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #29323c, #485563);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #29323c, #485563);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #485563;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 button {
-    cursor: pointer;
-    height: 50px;
-    font-size: 20vw;
-    font-family: Poppins;
-    font-size: 24px;
-    line-height: 1.2;
-    width: 167px;
-    border-radius: 46px;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.72);
-    border: solid 1px #707070;
-    background-color: #a7219e;
-    text-align: center;
-    color: #ffffff;
+  cursor: pointer;
+  height: 50px;
+  font-size: 20vw;
+  font-family: Poppins;
+  font-size: 24px;
+  line-height: 1.2;
+  width: 167px;
+  border-radius: 46px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.72);
+  border: solid 1px #707070;
+  background-color: #a7219e;
+  text-align: center;
+  color: #ffffff;
 }
-
 
 #map {
-    -webkit-backdrop-filter: blur(30px);
-    backdrop-filter: blur(30px);
-    /* background-color: #485563; */
-    background-color: #cebdbdd8;
-    color: #3c4a58;
-    font-size: 1.2vw;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  /* background-color: #485563; */
+  background-color: #cebdbdd8;
+  color: #3c4a58;
+  font-size: 1.2vw;
 }
 
-
-
+#btn {
+  padding-top: 1vh;
+}
 
 /* 
 #logo {
@@ -75,73 +72,71 @@ button {
 } */
 
 #heading-contactus {
-    font-family: 'Poppins', sans serif;
-    text-align: center;
-    margin: 0%;
-    font-weight: bold;
-    color: white;
-    animation: animate 1s linear forwards;
-    padding-top: 15vh;
-    font-size: 6vw;
+  font-family: "Poppins", sans serif;
+  text-align: center;
+  margin: 0%;
+  font-weight: bold;
+  color: white;
+  animation: animate 1s linear forwards;
+  padding-top: 15vh;
+  font-size: 6vw;
 }
 
 .hline-contactus {
-    font-family: 'BebasNeue-Regular';
-    font-size: 4vw;
-    padding-top: 3vh;
+  font-family: "BebasNeue-Regular";
+  font-size: 4vw;
+  padding-top: 3vh;
 }
 
 #clg {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 p,
 a {
-    font-family: 'Poppins', sans serif;
-    /* text-align: left; */
+  font-family: "Poppins", sans serif;
+  /* text-align: left; */
 }
 
-
 @keyframes animatehead {
-    0% {
-        opacity: 0;
-        transform: rotateY(10deg);
-        filter: blur(3px);
-    }
+  0% {
+    opacity: 0;
+    transform: rotateY(10deg);
+    filter: blur(3px);
+  }
 
-    100% {
-        opacity: 1;
-        transform: rotateY(0deg);
-        filter: blur(0);
-    }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0);
+  }
 }
 
 @keyframes animate {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 #bodyPage-contactus {
-    /* display: inline-grid; */
-    margin-top: 5%;
-    display: flex;
-    color: white;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    font-size: 1.3em;
+  /* display: inline-grid; */
+  margin-top: 5%;
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  font-size: 1.3em;
 }
 
-#bodyPage-contactus>div {
-
-    flex: 32%;
-    max-width: 33%;
-    padding: 0 4px;
-    text-align: center;
+#bodyPage-contactus > div {
+  flex: 25%;
+  max-width: 31.5%;
+  text-align: center;
+  /* padding-right: 5vw; */
 }
 
 /* .hline-contactus {
@@ -150,52 +145,54 @@ a {
 } */
 
 #secondpage {
-    background: #DA4453;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #89216B, #DA4453);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #89216B, #DA4453);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #da4453;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89216b, #da4453);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89216b, #da4453);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #thirdpage {
-    background: #667db6;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #667db6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #667db6,
+    #0082c8,
+    #0082c8,
+    #667db6
+  );
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
 @media screen and (max-width: 480px) {
-    #bodyPage-contactus>div {
-        flex: 50%;
-        max-width: 100%;
-        font-size: 4.5vw;
-    }
+  #bodyPage-contactus > div {
+    flex: 50%;
+    max-width: 100%;
+    font-size: 4.5vw;
+  }
 
-    .hline-contactus {
-        font-size: 5vw;
-        padding-top: 3vw;
+  .hline-contactus {
+    font-size: 5vw;
+    padding-top: 3vw;
+  }
 
-    }
+  #map {
+    font-size: 4vw;
+  }
 
-    #map {
-        font-size: 4vw;
-    }
-
-    #heading-contactus {
-        font-size: 7vh;
-        margin-top: -35%;
-    }
+  #heading-contactus {
+    font-size: 7vh;
+    margin-top: -35%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    #bodyPage-contactus>div {
-
-        flex: 100%;
-        max-width: 100%;
-    }
+  #bodyPage-contactus > div {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
