@@ -68,6 +68,7 @@
 .grid-item img {
   height: 100%;
   width: 100%;
+  border-radius: 0.5rem;
 }
 
 .media .containor::-webkit-scrollbar-track {
@@ -104,6 +105,12 @@
   height: 25vh;
   width: 100%;
   background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.grid-item:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
 }
 
 .media .containor .grid-upper .grid-item:nth-child(3n + 1) {
@@ -123,6 +130,7 @@
   height: 30vh;
   width: 100%;
   background-color: #fff;
+  border-radius: 0.5rem;
 }
 
 .media .containor .grid-lower .grid-item:nth-child(3n + 1) {
