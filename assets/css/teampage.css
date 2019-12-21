@@ -1,0 +1,203 @@
+html, body {
+    scroll-behavior: smooth;
+  }
+    body{
+          margin:0vw;
+          
+          background:linear-gradient(to right, rgb(245, 149, 120), rgb(231, 93, 208));
+      }
+      .back
+      {
+          width:100%;
+          height:auto;
+          margin-top:2.5%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+         
+          
+      }
+      
+      .top{
+          width:100%;
+          height:14vw;
+          top: 0vw;
+          color: #fff;
+          z-index: 4;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: flex-end;   
+          font-family: 'Poppins', sans serif;
+          font-size: 4.5vw;
+          font-weight: 800;
+          position: fixed;
+          background:linear-gradient(to right, rgb(245, 149, 120), rgb(231, 93, 208));
+      }
+      .mid
+      {
+          width:100%;
+          margin-top:19vw;
+          height:60vw;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;    
+          z-index: 2;
+      }
+      .search
+      {
+          width:70%;
+          height:25vw;
+          border-radius:5px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center; 
+      }
+      .plet
+      {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+      }
+      .user-img
+      {
+          width:15vw;
+          height:15vw;
+          background:#fff;
+          border-radius:8px;
+  
+      }
+      .user-name
+      {
+          font-family: 'BebasNeueRegular';
+     font-weight: bold;
+     margin-top:0.51vw;
+     font-size:2.8vw;
+     font-style: normal;
+     color:#fff;
+      }
+      .user-social
+      {
+          margin-top: 0.61vw;
+          height:4vw;
+          width:70%;
+          z-index: 3;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+      }
+      .socio-icon
+      {
+          height:2.8vw;
+          width:2.8vw;
+          border: 2px solid #fff;
+          border-radius:100%;
+      }
+      .ert
+      {
+          margin-top:1vw;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      .kol
+      {
+          width:100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+      }
+      .fem
+      {
+          color:#fff;
+          font-size: 1.62vw;
+          font-weight: 300;
+          font-family: 'Poppins', sans serif;
+      }
+      .dow{
+          margin-top:0.7vw;
+          width:4vw;
+          height:4vw;
+      }
+      #copy
+      {
+          margin-top: 8vw;
+          width:85%;
+          margin-bottom: 8vw;
+      }
+      .down
+      {
+          width:100%;
+          height:10%;
+          z-index: 2;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; 
+      }
+      ::-webkit-scrollbar {
+      width: 0px;
+    }
+  
+  @media only screen and (max-device-width: 480px) {
+      body{
+          margin:0vw;
+      }
+      .back
+      {
+          width:100%;
+          height:100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background: url(ppl.jpg);
+          background-size:cover;
+          
+      }
+      .top{
+          width:100%;
+          height:16.5vw;
+          position: absolute;
+          top:0px;
+          background: rgb(247, 251, 255);
+          box-shadow:0px 0px 1.5px rgb(231, 237, 238);
+          z-index: 2;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;   
+      }
+      
+      .mid
+      {
+          position: absolute;
+          top:16.5vw;
+          width:100%;
+          height:100vw;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;    
+          z-index: 2;
+      }
+      .down
+      {
+          position: absolute;
+          top:120vw;
+          width:100%;
+          height:30%;
+          z-index: 2;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+      }}
