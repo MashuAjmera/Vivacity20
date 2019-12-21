@@ -8,8 +8,6 @@ html {
   user-select: none;
 }
 
-
-
 * {
   padding: 0;
   margin: 0;
@@ -49,6 +47,32 @@ body {
   margin-right: 4vw;
 }
 
+.heading {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 4vw;
+  font-weight: bolder;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  padding-top: 3%;
+}
+
+.heading-media {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 4vw;
+  font-weight: bolder;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  padding-top: 7%;
+}
+
 .svg {
   margin-top: -38.7vw;
   width: 65vw;
@@ -72,9 +96,7 @@ body {
   height: 183px;
   overflow: hidden;
   overflow-x: hidden;
-
 }
-
 
 body::-webkit-scrollbar {
   width: 0;
