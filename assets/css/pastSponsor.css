@@ -84,7 +84,6 @@
 }
 
 .sponsor__grid {
-  background-color: transparent;
   border-radius: 0.1rem;
   height: 70vh;
   width: 95vw;
@@ -131,7 +130,6 @@
   backface-visibility: hidden;
   border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.1);
 }
 
 .card__side--front {
