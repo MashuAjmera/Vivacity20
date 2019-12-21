@@ -1,429 +1,422 @@
 body {
-    scrollbar-width: none;
+  scrollbar-width: none;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-
 .LOGO {
-    position: fixed;
+  position: fixed;
 
-    width: 40px;
-    margin-top: 20px;
-    margin-left: 2%;
-    z-index: 100;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 2%;
+  z-index: 100;
 }
 
 .LOGO-aboutus,
 .LOGO-contactus {
-    /* position: fixed; */
+  /* position: fixed; */
 
-    width: 40px;
-    margin-top: 20px;
-    margin-left: 2%;
-    z-index: 100;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 2%;
+  z-index: 100;
 }
 
 .campusam a {
-    padding: 8px;
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    font-size: 0.93em;
-    outline: none;
+  padding: 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 0.93em;
+  outline: none;
 }
 
 .rectangle {
-    width: 100%;
-    position: fixed;
-    bottom: 5%;
-    color: #fff;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    z-index: 3;
+  width: 100%;
+  position: fixed;
+  bottom: 5%;
+  color: #fff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  z-index: 3;
 }
 
 .campusam {
-    font-family: "Poppins";
-    font-size: 1.3vw;
-    color: #fff;
-    border: 2px #fff solid;
-    padding: 0.005vw 2.5vw;
-    border-radius: 2vw;
-    font-weight: 600;
-    height: 3vw;
-    text-transform: uppercase;
-    margin-left: 7vw;
-    display: flex;
-    justify-content: left;
-    align-items: center;
+  font-family: "Poppins";
+  font-size: 1.3vw;
+  color: #fff;
+  border: 2px #fff solid;
+  padding: 0.005vw 2.5vw;
+  border-radius: 2vw;
+  font-weight: 600;
+  height: 3vw;
+  text-transform: uppercase;
+  margin-left: 7vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
-
-
 
 .campusam-menu a {
-    padding: 8px;
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 1.2em;
-    outline: none;
-}
-
-.rectangle-menu {
-
-    width: 120%;
-    position: fixed;
-    bottom: 6%;
-    color: #fff;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    z-index: 3;
+  padding: 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  outline: none;
 }
 
 .campusam-menu {
-    font-family: "Poppins";
-    font-size: 1.3vw;
-    color: #fff;
-    border: 4px #fff solid;
-    padding: 0.005vw 2.5vw;
-    border-radius: 2vw;
-    font-weight: 600;
-    height: 3vw;
-    text-transform: uppercase;
-    margin-left: 3vw;
-    display: flex;
-    justify-content: left;
-    align-items: center;
+  font-family: "Poppins";
+  font-size: 1.3vw;
+  color: #fff;
+  border: 4px #fff solid;
+  padding: 0.005vw 2.5vw;
+  border-radius: 2vw;
+  font-weight: 600;
+  height: 3vw;
+  text-transform: uppercase;
+  margin-left: 3vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
-
-
+.rectangle-menu {
+  text-decoration: none;
+  width: 100%;
+  position: absolute;
+  /* bottom: 6%; */
+  margin-top: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  z-index: 3;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 0.93em;
+}
 
 @media only screen and (max-device-width: 480px) {
-    .LOGO {
-        /* position: fixed; */
-        margin-left: -40%;
-        margin-top: -42.5%;
+  .LOGO {
+    /* position: fixed; */
+    margin-left: -40%;
+    margin-top: -42.5%;
+  }
 
+  .LOGO-contactus {
+    /* position: fixed; */
 
-    }
+    width: 40px;
+    margin-left: -75%;
+    margin-top: -45%;
+    z-index: 100;
+  }
 
-    .LOGO-contactus {
-        /* position: fixed; */
-
-        width: 40px;
-        margin-left: -75%;
-        margin-top: -45%;
-        z-index: 100;
-    }
-
-    #lg {
-        margin-top: -110%;
-    }
+  #lg {
+    margin-top: -110%;
+  }
 }
 
 .nav-menu,
 .nav-menu * {
-    margin: 8px;
-    padding: 0;
-    list-style: none;
+  margin: 8px;
+  padding: 0;
+  list-style: none;
 }
 
 .nav-menu ul {
-    position: absolute;
-    display: none;
-    top: 100%;
-    left: 0;
-    z-index: 99;
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
 }
 
 .nav-menu li {
-    position: relative;
-    white-space: nowrap;
+  position: relative;
+  white-space: nowrap;
 }
 
-.nav-menu>li {
-    float: left;
+.nav-menu > li {
+  float: left;
 }
 
-.nav-menu li:hover>ul,
-.nav-menu li.sfHover>ul {
-    display: block;
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block;
 }
 
 .nav-menu ul ul {
-    top: 0;
-    left: 100%;
+  top: 0;
+  left: 100%;
 }
 
 .nav-menu ul li {
-    min-width: 180px;
+  min-width: 180px;
 }
 
 /* Nav Menu Arrows */
 
 .sf-arrows .sf-with-ul {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
 .sf-arrows .sf-with-ul:after {
-    content: "\f107";
-    position: absolute;
-    right: 15px;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
+  content: "\f107";
+  position: absolute;
+  right: 15px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .sf-arrows ul .sf-with-ul:after {
-    content: "\f105";
+  content: "\f105";
 }
 
 /* Nav Meu Container */
 
 #nav-menu-container {
-    width: 100vw;
-    /* float: right; */
+  width: 100vw;
+  /* float: right; */
 
-    /* margin-left: 55%; */
-    /* margin-right: 10%; */
-
+  /* margin-left: 55%; */
+  /* margin-right: 10%; */
 }
 
 .nav-menu {
-    float: right;
-    margin-right: 7%;
+  float: right;
+  margin-right: 7%;
 }
-
 
 /* Nav Meu Styling */
 
 .nav-menu a {
-    padding: 8px;
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    font-size: 1.4em;
-    outline: none;
+  padding: 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 1.4em;
+  outline: none;
 }
 
 .nav-menu .menu-active a,
 .nav-menu a:hover {
-    color: black;
+  color: black;
 }
 
-.nav-menu>li {
-    margin-left: 8px;
+.nav-menu > li {
+  margin-left: 8px;
 }
 
-.nav-menu>li>a:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: black;
-    visibility: hidden;
-    transition: all 0.3s ease-in-out 0s;
+.nav-menu > li > a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .nav-menu a:hover:before,
-.nav-menu li:hover>a:before,
-.nav-menu .menu-active>a:before {
-    visibility: visible;
-    width: 100%;
+.nav-menu li:hover > a:before,
+.nav-menu .menu-active > a:before {
+  visibility: visible;
+  width: 100%;
 }
 
 .nav-menu li.buy-tickets a {
-    color: #fff;
-    background: #f82249;
-    padding: 7px 22px;
-    border-radius: 50px;
-    border: 2px solid yellow;
-    transition: all ease-in-out 0.3s;
-    /* font-weight: 500; */
-    margin-left: 8px;
-    margin-top: 2px;
-    line-height: 1;
-    font-size: 13px;
+  color: #fff;
+  background: #f82249;
+  padding: 7px 22px;
+  border-radius: 50px;
+  border: 2px solid yellow;
+  transition: all ease-in-out 0.3s;
+  /* font-weight: 500; */
+  margin-left: 8px;
+  margin-top: 2px;
+  line-height: 1;
+  font-size: 13px;
 }
 
 .nav-menu li.buy-tickets a:hover {
-    background: none;
-    /* color: black !important */
+  background: none;
+  /* color: black !important */
 }
 
 .nav-menu li.buy-tickets:hover a:before,
 .nav-menu li.buy-tickets.menu-active a:before {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .nav-menu ul {
-    margin: 4px 0 0 0;
-    padding: 10px;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    background: #fff;
-    border-radius: 3px;
+  margin: 4px 0 0 0;
+  padding: 10px;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #fff;
+  border-radius: 3px;
 }
 
 .nav-menu ul li {
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
 .nav-menu ul li a {
-    padding: 10px;
-    color: #060c22;
-    transition: 0.3s;
-    display: block;
-    font-size: 13px;
-    text-transform: none;
-    border-radius: 3px;
+  padding: 10px;
+  color: #060c22;
+  transition: 0.3s;
+  display: block;
+  font-size: 13px;
+  text-transform: none;
+  border-radius: 3px;
 }
 
-.nav-menu ul li:hover>a {
-    background: #f82249;
-    color: #fff;
+.nav-menu ul li:hover > a {
+  background: #f82249;
+  color: #fff;
 }
 
 .nav-menu ul ul {
-    margin: 0;
+  margin: 0;
 }
 
 #FOOTER {
-    position: fixed;
-    /* width: 175vh; */
-    right: -32%;
-    margin-left: 4%;
-    margin-top: 4%;
-    margin-right: 40%;
-    height: 50px;
-    bottom: 5.5vh;
-    z-index: 3;
+  position: fixed;
+  /* width: 175vh; */
+  right: -32%;
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-right: 40%;
+  height: 50px;
+  bottom: 5.5vh;
+  z-index: 3;
 }
 
-
 .icons {
-    float: right;
-    width: 2vw;
-    height: 2vw;
+  float: right;
+  width: 2vw;
+  height: 2vw;
 
-    border: 2.5px solid white;
-    border-radius: 50%;
-    padding: 7px;
-    margin-left: 6px;
-    margin-top: 4px;
+  border: 2.5px solid white;
+  border-radius: 50%;
+  padding: 7px;
+  margin-left: 6px;
+  margin-top: 4px;
 }
 
 .icons img {
-    width: 2vw;
-    height: 2vw;
+  width: 2vw;
+  height: 2vw;
 }
 
 #FOOTER-menu {
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
-    z-index: 100;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  z-index: 100;
 }
 
 #FOOTER-menu .icons {
-    float: right;
-    width: 4vw;
-    height: 4vw;
+  float: right;
+  width: 4vw;
+  height: 4vw;
 
-    border: 4px solid white;
-    border-radius: 50%;
-    padding: 7px;
-    margin-left: 6px;
-    margin-top: 4px;
+  border: 4px solid white;
+  border-radius: 50%;
+  padding: 7px;
+  margin-left: 6px;
+  margin-top: 4px;
 }
 
 #FOOTER-menu .icons img {
-    margin-top: 10%;
-    margin-left: 10%;
-    width: 3vw;
-    height: 3vw;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 3vw;
+  height: 3vw;
 }
 
 @media only screen and (max-width: 480px) {
-    .nav-menu {
-        display: none;
-    }
+  .nav-menu {
+    display: none;
+  }
 
-    #FOOTER {
-        position: fixed;
-        /* width: 175vh; */
-        right: -15%;
-        margin-left: 4%;
-        margin-top: 4%;
-        /* margin-right: 40%; */
-        height: 50px;
-        bottom: 60px;
-        z-index: 10;
-    }
+  #FOOTER {
+    position: fixed;
+    /* width: 175vh; */
+    right: -15%;
+    margin-left: 4%;
+    margin-top: 4%;
+    /* margin-right: 40%; */
+    height: 50px;
+    bottom: 60px;
+    z-index: 10;
+  }
 
-    .icons {
-        float: right;
-        width: 6vw;
-        height: 6vw;
+  .icons {
+    float: right;
+    width: 6vw;
+    height: 6vw;
 
-        border-radius: 50%;
-        padding: 9px;
-        margin-left: 6px;
-        margin-top: 4px;
-    }
+    border-radius: 50%;
+    padding: 9px;
+    margin-left: 6px;
+    margin-top: 4px;
+  }
 
-    .icons img {
-        width: 6vw;
-        height: 6vw;
-    }
+  .icons img {
+    width: 6vw;
+    height: 6vw;
+  }
 
-    .rectangle {
-        width: 57%;
-        position: fixed;
-        bottom: 7vw;
-        /* margin-bottom: -30vw; */
-        margin-left: 20vw;
-        color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 0px;
-        z-index: 6;
-    }
+  .rectangle {
+    width: 57%;
+    position: fixed;
+    bottom: 7vw;
+    /* margin-bottom: -30vw; */
+    margin-left: 20vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    z-index: 6;
+  }
 
-    .campusam {
-        font-family: "Poppins";
-        font-size: 3.5vw;
-        color: #fff;
-        border: 3px #fff solid;
-        padding: 2.5vw 7.5vw;
-        border-radius: 6vw;
-        font-weight: 600;
-        height: 3vw;
-        text-transform: uppercase;
-        margin-left: 0vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: -5vw;
-    }
+  .campusam {
+    font-family: "Poppins";
+    font-size: 3.5vw;
+    color: #fff;
+    border: 3px #fff solid;
+    padding: 2.5vw 7.5vw;
+    border-radius: 6vw;
+    font-weight: 600;
+    height: 3vw;
+    text-transform: uppercase;
+    margin-left: 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -5vw;
+  }
 }
