@@ -1,27 +1,28 @@
-window.addEventListener('beforeinstallprompt', e => {
+window.addEventListener("beforeinstallprompt", e => {
+  // Stash the event so it can be triggered later.
   e.preventDefault();
   deferredPrompt = e;
   showInstallPromotion();
   deferredPrompt.userChoice.then(choiceResult => {
-    if (choiceResult.outcome === 'accepted') {
-      console.log('User accepted the A2HS prompt');
+    if (choiceResult.outcome === "accepted") {
+      console.log("User accepted the A2HS prompt");
     } else {
-      console.log('User dismissed the A2HS prompt');
+      console.log("User dismissed the A2HS prompt");
     }
     deferredPrompt = null;
   });
-  window.addEventListener('appinstalled', evt => {
-    console.log('a2hs installed');
+  window.addEventListener("appinstalled", evt => {
+    console.log("a2hs installed");
   });
 });
 
-var container = document.querySelectorAll('.container');
+var container = document.querySelectorAll(".container");
 var current = 0;
 
 function hideAddressBar() {
   if (!window.location.hash) {
     if (document.height < window.outerHeight) {
-      document.body.style.height = window.outerHeight + 50 + 'px';
+      document.body.style.height = window.outerHeight + 50 + "px";
     }
 
     setTimeout(function() {
@@ -30,7 +31,7 @@ function hideAddressBar() {
   }
 }
 
-window.addEventListener('load', function() {
+window.addEventListener("load", function() {
   if (!window.pageYOffset) {
     hideAddressBar();
   }
@@ -42,28 +43,101 @@ var browser = (function() {
   };
   switch (true) {
     case test(/edge/i):
-      return 'edge';
+      return "edge";
     case test(/opr/i) && (!!window.opr || !!window.opera):
-      return 'opera';
+      return "opera";
     case test(/chrome/i) && !!window.chrome:
-      return 'chrome';
+      return "chrome";
     case test(/trident/i):
-      return 'ie';
+      return "ie";
     case test(/firefox/i):
-      return 'firefox';
+      return "firefox";
     case test(/safari/i):
-      return 'safari';
+      return "safari";
     default:
-      return 'other';
+      return "other";
   }
 })();
 var triggerdelta = 60;
 
-if (browser == 'firefox') {
+if (browser == "firefox") {
   triggerdelta = 0.5;
 }
 
 var delayInAddRemove = 700; //do not touch
+// window.onload() = function () {
+//     var container = document.querySelectorAll(".container");
+
+// }
+
+// function snapScroll() {
+//     // get scrollheight
+//     var wndwHeight = window.innerHeight;
+//     var crntScrl = window.pageYOffset || document.documentElement.scrollTop;
+//     var scrlAmnt = (crntScrl % wndwHeight) / wndwHeight; // gives the percentage of scroll within the window
+//     var crntScrn = Math.floor(crntScrl / wndwHeight); // Gives the number of the current screen
+
+//     if (scrlAmnt <= snapTop) {
+//         var scrlTo = wndwHeight * crntScrn;
+//         smoothScroll(scrlTo);
+//     } else if (scrlAmnt >= snapBtm) {
+//         var scrlTo = wndwHeight * (crntScrn + 1);
+//         smoothScroll(1300);
+//     }
+// }
+
+// function currentYPosition() {
+//     // Firefox, Chrome, Opera, Safari
+//     if (self.pageYOffset) return self.pageYOffset;
+//     // Internet Explorer 6 - standards mode
+//     if (document.documentElement && document.documentElement.scrollTop)
+//         return document.documentElement.scrollTop;
+//     // Internet Explorer 6, 7 and 8
+//     if (document.body.scrollTop) return document.body.scrollTop;
+//     return 0;
+// }
+
+// function elmYPosition(eID) {
+//     var elm = document.getElementById(eID);
+//     var y = elm.offsetTop;
+//     var node = elm;
+//     while (node.offsetParent && node.offsetParent != document.body) {
+//         node = node.offsetParent;
+//         y += node.offsetTop;
+//     }
+//     return y;
+// }
+
+// function smoothScroll(eID) {
+//     var startY = currentYPosition();
+//     var stopY = elmYPosition(eID);
+//     var distance = stopY > startY ? stopY - startY : startY - stopY;
+//     if (distance < 100) {
+//         scrollTo(0, stopY);
+//         return;
+//     }
+//     var speed = Math.round(distance / 100);
+//     if (speed >= 20) speed = 20;
+//     var step = Math.round(distance / 25);
+//     var leapY = stopY > startY ? startY + step : startY - step;
+//     var timer = 0;
+//     if (stopY > startY) {
+//         for (var i = startY; i < stopY; i += step) {
+//             setTimeout("window.scrollTo(0, " + leapY + ")", timer * speed);
+//             leapY += step;
+//             if (leapY > stopY) leapY = stopY;
+//             timer++;
+//         }
+//         return;
+//     }
+//     for (var i = startY; i > stopY; i -= step) {
+//         setTimeout("window.scrollTo(0, " + leapY + ")", timer * speed);
+//         leapY -= step;
+//         if (leapY < stopY) leapY = stopY;
+//         timer++;
+//     }
+//     return false;
+// }
 
 function currentYPosition() {
   // Firefox, Chrome, Opera, Safari
@@ -103,7 +177,7 @@ function smoothScroll(eID) {
   var timer = 0;
   if (stopY > startY) {
     for (var i = startY; i < stopY; i += step) {
-      setTimeout('window.scrollTo(0, ' + leapY + ')', timer * speed);
+      setTimeout("window.scrollTo(0, " + leapY + ")", timer * speed);
       leapY += step;
       if (leapY > stopY) leapY = stopY;
       timer++;
@@ -112,7 +186,7 @@ function smoothScroll(eID) {
     return;
   }
   for (var i = startY; i > stopY; i -= step) {
-    setTimeout('window.scrollTo(0, ' + leapY + ')', timer * speed);
+    setTimeout("window.scrollTo(0, " + leapY + ")", timer * speed);
     leapY -= step;
     if (leapY < stopY) leapY = stopY;
     timer++;
@@ -120,6 +194,99 @@ function smoothScroll(eID) {
   // window.addEventListener('wheel', scroll);
   return false;
 }
+
+// function smoothScroll(stopY) {
+//     var startY = window.pageYOffset || document.documentElement.scrollTop;
+
+//     var distance = stopY > startY ? stopY - startY : startY - stopY;
+//     if (distance < 10) {
+//         scrollTo(0, stopY);
+//         return;
+//     }
+//     var speed = Math.round(distance / 70);
+//     if (speed >= 30) speed = 20;
+//     var step = Math.round(distance / 25);
+//     var leapY = stopY > startY ? startY + step : startY - step;
+//     var timer = 0;
+//     if (stopY > startY) {
+//         for (var i = startY; i < stopY; i += step) {
+//             setTimeout("window.scrollTo(0, " + leapY + ")", timer * speed);
+//             leapY += step;
+//             if (leapY > stopY) leapY = stopY;
+//             timer += 0.7;
+//         }
+//         return;
+//     }
+//     for (var i = startY; i > stopY; i -= step) {
+//         setTimeout("window.scrollTo(0, " + leapY + ")", timer * speed);
+//         leapY -= step;
+//         if (leapY < stopY) leapY = stopY;
+//         timer += 0.7;
+//     }
+// }
+
+// document.querySelector("#swipezone").addEventListener("touchstart", startTouch, false);
+// document.querySelector("#swipezone").addEventListener("touchmove", moveTouch, false);
+
+// // Swipe Up / Down / Left / Right
+// var initialX = null;
+// var initialY = null;
+
+// function startTouch(e) {
+//     initialX = e.touches[0].clientX;
+//     initialY = e.touches[0].clientY;
+//     mobile = true;
+// };
+
+// function moveTouch(e) {
+//     if (initialX === null) {
+//         return;
+//     }
+
+//     if (initialY === null) {
+//         return;
+//     }
+
+//     var currentX = e.touches[0].clientX;
+//     var currentY = e.touches[0].clientY;
+
+//     var diffX = initialX - currentX;
+//     var diffY = initialY - currentY;
+
+//     var wndwHeight = window.innerHeight;
+//     var crntScrl = window.pageYOffset || document.documentElement.scrollTop;
+//     var scrlAmnt = (crntScrl % wndwHeight) / wndwHeight; // gives the percentage of scroll within the window
+//     var crntScrn = Math.floor(crntScrl / wndwHeight); // Gives the number of the current screen
+
+//     if (Math.abs(diffX) > Math.abs(diffY)) {
+//         // sliding horizontally
+//         if (diffX > 0) {
+//             // swdocument.querySelector("#swipezone")
+//             console.log("swiped left");
+//         } else {
+//             // swiped right
+//             console.log("swiped right");
+//         }
+//     } else {
+//         // sliding vertically
+//         if (diffY > 0) {
+//             // swiped up
+//             var scrlTo = wndwHeight * (crntScrn + 1);
+//             // console.log("scrollto " + scrlTo);
+//             smoothScroll(scrlTo);
+//         } else {
+//             // swiped down
+//             var scrlTo = wndwHeight * (crntScrn - 1);
+//             // console.log("scrollto " + scrlTo);
+//             smoothScroll(scrlTo);
+//         }
+//     }
+
+//     initialX = null;
+//     initialY = null;
+
+//     e.preventDefault();
+// };
 
 var enablekeyboard = true;
 
@@ -135,12 +302,12 @@ function checkKey(e) {
     setTimeout(function() {
       this.enablekeyboard = true;
     }, delayInAddRemove);
-    if (e.keyCode == '38') {
+    if (e.keyCode == "38") {
       if (current != 0) {
         current--;
         smoothScroll(container[current]);
       }
-    } else if (e.keyCode == '40') {
+    } else if (e.keyCode == "40") {
       // snapScroll();
       if (current == container.length) {
         current = 0;
@@ -153,6 +320,14 @@ function checkKey(e) {
   }
 }
 
+//not required vars
+// var timeout;
+// var snapTop = 0.7;
+// var snapBtm = 0.7;
+
+// var enable = true;
+// if (enable) {
+
 function scroll(event) {
   // document.body.requestFullscreen();
 
@@ -160,7 +335,7 @@ function scroll(event) {
     // event.preventDefault();
     // snapScroll();
 
-    window.removeEventListener('wheel', scroll);
+    window.removeEventListener("wheel", scroll);
     setTimeout(addlistener, delayInAddRemove);
 
     if (current != 0) {
@@ -169,7 +344,7 @@ function scroll(event) {
     }
   } else if (event.deltaY > triggerdelta) {
     // event.preventDefault();
-    window.removeEventListener('wheel', scroll);
+    window.removeEventListener("wheel", scroll);
     setTimeout(addlistener, delayInAddRemove);
 
     // snapScroll();
@@ -183,11 +358,10 @@ function scroll(event) {
   }
 }
 
-window.addEventListener('wheel', scroll);
+window.addEventListener("wheel", scroll);
 
 function addlistener() {
-  console.log('added');
-  window.addEventListener('wheel', scroll);
+  window.addEventListener("wheel", scroll);
 }
 
 function touch(event) {
@@ -198,14 +372,66 @@ function touch(event) {
 // window.addEventListener('touchmove', touch);
 var startX, startY;
 
-document.addEventListener('touchstart', touchstart);
+// document.addEventListener('touchstart', handleTouchStart, false);
+// document.addEventListener('touchmove', handleTouchMove, false);
+
+// var yDown = null;
+
+// function getTouches(evt) {
+//     return evt.touches ||
+//         evt.originalEvent.touches;
+// }
+
+// function handleTouchStart(evt) {
+//     const firstTouch = getTouches(evt)[0];
+
+//     yDown = firstTouch.clientY;
+// };
+
+// function handleTouchMove(evt) {
+//     if (!yDown) {
+//         return;
+//     }
+
+//     var yUp = evt.touches[0].clientY;
+
+//     var yDiff = yDown - yUp;
+
+//     if (yDiff > 0) {
+//         /* up swipe */
+//         console.log("up");
+//         if (current == container.length) {
+//             current = 0;
+//         } else {
+//             current++;
+//         }
+
+//         smoothScroll(container[current]);
+
+//     } else {
+//         /* down swipe */
+//         console.log("down");
+//         if (current != 0) {
+//             current--;
+//             smoothScroll(container[current]);
+//         }
+//     }
+
+//     yDown = null;
+// };
+
+// }
+
+var startX, startY;
+
+document.addEventListener("touchstart", touchstart);
 
 function touchstart(event) {
   var touches = event.touches;
   if (touches && touches.length) {
     startX = touches[0].pageX;
     startY = touches[0].pageY;
-    document.addEventListener('touchmove', touchmove);
+    document.addEventListener("touchmove", touchmove);
   }
 }
 
@@ -217,11 +443,11 @@ function touchmove(event) {
     var deltaY = startY - touches[0].pageY;
 
     if (deltaX >= 50) {
-      var event = new Event('swipeLeft');
+      var event = new Event("swipeLeft");
       document.dispatchEvent(event);
     }
     if (deltaX <= -50) {
-      var event = new Event('swipeRight');
+      var event = new Event("swipeRight");
       document.dispatchEvent(event);
     }
     if (deltaY >= 50) {
@@ -241,7 +467,7 @@ function touchmove(event) {
     }
 
     if (Math.abs(deltaX) >= 50 || Math.abs(deltaY) >= 50) {
-      document.removeEventListener('touchmove', touchmove);
+      document.removeEventListener("touchmove", touchmove);
     }
   }
 }

@@ -45,7 +45,6 @@
   /* position: absolute; */
   margin-top: 15%;
   position: relative;
-
   left: 50%;
   height: 55vh;
   width: 80%;
@@ -55,6 +54,7 @@
   overflow-x: scroll;
   overflow-y: hidden;
   scrollbar-width: none;
+  padding-bottom: 4rem;
 
   /* width */
   /* Track */
@@ -62,20 +62,21 @@
 }
 
 .media .containor::-webkit-scrollbar {
-  height: 2.5px;
+  height: 0.2rem;
 }
 
 .grid-item img {
   height: 100%;
   width: 100%;
+  border-radius: 0.5rem;
 }
 
 .media .containor::-webkit-scrollbar-track {
-  background: transparent;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .media .containor::-webkit-scrollbar-thumb {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .media .containor .grid {
@@ -104,6 +105,12 @@
   height: 25vh;
   width: 100%;
   background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.grid-item:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
 }
 
 .media .containor .grid-upper .grid-item:nth-child(3n + 1) {
@@ -123,6 +130,7 @@
   height: 30vh;
   width: 100%;
   background-color: #fff;
+  border-radius: 0.5rem;
 }
 
 .media .containor .grid-lower .grid-item:nth-child(3n + 1) {
