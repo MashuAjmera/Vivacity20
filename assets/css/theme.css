@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "BebasNeue-Regular";
-  src: url("../font/BebasNeue-Regular.ttf");
+  font-family: 'BebasNeue-Regular';
+  src: url('../font/BebasNeue-Regular.ttf');
 }
 
 html {
@@ -45,7 +45,7 @@ html {
   color: rgb(255, 255, 255);
   position: absolute;
   top: 30%;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +108,7 @@ html {
 .ecl-b-temp-year {
   color: rgb(0, 74, 117);
   font-size: 2vw;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 800;
 
   position: absolute;
@@ -199,13 +199,13 @@ html {
   align-items: center;
   font-size: 1.6vw;
   font-weight: 300;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-top: 2vw;
 }
 
 .middleTheme-p-title {
   font-size: 3.6vw;
-  font-family: "BebasNeue-Regular";
+  font-family: 'BebasNeue-Regular';
   font-weight: 800;
   width: 100%;
   margin-bottom: 0.5vw;
@@ -263,7 +263,7 @@ html {
     color: rgb(255, 255, 255);
     position: absolute;
     top: 15%;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,7 +326,7 @@ html {
   .ecl-b-temp-year {
     color: rgb(0, 74, 117);
     font-size: 4vw;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 800;
 
     position: absolute;
@@ -418,13 +418,13 @@ html {
     align-items: center;
     font-size: 4.6vw;
     font-weight: 300;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 1vw;
   }
 
   .middleTheme-p-title {
     font-size: 8.6vw;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     width: 100%;
     margin-bottom: 0.5vw;

@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 
 @font-face {
-  font-family: "BebasNeue-Regular";
-  src: url("../font/BebasNeue-Regular.ttf");
+  font-family: 'BebasNeue-Regular';
+  src: url('../font/BebasNeue-Regular.ttf');
 }
 
 #secondpage {
@@ -38,7 +38,7 @@
 
 #heading-capage2 {
   font-size: 5vw;
-  font-family: "Poppins", sans serif;
+  font-family: 'Poppins', sans serif;
   text-align: center;
   font-weight: bold;
   padding-top: 15vh;
@@ -110,7 +110,7 @@
   font-size: 3vw;
   color: white;
   padding-top: 1vw;
-  font-family: "BebasNeue-Regular";
+  font-family: 'BebasNeue-Regular';
 }
 
 /* .icons {

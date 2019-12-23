@@ -1,18 +1,11 @@
 @font-face {
-  font-family: "atlantis";
-  src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf") format("truetype");
+  font-family: 'atlantis';
+  src: URL('../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf')
+    format('truetype');
 }
-
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 
-
-
-body {
-  padding: 0;
-  margin: 0;
-  user-select: none;
-}
 
 
 /* Scroll */
@@ -43,8 +36,6 @@ html {
   overflow: hidden;
 }
 
-
-
 #home {
   /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
 
@@ -61,8 +52,6 @@ html {
   background-size: 120vw 140vh;
   z-index: 2;
 }
-
-
 
 #ad {
   margin-top: auto;
@@ -97,7 +86,7 @@ html {
 }
 
 .date {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 50px;
   font-weight: bold;
   font-style: normal;
@@ -120,7 +109,7 @@ html {
 .college {
   /* margin-top: -10%; */
   top: -20%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 55px;
   font-weight: 500;
   font-style: normal;
@@ -136,22 +125,17 @@ html {
   height: 50px;
 }
 
-
-
-
 @media only screen and (max-width: 950px) {
   #home {
     background-size: 1000vw 120vh;
   }
-
-
-
 }
 
 @media only screen and (max-device-width: 480px) {
   @font-face {
-    font-family: "atlantis";
-    src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf") format("truetype");
+    font-family: 'atlantis';
+    src: URL('../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf')
+      format('truetype');
   }
 
   .container {
@@ -162,7 +146,7 @@ html {
     height: 100vh;
     margin: 0%;
     /* background-image: url("../images/Asset\ 1.svg") ; */
-    background-image: url("../images/Asset\ 1.svg"),
+    background-image: url('../images/Asset\ 1.svg'),
       linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
       linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
   }
@@ -200,7 +184,7 @@ html {
   }
 
   .date {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 5vw;
     font-weight: 800;
     font-style: normal;
@@ -243,7 +227,6 @@ html {
     margin-top: 0%;
     margin-left: 0%;
     width: 100%;
-
 
     height: 0px;
 
@@ -296,7 +279,7 @@ html {
   width: 100%;
   margin: 0%;
   /* background-image: url("../images/Asset\ 1.svg") ; */
-  background-image: url("../assets/images/Asset\ 1.svg"),
+  background-image: url('../assets/images/Asset\ 1.svg'),
     linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
     linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
 }
@@ -336,7 +319,7 @@ html {
 }
 
 .date {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 600;
   font-size: 2.75vw;
   text-align: center;
@@ -351,7 +334,7 @@ html {
 }
 
 .date::after {
-  content: "";
+  content: '';
   display: block;
   width: 20vw;
   height: 2px;
@@ -361,7 +344,7 @@ html {
 
 .college {
   margin-top: -3.5%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 35px;
   font-weight: 500;
@@ -379,9 +362,8 @@ html {
   height: 50px;
 }
 
-
 .campusam {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-size: 1.3vw;
   color: #fff;
   border: 2px #fff solid;
@@ -396,7 +378,6 @@ html {
   align-items: center;
 }
 
-
 #aboutus {
   margin-top: 0vw;
   background: rgb(0, 183, 255);
@@ -405,8 +386,9 @@ html {
 
 @media only screen and (max-device-width: 480px) {
   @font-face {
-    font-family: "atlantis";
-    src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf") format("truetype");
+    font-family: 'atlantis';
+    src: URL('../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf')
+      format('truetype');
   }
 
   .container {
@@ -417,7 +399,7 @@ html {
     height: 100vh;
     margin: 0%;
     /* background-image: url("../images/Asset\ 1.svg") ; */
-    background-image: url("../images/Asset\ 1.svg"),
+    background-image: url('../images/Asset\ 1.svg'),
       linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
       linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
     display: flex;
@@ -462,8 +444,7 @@ html {
   }
 
   .date {
-
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 8vw;
     font-weight: 800;
     font-style: normal;
@@ -476,7 +457,7 @@ html {
   }
 
   .date::after {
-    content: "";
+    content: '';
     display: block;
     width: 50vw;
     height: 2px;

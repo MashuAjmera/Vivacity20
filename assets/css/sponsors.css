@@ -34,7 +34,7 @@ body {
 
 #headd {
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 7vw;
   font-weight: bolder;
   font-style: normal;
@@ -49,7 +49,7 @@ body {
 
 .heading {
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 4vw;
   font-weight: bolder;
   font-style: normal;
@@ -62,7 +62,7 @@ body {
 
 .heading-media {
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 4vw;
   font-weight: bolder;
   font-style: normal;
@@ -82,7 +82,7 @@ body {
 }
 
 .contentt {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.3em;
   font-weight: normal;
   font-style: normal;

@@ -50,7 +50,7 @@
 }
 
 .abo {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 900;
   font-size: 5vw;
   color: #fff;
@@ -58,7 +58,7 @@
 }
 
 .content {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-size: 1.3vw;
   color: #fff;
   font-weight: 300;
@@ -66,13 +66,11 @@
   height: 60vh;
   overflow: scroll;
   scrollbar-width: none;
-
 }
 
 .content::-webkit-scrollbar {
   width: 0px;
 }
-
 
 .so {
   width: 80%;
@@ -86,7 +84,7 @@
 }
 
 .so-h {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-size: 1.3vw;
   color: #fff;
   border: 2px #fff solid;
@@ -99,7 +97,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 @media only screen and (max-width: 480px) {
   body {
@@ -157,7 +154,7 @@
   }
 
   .abo {
-    font-family: "Raleway";
+    font-family: 'Raleway';
     font-weight: 900;
     font-size: 13vw;
     color: #fff;
@@ -167,7 +164,7 @@
   }
 
   .content {
-    font-family: "Poppins";
+    font-family: 'Poppins';
     font-size: 3.3vw;
     color: #fff;
     font-weight: 300;
@@ -187,7 +184,7 @@
   }
 
   .so-h {
-    font-family: "Poppins";
+    font-family: 'Poppins';
     font-size: 3.3vw;
     color: #fff;
     border: 4px #fff solid;
@@ -196,5 +193,4 @@
     font-weight: 600;
     text-transform: uppercase;
   }
-
 }

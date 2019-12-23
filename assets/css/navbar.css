@@ -35,7 +35,7 @@ a:hover {
   text-decoration: none;
   display: inline-block;
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 0.93em;
   outline: none;
@@ -53,7 +53,7 @@ a:hover {
 }
 
 .campusam {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-size: 1.3vw;
   color: #fff;
   border: 2px #fff solid;
@@ -73,14 +73,14 @@ a:hover {
   text-decoration: none;
   display: inline-block;
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 1.2em;
   outline: none;
 }
 
 .campusam-menu {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-size: 1.3vw;
   color: #fff;
   border: 4px #fff solid;
@@ -106,7 +106,7 @@ a:hover {
   justify-content: left;
   align-items: center;
   z-index: 3;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 0.93em;
 }
@@ -177,7 +177,7 @@ a:hover {
 }
 
 .sf-arrows .sf-with-ul:after {
-  content: "\f107";
+  content: '\f107';
   position: absolute;
   right: 15px;
   font-family: FontAwesome;
@@ -186,7 +186,7 @@ a:hover {
 }
 
 .sf-arrows ul .sf-with-ul:after {
-  content: "\f105";
+  content: '\f105';
 }
 
 /* Nav Meu Container */
@@ -211,7 +211,7 @@ a:hover {
   text-decoration: none;
   display: inline-block;
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 1.4em;
   outline: none;
@@ -227,7 +227,7 @@ a:hover {
 }
 
 .nav-menu > li > a:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   height: 2px;
@@ -404,7 +404,7 @@ a:hover {
   }
 
   .campusam {
-    font-family: "Poppins";
+    font-family: 'Poppins';
     font-size: 3.5vw;
     color: #fff;
     border: 3px #fff solid;
