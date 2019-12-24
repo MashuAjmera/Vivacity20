@@ -1,0 +1,145 @@
+#social-reach {
+    height: 100vh;
+    margin: 0%;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #CE1572, #66003A);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.flex-container {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.flex-container>div {
+    background-color: transparent;
+    margin: 10px;
+    padding: 16px;
+    font-size: 30px;
+}
+
+.grid1 {
+    width: 70%;
+}
+
+.grid2 {
+    width: 30%;
+}
+
+.heading-socialreach {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 264%;
+    font-weight: bolder;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 2.7px;
+    color: #ffffff;
+    padding-top: 13vh;
+}
+
+.media-item-medianame {
+    padding-top: 20vh;
+}
+
+.mediaName {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 85%;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3;
+    letter-spacing: 2.7px;
+    color: #ffffff;
+    margin-top: 3%;
+    margin-right: 10%;
+    width: 91%;
+}
+
+.groupSvg {
+    width: 137%;
+}
+
+.girl1 {
+    width: 82%;
+    margin-left: -23%;
+    height: 85%;
+}
+
+.man2 {
+    width: 86%;
+    margin-left: -74%;
+    height: 74%;
+}
+
+.man3 {
+    width: 89%;
+    margin-left: -76%;
+    height: 78%
+}
+
+@media screen and (max-width:1025px) {
+    .mediaName {
+        font-size: 74%;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .heading {
+        font-size: 100%;
+        width: 120%;
+        margin-top: -45%;
+        margin-left: 0%;
+    }
+    .grid1 {
+        width: 63%;
+        height: 0%;
+    }
+    .groupSvg {
+        margin-top: -54%;
+        width: 144%;
+    }
+    .grid2 {
+        width: 81%;
+    }
+    .mediaName {
+        font-size: 89%;
+        width: -1%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .heading {
+        font-size: 100%;
+        width: 120%;
+        margin-top: -45%;
+        margin-left: 0%;
+    }
+    .grid1 {
+        width: 63%;
+        height: 0%;
+    }
+    .groupSvg {
+        margin-top: -54%;
+        width: 144%;
+    }
+    .grid2 {
+        width: 81%;
+    }
+    .mediaName {
+        font-size: 66%;
+    }
+}
