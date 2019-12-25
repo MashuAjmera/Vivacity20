@@ -1,14 +1,16 @@
 {
     "short_name": "Vivacity20",
     "name": "Vivacity | The LNM Institute of Technology",
-    "icons": [{
-        "src": "/assets/svg/svgg/.svg",
-        "type": "image/svg",
-        "sizes": "192x192"
-    }],
+    "icons": [
+        {
+            "src": "/assets/svg/svgg/.svg",
+            "type": "image/svg",
+            "sizes": "192x192"
+        }
+    ],
     "start_url": "/",
     "background_color": "#3367D6",
-    "display": "standalone",
+    "display": "minimal-ui",
     "scope": "/",
     "theme_color": "#3367D6"
 }
