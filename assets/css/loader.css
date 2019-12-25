@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    height: 20%;
+    width: 64%;
+    margin-left: 17%;
+    margin-top: 9%;
+}
+.st3{
+    transition: margin-right 4s ease-in-out;
+}

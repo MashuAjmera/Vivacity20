@@ -38,8 +38,8 @@ html, body {
       .mid
       {
           width:100%;
-          margin-top:19vw;
-          height:60vw;
+          margin-top:14vw;
+          height:30vw;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -145,7 +145,7 @@ html, body {
       }
       ::-webkit-scrollbar {
       width: 0px;
-    }
+    }     
   
   @media only screen and (max-device-width: 480px) {
       body{
@@ -200,4 +200,4 @@ html, body {
           flex-direction: column;
           justify-content: center;
           align-items: center; 
-      }}
+      }
