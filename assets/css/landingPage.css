@@ -349,7 +349,7 @@ button:hover {
       margin-left: 6%;
     }
     #id1{
-      margin-top: -71%;
+      margin-top: -68%;
       margin-left: 11%;
     }
     #id4 >button{
@@ -358,7 +358,7 @@ button:hover {
       margin-left: 6%;
     }
     #id4{
-      margin-top: -71%;
+      margin-top: -68%;
       margin-left: 11%;
     }
     
@@ -368,7 +368,7 @@ button:hover {
       margin-left: 6%;
     }
     #id2{
-      margin-top: -71%;
+      margin-top: -68%;
       margin-left: 11%;
     }
     
@@ -378,17 +378,18 @@ button:hover {
       margin-left: 6%;
     }
     #id7{
-      margin-top: -71%;
+      margin-top: -68%;
       margin-left: 11%;
     }
     
     #id5 >button{
       width:40%;
       margin-top: -2%;
-      margin-left: 6%;
+      margin-left: -3%;
+      margin-right: 7%;
     }
     #id5{
-      margin-top: -71%;
+      margin-top: -68%;
       margin-left: 11%;
     }
 }
