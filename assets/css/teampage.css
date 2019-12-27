@@ -10,7 +10,7 @@ html, body {
       {
           width:100%;
           height:auto;
-          margin-top:2.5%;
+          margin-top:0;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -67,7 +67,7 @@ html, body {
           width:15vw;
           height:15vw;
           background:#fff;
-          border-radius:8px;
+          border-radius: 1vw;
   
       }
       .user-name
@@ -78,6 +78,7 @@ html, body {
      font-size:2.8vw;
      font-style: normal;
      color:#fff;
+     letter-spacing: 0.1vw;
       }
       .user-social
       {
