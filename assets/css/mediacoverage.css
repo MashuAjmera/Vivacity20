@@ -141,6 +141,26 @@
   height: 105%;
   margin-left: 18%;
 }
+
+.mediaCoverage .containor{
+  /* position: absolute; */
+  margin-top: 15%;
+  position: relative;
+  left: 50%;
+  height: 55vh;
+  width: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  padding-bottom: 4rem;
+  /* width */
+  /* Track */
+  /* Handle */
+}
+
 @media only screen and (max-width: 950px) {
   .media-title {
     font-size: 8vw;
