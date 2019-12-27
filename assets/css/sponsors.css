@@ -43,7 +43,7 @@ body {
   letter-spacing: 2.7px;
   color: #ffffff;
   padding: 0%;
-  padding-top: 25vh;
+  padding-top: 11vh;
   margin-right: 4vw;
 }
 
@@ -74,11 +74,11 @@ body {
 }
 
 .svg {
-  margin-top: -38.7vw;
-  width: 65vw;
-  margin-left: 14vw;
+  margin-top: -20.7vw;
+  width: 32vw;
+  margin-left: 33vw;
   position: relative;
-  /* z-index: 1; */
+
 }
 
 .contentt {
@@ -93,7 +93,7 @@ body {
   padding: 2% 4% 2% 4%;
   color: rgb(255, 255, 255);
   margin-top: -60%;
-  height: 183px;
+  height: 85%;
   overflow: hidden;
   overflow-x: hidden;
 }
@@ -105,6 +105,9 @@ body::-webkit-scrollbar {
 .value {
   padding: 0% 8% 0% 8%;
   text-align: justify;
+  margin-top: 25%;
+  font-size: 95%;
+  height: 50%;
 }
 
 #logo {
