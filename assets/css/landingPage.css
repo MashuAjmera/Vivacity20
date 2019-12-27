@@ -31,17 +31,32 @@ html{
     padding-top: 1%;
 }
 
-.grid-container {
+.grid-container1 {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 150px 150px;
+  grid-gap: 9%;
+  grid-template-columns: 18% 18% 18% 18%;
+  /* grid-template-rows: 150px 150px; */
   background-color: transparent;
-  padding: 2%;
-  margin-top: -5%;
-  margin-bottom: -11%;
+  padding: 4%;
+  margin-top: -6%;
+  margin-bottom: 0%;
+  margin-right: 2%;
+  position: relative;
+  width: 89%;
 }
 
+.grid-container2 {
+  display: grid;
+  grid-gap: 9%;
+  grid-template-columns: 18% 18% 18% 18%;
+  /* grid-template-rows: 150px 150px; */
+  background-color: transparent;
+  padding: 4%;
+  margin-top: -9%;
+  margin-right: 2%;
+  position: relative;
+  width: 89%;
+}
 .grid-item {
   display: flex;
   align-items: center;
@@ -55,7 +70,7 @@ html{
   border: solid 5px #ffffff;
   padding: 20px;
   font-family: 'Poppins';
-  font-size: 38px;
+  font-size: 175%;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -70,7 +85,16 @@ html{
 }
 a{  
   text-decoration: none;
+}
+.eventDisplaySpace{
+  margin-top: -5%;
+  margin-bottom: 2%;
+  position: relative;
 }  
+.Contanier{
+  width: 100%;
+  height: 81%;
+}
 #t1:hover{
   background-color: white;
   color:gray;
