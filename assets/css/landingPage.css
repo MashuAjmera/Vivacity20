@@ -90,7 +90,7 @@ a{
   margin-top: -5%;
   margin-bottom: 2%;
   position: relative;
-  z-index:1;
+  z-index: 1;
 }  
 .Contanier{
   width: 100%;
@@ -120,7 +120,7 @@ button {
 button:hover {
   box-shadow: 0 18px 20px 0 black,0 17px 50px 0 white;
 }
-/* rgba(255, 255, 255, 0.24) */
+
 .eventDetails{
   margin-left: 3%;
 }
@@ -149,7 +149,7 @@ button:hover {
 #id8{
   display: none;
 }
-#id2 >button {
+#id2 a>button {
   background-color:whitesmoke;
   border: none;
   color:black;
@@ -166,7 +166,7 @@ button:hover {
   width:23%;
   margin-left: 6%;
 }
-#id3 >button {
+#id3 a>button {
   background-color:whitesmoke;
   border: none;
   color:black;
@@ -184,7 +184,7 @@ button:hover {
   margin-left: 35%;
 }
 
-#id5 >button {
+#id5 a>button {
   background-color:whitesmoke;
   border: none;
   color:black;
@@ -201,7 +201,7 @@ button:hover {
   width:14%;
 }
 
-#id6 >button {
+#id6 a>button {
   background-color:whitesmoke;
   border: none;
   color:black;
@@ -219,7 +219,7 @@ button:hover {
   margin-left: 6%;
 }
 
-#id7 >button {
+#id7 a>button {
   background-color:whitesmoke;
   border: none;
   color:black;
@@ -236,7 +236,7 @@ button:hover {
   width:23%;
   margin-left: 16%;
 }
-#id8 >button {
+#id8 a>button {
   background-color:whitesmoke;
   border: none;
   color:black;
