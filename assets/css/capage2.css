@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
-
 @font-face {
   font-family: 'BebasNeue-Regular';
   src: url('../font/BebasNeue-Regular.ttf');
@@ -17,13 +16,7 @@
 #thirdpage {
   background: #667db6;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #667db6,
-    #0082c8,
-    #0082c8,
-    #667db6
-  );
+  background: -webkit-linear-gradient( to right, #667db6, #0082c8, #0082c8, #667db6);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -52,7 +45,6 @@
     transform: rotateY(10deg);
     filter: blur(3px);
   }
-
   100% {
     opacity: 1;
     transform: rotateY(0deg);
@@ -64,7 +56,6 @@
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -81,9 +72,9 @@
   flex-wrap: wrap;
 }
 
-#bodyPage-am > div {
+#bodyPage-am>div {
   /* flex: 1; */
-  flex: 27vw;
+  flex: 10%;
   margin: 3%;
   font-size: 1.5vw;
   animation: animatehead 1s linear forwards;
@@ -91,13 +82,12 @@
 }
 
 @media screen and (max-width: 600px) {
-  #bodyPage-am > div {
+  #bodyPage-am>div {
     flex: 50%;
   }
 }
 
-#secondpage > p,
-#thirdpage > p {
+#secondpage>p, #thirdpage>p {
   margin-top: 3%;
 }
 

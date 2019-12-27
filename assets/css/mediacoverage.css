@@ -9,9 +9,8 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: 100vh;
-
-  background-image: linear-gradient(tto right, #667db6, #0082c8, #0082c8, #667db6);
-
+  background-image: -webkit-gradient( linear, left top, left bottom, from(#a52775f8), to(#c44796e1));
+  background-image: linear-gradient(to bottom, #f8617af8, #993071e1);
   width: 100%;
   /* position: absolute; */
 }
@@ -49,7 +48,6 @@
   overflow-y: hidden;
   scrollbar-width: none;
   padding-bottom: 4rem;
-
   /* width */
   /* Track */
   /* Handle */
@@ -143,7 +141,6 @@
   .media-title {
     font-size: 8vw;
   }
-
   .media .containor {
     margin-top: 70%;
   }
