@@ -281,10 +281,11 @@ button:hover {
     margin: 2.5%;
   }
   .menu{
-    right: 81px;
+    right: 11%;
+    top:3%;
   }
   .heading {
-      height: 15%;
+      height: 18%;
       width: 50%;
       color:white;
       position: absolute;
@@ -299,15 +300,8 @@ button:hover {
       font-size: 9vw;
       font-weight: 800;
     }
-    .grid-container {
-      display: grid;
-      width: 100%;
-      grid-gap: 10px;
-      grid-template-columns: 200px 200px;
-      grid-template-rows: 110px 110px 110px 110px;
-      background-color: transparent;
-      padding: 40px;
-      margin-top: -15%;
+    .grid-container1 {
+      margin-top: -1%;
     }
     
     .grid-item {
@@ -323,7 +317,7 @@ button:hover {
       border: solid 5px #ffffff;
       padding: 20px;
       font-family: "Poppins";
-      font-size: 20px;
+      font-size: 12px;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
@@ -342,7 +336,7 @@ button:hover {
       text-decoration: none;
     }
 
-    #id6>button{
+    #id6 a>button{
       width:74%;
       margin-top: -1%;
     }
@@ -350,7 +344,7 @@ button:hover {
       margin-top: -69%;
       margin-left: 11%;
     }
-    #id8 >button{
+    #id8 a>button{
       width:74%;
       margin-top: -1%;
       margin-left: 6%;
@@ -359,7 +353,7 @@ button:hover {
       margin-top: -69%;
       margin-left: 11%;
     }
-    #id3 >button{
+    #id3 a>button{
       width:74%;
       margin-top: -1%;
       margin-left: 6%;
@@ -368,7 +362,7 @@ button:hover {
       margin-top: -69%;
       margin-left: 11%;
     }
-    #id1 >button{
+    #id1 a>button{
       width:74%;
       margin-top: -2%;
       margin-left: 6%;
@@ -377,7 +371,7 @@ button:hover {
       margin-top: -68%;
       margin-left: 11%;
     }
-    #id4 >button{
+    #id4 a>button{
       width:74%;
       margin-top: -2%;
       margin-left: 6%;
@@ -387,7 +381,7 @@ button:hover {
       margin-left: 11%;
     }
     
-    #id2 >button{
+    #id2 a>button{
       width:74%;
       margin-top: -2%;
       margin-left: 6%;
@@ -397,7 +391,7 @@ button:hover {
       margin-left: 11%;
     }
     
-    #id7 >button{
+    #id7 a>button{
       width:74%;
       margin-top: -2%;
       margin-left: 6%;
@@ -407,7 +401,7 @@ button:hover {
       margin-left: 11%;
     }
     
-    #id5 >button{
+    #id5 a>button{
       width:40%;
       margin-top: -2%;
       margin-left: -3%;
@@ -416,5 +410,12 @@ button:hover {
     #id5{
       margin-top: -68%;
       margin-left: 11%;
+    }
+
+    .eventDisplaySpace{
+      margin-top: 59%;
+      margin-bottom: 7%;
+      position: relative;
+      z-index: 1;
     }
 }
