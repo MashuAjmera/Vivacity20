@@ -1,48 +1,128 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
-body{
-  margin:0vw;
-  background: linear-gradient(to right, #E44D37, #E70364) ;
+body {
+  margin: 0vw;
+  overflow: hidden;
+  background: linear-gradient(to right, #E44D37, #E70364);
 }
+
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+body, html {
+  margin: 0;
+  overflow: hidden;
+}
+
 .title {
+  height: 15%;
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 19%;
+  bottom: 0;
+  right: 0;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vw;
+  font-weight: 800;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 150px 150px;
+  background-color: transparent;
+  padding: 86px;
+  margin-top: 10%;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 150px 150px;
+  height: 100px;
+  border-radius: 10px;
+  border: solid 5px #ffffff;
+  padding: 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 38px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  /* text-align: center; */
+  color: #ffffff;
+}
+
+.grid-item:hover {
+  background-color: white;
+  color: rgb(255, 94, 0);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+  body {
+    margin: 0vw;
+  }
+  .title {
     height: 15%;
-    width: 100%;
-    color:white;
+    width: 50%;
+    color: white;
     position: absolute;
-    top: 19%;
+    top: 15%;
     bottom: 0;
+    left: 35%;
     right: 0;
     font-family: "Poppins";
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 6vw;
+    font-size: 12vw;
     font-weight: 800;
   }
   .grid-container {
     display: grid;
+    width: 100%;
     grid-gap: 10px;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-template-rows: 150px 150px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 110px 110px 110px 110px;
     background-color: transparent;
-    padding: 86px;
-    margin-top: 10%;
+    padding: 40px;
+    margin-top: 50%;
   }
-  
   .grid-item {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     background-color: transparent;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-template-rows: 150px 150px;
-    height: 100px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 110px 110px 110px 110px;
+    height: 60px;
     border-radius: 10px;
     border: solid 5px #ffffff;
     padding: 20px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 38px;
+    font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -50,73 +130,12 @@ body{
     /* text-align: center; */
     color: #ffffff;
   }
-  .grid-item:hover{
+  .grid-item:hover {
     background-color: white;
     color: rgb(255, 94, 0);
     cursor: pointer;
   }
-  a{  
+  a {
     text-decoration: none;
   }
-  
-  @media only screen and (max-device-width: 480px) {
-    body{
-      margin:0vw;
-    }
-    .title {
-        height: 15%;
-        width: 50%;
-        color:white;
-        position: absolute;
-        top: 15%;
-        bottom: 0;
-        left: 35%;
-        right: 0;
-        font-family: "Poppins";
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 12vw;
-        font-weight: 800;
-      }
-      .grid-container {
-        display: grid;
-        width: 100%;
-        grid-gap: 10px;
-        grid-template-columns: 200px 200px;
-        grid-template-rows: 110px 110px 110px 110px;
-        background-color: transparent;
-        padding: 40px;
-        margin-top: 50%;
-      }
-      
-      .grid-item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background-color: transparent;
-        grid-template-columns: 200px 200px;
-        grid-template-rows: 110px 110px 110px 110px;
-        height: 60px;
-        border-radius: 10px;
-        border: solid 5px #ffffff;
-        padding: 20px;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 30px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.2;
-        /* text-align: center; */
-        color: #ffffff;
-      }
-      .grid-item:hover{
-        background-color: white;
-        color: rgb(255, 94, 0);
-        cursor: pointer;
-      }
-      a{  
-        text-decoration: none;
-      }
-  }
+}
