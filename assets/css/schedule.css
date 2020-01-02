@@ -1,20 +1,20 @@
 html {
-  scroll-behavior: smooth;
-  user-select: none;
+    scroll-behavior: smooth;
+    user-select: none;
 }
 
 body::-webkit-scrollbar {
-  width: 0;
+    width: 0;
 }
 
 body {
-  overflow: hidden;
-  /* overscroll-behavior: contain; */
+    overflow: hidden;
+    /* overscroll-behavior: contain; */
 }
 
 .container {
-  width: 100%;
-  height: 100vh;
+    width: 100%;
+    height: 100vh;
 }
 
 body {
@@ -32,32 +32,32 @@ html {
 
 .flex-container {
     display: flex;
-    background-color:transparent;
+    background-color: transparent;
+    padding-top: 10vh;
     width: 100%;
-    height: 70%;
-  }
+    height: 80vh;
+}
 
-  .flex-container > div {
-    background-color:transparent;
+.flex-container>div {
+    background-color: transparent;
     margin: 10px;
     padding: 16px;
     font-size: 30px;
-  }
+}
 
-  .aboutUsSvg{
-      width: 53%;
-      margin-left: 21%;
-      margin-top: -3%;
-  }
+.aboutUsSvg {
+    width: 53%;
+    margin-left: 21%;
+    margin-top: -3%;
+}
 
-.xyz{
+.xyz {
     font-family: "Poppins";
     font-size: 45%;
     color: #fff;
     border: 1.5px #fff solid;
     border-radius: 1vw;
     font-weight: 600;
-
     width: 168%;
     height: 15%;
     margin-top: -4%;
@@ -66,31 +66,36 @@ html {
     padding: 12% 4%;
     margin-bottom: -4%;
 }
-.tp1{
+
+.tp1 {
     float: left;
     width: 4%;
     padding: 2% 3%;
     margin-top: -7%;
 }
-.tp2{
-    float:left;
+
+.tp2 {
+    float: left;
     width: 18%;
     margin-top: -8%;
 }
-.tp3{
+
+.tp3 {
     float: left;
     width: 20%;
     height: 10%;
     font-family: "Poppins";
     margin-top: -7%;
 }
-.tp4{
-float: right;
-padding: 3% 2%;
-font-family: "Poppins";
-color:red;
-margin-top: -7%;
+
+.tp4 {
+    float: right;
+    padding: 3% 2%;
+    font-family: "Poppins";
+    color: red;
+    margin-top: -7%;
 }
+
 button {
     cursor: pointer;
     height: 58%;
@@ -101,21 +106,17 @@ button {
     border-radius: 46px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.72);
     border: solid 1px #707070;
-    background-color: #ffffff ;
+    background-color: #ffffff;
     text-align: center;
-    color:#a7219e;
+    color: #a7219e;
 }
 
 .grid2 {
-    background-color:transparent;
+    background-color: transparent;
     border-radius: .25rem;
-    height: 85%%;
-
+    height: 85%;
     margin: 0 auto;
-
     display: grid;
-
-
     overflow-y: none;
     overflow-x: hidden;
     scrollbar-width: none;
@@ -129,59 +130,64 @@ button {
     display:none;
 } */
 
-
-.grid1{
+.grid1 {
     width: 30%;
     color: white;
     font-family: "Poppins";
     font-size: 200%;
-
 }
-.grid2{
+
+.grid2 {
     width: 53%;
-
 }
-#footer{
+
+#footer {
     margin-top: 10%;
     height: 30px;
 }
+
 .grid2::-webkit-scrollbar {
     width: 5px;
     background-color: #790e7d;
-  }
-  
-  /* Track */
-  .grid2::-webkit-scrollbar-track {
+}
+
+/* Track */
+
+.grid2::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
-  }
-  
-  /* Handle */
-  .grid2::-webkit-scrollbar-thumb {
-    background:white;
+}
+
+/* Handle */
+
+.grid2::-webkit-scrollbar-thumb {
+    background: white;
     border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  .grid2::-webkit-scrollbar-thumb:hover {
+}
+
+/* Handle on hover */
+
+.grid2::-webkit-scrollbar-thumb:hover {
     background: black;
-  }
-  .svgSchedule{
+}
+
+.svgSchedule {
     width: 69%;
 }
+
 @media screen and (max-width:1100px) {
     #nav-menu-container {
         display: none;
     }
-    button{
+    button {
         line-height: 1.2;
         width: 100px;
         font-size: 120%;
     }
-    .svgSchedule{
+    .svgSchedule {
         width: 64%;
     }
-    .xyz{
+    .xyz {
         line-height: 1.5;
     }
 }
@@ -190,47 +196,45 @@ button {
     #nav-menu-container {
         display: none;
     }
-    button{
+    button {
         line-height: 1.1;
         width: 70px;
         font-size: 100%;
     }
-    .xyz{
+    .xyz {
         font-size: 30%;
     }
-    .svgSchedule{
+    .svgSchedule {
         width: 70%;
     }
-
 }
+
 @media screen and (max-width:450px) {
-    .flex-container{
+    .flex-container {
         flex-direction: column;
     }
     #nav-menu-container {
         display: none;
     }
-    .grid1{
+    .grid1 {
         width: 88%;
     }
-    .grid2{
+    .grid2 {
         width: 80%;
-        
     }
-    .grid1 >h1{
-        font-size: 100;;
+    .grid1>h1 {
+        font-size: 100;
+        ;
     }
-    button{
+    button {
         line-height: 1.1;
         width: 70px;
         font-size: 100%;
     }
-    .xyz{
+    .xyz {
         font-size: 30%;
     }
-    .svgSchedule{
+    .svgSchedule {
         width: 70%;
     }
-
 }
-
