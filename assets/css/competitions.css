@@ -33,7 +33,7 @@ html{
 
 .grid-container1 {
   display: grid;
-  grid-gap: 2%;
+  grid-gap: 0.8%;
   grid-template-columns: 18% 18% 18% 18%;
   /* grid-template-rows: 150px 150px; */
   background-color: transparent;
@@ -43,12 +43,12 @@ html{
   margin-right: 2%;
   margin-left: 4%;
   position: relative;
-  width: 105%;
+  width: 109%;
 }
 
 .grid-container2 {
   display: grid;
-  grid-gap: 2%;
+  grid-gap: 0.8%;
   grid-template-columns: 18% 18% 18% 18%;
   /* grid-template-rows: 150px 150px; */
   background-color: transparent;
@@ -56,7 +56,7 @@ html{
   margin-top: -9%;
   margin-right: 2%;
   position: relative;
-  width: 105%;
+  width: 109%;
   margin-left: 4%;
 }
 .grid-item {
