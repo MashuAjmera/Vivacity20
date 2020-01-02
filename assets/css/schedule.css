@@ -44,6 +44,11 @@ html {
     font-size: 30px;
   }
 
+  .aboutUsSvg{
+      width: 53%;
+      margin-left: 21%;
+      margin-top: -3%;
+  }
 
 .xyz{
     font-family: "Poppins";
