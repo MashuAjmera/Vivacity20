@@ -33,7 +33,7 @@ html{
 
 .grid-container1 {
   display: grid;
-  grid-gap: 0.8%;
+  grid-gap: 0.5%;
   grid-template-columns: 18% 18% 18% 18%;
   /* grid-template-rows: 150px 150px; */
   background-color: transparent;
@@ -48,7 +48,7 @@ html{
 
 .grid-container2 {
   display: grid;
-  grid-gap: 0.8%;
+  grid-gap: 0.5%;
   grid-template-columns: 18% 18% 18% 18%;
   /* grid-template-rows: 150px 150px; */
   background-color: transparent;
