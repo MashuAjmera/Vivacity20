@@ -21,6 +21,10 @@ body {
   /* overscroll-behavior: contain; */
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 #concert {
   padding-top: 10vh;
   font-family: Verdana, sans-serif;
@@ -218,11 +222,11 @@ p {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #888;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb:hover {
