@@ -11,13 +11,14 @@
     <meta content=http://vivacity.lnmiit.ac.in/fav/largetile.png name=msapplication-square310x310logo>
 
     <link rel="stylesheet" href="../assets/css/contactUs.css">
-    <link rel="stylesheet" href="../assets/css/events.css" />
     <link rel="stylesheet" href="../assets/css/navbar.css" />
     <link rel="stylesheet" href="../assets/css/menu.css" />
+    <link rel="stylesheet" href="../assets/css/events.css" />
+
     <title>
       Our Events | Vivacity 2020 - Annual Cultural Festival of LNMIIT Jaipur
     </title>
-  </head> 
+  </head>
 
   <body>
     <nav id="nav-menu-container">
@@ -148,8 +149,8 @@
               <img src="../assets/img/8.jpg" style="width:100%" />
             </div>
 
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class="prev" onclick="plusSlidesA(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesA(1)">&#10095;</a>
 
             <div class="theExp">
               Concerts
@@ -161,14 +162,14 @@
           <br />
 
           <div style="text-align: center;">
-            <span class="dot-A" onclick="currentSlide(1)">1</span>
-            <span class="dot-A" onclick="currentSlide(2)">2</span>
-            <span class="dot-A" onclick="currentSlide(3)">3</span>
-            <span class="dot-A" onclick="currentSlide(4)">4</span>
+            <span class="dot-A" onclick="currentSlideA(1)">1</span>
+            <span class="dot-A" onclick="currentSlideA(2)">2</span>
+            <span class="dot-A" onclick="currentSlideA(3)">3</span>
+            <span class="dot-A" onclick="currentSlideA(4)">4</span>
           </div>
         </div>
 
-        <div class="mid" style="width:90%; color: white;height: 100%;">
+        <div class="mid" style="width:90%; color: white;height: 100%;margin-top: 50px;">
           <div>
             <div class="content-A fade">
               <h2>Darshan Raval</h2>
@@ -246,12 +247,12 @@
       </div>
 
       <div class="small">
-        <h1>Concerts</h1>
+        <h1 style="padding-top: 2vh;margin-left: -20px;">Concerts</h1>
         <div class="mid1" style="width:90%; color: white;height: 100%;">
           <div>
             <div class="content1-A fade">
-              <h2>Darshan Raval</h2>
-              <p>
+              <h2 style="text-align: center;">Darshan Raval</h2>
+              <p style="overflow: auto;">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -266,8 +267,8 @@
             </div>
 
             <div class="content1-A fade">
-              <h2>Lagori</h2>
-              <p>
+              <h2 style="text-align: center;">Lagori</h2>
+              <p style="overflow: auto;">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -282,8 +283,8 @@
             </div>
 
             <div class="content1-A fade">
-              <h2>Zephyrtone</h2>
-              <p>
+              <h2 style="text-align: center;">Zephyrtone</h2>
+              <p style="overflow: auto;">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -302,8 +303,8 @@
             </div>
 
             <div class="content1-A fade">
-              <h2>The Local Train</h2>
-              <p>
+              <h2 style="text-align: center;">The Local Train</h2>
+              <p style="overflow: auto;">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -323,10 +324,10 @@
           </div>
         </div>
         <div style="text-align: center;">
-          <span class="dot1-A" onclick="currentSlide(1)">1</span>
-          <span class="dot1-A" onclick="currentSlide(2)">2</span>
-          <span class="dot1-A" onclick="currentSlide(3)">3</span>
-          <span class="dot1-A" onclick="currentSlide(4)">4</span>
+          <span class="dot1-A" onclick="currentSlideA(1)">1</span>
+          <span class="dot1-A" onclick="currentSlideA(2)">2</span>
+          <span class="dot1-A" onclick="currentSlideA(3)">3</span>
+          <span class="dot1-A" onclick="currentSlideA(4)">4</span>
         </div>
       </div>
     </div>
@@ -336,15 +337,15 @@
         <div class="mid" id="pic" style="margin-left:10%;width: 40%;float: left;margin-right: 10%;">
           <div class="slideshow-container">
             <div class="mySlides-B fade">
-              <img src="../assets/img/2.jpg" style="width:100%" />
+              <img src="../assets/img/workshop1.jpg" style="width:100%" />
             </div>
 
             <div class="mySlides-B fade">
-              <img src="../assets/img/5.jpg" style="width:100%" />
+              <img src="../assets/img/workshop2.jpg" style="width:100%" />
             </div>
 
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class="prev" onclick="plusSlidesB(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesB(1)">&#10095;</a>
 
             <div class="theExp">
               Workshops
@@ -356,24 +357,50 @@
           <br />
 
           <div style="text-align: center;">
-            <span class="dot-B" onclick="currentSlide(1)">1</span>
-            <span class="dot-B" onclick="currentSlide(2)">2</span>
+            <span class="dot-B" onclick="currentSlideB(1)">1</span>
+            <span class="dot-B" onclick="currentSlideB(2)">2</span>
           </div>
         </div>
 
-        <div class="mid" style="width:90%; color: white;height: 100%;">
+        <div class="mid" style="width:90%; color: white;height: 100%;margin-top: 50px;">
           <div>
             <div class="content-B fade">
               <h2>Literature Workshop</h2>
               <p style="overflow: auto;height:15em;width:27%;padding-right: 30px;font-size: 110%;">
-                Details will be updated soon.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.s
               </p>
             </div>
 
             <div class="content-B fade">
               <h2>Photography Workshop</h2>
               <p style="overflow: auto;height:15em;width:27%;padding-right: 30px;font-size: 110%;">
-                Details will be updated soon.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.s
               </p>
             </div>
           </div>
@@ -381,27 +408,53 @@
       </div>
 
       <div class="small">
-        <h1>Concerts</h1>
+        <h1 style="padding-top: 2vh;margin-left: -20px;">Workshops</h1>
         <div class="mid1" style="width:90%; color: white;height: 100%;">
           <div>
             <div class="content1-B fade">
-              <h2>Darshan Raval</h2>
-              <p>
-                Details will be updated soon.
+              <h2 style="text-align: center;">Literature Workshop</h2>
+              <p style="overflow: auto;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.s
               </p>
             </div>
 
             <div class="content1-B fade">
-              <h2>Lagori</h2>
-              <p>
-                Details will be updated soon.
+              <h2 style="text-align: center;">Photography Workshop</h2>
+              <p style="overflow: auto;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.s
               </p>
             </div>
           </div>
         </div>
         <div style="text-align: center;">
-          <span class="dot1-B" onclick="currentSlide(1)">1</span>
-          <span class="dot1-B" onclick="currentSlide(2)">2</span>
+          <span class="dot1-B" onclick="currentSlideB(1)">1</span>
+          <span class="dot1-B" onclick="currentSlideB(2)">2</span>
         </div>
       </div>
     </div>
@@ -418,8 +471,8 @@
               <img src="../assets/img/5.jpg" style="width:100%" />
             </div>
 
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class="prev" onclick="plusSlidesC(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesC(1)">&#10095;</a>
 
             <div class="theExp">
               Informals
@@ -431,24 +484,50 @@
           <br />
 
           <div style="text-align: center;">
-            <span class="dot-C" onclick="currentSlide(1)">1</span>
-            <span class="dot-C" onclick="currentSlide(2)">2</span>
+            <span class="dot-C" onclick="currentSlideC(1)">1</span>
+            <span class="dot-C" onclick="currentSlideC(2)">2</span>
           </div>
         </div>
 
-        <div class="mid" style="width:90%; color: white;height: 100%;">
+        <div class="mid" style="width:90%; color: white;">
           <div>
             <div class="content-C fade">
               <h2>Duologue</h2>
               <p style="overflow: auto;height:15em;width:27%;padding-right: 30px;font-size: 110%;">
-                Details will be updated soon.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.s
               </p>
             </div>
 
             <div class="content-C fade">
               <h2>Quizzinga</h2>
               <p style="overflow: auto;height:15em;width:27%;padding-right: 30px;font-size: 110%;">
-                Details will be updated soon.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.s
               </p>
             </div>
           </div>
@@ -456,27 +535,53 @@
       </div>
 
       <div class="small">
-        <h1>Concerts</h1>
+        <h1 style="padding-top: 2vh;margin-left: -20px;">Informals</h1>
         <div class="mid1" style="width:90%; color: white;height: 100%;">
           <div>
             <div class="content1-C fade">
-              <h2>Duologue</h2>
-              <p>
-                Details will be updated soon.
+              <h2 style="text-align: center;">Duologue</h2>
+              <p style="overflow: auto;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.s
               </p>
             </div>
 
             <div class="content1-C fade">
-              <h2>Quizzinga</h2>
-              <p>
-                Details will be updated soon.
+              <h2 style="text-align: center;">Quizzinga</h2>
+              <p style="overflow: auto;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.s
               </p>
             </div>
           </div>
         </div>
         <div style="text-align: center;">
-          <span class="dot1-C" onclick="currentSlide(1)">1</span>
-          <span class="dot1-C" onclick="currentSlide(2)">2</span>
+          <span class="dot1-C" onclick="currentSlideC(1)">1</span>
+          <span class="dot1-C" onclick="currentSlideC(2)">2</span>
         </div>
       </div>
     </div>

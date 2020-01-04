@@ -143,8 +143,9 @@
 }
 
 .mediaCoverage .containor{
-  /* position: absolute; */
-  margin-top: 15%;
+  position: absolute;
+  /* margin-top: 15%; */
+  padding-top: 75vh;
   position: relative;
   left: 50%;
   height: 55vh;

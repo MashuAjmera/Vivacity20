@@ -13,17 +13,14 @@ a:hover {
 
 .LOGO {
   position: fixed;
-
   width: 40px;
   margin-top: 20px;
   margin-left: 2%;
   z-index: 100;
 }
 
-.LOGO-aboutus,
-.LOGO-contactus {
+.LOGO-aboutus, .LOGO-contactus {
   /* position: fixed; */
-
   width: 40px;
   margin-top: 20px;
   margin-left: 2%;
@@ -117,23 +114,19 @@ a:hover {
     margin-left: -40%;
     margin-top: -42.5%;
   }
-
   .LOGO-contactus {
     /* position: fixed; */
-
     width: 40px;
     margin-left: -75%;
     margin-top: -45%;
     z-index: 100;
   }
-
   #lg {
     margin-top: -110%;
   }
 }
 
-.nav-menu,
-.nav-menu * {
+.nav-menu, .nav-menu * {
   margin: 8px;
   padding: 0;
   list-style: none;
@@ -152,12 +145,11 @@ a:hover {
   white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul, .nav-menu li.sfHover>ul {
   display: block;
 }
 
@@ -194,7 +186,6 @@ a:hover {
 #nav-menu-container {
   width: 100vw;
   /* float: right; */
-
   /* margin-left: 55%; */
   /* margin-right: 10%; */
 }
@@ -217,16 +208,15 @@ a:hover {
   outline: none;
 }
 
-.nav-menu .menu-active a,
-.nav-menu a:hover {
+.nav-menu .menu-active a, .nav-menu a:hover {
   color: black;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   margin-left: 8px;
 }
 
-.nav-menu > li > a:before {
+.nav-menu>li>a:before {
   content: '';
   position: absolute;
   width: 0;
@@ -238,9 +228,7 @@ a:hover {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before,
-.nav-menu li:hover > a:before,
-.nav-menu .menu-active > a:before {
+.nav-menu a:hover:before, .nav-menu li:hover>a:before, .nav-menu .menu-active>a:before {
   visibility: visible;
   width: 100%;
 }
@@ -264,8 +252,7 @@ a:hover {
   /* color: black !important */
 }
 
-.nav-menu li.buy-tickets:hover a:before,
-.nav-menu li.buy-tickets.menu-active a:before {
+.nav-menu li.buy-tickets:hover a:before, .nav-menu li.buy-tickets.menu-active a:before {
   visibility: hidden;
 }
 
@@ -291,7 +278,7 @@ a:hover {
   border-radius: 3px;
 }
 
-.nav-menu ul li:hover > a {
+.nav-menu ul li:hover>a {
   background: #f82249;
   color: #fff;
 }
@@ -316,7 +303,6 @@ a:hover {
   float: right;
   width: 2vw;
   height: 2vw;
-
   border: 2.5px solid white;
   border-radius: 50%;
   padding: 7px;
@@ -341,7 +327,6 @@ a:hover {
   float: right;
   width: 4vw;
   height: 4vw;
-
   border: 4px solid white;
   border-radius: 50%;
   padding: 7px;
@@ -360,7 +345,6 @@ a:hover {
   .nav-menu {
     display: none;
   }
-
   #FOOTER {
     position: fixed;
     /* width: 175vh; */
@@ -372,23 +356,19 @@ a:hover {
     bottom: 60px;
     z-index: 10;
   }
-
   .icons {
     float: right;
     width: 6vw;
     height: 6vw;
-
     border-radius: 50%;
     padding: 9px;
     margin-left: 6px;
     margin-top: 4px;
   }
-
   .icons img {
     width: 6vw;
     height: 6vw;
   }
-
   .rectangle {
     width: 57%;
     position: fixed;
@@ -402,7 +382,6 @@ a:hover {
     border: 0px;
     z-index: 6;
   }
-
   .campusam {
     font-family: 'Poppins';
     font-size: 3.5vw;

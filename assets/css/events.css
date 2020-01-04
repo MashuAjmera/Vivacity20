@@ -21,6 +21,10 @@ body {
   /* overscroll-behavior: contain; */
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 #concert {
   padding-top: 10vh;
   font-family: Verdana, sans-serif;
@@ -218,11 +222,11 @@ p {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #888;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -236,6 +240,16 @@ p {
   .small {
     display: block;
     margin-top: 10px;
+    /* height: 70vh; */
+    /* padding-left: 10vw; */
+    /* width: 80vw; */
+    /* overflow-y: scroll; */
+  }
+  .small p {
+    height: 40vh;
+    padding-left: 10vw;
+    width: 80vw;
+    overflow-y: scroll;
   }
   .dot1-A {
     cursor: pointer;
