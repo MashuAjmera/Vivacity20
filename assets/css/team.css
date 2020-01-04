@@ -26,7 +26,7 @@ body, html {
   width: 100%;
   color: white;
   position: absolute;
-  top: 19%;
+  top: 40%;
   bottom: 0;
   right: 0;
   font-family: "Poppins";
@@ -44,7 +44,7 @@ body, html {
   grid-template-rows: 150px 150px;
   background-color: transparent;
   padding: 86px;
-  margin-top: 10%;
+  margin-top: 21%;
 }
 
 .grid-item {
