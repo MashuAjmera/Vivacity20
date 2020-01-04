@@ -1,34 +1,51 @@
-body{
-    height: 100%;
-    margin: 0%;
-    background-attachment: fixed;
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
-    background-repeat: no-repeat;
-    background-position: center;
+body {
+  /* margin: 0%; */
+  background-attachment: fixed;
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  overscroll-behavior: contain;
+  padding: 0;
+  margin: 0;
 }
 
-html{
-    height: 100%;
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
-#logo{
-    width: 4%;
-      height: 12%;
-      margin: 1.5%;
+
+.container {
+  width: 100%;
+  height: 100vh;
 }
-.heading{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 62px;
-    font-weight: bolder;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: 2.7px;
-    color: #ffffff;
-    padding: 0%;
-    margin-top: -7%;
-    margin-right: 1%;
-    padding-top: 1%;
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+#logo {
+  width: 4%;
+  height: 12%;
+  margin: 1.5%;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 62px;
+  font-weight: bolder;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  padding: 0%;
+  margin-top: 0;
+  margin-right: 1%;
+  padding-top: 15vh;
+  /* padding-bottom: 10vh; */
 }
 
 .grid-container1 {
@@ -38,7 +55,7 @@ html{
   /* grid-template-rows: 150px 150px; */
   background-color: transparent;
   padding: 4%;
-  margin-top: -7%;
+  /* margin-top: -7%; */
   margin-bottom: 0%;
   margin-right: 2%;
   margin-left: 4%;
@@ -59,6 +76,7 @@ html{
   width: 109%;
   margin-left: 4%;
 }
+
 .grid-item {
   display: flex;
   align-items: center;
@@ -80,351 +98,360 @@ html{
   /* text-align: center; */
   color: #ffffff;
 }
-.grid-item:hover{
+
+.grid-item:hover {
   background-color: white;
-  color:gray;
+  color: gray;
   cursor: pointer;
 }
-a{  
+
+a {
   text-decoration: none;
 }
-.eventDisplaySpace{
-  margin-top: -5%;
+
+.eventDisplaySpace {
+  /* margin-top: -5%; */
   margin-bottom: 2%;
   position: relative;
   z-index: 1;
-}  
-.Contanier{
-  width: 100%;
-  height: 81%;
 }
-#t1:hover{
+
+#t1:hover {
   background-color: white;
-  color:gray;
+  color: gray;
 }
+
 button {
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   border: none;
-  color:black;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 100%;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
-    margin-top: -2%;
+  /* margin-top: -2%; */
   margin-bottom: 4%;
-  width:19%;
+  width: 19%;
 }
 
 button:hover {
-  box-shadow: 0 18px 20px 0 black,0 17px 50px 0 white;
+  box-shadow: 0 18px 20px 0 black, 0 17px 50px 0 white;
 }
 
-.eventDetails{
+.eventDetails {
   margin-left: 3%;
 }
- 
-#id1{
+
+#id1 {
   display: none;
 }
-#id2{
-  display: none;
-}  
-#id3{
+
+#id2 {
   display: none;
 }
-#id4{
+
+#id3 {
   display: none;
 }
-#id5{
+
+#id4 {
   display: none;
 }
-#id6{
+
+#id5 {
   display: none;
 }
-#id7{
+
+#id6 {
   display: none;
 }
-#id8{
+
+#id7 {
   display: none;
 }
+
+#id8 {
+  display: none;
+}
+
 #id2 a>button {
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   border: none;
-  color:black;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 100%;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
-    margin-top: -2%;
+  /* margin-top: -2%; */
   margin-bottom: 4%;
-  width:23%;
+  width: 23%;
   margin-left: 6%;
 }
+
 #id3 a>button {
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   border: none;
-  color:black;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 100%;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
-    margin-top: -2%;
+  margin-top: -2%;
   margin-bottom: 4%;
-  width:28%;
+  width: 28%;
   margin-left: 35%;
 }
 
 #id5 a>button {
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   border: none;
-  color:black;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 100%;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
-    margin-top: -2%;
+  margin-top: -2%;
   margin-bottom: 4%;
-  width:14%;
+  width: 14%;
 }
 
 #id6 a>button {
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   border: none;
-  color:black;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 100%;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
-    margin-top: -2%;
+  margin-top: -2%;
   margin-bottom: 4%;
-  width:23%;
+  width: 23%;
   margin-left: 6%;
 }
 
 #id7 a>button {
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   border: none;
-  color:black;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 100%;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
-    margin-top: -2%;
+  margin-top: -2%;
   margin-bottom: 4%;
-  width:23%;
+  width: 23%;
   margin-left: 16%;
 }
+
 #id8 a>button {
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   border: none;
-  color:black;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 100%;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
-    margin-top: -2%;
+  margin-top: -2%;
   margin-bottom: 4%;
-  width:28%;
+  width: 28%;
   margin-left: 35%;
 }
-#footer{
-    margin-top: 10%;
-    height: 30px;
+
+#footer {
+  margin-top: 10%;
+  height: 30px;
 }
-.x{
+
+.x {
   background-color: white;
-  color:gray;
+  color: gray;
   cursor: pointer;
 }
-@media screen and (max-width:1100px) {
-    
-}
 
-@media screen and (max-width:770px) {
-}
+@media screen and (max-width:1100px) {}
 
-
+@media screen and (max-width:770px) {}
 
 @media only screen and (max-device-width: 480px) {
-  body{
+  body {
     height: 100%;
     width: 100%;
   }
-  #logo{
+  #logo {
     width: 16%;
     margin: 2.5%;
   }
-  .menu{
+  .menu {
     right: 11%;
-    top:3%;
+    top: 3%;
   }
   .heading {
-      height: 18%;
-      width: 50%;
-      color:white;
-      position: absolute;
-      top: 1%;
-      bottom: 0;
-      left: 24%;
-      right: 0;
-      font-family: "Poppins";
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 9vw;
-      font-weight: 800;
-    }
-    .grid-container1 {
-      margin-top: -1%;
-      width: 89%;
-      grid-gap: 9%;
-     
-    }
-    .grid-container2 {
-      width: 89%;
-      grid-gap: 9%;
-    }
-    
-    .grid-item {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background-color: transparent;
-      grid-template-columns: 200px 200px;
-      grid-template-rows: 110px 110px 110px 110px;
-      height: 33px;
-      border-radius: 10px;
-      border: solid 2px #ffffff;
-      padding: 20px;
-      font-family: "Poppins";
-      font-size: 11px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.2;
-      width: 51%;
-      color: #ffffff;
-      margin-left: -16%;
-      margin-top: 8%;
-    }
-    .grid-item:hover{
-      background-color: white;
-      color: rgb(255, 94, 0);
-      cursor: pointer;
-    }
-    a{  
-      text-decoration: none;
-    }
-
-    #id6 a>button{
-      width:74%;
-      margin-top: -1%;
-    }
-    #id6{
-      margin-top: -69%;
-      margin-left: 11%;
-    }
-    #id8 a>button{
-      width:74%;
-      margin-top: -1%;
-      margin-left: 6%;
-    }
-    #id8{
-      margin-top: -69%;
-      margin-left: 11%;
-    }
-    #id3 a>button{
-      width:74%;
-      margin-top: -1%;
-      margin-left: 6%;
-    }
-    #id3{
-      margin-top: -69%;
-      margin-left: 11%;
-    }
-    #id1 a>button{
-      width:74%;
-      margin-top: -2%;
-      margin-left: 6%;
-    }
-    #id1{
-      margin-top: -68%;
-      margin-left: 11%;
-    }
-    #id4 a>button{
-      width:74%;
-      margin-top: -2%;
-      margin-left: 6%;
-    }
-    #id4{
-      margin-top: -68%;
-      margin-left: 11%;
-    }
-    
-    #id2 a>button{
-      width:74%;
-      margin-top: -2%;
-      margin-left: 6%;
-    }
-    #id2{
-      margin-top: -68%;
-      margin-left: 11%;
-    }
-    
-    #id7 a>button{
-      width:74%;
-      margin-top: -2%;
-      margin-left: 6%;
-    }
-    #id7{
-      margin-top: -68%;
-      margin-left: 11%;
-    }
-    
-    #id5 a>button{
-      width:40%;
-      margin-top: -2%;
-      margin-left: -3%;
-      margin-right: 7%;
-    }
-    #id5{
-      margin-top: -68%;
-      margin-left: 11%;
-    }
-
-    .eventDisplaySpace{
-      margin-top: 59%;
-      margin-bottom: 7%;
-      position: relative;
-      z-index: 1;
-    }
+    height: 18%;
+    width: 50%;
+    color: white;
+    position: absolute;
+    top: 1%;
+    bottom: 0;
+    left: 24%;
+    right: 0;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9vw;
+    font-weight: 800;
+  }
+  .grid-container1 {
+    margin-top: -1%;
+    width: 89%;
+    grid-gap: 9%;
+  }
+  .grid-container2 {
+    width: 89%;
+    grid-gap: 9%;
+  }
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 110px 110px 110px 110px;
+    height: 33px;
+    border-radius: 10px;
+    border: solid 2px #ffffff;
+    padding: 20px;
+    font-family: "Poppins";
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    width: 51%;
+    color: #ffffff;
+    margin-left: -16%;
+    margin-top: 8%;
+  }
+  .grid-item:hover {
+    background-color: white;
+    color: rgb(255, 94, 0);
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  #id6 a>button {
+    width: 74%;
+    margin-top: -1%;
+  }
+  #id6 {
+    margin-top: -69%;
+    margin-left: 11%;
+  }
+  #id8 a>button {
+    width: 74%;
+    margin-top: -1%;
+    margin-left: 6%;
+  }
+  #id8 {
+    margin-top: -69%;
+    margin-left: 11%;
+  }
+  #id3 a>button {
+    width: 74%;
+    margin-top: -1%;
+    margin-left: 6%;
+  }
+  #id3 {
+    margin-top: -69%;
+    margin-left: 11%;
+  }
+  #id1 a>button {
+    width: 74%;
+    margin-top: -2%;
+    margin-left: 6%;
+  }
+  #id1 {
+    margin-top: -68%;
+    margin-left: 11%;
+  }
+  #id4 a>button {
+    width: 74%;
+    margin-top: -2%;
+    margin-left: 6%;
+  }
+  #id4 {
+    margin-top: -68%;
+    margin-left: 11%;
+  }
+  #id2 a>button {
+    width: 74%;
+    margin-top: -2%;
+    margin-left: 6%;
+  }
+  #id2 {
+    margin-top: -68%;
+    margin-left: 11%;
+  }
+  #id7 a>button {
+    width: 74%;
+    margin-top: -2%;
+    margin-left: 6%;
+  }
+  #id7 {
+    margin-top: -68%;
+    margin-left: 11%;
+  }
+  #id5 a>button {
+    width: 40%;
+    margin-top: -2%;
+    margin-left: -3%;
+    margin-right: 7%;
+  }
+  #id5 {
+    margin-top: -68%;
+    margin-left: 11%;
+  }
+  .eventDisplaySpace {
+    margin-top: 59%;
+    margin-bottom: 7%;
+    position: relative;
+    z-index: 1;
+  }
 }
