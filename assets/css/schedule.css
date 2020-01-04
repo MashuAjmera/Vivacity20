@@ -58,7 +58,7 @@ html {
     border: 1.5px #fff solid;
     border-radius: 1vw;
     font-weight: 600;
-    width: 194%;
+    width: 171%;
     height: 15%;
     margin-top: -4%;
     position: relative;
@@ -213,7 +213,7 @@ button {
     .flex-container {
         flex-direction: column;
         width: 103%;
-        height: 69vh;
+        height: 71vh;
     }
     #nav-menu-container {
         display: none;
@@ -234,11 +234,15 @@ button {
     }
     .xyz {
         font-size: 30%;
+        width: 147%;
     }
     .aboutUsSvg {
         display: none;
     }
     .campusam{
-        margin-left: 25vw;
+        margin-left: 22vw;
+    }
+    .tp3{
+        width: 40%;
     }
 }
