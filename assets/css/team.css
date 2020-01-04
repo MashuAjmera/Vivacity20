@@ -90,7 +90,7 @@ a {
     position: absolute;
     top: 15%;
     bottom: 0;
-    left: 35%;
+    left: 26%;
     right: 0;
     font-family: "Poppins";
     display: flex;
@@ -103,10 +103,10 @@ a {
     display: grid;
     width: 100%;
     grid-gap: 10px;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 180px 180px;
     grid-template-rows: 110px 110px 110px 110px;
     background-color: transparent;
-    padding: 40px;
+    padding: 20px;
     margin-top: 50%;
   }
   .grid-item {
