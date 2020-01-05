@@ -110,9 +110,12 @@ a:hover {
 
 @media only screen and (max-device-width: 480px) {
   .LOGO {
-    /* position: fixed; */
-    margin-left: -40%;
-    margin-top: -42.5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-left: 30px;
+    /* margin-top: -42.5%; */
   }
   .LOGO-contactus {
     /* position: fixed; */
