@@ -26,7 +26,7 @@ body, html {
   width: 100%;
   color: white;
   position: absolute;
-  top: 40%;
+  top: 0%;
   bottom: 0;
   right: 0;
   font-family: "Poppins";
@@ -35,16 +35,19 @@ body, html {
   align-items: center;
   font-size: 6vw;
   font-weight: 800;
+  padding-top: 10vh;
 }
 
 .grid-container {
+  align-items: center;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 150px 150px;
+  grid-template-rows: 130px 130px;
   background-color: transparent;
   padding: 86px;
-  margin-top: 21%;
+  padding-left: 10vw;
+  padding-top: 28vh;
 }
 
 .grid-item {
@@ -54,7 +57,7 @@ body, html {
   text-align: center;
   background-color: transparent;
   grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 150px 150px;
+  grid-template-rows: 130px 130px;
   height: 100px;
   border-radius: 10px;
   border: solid 5px #ffffff;
@@ -87,10 +90,9 @@ a {
     height: 15%;
     width: 50%;
     color: white;
-    position: absolute;
-    top: 15%;
-    bottom: 0;
-    left: 26%;
+    position: relative;
+    padding-top: 7%;
+    left: 24%;
     right: 0;
     font-family: "Poppins";
     display: flex;
@@ -102,12 +104,13 @@ a {
   .grid-container {
     display: grid;
     width: 100%;
-    grid-gap: 10px;
+    grid-gap: 5px;
+    top: 0;
     grid-template-columns: 180px 180px;
     grid-template-rows: 110px 110px 110px 110px;
     background-color: transparent;
-    padding: 20px;
-    margin-top: 50%;
+    padding: 15px;
+    /* margin-top: 50%; */
   }
   .grid-item {
     display: flex;
