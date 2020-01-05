@@ -8,6 +8,9 @@ body {
 }
 
 .LOGO-team {
+    position: fixed;
+    top: 0;
+    left: 0;
     padding-top: 2vh;
     padding-left: 2vw;
     width: 40px;
