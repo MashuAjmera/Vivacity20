@@ -162,10 +162,10 @@ p, a {
   #bodyPage-contactus>div {
     flex: 50%;
     max-width: 100%;
-    font-size: 4.5vw;
+    font-size: 3.5vw;
   }
   .hline-contactus {
-    font-size: 10vw;
+    font-size: 8vw;
     padding-top: 3vw;
   }
   #map {
@@ -173,12 +173,12 @@ p, a {
   }
   #heading-contactus {
     font-size: 7vh;
-    padding-top: 5vh;
-    margin-top: -30%;
+    padding-top: 4vh;
+    margin-top: -20%;
   }
   button {
     height: 4vh;
-    width: 40vw;
+    width: 35vw;
   }
 }
 
