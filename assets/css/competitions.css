@@ -334,7 +334,7 @@ button:hover {
     width: 50%;
     color: white;
     position: absolute;
-    top: -12.5%;
+    top: -9.5%;
     bottom: 0;
     left: 24%;
     right: 0;
@@ -347,7 +347,7 @@ button:hover {
   }
   .grid-container1 {
     /* margin-top: -1%; */
-    padding-top: 30vh;
+    padding-top: 13vh;
     width: 89%;
     grid-gap: 9%;
     margin-top: 0;
@@ -463,7 +463,7 @@ button:hover {
     margin-left: 11%;
   }
   .eventDisplaySpace {
-    margin-top: 59%;
+    margin-top: 68%;
     margin-bottom: 7%;
     position: relative;
     z-index: 1;
