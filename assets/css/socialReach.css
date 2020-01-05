@@ -5,6 +5,7 @@
     background-image: linear-gradient(to bottom, #CE1572, #66003A);
     background-repeat: no-repeat;
     background-position: center;
+    width: 100%;
 }
 
 .flex-container {
@@ -45,6 +46,8 @@
 
 .media-item-medianame {
     padding-top: 20vh;
+    padding-left: 5vw;
+    width: 80vw;
 }
 
 .mediaName {
@@ -58,7 +61,7 @@
     letter-spacing: 2.7px;
     color: #ffffff;
     margin-top: 3%;
-    margin-right: 10%;
+    margin-right: 20%;
     width: 91%;
 }
 
@@ -95,22 +98,24 @@
     .flex-container {
         flex-direction: column;
     }
-    .heading {
+    .heading-socialreach {
         font-size: 100%;
-        width: 100%;
-        margin-top: -45%;
+        width: 100vw;
+        /* margin-top: -45%; */
+        font-size: 10vw;
         margin-left: 0%;
+        padding-bottom: 20vh;
     }
     .grid1 {
         width: 63%;
-        height: 0%;
+        height: 10%;
     }
     .groupSvg {
-        margin-top: -54%;
         width: 144%;
     }
     .grid2 {
-        width: 81%;
+        margin-top: 30%;
+        width: 91%;
     }
     .mediaName {
         font-size: 89%;
@@ -119,7 +124,7 @@
     }
 }
 
-@media screen and (max-width:330px) {
+/* @media screen and (max-width:330px) {
     .flex-container {
         flex-direction: column;
     }
@@ -143,4 +148,4 @@
     .mediaName {
         font-size: 66%;
     }
-}
+} */
