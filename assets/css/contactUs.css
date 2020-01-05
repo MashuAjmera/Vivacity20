@@ -173,8 +173,8 @@ p, a {
   }
   #heading-contactus {
     font-size: 7vh;
-    padding-top: 0;
-    margin-top: -35%;
+    padding-top: 5vh;
+    margin-top: -30%;
   }
   button {
     height: 4vh;
