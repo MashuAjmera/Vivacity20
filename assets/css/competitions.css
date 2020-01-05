@@ -393,6 +393,7 @@ button:hover {
   #id6 a>button {
     width: 74%;
     margin-top: -1%;
+    padding: 8px 32px;    
   }
   #id6 {
     margin-top: -69%;
@@ -402,6 +403,8 @@ button:hover {
     width: 74%;
     margin-top: -1%;
     margin-left: 6%;
+    padding: 8px 32px;
+
   }
   #id8 {
     margin-top: -69%;
@@ -411,6 +414,7 @@ button:hover {
     width: 74%;
     margin-top: -1%;
     margin-left: 6%;
+    padding: 8px 32px;
   }
   #id3 {
     margin-top: -69%;
@@ -420,6 +424,8 @@ button:hover {
     width: 74%;
     margin-top: -2%;
     margin-left: 6%;
+    padding: 8px 32px;
+
   }
   #id1 {
     margin-top: -68%;
@@ -429,6 +435,8 @@ button:hover {
     width: 74%;
     margin-top: -2%;
     margin-left: 6%;
+    padding: 8px 32px;
+
   }
   #id4 {
     margin-top: -68%;
@@ -438,6 +446,8 @@ button:hover {
     width: 74%;
     margin-top: -2%;
     margin-left: 6%;
+    padding: 8px 32px;
+
   }
   #id2 {
     margin-top: -68%;
@@ -447,6 +457,8 @@ button:hover {
     width: 74%;
     margin-top: -2%;
     margin-left: 6%;
+    padding: 8px 32px;
+
   }
   #id7 {
     margin-top: -68%;
@@ -457,6 +469,8 @@ button:hover {
     margin-top: -2%;
     margin-left: -3%;
     margin-right: 7%;
+    padding: 8px 32px;
+
   }
   #id5 {
     margin-top: -68%;
