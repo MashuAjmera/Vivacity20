@@ -113,7 +113,8 @@ a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    padding-top: 10px;
+    padding-top: 5px;
+    width: 35px;
     padding-left: 30px;
     /* margin-top: -42.5%; */
   }
