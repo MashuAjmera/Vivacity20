@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
-
 @font-face {
   font-family: 'BebasNeue-Regular';
   src: url('../font/BebasNeue-Regular.ttf');
@@ -92,8 +91,7 @@ button {
   margin-top: 0px;
 }
 
-p,
-a {
+p, a {
   font-family: 'Poppins', sans serif;
   /* text-align: left; */
 }
@@ -104,7 +102,6 @@ a {
     transform: rotateY(10deg);
     filter: blur(3px);
   }
-
   100% {
     opacity: 1;
     transform: rotateY(0deg);
@@ -116,7 +113,6 @@ a {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -132,7 +128,7 @@ a {
   font-size: 1.3em;
 }
 
-#bodyPage-contactus > div {
+#bodyPage-contactus>div {
   flex: 25%;
   max-width: 31.5%;
   text-align: center;
@@ -156,42 +152,38 @@ a {
 #thirdpage {
   background: #667db6;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #667db6,
-    #0082c8,
-    #0082c8,
-    #667db6
-  );
+  background: -webkit-linear-gradient( to right, #667db6, #0082c8, #0082c8, #667db6);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media screen and (max-width: 480px) {
-  #bodyPage-contactus > div {
+  #bodyPage-contactus>div {
     flex: 50%;
     max-width: 100%;
     font-size: 4.5vw;
   }
-
   .hline-contactus {
-    font-size: 5vw;
+    font-size: 10vw;
     padding-top: 3vw;
   }
-
   #map {
-    font-size: 4vw;
+    font-size: 5vw;
   }
-
   #heading-contactus {
     font-size: 7vh;
-    /* margin-top: -35%; */
+    padding-top: 0;
+    margin-top: -35%;
+  }
+  button {
+    height: 4vh;
+    width: 40vw;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #bodyPage-contactus > div {
+  #bodyPage-contactus>div {
     flex: 100%;
     max-width: 100%;
   }
