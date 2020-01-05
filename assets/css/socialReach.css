@@ -60,9 +60,10 @@
     line-height: 3;
     letter-spacing: 2.7px;
     color: #ffffff;
-    margin-top: 3%;
-    margin-right: 20%;
+    margin-top: 0%;
+    margin-right: 18%;
     width: 91%;
+    margin-left: -33%;
 }
 
 .groupSvg {
