@@ -7,6 +7,12 @@ body {
     background: linear-gradient(to right, rgb(245, 149, 120), rgb(231, 93, 208));
 }
 
+.LOGO-team {
+    padding-top: 2vh;
+    padding-left: 2vw;
+    width: 40px;
+}
+
 .back {
     width: 100%;
     height: auto;

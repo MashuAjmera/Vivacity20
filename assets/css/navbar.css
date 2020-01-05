@@ -14,10 +14,13 @@ a:hover {
 .LOGO {
   position: fixed;
   width: 40px;
-  margin-top: 20px;
-  margin-left: 2%;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  padding-left: 2%;
   z-index: 100;
 }
+
 
 .LOGO-aboutus, .LOGO-contactus {
   /* position: fixed; */
@@ -110,7 +113,7 @@ a:hover {
 
 @media only screen and (max-device-width: 480px) {
   .LOGO {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     padding-top: 5px;
