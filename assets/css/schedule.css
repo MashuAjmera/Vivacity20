@@ -58,7 +58,7 @@ html {
     border: 1.5px #fff solid;
     border-radius: 1vw;
     font-weight: 600;
-    width: 194%;
+    width: 171%;
     height: 15%;
     margin-top: -4%;
     position: relative;
@@ -114,7 +114,7 @@ button {
 .grid2 {
     background-color: transparent;
     border-radius: .25rem;
-    height: 85%;
+    height: 82%;
     margin: 0 auto;
     display: grid;
     overflow-y: none;
@@ -212,6 +212,8 @@ button {
 @media screen and (max-width:450px) {
     .flex-container {
         flex-direction: column;
+        width: 103%;
+        height: 71vh;
     }
     #nav-menu-container {
         display: none;
@@ -223,8 +225,7 @@ button {
         width: 80%;
     }
     .grid1>h1 {
-        font-size: 100;
-        ;
+        margin-top: -22%;
     }
     button {
         line-height: 1.1;
@@ -233,8 +234,15 @@ button {
     }
     .xyz {
         font-size: 30%;
+        width: 147%;
     }
-    .svgSchedule {
-        width: 70%;
+    .aboutUsSvg {
+        display: none;
+    }
+    .campusam{
+        margin-left: 22vw;
+    }
+    .tp3{
+        width: 40%;
     }
 }
