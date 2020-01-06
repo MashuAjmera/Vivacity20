@@ -183,6 +183,11 @@ button:hover {
   display: none;
 }
 
+#id1 a>button {
+   margin-top: -2%; 
+  margin-bottom: 4%;
+}
+
 #id2 a>button {
   background-color: whitesmoke;
   border: none;
@@ -196,7 +201,7 @@ button:hover {
   -webkit-transition-duration: 0.4s;
   /* Safari */
   transition-duration: 0.4s;
-  /* margin-top: -2%; */
+   margin-top: -2%; 
   margin-bottom: 4%;
   width: 23%;
   margin-left: 6%;
@@ -219,6 +224,10 @@ button:hover {
   margin-bottom: 4%;
   width: 28%;
   margin-left: 35%;
+}
+#id4 a>button {
+  margin-top: -2%; 
+ margin-bottom: 4%;
 }
 
 #id5 a>button {
