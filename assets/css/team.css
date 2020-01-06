@@ -43,7 +43,7 @@ body, html {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 130px 130px;
+  grid-template-rows: 150px 150px;
   background-color: transparent;
   padding: 86px;
   padding-left: 10vw;

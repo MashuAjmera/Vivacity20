@@ -1,6 +1,6 @@
 /* Scroll */
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 @font-face {
   font-family: 'BebasNeue-Regular';
   src: url('../font/BebasNeue-Regular.ttf');
@@ -30,13 +30,7 @@ body {
 /* scroll end */
 
 #ambassador {
-  background: linear-gradient(
-    to right,
-    rgba(157, 22, 184, 1) 0%,
-    rgba(180, 29, 194, 1) 51%,
-    rgba(179, 20, 219, 1) 100%
-  );
-
+  background: linear-gradient( to right, rgba(157, 22, 184, 1) 0%, rgba(180, 29, 194, 1) 51%, rgba(179, 20, 219, 1) 100%);
   color: #ffffff;
 }
 
@@ -62,7 +56,7 @@ body {
   font-size: 4vw;
 }
 
-#ambassador > p {
+#ambassador>p {
   line-height: 0.5;
   font-size: 0.8em;
 }
@@ -165,22 +159,21 @@ text-align: center;
 }
 
 */
+
 @media only screen and (max-width: 700px) {
   #logo {
     width: 40px;
     height: 40px;
   }
-
   #heading {
     width: 100%;
     height: 75px;
-    margin-top: 1%;
+    padding-top: 10vh;
     font-family: Poppins;
-    wfont-size: 3em;
+    font-size: 3em;
     line-height: 1.5;
     text-align: center;
   }
-
   #ca {
     width: 42%;
     height: 35px;
@@ -190,37 +183,31 @@ text-align: center;
     margin: auto 0;
     font-size: 100%;
   }
-
   #content {
     width: 100%;
     text-align: center;
-    font-size: 3vw;
+    font-size: 6vw;
   }
-
   #mid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0px;
   }
-
   .btn {
     text-align: center;
     padding-top: 2vw;
   }
-
   .btn button {
     height: 10vw;
     width: 35vw;
     font-size: 4.8vw;
   }
-
   #imagess {
     margin-top: -10px;
   }
-
   #pic img {
-    height: 40vh;
-    width: 50vw;
+    height: 30vh;
+    width: 70vw;
     padding-left: 15vw;
   }
 }
