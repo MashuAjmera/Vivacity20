@@ -1,5 +1,6 @@
 #aboutUs {
-  background: rgb(0, 183, 255);
+  background: linear-gradient(to bottom,#61C0EC,#2483c2);
+  background-color: aquamarine;
   margin: 0px;
   padding: 0px;
   height: 100vh;
