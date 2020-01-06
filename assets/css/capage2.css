@@ -20,6 +20,7 @@
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
 }
 
 #logo {
@@ -81,12 +82,6 @@
   color: white;
 }
 
-@media screen and (max-width: 600px) {
-  #bodyPage-am>div {
-    flex: 50%;
-  }
-}
-
 #secondpage>p, #thirdpage>p {
   margin-top: 3%;
 }
@@ -101,6 +96,26 @@
   color: white;
   padding-top: 1vw;
   font-family: 'BebasNeue-Regular';
+}
+
+@media screen and (max-width: 600px) {
+  #heading-capage2 {
+    font-size: 9vw;
+    padding-top: 10vh;
+  }
+  #bodyPage-am {
+    padding-top: 4vh;
+  }
+  #bodyPage-am>div {
+    flex: 50%;
+    font-size: 4.5vw;
+  }
+  element {
+    font-size: 3vw;
+  }
+  .hline-am {
+    font-size: 7vw;
+  }
 }
 
 /* .icons {
