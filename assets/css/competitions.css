@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
-
 body {
   /* margin: 0%; */
   background-attachment: fixed;
@@ -117,7 +116,8 @@ a {
   position: relative;
   z-index: 1;
 }
-.whole{
+
+.whole {
   height: 80%;
   margin-top: 6%;
 }
@@ -186,7 +186,7 @@ button:hover {
 }
 
 #id1 a>button {
-   margin-top: -2%; 
+  margin-top: -2%;
   margin-bottom: 4%;
 }
 
@@ -203,7 +203,7 @@ button:hover {
   -webkit-transition-duration: 0.4s;
   /* Safari */
   transition-duration: 0.4s;
-   margin-top: -2%; 
+  margin-top: -2%;
   margin-bottom: 4%;
   width: 23%;
   margin-left: 6%;
@@ -227,9 +227,10 @@ button:hover {
   width: 28%;
   margin-left: 35%;
 }
+
 #id4 a>button {
-  margin-top: -2%; 
- margin-bottom: 4%;
+  margin-top: -2%;
+  margin-bottom: 4%;
 }
 
 #id5 a>button {
@@ -318,8 +319,12 @@ button:hover {
   cursor: pointer;
 }
 
+#map {
+  width: 15vw;
+}
+
 @media screen and (max-width:1100px) {
-  .whole{
+  .whole {
     height: 80%;
     margin-top: 2%;
   }
@@ -336,9 +341,19 @@ button:hover {
     width: 16%;
     margin: 2.5%;
   }
+  #map {
+    width: 50vw;
+  }
+  button {
+    width: 35vw;
+    line-height: 0;
+  }
   .menu {
     right: 11%;
     top: 3%;
+  }
+  .brochure {
+    padding-top: 20vh;
   }
   .heading {
     height: 18%;
@@ -403,7 +418,7 @@ button:hover {
   #id6 a>button {
     width: 74%;
     margin-top: -1%;
-    padding: 8px 32px;    
+    padding: 8px 32px;
   }
   #id6 {
     margin-top: -69%;
@@ -414,7 +429,6 @@ button:hover {
     margin-top: -1%;
     margin-left: 6%;
     padding: 8px 32px;
-
   }
   #id8 {
     margin-top: -69%;
@@ -435,7 +449,6 @@ button:hover {
     margin-top: -2%;
     margin-left: 6%;
     padding: 8px 32px;
-
   }
   #id1 {
     margin-top: -68%;
@@ -446,7 +459,6 @@ button:hover {
     margin-top: -2%;
     margin-left: 6%;
     padding: 8px 32px;
-
   }
   #id4 {
     margin-top: -68%;
@@ -457,7 +469,6 @@ button:hover {
     margin-top: -2%;
     margin-left: 6%;
     padding: 8px 32px;
-
   }
   #id2 {
     margin-top: -68%;
@@ -468,7 +479,6 @@ button:hover {
     margin-top: -2%;
     margin-left: 6%;
     padding: 8px 32px;
-
   }
   #id7 {
     margin-top: -68%;
@@ -480,7 +490,6 @@ button:hover {
     margin-left: -3%;
     margin-right: 7%;
     padding: 8px 32px;
-
   }
   #id5 {
     margin-top: -68%;

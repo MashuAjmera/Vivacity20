@@ -61,7 +61,7 @@ a:hover {
   font-weight: 600;
   height: 3vw;
   text-transform: uppercase;
-  margin-left: 7vw;
+  margin-left: 3vw;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -297,9 +297,9 @@ a:hover {
   position: fixed;
   /* width: 175vh; */
   right: -32%;
-  margin-left: 4%;
+  margin-left: 0%;
   margin-top: 4%;
-  margin-right: 40%;
+  margin-right: 36%;
   height: 50px;
   bottom: 5.5vh;
   z-index: 3;

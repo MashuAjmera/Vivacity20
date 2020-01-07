@@ -1,14 +1,11 @@
 @font-face {
   font-family: 'atlantis';
-  src: URL('../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf')
-    format('truetype');
+  src: URL('../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf') format('truetype');
 }
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
-
-
-
 /* Scroll */
+
 html {
   scroll-behavior: smooth;
   user-select: none;
@@ -30,15 +27,13 @@ body {
 
 /* scroll end */
 
-body,
-html {
+body, html {
   margin: 0;
   overflow: hidden;
 }
 
 #home {
   /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
-
   /* background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -48,7 +43,6 @@ html {
   /* background-image: url("../svg/Asset.svg"),
     linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
     linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3); */
-
   background-size: 120vw 140vh;
   z-index: 2;
 }
@@ -134,10 +128,8 @@ html {
 @media only screen and (max-device-width: 480px) {
   @font-face {
     font-family: 'atlantis';
-    src: URL('../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf')
-      format('truetype');
+    src: URL('../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf') format('truetype');
   }
-
   .container {
     /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
     background-repeat: no-repeat;
@@ -146,16 +138,12 @@ html {
     height: 100vh;
     margin: 0%;
     /* background-image: url("../images/Asset\ 1.svg") ; */
-    background-image: url('../images/Asset\ 1.svg'),
-      linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
-      linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+    background-image: url('../images/Asset\ 1.svg'), linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)), linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
   }
-
   #ad {
     margin-top: auto;
     margin-bottom: auto;
   }
-
   .svgg {
     /* position: fixed;
           left: 45.5%;
@@ -166,7 +154,6 @@ html {
     margin-bottom: -16%;
     object-fit: contain;
   }
-
   .vivacity {
     margin-top: 48vw;
     /* position: fixed;
@@ -182,7 +169,6 @@ html {
     text-align: center;
     color: #ffffff;
   }
-
   .date {
     font-family: 'Raleway', sans-serif;
     font-size: 5vw;
@@ -195,14 +181,12 @@ html {
     color: #ffffff;
     margin-top: 13%;
   }
-
   .dash {
     text-align: center;
     font-size: 40px;
     color: white;
     margin-top: -11%;
   }
-
   .college {
     margin-top: 10%;
     font-family: Raleway;
@@ -215,40 +199,27 @@ html {
     text-align: center;
     color: #ffffff;
   }
-
   .icon_size {
     width: 50px;
     height: 50px;
   }
-
   .campusam {
     /* bottom: 28px;
               left: 35px; */
     margin-top: 0%;
     margin-left: 0%;
     width: 100%;
-
     height: 0px;
-
     font-family: Raleway;
-
     font-size: 15px;
-
     font-weight: 500;
-
     font-style: normal;
-
     font-stretch: normal;
-
     line-height: 1.17;
-
     letter-spacing: normal;
-
     text-align: center;
-
     color: #ffffff;
   }
-
   .rectangle {
     /* left: 68px;
           bottom: 25px; */
@@ -272,16 +243,13 @@ html {
 
 #home {
   /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
-
   /* background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   width: 100%;
   margin: 0%;
   /* background-image: url("../images/Asset\ 1.svg") ; */
-  background-image: url('../assets/images/Asset\ 1.svg'),
-    linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
-    linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+  background-image: url('../assets/images/Asset\ 1.svg'), linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)), linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
 }
 
 #ad {
@@ -380,17 +348,15 @@ html {
 
 #aboutus {
   margin-top: 0vw;
-  background: linear-gradient(to bottom,#61C0EC, #0082c8);
+  background: linear-gradient(to bottom, #61C0EC, #0082c8);
   padding-top: 0.25vw;
 }
 
 @media only screen and (max-device-width: 480px) {
   @font-face {
     font-family: 'atlantis';
-    src: URL('../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf')
-      format('truetype');
+    src: URL('../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf') format('truetype');
   }
-
   .container {
     /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
     background-repeat: no-repeat;
@@ -399,34 +365,28 @@ html {
     height: 100vh;
     margin: 0%;
     /* background-image: url("../images/Asset\ 1.svg") ; */
-    background-image: url('../images/Asset\ 1.svg'),
-      linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
-      linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+    background-image: url('../images/Asset\ 1.svg'), linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)), linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   #ad {
     font-size: 26vw;
     margin-top: auto;
     margin-bottom: auto;
   }
-
   .svgg {
     /* position: fixed;
           left: 45.5%;
           top: 13.5%; */
     width: 45vw;
     height: 25vw;
-
     position: absolute;
     top: 15vw;
     left: -18%;
     object-fit: contain;
   }
-
   .vivacity {
     margin-top: 2vw;
     /* position: fixed;
@@ -442,7 +402,6 @@ html {
     text-align: center;
     color: #ffffff;
   }
-
   .date {
     font-family: 'Raleway', sans-serif;
     font-size: 8vw;
@@ -455,7 +414,6 @@ html {
     color: #ffffff;
     margin-top: 10%;
   }
-
   .date::after {
     content: '';
     display: block;
@@ -464,7 +422,6 @@ html {
     margin-top: 3vw;
     background: #fff;
   }
-
   .college {
     font-family: Raleway;
     font-size: 6vw;
@@ -477,44 +434,31 @@ html {
     color: #ffffff;
     margin-top: 8vw;
   }
-
   .icon_size {
     width: 50px;
     height: 50px;
   }
-
   .campusam {
     /* bottom: 28px;
               left: 35px; */
     margin-top: 0%;
     margin-left: 0%;
     width: 100%;
-
     height: 0px;
-
     font-family: Raleway;
-
     font-size: 15px;
-
     font-weight: 500;
-
     font-style: normal;
-
     font-stretch: normal;
-
     line-height: 1.17;
-
     letter-spacing: normal;
-
     text-align: center;
-
     color: #ffffff;
   }
-
   .rectangle {
     /* left: 68px;
           bottom: 25px; */
-    margin-left: 40%;
+    left: 0%;
     margin-top: 25%;
     width: 20%;
     height: 5vw;
@@ -522,7 +466,6 @@ html {
     border: solid 1px #ffffff;
     text-align: center;
   }
-
   #aboutus {
     margin-top: 0vw;
     background: rgb(0, 183, 255);
