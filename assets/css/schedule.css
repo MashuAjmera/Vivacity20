@@ -36,7 +36,7 @@ body {
 
 .flex-container>div {
     background-color: transparent;
-    margin: 10px;
+    margin: -4px;
     padding: 16px;
     font-size: 30px;
 }
@@ -225,8 +225,8 @@ button {
         margin-top: -22%;
     }
     button {
-        line-height: 1.1;
-        width: 70px;
+        line-height: 3.1;
+        width: 80px;
         font-size: 100%;
     }
     #map {
@@ -234,7 +234,10 @@ button {
     }
     .xyz {
         font-size: 30%;
-        width: 132%;
+        width: 67%;
+        height: 91px;
+        margin-left: 29%;
+
     }
     .aboutUsSvg {
         display: none;
@@ -245,9 +248,31 @@ button {
     }
     .rectangle {
         width: 60vw;
-        margin-left: 15%;
+        margin-left: 20%;
     }
-    .tp3 {
-        width: 40%;
-    }
+    
+.tp1 {
+    width: 18%;
+}
+
+.tp2 {
+    width: 42%;
+    margin-top: -8%;
+    font-size: 152%;
+}
+
+.tp3 {
+    width: 65%;
+    height: 10%;
+    margin-top: 21%;
+    margin-left: -40%;
+    letter-spacing: 2.5px;
+}
+
+.tp4 {
+    float: left;
+    margin-top: 12%;
+    margin-left: 27%;
+}
+
 }
