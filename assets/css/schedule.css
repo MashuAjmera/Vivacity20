@@ -36,7 +36,7 @@ body {
 
 .flex-container>div {
     background-color: transparent;
-    margin: -4px;
+    margin: 10px;
     padding: 16px;
     font-size: 30px;
 }
@@ -207,6 +207,13 @@ button {
 }
 
 @media screen and (max-width:450px) {
+    
+.flex-container>div {
+    background-color: transparent;
+    margin: -4px;
+    padding: 16px;
+    font-size: 30px;
+}
     .flex-container {
         flex-direction: column;
         width: 100%;
