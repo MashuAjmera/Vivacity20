@@ -271,22 +271,12 @@ button:hover {
 }
 
 #id7 a>button {
-  background-color: whitesmoke;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 100%;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s;
-  /* Safari */
-  transition-duration: 0.4s;
-  margin-top: -2%;
+  margin-top: -2%; 
   margin-bottom: 4%;
-  width: 23%;
-  margin-left: 16%;
+  text-align: center;
+  margin-left: 3%;
+
+
 }
 
 #id8 a>button {
@@ -420,7 +410,7 @@ button:hover {
   #id6 a>button {
     width: 74%;
     margin-top: -1%;
-    padding: 8px 32px;
+    padding: 4px 32px;    
   }
   #id6 {
     margin-top: -69%;
@@ -430,7 +420,8 @@ button:hover {
     width: 74%;
     margin-top: -1%;
     margin-left: 6%;
-    padding: 8px 32px;
+    padding: 4px 32px;
+
   }
   #id8 {
     margin-top: -69%;
@@ -440,7 +431,7 @@ button:hover {
     width: 74%;
     margin-top: -1%;
     margin-left: 6%;
-    padding: 8px 32px;
+    padding: 4px 32px;
   }
   #id3 {
     margin-top: -69%;
@@ -450,7 +441,8 @@ button:hover {
     width: 74%;
     margin-top: -2%;
     margin-left: 6%;
-    padding: 8px 32px;
+    padding: 4px 32px;
+
   }
   #id1 {
     margin-top: -68%;
@@ -460,7 +452,8 @@ button:hover {
     width: 74%;
     margin-top: -2%;
     margin-left: 6%;
-    padding: 8px 32px;
+    padding: 4px 32px;
+
   }
   #id4 {
     margin-top: -68%;
@@ -470,7 +463,8 @@ button:hover {
     width: 74%;
     margin-top: -2%;
     margin-left: 6%;
-    padding: 8px 32px;
+    padding: 4px 32px;
+
   }
   #id2 {
     margin-top: -68%;
@@ -480,7 +474,8 @@ button:hover {
     width: 74%;
     margin-top: -2%;
     margin-left: 6%;
-    padding: 8px 32px;
+    padding: 4px 32px;
+
   }
   #id7 {
     margin-top: -68%;
@@ -491,7 +486,8 @@ button:hover {
     margin-top: -2%;
     margin-left: -3%;
     margin-right: 7%;
-    padding: 8px 32px;
+    padding: 4px 32px;
+
   }
   #id5 {
     margin-top: -68%;
