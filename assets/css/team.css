@@ -21,6 +21,11 @@ body, html {
   overflow: hidden;
 }
 
+.logoimg {
+  padding-top: 19vh;
+  padding-left: 10vw;
+}
+
 .title {
   height: 15%;
   width: 100%;

@@ -52,30 +52,30 @@ body::-webkit-scrollbar {
 .grid-container1 {
   display: grid;
   grid-gap: 0.5%;
-  grid-template-columns: 18% 18% 18% 18%;
+  grid-template-columns: 25% 25% 25% 25%;
   /* grid-template-rows: 150px 150px; */
   background-color: transparent;
   padding: 4%;
   margin-top: -7%;
   margin-bottom: -9%;
-  margin-right: 2%;
-  margin-left: 4%;
+  /* margin-right: 2%; */
+  /* margin-left: 13%; */
   position: relative;
-  width: 109%;
+  width: 90vw;
 }
 
 .grid-container2 {
   display: grid;
   grid-gap: 0.5%;
-  grid-template-columns: 18% 18% 18% 18%;
+  grid-template-columns: 25% 25% 25% 25%;
   /* grid-template-rows: 150px 150px; */
   background-color: transparent;
   padding: 4%;
-  margin-top: -4%;
-  margin-right: 2%;
+  /* margin-top: -4%; */
+  /* margin-right: 2%; */
   position: relative;
-  width: 109%;
-  margin-left: 4%;
+  width: 90vw;
+  /* margin-left: 13%; */
 }
 
 .grid-item {
@@ -359,11 +359,10 @@ button:hover {
     height: 18%;
     width: 50%;
     color: white;
-    position: absolute;
-    top: -9.5%;
+    /* position: absolute; */
     bottom: 0;
-    left: 24%;
     right: 0;
+    margin-left: 12vh;
     font-family: "Poppins";
     display: flex;
     justify-content: center;
@@ -372,17 +371,20 @@ button:hover {
     font-weight: 800;
   }
   .grid-container1 {
-    /* margin-top: -1%; */
-    padding-top: 13vh;
+    padding-top: 0vh;
+    /* margin-top: -10%; */
+    grid-template-columns: 22% 22% 22% 22%;
+    padding-top: 0;
     width: 89%;
-    grid-gap: 9%;
+    grid-gap: 5%;
     margin-top: 0;
     /* padding-top: 0; */
   }
   .grid-container2 {
+    grid-template-columns: 22% 22% 22% 22%;
     width: 89%;
-    grid-gap: 9%;
-    /* padding-top: 0; */
+    grid-gap: 5%;
+    padding-top: 0;
     /* margin-top: -10vh; */
   }
   .grid-item {
@@ -392,7 +394,7 @@ button:hover {
     text-align: center;
     background-color: transparent;
     grid-template-columns: 200px 200px;
-    grid-template-rows: 110px 110px 110px 110px;
+    grid-template-rows: 100px 100px 100px 100px;
     height: 33px;
     border-radius: 10px;
     border: solid 2px #ffffff;
@@ -404,7 +406,7 @@ button:hover {
     line-height: 1.2;
     width: 51%;
     color: #ffffff;
-    margin-left: -16%;
+    margin-left: -10%;
     margin-top: 8%;
   }
   .grid-item:hover {
