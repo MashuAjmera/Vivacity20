@@ -109,10 +109,10 @@ a {
   .grid-container {
     display: grid;
     width: 100%;
-    grid-gap: 5px;
+    grid-gap: 7px;
     top: 0;
     grid-template-columns: 45vw 45vw;
-    grid-template-rows: 110px 110px 110px 110px;
+    grid-template-rows: 95px 95px 95px 95px;
     background-color: transparent;
     padding: 15px;
     /* margin-top: 50%; */
@@ -124,11 +124,11 @@ a {
     text-align: center;
     background-color: transparent;
     grid-template-columns: 200px 200px;
-    grid-template-rows: 110px 110px 110px 110px;
+    grid-template-rows: 100px 100px 100px 100px;
     height: 60px;
     border-radius: 10px;
     border: solid 5px #ffffff;
-    padding: 20px;
+    padding: 10px;
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
     font-weight: normal;
