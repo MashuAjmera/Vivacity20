@@ -111,7 +111,7 @@ a {
     width: 100%;
     grid-gap: 5px;
     top: 0;
-    grid-template-columns: 180px 180px;
+    grid-template-columns: 45vw 45vw;
     grid-template-rows: 110px 110px 110px 110px;
     background-color: transparent;
     padding: 15px;
