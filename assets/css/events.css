@@ -190,9 +190,9 @@ p {
 
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 1s;
   animation-name: fade;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 .small {
@@ -219,18 +219,22 @@ p {
 
 ::-webkit-scrollbar {
   width: 5px;
+
 }
 
 ::-webkit-scrollbar-track {
   background: #888;
+   border-radius: 30px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #f1f1f1;
+    border-radius: 30px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+    border-radius: 30px;
 }
 
 @media only screen and (max-width: 900px) {
