@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
-
 html {
     scroll-behavior: smooth;
     user-select: none;
@@ -229,6 +228,9 @@ button {
         line-height: 1.1;
         width: 70px;
         font-size: 100%;
+    }
+    #map {
+        width: 35vw;
     }
     .xyz {
         font-size: 30%;
