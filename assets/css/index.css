@@ -232,6 +232,20 @@ body, html {
     border: solid 1px #ffffff;
     text-align: center;
   }
+  html, body {
+    height: 100%;
+  }
+  body {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    overflow-y: scroll;
+  }
 }
 
 .container {
