@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
 body {
   /* margin: 0%; */
   background-attachment: fixed;
@@ -56,7 +58,7 @@ body::-webkit-scrollbar {
   background-color: transparent;
   padding: 4%;
   margin-top: -7%;
-  margin-bottom: -10%;
+  margin-bottom: -9%;
   margin-right: 2%;
   margin-left: 4%;
   position: relative;
@@ -89,8 +91,8 @@ body::-webkit-scrollbar {
   border-radius: 10px;
   border: solid 5px #ffffff;
   padding: 20px;
-  font-family: 'Poppins';
-  font-size: 175%;
+  font-family: "Bebas Neue";
+  font-size: 200%;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -380,8 +382,7 @@ button:hover {
     border-radius: 10px;
     border: solid 2px #ffffff;
     padding: 20px;
-    font-family: "Poppins";
-    font-size: 11px;
+    font-size: 13px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
