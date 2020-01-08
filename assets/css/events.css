@@ -219,22 +219,21 @@ p {
 
 ::-webkit-scrollbar {
   width: 5px;
-
 }
 
 ::-webkit-scrollbar-track {
   background: #888;
-   border-radius: 30px;
+  border-radius: 30px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #f1f1f1;
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -254,6 +253,12 @@ p {
     padding-left: 10vw;
     width: 80vw;
     overflow-y: scroll;
+  }
+  #heading-contactus {
+    margin-top: -10%;
+  }
+  #address {
+    font-size: 3.5vw;
   }
   .small {
     padding-top: 1vh;
