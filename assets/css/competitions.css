@@ -145,6 +145,19 @@ button {
   width: 19%;
 }
 
+#FOOTER {
+  padding-right: 1.5vw;
+  padding-bottom: 2vh;
+}
+
+.rectangle {
+  padding-bottom: 2vh;
+}
+
+.campusam {
+  width: 9.8vw;
+}
+
 button:hover {
   box-shadow: 0 18px 20px 0 black, 0 17px 50px 0 white;
 }
@@ -401,7 +414,38 @@ button:hover {
   }
   #FOOTER {
     padding-right: 1.5vw;
-    padding-bottom: 2vh;
+    padding-bottom: 3vh;
+  }
+  .rectangle {
+    width: 67%;
+    position: fixed;
+    bottom: 7vw;
+    /* margin-bottom: -30vw; */
+    margin-left: 20vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    z-index: 6;
+    margin-left: 16%;
+  }
+  .campusam {
+    font-family: 'Poppins';
+    font-size: 3vw;
+    color: #fff;
+    width: 30vw;
+    border: 3px #fff solid;
+    padding: 2.5vw 2.5vw;
+    border-radius: 6vw;
+    font-weight: 600;
+    height: 1vw;
+    text-transform: uppercase;
+    margin-left: 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -6vw;
   }
   #id6 a>button {
     width: 74%;

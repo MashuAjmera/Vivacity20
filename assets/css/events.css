@@ -25,6 +25,19 @@ a:hover {
   text-decoration: none;
 }
 
+#FOOTER {
+  padding-right: 1.5vw;
+  padding-bottom: 2vh;
+}
+
+.rectangle {
+  padding-bottom: 2vh;
+}
+
+.campusam {
+  width: 7vw;
+}
+
 #concert {
   padding-top: 10vh;
   font-family: Verdana, sans-serif;
@@ -327,6 +340,62 @@ p {
   }
   p {
     width: 100%;
+  }
+  .rectangle {
+    width: 67%;
+    position: fixed;
+    bottom: 7vw;
+    /* margin-bottom: -30vw; */
+    margin-left: 20vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    z-index: 6;
+    margin-left: 16%;
+  }
+  .campusam {
+    font-family: 'Poppins';
+    font-size: 3vw;
+    color: #fff;
+    width: 20vw;
+    border: 3px #fff solid;
+    padding: 2.5vw 2vw;
+    border-radius: 6vw;
+    font-weight: 600;
+    height: 1vw;
+    text-transform: uppercase;
+    margin-left: 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -6vw;
+  }
+  #FOOTER {
+    position: fixed;
+    /* width: 175vh; */
+    right: -4.5%;
+    margin-left: 4%;
+    margin-top: 4%;
+    /* margin-right: 40%; */
+    height: 50px;
+    bottom: 30px;
+    z-index: 10;
+  }
+  .icons {
+    float: right;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    padding: 3px;
+    /* margin-left: 8px; */
+    /* margin-top: 4px; */
+  }
+  .icons img {
+    width: 5vw;
+    height: 5vw;
+    padding-bottom: 10vh;
   }
 }
 

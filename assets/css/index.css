@@ -208,7 +208,7 @@ body, html {
               left: 35px; */
     margin-top: 0%;
     margin-left: 0%;
-    width: 100%;
+    width: 80%;
     height: 0px;
     font-family: Raleway;
     font-size: 15px;
@@ -226,8 +226,8 @@ body, html {
     z-index: 3;
     margin-left: 40%;
     margin-top: 25%;
-    width: 20%;
-    height: 5vw;
+    width: 10%;
+    height: 4vw;
     border-radius: 30px;
     border: solid 1px #ffffff;
     text-align: center;
@@ -328,22 +328,6 @@ body, html {
 .icon_size {
   width: 50px;
   height: 50px;
-}
-
-.campusam {
-  font-family: 'Poppins';
-  font-size: 1.3vw;
-  color: #fff;
-  border: 2px #fff solid;
-  padding: 0.005vw 2.5vw;
-  border-radius: 2vw;
-  font-weight: 600;
-  height: 3vw;
-  text-transform: uppercase;
-  margin-left: 7vw;
-  display: flex;
-  justify-content: left;
-  align-items: center;
 }
 
 #aboutus {
