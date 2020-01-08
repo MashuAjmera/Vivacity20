@@ -30,13 +30,13 @@ a:hover {
 }
 
 .campusam a {
-  padding: 8px;
+  /* padding: 8px; */
   text-decoration: none;
   display: inline-block;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 0.93em;
+  font-size: 1em;
   outline: none;
 }
 
@@ -53,18 +53,21 @@ a:hover {
 
 .campusam {
   font-family: 'Poppins';
-  font-size: 1.3vw;
+  font-size: 1.0vw;
   color: #fff;
   border: 2px #fff solid;
-  padding: 0.005vw 2.5vw;
+  padding-left: 20px;
+  padding-right: 10px;
   border-radius: 2vw;
   font-weight: 600;
-  height: 3vw;
+  height: 4vh;
+  width: 12vw;
   text-transform: uppercase;
   margin-left: 3vw;
   display: flex;
   justify-content: left;
   align-items: center;
+  margin-bottom: -1%;
 }
 
 .campusam-menu a {
@@ -301,15 +304,15 @@ a:hover {
   margin-top: 4%;
   margin-right: 36%;
   height: 50px;
-  bottom: 5.5vh;
+  bottom: 2vh;
   z-index: 3;
 }
 
 .icons {
   float: right;
-  width: 2vw;
-  height: 2vw;
-  border: 2.5px solid white;
+  width: 1.5vw;
+  height: 1.5vw;
+  border: 1.5px solid white;
   border-radius: 50%;
   padding: 7px;
   margin-left: 6px;
@@ -317,8 +320,8 @@ a:hover {
 }
 
 .icons img {
-  width: 2vw;
-  height: 2vw;
+  width: 1.5vw;
+  height: 1.5vw;
 }
 
 #FOOTER-menu {

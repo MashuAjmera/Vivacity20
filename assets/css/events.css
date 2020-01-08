@@ -25,6 +25,19 @@ a:hover {
   text-decoration: none;
 }
 
+#FOOTER {
+  padding-right: 1.5vw;
+  padding-bottom: 2vh;
+}
+
+.rectangle {
+  padding-bottom: 2vh;
+}
+
+.campusam {
+  width: 7vw;
+}
+
 #concert {
   padding-top: 10vh;
   font-family: Verdana, sans-serif;

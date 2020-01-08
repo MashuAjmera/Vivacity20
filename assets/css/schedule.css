@@ -207,13 +207,12 @@ button {
 }
 
 @media screen and (max-width:450px) {
-    
-.flex-container>div {
-    background-color: transparent;
-    margin: -4px;
-    padding: 16px;
-    font-size: 30px;
-}
+    .flex-container>div {
+        background-color: transparent;
+        margin: -4px;
+        padding: 16px;
+        font-size: 30px;
+    }
     .flex-container {
         flex-direction: column;
         width: 100%;
@@ -238,13 +237,18 @@ button {
     }
     #map {
         width: 35vw;
+        height: 5vh;
+        padding: 0;
+        line-height: 0;
+    }
+    #heading-contactus {
+        margin-top: -10%;
     }
     .xyz {
         font-size: 30%;
         width: 67%;
         height: 91px;
         margin-left: 29%;
-
     }
     .aboutUsSvg {
         display: none;
@@ -257,29 +261,24 @@ button {
         width: 60vw;
         margin-left: 20%;
     }
-    
-.tp1 {
-    width: 18%;
-}
-
-.tp2 {
-    width: 42%;
-    margin-top: -8%;
-    font-size: 152%;
-}
-
-.tp3 {
-    width: 65%;
-    height: 10%;
-    margin-top: 21%;
-    margin-left: -40%;
-    letter-spacing: 2.5px;
-}
-
-.tp4 {
-    float: left;
-    margin-top: 12%;
-    margin-left: 27%;
-}
-
+    .tp1 {
+        width: 18%;
+    }
+    .tp2 {
+        width: 42%;
+        margin-top: -8%;
+        font-size: 152%;
+    }
+    .tp3 {
+        width: 65%;
+        height: 10%;
+        margin-top: 21%;
+        margin-left: -40%;
+        letter-spacing: 2.5px;
+    }
+    .tp4 {
+        float: left;
+        margin-top: 12%;
+        margin-left: 27%;
+    }
 }
