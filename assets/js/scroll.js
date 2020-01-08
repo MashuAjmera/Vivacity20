@@ -145,7 +145,7 @@ function checkKey(e) {
       }
     } else if (e.keyCode == "40") {
       // snapScroll();
-      if (current == container.length) {
+      if (current == container.length-1) {
         current = 0;
       } else {
         current++;
@@ -178,7 +178,7 @@ function scroll(event) {
     setTimeout(addlistener, delayInAddRemove);
 
     // snapScroll();
-    if (current == container.length) {
+    if (current == container.length-1) {
       current = 0;
     } else {
       current++;
@@ -233,7 +233,7 @@ function touchmove(event) {
       document.dispatchEvent(event);
     }
     if (deltaY >= 50) {
-      if (current == container.length) {
+      if (current == container.length-1) {
         current = 0;
       } else {
         current++;
