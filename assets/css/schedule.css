@@ -234,10 +234,9 @@ button {
     }
     .xyz {
         font-size: 30%;
-        width: 78%;
-        height: 91px;
-        margin-left: 11%;
-
+        width: 82%;
+        height: 68px;
+        margin-left: 8%;
     }
     .aboutUsSvg {
         display: none;
@@ -252,20 +251,21 @@ button {
     }
     
 .tp1 {
-    width: 15%;
+    width: 12%;
+    margin-top: -12%;
 }
 
 .tp2 {
     width: 42%;
-    margin-top: -10%;
+    margin-top: -16%;
     font-size: 197%;
 }
 
 .tp3 {
     width: 71%;
     height: 10%;
-    margin-top: 9%;
-    margin-left: -47%;
+    margin-top: 1%;
+    margin-left: -41%;
     letter-spacing: 2.5px;
     font-size: 213%;
 }
