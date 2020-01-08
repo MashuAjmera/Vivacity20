@@ -354,33 +354,35 @@ a:hover {
   #FOOTER {
     position: fixed;
     /* width: 175vh; */
-    right: -12%;
+    left: 0;
     margin-left: 4%;
     margin-top: 4%;
     /* margin-right: 40%; */
     height: 50px;
-    bottom: 60px;
+    bottom: 0;
     z-index: 10;
   }
   .icons {
     float: right;
-    width: 6vw;
-    height: 6vw;
+    width: 4vw;
+    height: 4vw;
     border-radius: 50%;
-    padding: 9px;
-    margin-left: 6px;
-    margin-top: 4px;
+    border-width: 2px;
+    padding: 3px;
+    /* margin-left: 8px; */
+    /* margin-top: 8px; */
   }
   .icons img {
-    width: 6vw;
-    height: 6vw;
+    width: 4vw;
+    height: 4vw;
   }
   .rectangle {
-    width: 57%;
+    width: 47%;
     position: fixed;
     bottom: 7vw;
     /* margin-bottom: -30vw; */
-    margin-left: 20vw;
+    margin-left: 3vw;
+    left: 0;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -390,18 +392,18 @@ a:hover {
   }
   .campusam {
     font-family: 'Poppins';
-    font-size: 3.5vw;
+    font-size: 3vw;
     color: #fff;
     border: 3px #fff solid;
-    padding: 2.5vw 7.5vw;
+    padding: 2.5vw 2.5vw;
     border-radius: 6vw;
     font-weight: 600;
-    height: 3vw;
+    height: 2vw;
     text-transform: uppercase;
     margin-left: 0vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: -5vw;
+    margin-bottom: -4vw;
   }
 }
