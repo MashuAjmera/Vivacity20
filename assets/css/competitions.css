@@ -271,12 +271,10 @@ button:hover {
 }
 
 #id7 a>button {
-  margin-top: -2%; 
+  margin-top: -2%;
   margin-bottom: 4%;
   text-align: center;
   margin-left: 3%;
-
-
 }
 
 #id8 a>button {
@@ -296,11 +294,6 @@ button:hover {
   margin-bottom: 4%;
   width: 28%;
   margin-left: 35%;
-}
-
-#footer {
-  margin-top: 10%;
-  height: 30px;
 }
 
 .x {
@@ -345,6 +338,10 @@ button:hover {
   .brochure {
     padding-top: 20vh;
   }
+  #heading-contactus {
+    padding-top: 0;
+    margin-top: -10%;
+  }
   .heading {
     height: 18%;
     width: 50%;
@@ -375,7 +372,6 @@ button:hover {
     width: 89%;
     grid-gap: 5%;
     padding-top: 0;
-    /* margin-top: -10vh; */
   }
   .grid-item {
     display: flex;
@@ -385,7 +381,7 @@ button:hover {
     background-color: transparent;
     grid-template-columns: 200px 200px;
     grid-template-rows: 100px 100px 100px 100px;
-    height: 33px;
+    height: 23px;
     border-radius: 10px;
     border: solid 2px #ffffff;
     padding: 20px;
@@ -407,10 +403,14 @@ button:hover {
   a {
     text-decoration: none;
   }
+  #FOOTER {
+    padding-right: 4vw;
+    padding-bottom: 2vh;
+  }
   #id6 a>button {
     width: 74%;
     margin-top: -1%;
-    padding: 4px 32px;    
+    padding: 4px 32px;
   }
   #id6 {
     margin-top: -69%;
@@ -421,7 +421,6 @@ button:hover {
     margin-top: -1%;
     margin-left: 6%;
     padding: 4px 32px;
-
   }
   #id8 {
     margin-top: -69%;
@@ -442,7 +441,6 @@ button:hover {
     margin-top: -2%;
     margin-left: 6%;
     padding: 4px 32px;
-
   }
   #id1 {
     margin-top: -68%;
@@ -453,7 +451,6 @@ button:hover {
     margin-top: -2%;
     margin-left: 6%;
     padding: 4px 32px;
-
   }
   #id4 {
     margin-top: -68%;
@@ -464,7 +461,6 @@ button:hover {
     margin-top: -2%;
     margin-left: 6%;
     padding: 4px 32px;
-
   }
   #id2 {
     margin-top: -68%;
@@ -475,7 +471,6 @@ button:hover {
     margin-top: -2%;
     margin-left: 6%;
     padding: 4px 32px;
-
   }
   #id7 {
     margin-top: -68%;
@@ -487,7 +482,6 @@ button:hover {
     margin-left: -3%;
     margin-right: 7%;
     padding: 4px 32px;
-
   }
   #id5 {
     margin-top: -68%;
