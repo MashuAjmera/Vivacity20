@@ -20,7 +20,7 @@ function countcolleges () {
 
 var events = 0;
 
-function countevents () {
+function countevents() {
   if (events < 30) {
     events += 1;
   }
