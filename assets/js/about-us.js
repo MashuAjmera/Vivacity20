@@ -25,7 +25,7 @@ function countevents() {
     events += 1;
   }
   document.getElementById ('counterevents').innerHTML = events + '+';
-  setTimeout (countevents, 900);
+  setTimeout (countevents, 100);
 }
 
 function elementInViewport (el) {
