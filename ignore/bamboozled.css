@@ -1,103 +1,48 @@
-body{
-    background: #085078;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+#bamboozled {
+    background: #085078;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #85D8CE, #085078);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #85D8CE, #085078);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
-
-html{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
-
-body{
-    margin: 0;
-}
-
-div{
-    display: block;
-}
-
-nav{
-	position: fixed;
-	z-index: 4;
-}
-
-.LOGO {
-    /*position: fixed;
-    width: 40px;*/
-    margin-top: 20px;
-    margin-left: 2%;
-    width: 40px;
-    height: 40px;
-}
-
-.menu {
-    position: fixed;
-    cursor: pointer;
-    right: 50px;
-    top: 45px;
-    transform: translate(-5%, -50%);
-    z-index: 5;
-    font-family: 'Josefin Sans', sans-serif;
-    color: white;
-    font-size: 30px;
-}
-
-.bar {
-    width: 30px;
-    height: 3px;
-    background: white;
-    margin: 5px;
-    transition: transform 0.4s ease;
-}
-
-
-.bar3 {
-    margin: 5px 5px 5px auto;
-    width: 20px;
-    height: 3px;
-    background: white;
-    transition: all 0.4s ease;
+    width: device-width;
+    zoom: 1.0;
 }
 
 .Spotlight {
-  font-family: Poppins;
-  font-size: 5.5em;
-  font-weight: bold;
-  line-height: 1.5;
-  text-align: center;
-  color: #ffffff;
+    font-family: Poppins;
+    font-size: 5.5em;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    color: #ffffff;
 }
 
-#cont{
+#cont {
     /*display: flex;*/
     height: 50vh;
     margin: 1.3% 3% 5% 3%;
     margin-bottom: 0;
 }
 
-#imgBtn{
+#imgBtn {
     margin-left: 5%;
     margin-top: 1%;
 }
 
-#imgBtn > .imgg,.imgg>img {
+#imgBtn>.imgg, .imgg>img {
     width: 50vh;
     height: 40vh;
 }
 
-.imgg > img{
+.imgg>img {
     border-radius: 10px;
 }
 
-#imgBtn > button{
+#imgBtn>button {
     border: none;
     margin-left: 30%;
     margin-top: 4%;
@@ -110,22 +55,22 @@ nav{
     background-color: #ea6262;
 }
 
-#desc{
-    overflow-y : scroll;
+#desc {
+    overflow-y: scroll;
     margin-right: 5%;
     margin-left: 3%;
     padding-bottom: 40px;
     width: 50%;
 }
 
-.ht{
+.ht {
     margin-top: 0;
     color: white;
     font-size: 25px;
     font-family: "Bebas neue";
 }
 
-.lt{
+.lt {
     margin-right: 2%;
     color: white;
     font-size: 20px;
@@ -134,184 +79,65 @@ nav{
     padding-right: 10px;
 }
 
-::-webkit-scrollbar-track
-{
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #085078;
     margin-left: 5%;
     -webkit-border-radius: 20px;
     border-radius: 20px;
 }
 
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
     width: 8px;
     background-color: #085078;
 }
 
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb {
     background-color: #85D8CE;
     border-radius: 20px;
     -webkit-border-radius: 20px;
-
 }
 
-@media screen and (max-width: 700px){
-    #imgBtn{
+@media screen and (max-width: 700px) {
+    #imgBtn {
         width: 30vh;
     }
-    #imgBtn > img{
+    #imgBtn>img {
         width: 30vh;
     }
-    .imgg{
+    .imgg {
         display: none;
     }
-    #imgBtn > button{
+    #imgBtn>button {
         margin-top: 0;
         margin-left: 60%;
     }
-    #desc{
+    #desc {
         height: 40vh;
         overflow-y: scroll;
         width: 80%;
         margin-top: 35px;
         margin-left: 10%;
     }
-    .Spotlight{
+    .Spotlight {
         font-size: 3.5em;
     }
-    .lt{
+    .lt {
         height: 250px;
     }
 }
 
-@media screen and (min-width: 700px){
-    #cont{
+@media screen and (min-width: 700px) {
+    #cont {
         display: flex;
     }
-    #imgBtn{
+    #imgBtn {
         width: 60vh;
     }
-
-    #imgBtn > img{
+    #imgBtn>img {
         width: 60vh;
     }
-
-    .imgg{
+    .imgg {
         width: 60vh;
     }
-}
-
-
-
-.rectangle {
-    width: 100%;
-    position: fixed;
-    bottom: 5%;
-    color: #fff;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    z-index: 3;
-}
-
-.campusam {
-    font-family: "Poppins";
-    font-size: 1.3vw;
-    color: #fff;
-    border: 2px #fff solid;
-    padding: 0.005vw 2.5vw;
-    border-radius: 2vw;
-    font-weight: 600;
-    height: 3vw;
-    text-transform: uppercase;
-    margin-left: 7vw;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.campusam a {
-    padding: 8px;
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    font-size: 0.93em;
-    outline: none;
-}
-
-
-#FOOTER {
-    position: fixed;
-    /* width: 175vh; */
-    right: -32%;
-    margin-left: 4%;
-    margin-top: 4%;
-    margin-right: 40%;
-    height: 50px;
-    bottom: 5.5vh;
-    z-index: 3;
-}
-
-.icons {
-    float: right;
-    width: 2vw;
-    height: 2vw;
-    border: 2.5px solid white;
-    border-radius: 50%;
-    padding: 7px;
-    margin-left: 6px;
-    margin-top: 4px;
-}
-
-@media only screen and (max-width: 480px){
-#FOOTER {
-    position: fixed;
-    /* width: 175vh; */
-    right: -15%;
-    margin-left: 4%;
-    margin-top: 4%;
-    margin-right: 40%;
-    height: 50px;
-    bottom: 60px;
-    z-index: 10;
-}
-}
-
-@media only screen and (max-width: 480px){
-.campusam {
-    font-family: "Poppins";
-    font-size: 3.5vw;
-    color: #fff;
-    border: 3px #fff solid;
-    padding: 2.5vw 7.5vw;
-    border-radius: 6vw;
-    font-weight: 600;
-    height: 3vw;
-    text-transform: uppercase;
-    margin-left: 0vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -5vw;
-}
-}
-
-@media only screen and (max-width: 480px){
-.rectangle {
-    width: 57%;
-    position: fixed;
-    bottom: 7vw;
-    /* margin-bottom: -30vw; */
-    margin-left: 1vw;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0px;
-    z-index: 6;
-}
 }
