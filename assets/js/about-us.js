@@ -1,34 +1,34 @@
 var footfall = 0;
 
-function countfootfall() {
-  if (footfall < 30) {
-    footfall += 5;
+function countfootfall () {
+  if (footfall < 7) {
+    footfall += 1;
   }
-  document.getElementById('counterfootfall').innerHTML = footfall + 'k+';
-  setTimeout(countfootfall, 100);
+  document.getElementById ('counterfootfall').innerHTML = footfall + 'k+';
+  setTimeout (countfootfall, 900);
 }
 
 var colleges = 0;
 
-function countcolleges() {
+function countcolleges () {
   if (colleges < 1000) {
     colleges += 5;
   }
-  document.getElementById('countercolleges').innerHTML = colleges + '+';
-  setTimeout(countcolleges, 3);
+  document.getElementById ('countercolleges').innerHTML = colleges + '+';
+  setTimeout (countcolleges, 7);
 }
 
 var events = 0;
 
-function countevents() {
-  if (events < 3000) {
-    events += 10;
+function countevents () {
+  if (events < 30) {
+    events += 1;
   }
-  document.getElementById('counterevents').innerHTML = events + '+';
-  setTimeout(countevents, 1);
+  document.getElementById ('counterevents').innerHTML = events + '+';
+  setTimeout (countevents, 100);
 }
 
-function elementInViewport(el) {
+function elementInViewport (el) {
   var top = el.offsetTop;
   var left = el.offsetLeft;
   var width = el.offsetWidth;
@@ -49,12 +49,12 @@ function elementInViewport(el) {
 }
 
 var flag = 0;
-var aboutus = function() {
-  if (elementInViewport(document.querySelector('.so'))) {
-    countcolleges();
-    countevents();
-    countfootfall();
+var aboutus = function () {
+  if (elementInViewport (document.querySelector ('.so'))) {
+    countcolleges ();
+    countevents ();
+    countfootfall ();
   }
-  setTimeout(aboutus, 500);
+  setTimeout (aboutus, 500);
 };
-aboutus();
+aboutus ();
