@@ -19,7 +19,7 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/menu.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/navbar.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/competitions.css">
-
+    <link rel="stylesheet" href="../assets/css/bamboozled.css">
 
     <!-- Font Files -->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
@@ -120,9 +120,385 @@
         <script src="../assets/js/menu.js"></script>
     </nav>
 
+    <div class="container">
+
+        <!-- MAIN PAGE LAYOUT -->
+        <div>
+            <a href="/"> <img src="../assets/svg/svgg.svg" class="LOGO" /> </a>
+        </div>
+
+        <h1 class="heading">Competitions</h1>
+
+        <div class="whole">
+            <!-- GRID1  -->
+            <div class="grid-container1">
+                <div id="t1" class="grid-item" onclick="show('id1','t1');">Dance</div>
+                <div id="t2" class="grid-item" onclick="show('id2','t2');">Dramatics</div>
+                <div id="t3" class="grid-item" onclick="show('id3','t3');">Life & Style</div>
+                <div id="t4" class="grid-item" onclick="show('id4','t4');">Art & Craft</div>
+            </div>
+
+            <br><br><br>
+            <!-- EVENT TABS -->
+            <div class="eventDisplaySpace">
+                <!--Dance-->
+                <div id="id1" class="eventDetails">
+                    <a href="../assets/pdf/Events/Dance'20_Rules.pdf" target="_blank"><button type="button">Lets
+                            Tangle</button></a>
+                    <a href="../assets/pdf/Events/Dance'20_Rules.pdf" target="_blank"><button
+                            type="button">Mudra</button></a>
+                    <a href="../assets/pdf/Events/Dance'20_Rules.pdf" target="_blank"><button type="button">Pump It
+                            Up</button></a>
+                    <a href="../assets/pdf/Events/Dance'20_Rules.pdf" target="_blank"><button
+                            type="button">Razmatazz</button></a>
+                    <a href="../assets/pdf/Events/Dance'20_Rules.pdf" target="_blank"><button type="button">The
+                            Outlaw</button></a>
+                </div>
+
+
+                <!--Dramatics-->
+                <div id="id2" class="eventDetails">
+                    <a href="../assets/pdf/Events/Drama'20_Rules.pdf" target="_blank"><button type="button">Stage
+                            Play</button></a>
+                    <a href="../assets/pdf/Events/Drama'20_Rules.pdf" target="_blank"><button
+                            type="button">Mime</button></a>
+                    <a href="../assets/pdf/Events/Nukkad'20_Rules.pdf" target="_blank"><button
+                            type="button">Hunkaar</button></a>
+                </div>
+
+                <!--Life & Style-->
+                <div id="id3" class="eventDetails">
+                    <a hre="../assets/pdf/Events/Vogue'20_Rules.pdf" target="_blank"><button
+                            type="button">Vogue</button></a>
+                </div>
+
+                <!--Art & Craft-->
+                <div id="id4" class="eventDetails">
+                    <a href="../assets/pdf/Events/vignette2k20.pdf" target="_blank"><button
+                            type="button">Contrasto</button></a>
+                    <a href="../assets/pdf/Events/vignette2k20.pdf" target="_blank"><button
+                            type="button">Splash</button></a>
+                    <a href="../assets/pdf/Events/vignette2k20.pdf" target="_blank"><button type="button">Ink the
+                            Tee</button></a>
+                    <a href="../assets/pdf/Events/vignette2k20.pdf" target="_blank"><button
+                            type="button">Colorama</button></a>
+                    <a href="../assets/pdf/Events/vignette2k20.pdf" target="_blank"><button type="button">Tattoo
+                            Tales</button></a>
+                </div>
+
+                <!--Music-->
+                <div id="id5" class="eventDetails">
+                    <a href="../assets/pdf/Events/Music'20_Rules.pdf" target="_blank"><button
+                            type="button">Antakshiri</button></a>
+                    <a href="../assets/pdf/Events/Music'20_Rules.pdf" target="_blank"><button
+                            type="button">Duetto</button></a>
+                    <a href="../assets/pdf/Events/Music'20_Rules.pdf" target="_blank"><button
+                            type="button">Mescolanza</button></a>
+                    <a href="../assets/pdf/Events/Music'20_Rules.pdf" target="_blank"><button type="button">Rap
+                            Batle</button></a>
+                    <a href="../assets/pdf/Events/Music'20_Rules.pdf" target="_blank"><button
+                            type="button">Solendious</button></a>
+                    <a href="../assets/pdf/Events/Music'20_Rules.pdf" target="_blank"><button
+                            type="button">Swaranjali</button></a>
+                    <a href="../assets/pdf/Events/Music'20_Rules.pdf" target="_blank"><button
+                            type="button">Verismo</button></a>
+                </div>
+
+                <!--Social Cause-->
+                <div id="id6" class="eventDetails">
+                    <a href="#"><button type="button">Sahyog</button></a>
+                    <a href="../assets/pdf/Events/THEXI.pdf" target="_blank"><button type="button">Football
+                            Auction</button></a>
+                    <a href="../assets/pdf/Events/bamboozled_viva20.pdf" target="_blank"><button
+                            type="button">Bamboozled
+                            Quiz</button></a>
+                </div>
+
+                <!--Speaking Arts-->
+                <div id="id7" class="eventDetails">
+                    <a href="../assets/pdf/Events/Rostrum_Rules.pdf" target="_blank"><button
+                            type="button">Rostrum</button></a>
+                    <a href="#"><button type="button">Spotlight</button></a>
+                    <a href="../assets/pdf/Events/AdMad-Viva20.pdf" target="_blank"><button type="button">Ad
+                            Mad</button></a>
+                    <a href="#"><button type="button">Jam</button></a>
+                </div>
+
+                <!--Photography-->
+                <div id="id8" class="eventDetails">
+                    <a href="#"><button type="button">Flicker</button></a>
+                </div>
+            </div>
+
+            <!--GRID 2-->
+            <div class="grid-container2">
+                <div id="t5" class="grid-item" onclick="show('id5','t5');">Music</div>
+                <div id="t6" class="grid-item" onclick="show('id6','t6');">Miscellaneous</div>
+                <div id="t7" class="grid-item" onclick="show('id7','t7');">Speaking Arts</div>
+                <div id="t8" class="grid-item" onclick="show('id8','t8');">Photography</div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function show(elementId, p) {
+                document.getElementById("id1").style.display = "none";
+                document.getElementById("id2").style.display = "none";
+                document.getElementById("id3").style.display = "none";
+                document.getElementById("id4").style.display = "none";
+                document.getElementById("id5").style.display = "none";
+                document.getElementById("id6").style.display = "none";
+                document.getElementById("id7").style.display = "none";
+                document.getElementById("id8").style.display = "none";
+
+                document.getElementById(elementId).style.display = "block";
+
+                document.getElementById('t1').style.backgroundColor = "transparent";
+                document.getElementById('t2').style.backgroundColor = "transparent";
+                document.getElementById('t3').style.backgroundColor = "transparent";
+                document.getElementById('t4').style.backgroundColor = "transparent";
+                document.getElementById('t5').style.backgroundColor = "transparent";
+                document.getElementById('t6').style.backgroundColor = "transparent";
+                document.getElementById('t7').style.backgroundColor = "transparent";
+                document.getElementById('t8').style.backgroundColor = "transparent";
+
+
+                document.getElementById('t1').style.color = "white";
+                document.getElementById('t2').style.color = "white";
+                document.getElementById('t3').style.color = "white";
+                document.getElementById('t4').style.color = "white";
+                document.getElementById('t5').style.color = "white";
+                document.getElementById('t6').style.color = "white";
+                document.getElementById('t7').style.color = "white";
+                document.getElementById('t8').style.color = "white";
 
 
 
+                document.getElementById(p).style.backgroundColor = "white";
+                document.getElementById(p).style.color = "gray";
+            }    
+        </script>
+    </div>
+
+    <div class="container" id="bamboozled">
+        <div class="Spotlight">
+            Bamboozled
+        </div>
+        <div id="cont">
+            <div id="imgBtn">
+                <div class="imgg"><img src="demo.jpeg"> </div>
+                <button>
+                    Register
+                </button>
+            </div>
+            <div id="desc">
+                <p class="ht">
+                    Description
+                </p>
+                <p class="lt">
+                    Bamboozledâ€™ will be held in two rounds:<br>both of these rounds will take
+                    place back to back at the venue, duringVivacity.<br>
+                    The initial round(Prelims) will be a written elimination round..
+                    The final round(Main) will be between the top twelve teams from the
+                    Prelims.<br><br>
+                    Rules:<br>
+                    1.This event is open to all undergraduate and postgraduate students.<br>
+                    2.The team should comprise of exactly 2/3 members.<br>
+                    3.An individual can be a part of only one registeredteam.<br>
+                    4.There is no cap on the number of teams registered per institute.<br>
+                    5.The decisions of the organizers of the contest will be final and
+                    unanimously bindingonall the participants.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="spotlight">
+        <div class="Spotlight">
+            Spotlight
+        </div>
+        <div id="cont">
+            <div id="imgBtn">
+                <div class="imgg"><img src="demo.jpeg"> </div>
+                <button>
+                    Register
+                </button>
+            </div>
+            <div id="desc">
+                <p class="ht">
+                    Description
+                </p>
+                <p class="lt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ullamcorper, turpis ac
+                    pellentesque
+                    vulputate, elit dolor tincidunt arcu, ac dictum leo dui et nulla. Quisque vel mollis est. Aliquam
+                    finibus
+                    odio sed nisi mattis, ac facilisis diam molestie. Interdum et malesuada fames ac ante ipsum primis
+                    in
+                    faucibus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ullamcorper, turpis ac
+                    pellentesque
+                    vulputate, elit dolor tincidunt arcu, ac dictum leo dui et nulla. Quisque vel mollis est. Aliquam
+                    finibus
+                    odio sed nisi mattis, ac facilisis diam molestie. Interdum et malesuada fames ac ante ipsum primis
+                    in
+                    faucibus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ullamcorper, turpis ac
+                    pellentesque
+                    vulputate, elit dolor tincidunt arcu, ac dictum leo dui et nulla. Quisque vel mollis est. Aliquam
+                    finibus
+                    odio sed nisi mattis, ac facilisis diam molestie. Interdum et malesuada fames ac ante ipsum primis
+                    in
+                    faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ullamcorper, turpis ac
+                    pellentesque vulputate, elit dolor tincidunt arcu, ac dictum leo dui et nulla. Quisque vel mollis
+                    est.
+                    Aliquam finibus odio sed nisi mattis, ac facilisis diam molestie. Interdum et malesuada fames ac
+                    ante ipsum
+                    primis in faucibus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ullamcorper, turpis ac
+                    pellentesque
+                    vulputate, elit dolor tincidunt arcu, ac dictum leo dui et nulla. Quisque vel mollis est. Aliquam
+                    finibus
+                    odio sed nisi mattis, ac facilisis diam molestie. Interdum et malesuada fames ac ante ipsum primis
+                    in
+                    faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ullamcorper, turpis ac
+                    pellentesque vulputate, elit dolor tincidunt arcu, ac dictum leo dui et nulla. Quisque vel mollis
+                    est.
+                    Aliquam finibus odio sed nisi mattis, ac facilisis diam molestie. Interdum et malesuada fames ac
+                    ante ipsum
+                    primis in faucibus.
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container" id="ultimate">
+        <div class="Spotlight">
+            The Ultimate XI
+        </div>
+        <div id="cont">
+            <div id="imgBtn">
+                <div class="imgg"><img src="demo.jpeg"> </div>
+                <button>
+                    Register
+                </button>
+            </div>
+            <div id="desc">
+                <p class="ht">
+                    Description
+                </p>
+                <p class="lt">
+                    Synopsis: <br>
+                    Build your dream fantasy team from your favourite players and see how closely do you follow
+                    FOOTBALL! <br>
+                    Out here will be the ultimate test of your football knowledge and your business skills. <br><br>
+                    Description: <br>
+                    There will be 2 rounds: <br>
+                    1. Football quiz: The top 10 teams would be qualified for the final round. The team to qualify as
+                    the
+                    highest scoring team in quiz would get to choose the team first. <br>
+                    2. The Auction - The participants have to form a team of 11 players with 1 goalkeeper, 4 defenders,
+                    3
+                    mid-fielders and 3 attackers, along with 1 manager. The team with the highest rating would be
+                    declared as
+                    the winner. <br><br>
+                    Rules:<br>
+                    1. For the first round (i.e. Football Quiz) the participants have to form a team of 3 members.<br>
+                    2. Any dispute will be solved by the organizers. 3. Any use of unfair means will lead to automatic
+                    disqualification of the team.
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container" id="vogue">
+        <div class="Spotlight">
+            Vogue
+        </div>
+        <div id="cont">
+            <div id="imgBtn">
+                <div class="imgg"><img src="demo.jpeg"> </div>
+                <button>
+                    Register
+                </button>
+            </div>
+            <div id="desc">
+                <p class="ht">
+                    Description
+                </p>
+                <p class="lt">
+                    Rules: <br>
+                    • Prior online registration is required.<br> • It is a team event. Team size may vary from 10 to 20
+                    members,
+                    including models, designers, choreographers, make-up artists, etc. <br> • Each member of the team is
+                    required to carry their ID cards. <br> • Theme selection is open. All the teams can have a theme of
+                    their
+                    own choice. <br>• Props should be arranged by the teams on their own. Use of fire, water, animals or
+                    any
+                    hazardous material is prohibited. <br> • Vulgarity of any kind would lead to disqualification of
+                    team from
+                    the event. Hence if the team feels that any stunt of costume design can be deemed as vulgar, it is
+                    strongly
+                    advised to consult the organizers than performing it directly on stage.<br><br>
+                    Judging Criteria: <br>
+                    ❖ Theme: Originality, Depiction of Theme, Designing, Use of Props. <br> ❖ Constraint: Uniqueness,
+                    Innovation
+                    and Improvisation in terms of executing the transformation. <br> ❖ Models: Ramp walk, Stage
+                    Presence, Poise,
+                    Overall Appearance <br> ❖ Team: Choreography, Music and Narration, Co-ordination, Relevance to the
+                    theme and
+                    Overall Performance
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container" id="contactUs">
+        <div id="contact">
+            <div id="heading-contactus">
+                Contact Us
+            </div>
+            <div id="bodyPage-contactus">
+                <div>
+                    <div class="hline-contactus">Khalid M. Khan</div>
+                    <a href="tel:+917727007427"> +91 77270 07427 </a> <br />
+                    <a href="mailto:17ucs078@lnmiit.ac.in">
+                        17ucs078@lnmiit.ac.in
+                    </a>
+                    <p id="btn">
+                        <button id="map" onclick="window.open('http://vivacity.lnmiit.ac.in/templates/team.html')">
+                            Know More
+                        </button>
+                    </p>
+                </div>
+                <div>
+                    <div class=" hline-contactus">Damandeep Singh</div>
+                    <a href="tel:+919602333100"> +91 96023 33100 </a>
+                    <br />
+                    <a href="mailto:17ucc019@lnmiit.ac.in">
+                        17ucc019@lnmiit.ac.in
+                    </a>
+                </div>
+                <div>
+                    <div class="hline-contactus">Get Directions</div>
+                    <p>
+                        The LNM Institute of Information Technology, Rupa Ki Nangal,
+                        Post-Sumel, Via Jamdoli, Jaipur 302031
+                    </p>
+                    <p id="btn">
+                        <button id="map"
+                            onclick="window.open('https://www.google.com/maps/place/The+LNM+Institute+of+Information+Technology/@26.9358194,75.9196668,16z/data=!4m5!3m4!1s0x396dba21e8a1d1c9:0x5ab565cce4d44c2b!8m2!3d26.9363461!4d75.9235233')">
+                            See In Maps
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="../assets/js/scroll.js"></script>
 </body>
 

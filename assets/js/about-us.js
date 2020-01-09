@@ -1,11 +1,11 @@
 var footfall = 0;
 
 function countfootfall () {
-  if (footfall < 7) {
-    footfall += 1;
+  if (footfall < 7000) {
+    footfall += 20;
   }
-  document.getElementById ('counterfootfall').innerHTML = footfall + 'k+';
-  setTimeout (countfootfall, 900);
+  document.getElementById ('counterfootfall').innerHTML = footfall + '+';
+  setTimeout (countfootfall, 3);
 }
 
 var colleges = 0;
@@ -20,12 +20,12 @@ function countcolleges () {
 
 var events = 0;
 
-function countevents() {
+function countevents () {
   if (events < 30) {
     events += 1;
   }
   document.getElementById ('counterevents').innerHTML = events + '+';
-  setTimeout (countevents, 100);
+  setTimeout (countevents, 70);
 }
 
 function elementInViewport (el) {
