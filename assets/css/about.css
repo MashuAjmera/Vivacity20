@@ -1,5 +1,5 @@
 #aboutUs {
-  background: linear-gradient(to bottom,#61C0EC,#2483c2);
+  background: linear-gradient(to bottom, #61C0EC, #2483c2);
   background-color: aquamarine;
   margin: 0px;
   padding: 0px;
@@ -17,7 +17,6 @@
 
 .a {
   width: 100%;
-
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -51,7 +50,7 @@
 }
 
 .abo {
-  font-family: 'Raleway';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 900;
   font-size: 5vw;
   color: #fff;
@@ -105,28 +104,23 @@
     margin: 0px;
     padding: 0px;
   }
-
   .main {
     width: 100%;
     margin-top: 0vw;
     height: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   .a {
     width: 100%;
-
     margin-top: -50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   .first {
     width: 100%;
     height: 100%;
@@ -135,7 +129,6 @@
     justify-content: center;
     align-items: center;
   }
-
   .second {
     width: 100%;
     height: 100%;
@@ -145,7 +138,6 @@
     align-items: center;
     margin-top: 5vw;
   }
-
   .svg {
     height: 30vw;
     width: 30vw;
@@ -153,7 +145,6 @@
     margin-top: 3vw;
     position: absolute;
   }
-
   .abo {
     font-family: 'Raleway';
     font-weight: 900;
@@ -163,7 +154,6 @@
     width: 60%;
     margin-right: -15vw;
   }
-
   .content {
     font-family: 'Poppins';
     font-size: 3.3vw;
@@ -172,7 +162,6 @@
     width: 80%;
     height: 40vh;
   }
-
   .so {
     width: 100%;
     margin-top: 3vw;
@@ -183,7 +172,6 @@
     align-items: center;
     margin-bottom: -20vw;
   }
-
   .so-h {
     font-family: 'Poppins';
     font-size: 3.3vw;
