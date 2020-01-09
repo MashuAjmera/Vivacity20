@@ -21,8 +21,8 @@ function countcolleges() {
 var events = 0;
 
 function countevents() {
-  if (events < 3000) {
-    events += 10;
+  if (events < 30) {
+    events += 1;
   }
   document.getElementById('counterevents').innerHTML = events + '+';
   setTimeout(countevents, 1);

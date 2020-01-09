@@ -3,7 +3,7 @@
 nav {
   position: fixed;
   /* background: inherit; */
-  z-index: 4;
+  z-index: 1;
 }
 
 ul {
@@ -15,7 +15,7 @@ li {
 }
 
 .nav-links {
-  z-index: 4;
+  z-index: 1;
   position: fixed;
   list-style: none;
   width: 40%;
