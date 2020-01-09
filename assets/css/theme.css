@@ -145,20 +145,20 @@ html {
 }
 
 .five {
-  display: none;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 0;
-  transition: 0.3s;
-}
-
-.four {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 100;
+  transition: 0.3s;
+}
+
+.four {
+  display: none;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 0%;
   transition: 0.3s;
 }
 
