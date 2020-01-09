@@ -362,7 +362,7 @@ a:hover {
     margin-top: 4%;
     /* margin-right: 40%; */
     height: 50px;
-    bottom: 30px;
+    padding-bottom: 20px;
     z-index: 10;
   }
   .icons {

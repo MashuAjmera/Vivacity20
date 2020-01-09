@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 #bamboozled {
     background: #085078;
     /* fallback for old browsers */
@@ -37,15 +39,6 @@
 @viewport {
     width: device-width;
     zoom: 1.0;
-}
-
-.Spotlight {
-    font-family: Poppins;
-    font-size: 5.5em;
-    font-weight: bold;
-    line-height: 1.5;
-    text-align: center;
-    color: #ffffff;
 }
 
 #cont {
@@ -97,11 +90,17 @@
     font-family: "Bebas neue";
 }
 
-.lt {
-    margin-right: 2%;
+.mt {
     color: white;
     font-size: 20px;
     font-family: "Bebas neue";
+}
+
+.lt {
+    margin-right: 2%;
+    color: white;
+    font-size: 15px;
+    font-family: "Poppins";
     height: 300px;
     padding-right: 10px;
 }
