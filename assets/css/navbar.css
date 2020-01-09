@@ -28,35 +28,23 @@ a:hover {
   margin-left: 2%;
   z-index: 100;
 }
-
-.campusam a {
-  /* padding: 8px; */
-  text-decoration: none;
-  display: inline-block;
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 1em;
-  outline: none;
-}
-
 .rectangle {
   width: 100%;
   position: fixed;
-  bottom: 5%;
+  bottom: 3%;
   color: #fff;
   display: flex;
   justify-content: left;
   align-items: center;
-  z-index: 3;
+  z-index: 0;
 }
 
 .campusam {
   font-family: 'Poppins';
-  font-size: 1.0vw;
-  color: #fff;
+  /* font-size: 1.0vw; */
+  /* color: #fff; */
   border: 2px #fff solid;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-right: 10px;
   border-radius: 2vw;
   font-weight: 600;
@@ -65,9 +53,46 @@ a:hover {
   text-transform: uppercase;
   margin-left: 3vw;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   margin-bottom: -1%;
+    /* padding: 8px; */
+    text-decoration: none;
+    /* display: inline-block; */
+    color: white;
+    /* font-family: 'Raleway', sans-serif; */
+    font-weight: 600;
+    font-size: 1vw;
+    outline: none;
+}
+
+.campusam:hover {
+  font-family: 'Poppins';
+  /* font-size: 1.0vw; */
+  /* color: #fff; */
+  background-color: white;
+  border: 2px #fff solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2vw;
+  font-weight: 600;
+  height: 4vh;
+  width: 12vw;
+  text-transform: uppercase;
+  margin-left: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -1%;
+    /* padding: 8px; */
+    text-decoration: none;
+    /* display: inline-block; */
+    color:gray;
+    /* font-family: 'Raleway', sans-serif; */
+    font-weight: 600;
+    font-size: 1vw;
+    outline: none;
+    cursor: pointer;
 }
 
 .campusam-menu a {
@@ -357,7 +382,7 @@ a:hover {
   #FOOTER {
     position: fixed;
     /* width: 175vh; */
-    right: -6%;
+    right: -4%;
     margin-left: 4%;
     margin-top: 4%;
     /* margin-right: 40%; */
@@ -396,6 +421,24 @@ a:hover {
     font-family: 'Poppins';
     font-size: 3vw;
     color: #fff;
+    width: 40vw;
+    border: 3px #fff solid;
+    padding: 2.5vw 2.5vw;
+    border-radius: 6vw;
+    font-weight: 600;
+    height: 1vw;
+    text-transform: uppercase;
+    margin-left: 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -6vw;
+  }
+  .campusam:hover {
+    font-family: 'Poppins';
+    font-size: 3vw;
+    color:gray;
+    background-color: white;
     width: 40vw;
     border: 3px #fff solid;
     padding: 2.5vw 2.5vw;
