@@ -414,12 +414,14 @@ button:hover {
   }
   #FOOTER {
     padding-right: 1.5vw;
-    padding-bottom: 3vh;
+    padding-bottom: 5vh;
+    width: 100%;
+    align-items: centre;
   }
   .rectangle {
-    width: 67%;
+    width: 100%;
     position: fixed;
-    bottom: 7vw;
+    bottom: 5vh;
     /* margin-bottom: -30vw; */
     margin-left: 20vw;
     color: #fff;
@@ -428,7 +430,7 @@ button:hover {
     align-items: center;
     border: 0px;
     z-index: 6;
-    margin-left: 16%;
+    margin-left: -3%;
   }
   .campusam {
     font-family: 'Poppins';
