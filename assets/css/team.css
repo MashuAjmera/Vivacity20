@@ -77,6 +77,10 @@ body, html {
   color: #ffffff;
 }
 
+.campusam {
+  width: 8vw;
+}
+
 .grid-item:hover {
   background-color: white;
   color: gray;
