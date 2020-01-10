@@ -90,7 +90,7 @@ body {
 .user-social {
     margin-top: 0.61vw;
     height: 4vw;
-    width: 70%;
+    width: 60%;
     z-index: 3;
     display: flex;
     flex-direction: row;
@@ -99,8 +99,8 @@ body {
 }
 
 .socio-icon {
-    height: 2.8vw;
-    width: 2.8vw;
+    height: 2vw;
+    width: 2vw;
     border: 2px solid #fff;
     border-radius: 100%;
 }
