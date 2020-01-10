@@ -162,7 +162,8 @@
     color: #fff;
     font-weight: 300;
     width: 80%;
-    height: 50vh;
+    height: 55vh;
+    padding-top: 1vh;
   }
   .so {
     width: 100%;
