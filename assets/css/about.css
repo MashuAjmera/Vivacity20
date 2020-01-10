@@ -46,7 +46,7 @@
   height: 40vw;
   width: 40vw;
   margin-left: 5vw;
-  margin-top: -5vw;
+  margin-top: 7vh;
 }
 
 .abo {
@@ -63,7 +63,8 @@
   color: #fff;
   font-weight: 300;
   width: 60%;
-  height: 60vh;
+  padding-top: 10vh;
+  height: 40vh;
   overflow: scroll;
   scrollbar-width: none;
 }
@@ -73,7 +74,7 @@
 }
 
 .so {
-  width: 80%;
+  width: 65%;
   margin-top: 1vw;
   margin-bottom: 3vw;
   color: #fff;
