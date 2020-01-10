@@ -59,10 +59,10 @@
 
 .content {
   font-family: 'Poppins';
-  font-size: 1.3vw;
+  font-size: 1vw;
   color: #fff;
   font-weight: 300;
-  width: 80%;
+  width: 60%;
   height: 60vh;
   overflow: scroll;
   scrollbar-width: none;
@@ -85,11 +85,12 @@
 
 .so-h {
   font-family: 'Poppins';
-  font-size: 1.3vw;
+  font-size: 1vw;
   color: #fff;
+  height: 1.9vh;
   border: 2px #fff solid;
   padding: 0.55vw 1.5vw;
-  border-radius: 2vw;
+  border-radius: 50px;
   font-weight: 600;
   text-transform: uppercase;
   display: flex;
@@ -176,7 +177,7 @@
     font-family: 'Poppins';
     font-size: 3.3vw;
     color: #fff;
-    border: 4px #fff solid;
+    border: 3px #fff solid;
     padding: 0.55vw 2.5vw;
     border-radius: 7vw;
     font-weight: 600;
