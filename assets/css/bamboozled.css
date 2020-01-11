@@ -84,18 +84,20 @@ nav {
 }
 
 .ht {
-    margin-top: 0;
+    padding: 0;
+    margin: 0;
     color: white;
     font-size: 1.5vw;
     font-family: "Bebas neue";
 }
 
 .lt {
+    padding: 0;
+    margin: 0;
     margin-right: 2%;
     color: white;
     font-size: 1vw;
     font-family: 'Poppins', sans-serif;
-    height: 300px;
     padding-right: 10px;
     line-height: 1.2;
 }
