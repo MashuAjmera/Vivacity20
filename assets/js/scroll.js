@@ -215,6 +215,8 @@ function touchstart (event) {
   }
 }
 
+var touchdeltatrigger = 150;
+
 function touchmove (event) {
   var touches = event.touches;
   if (touches && touches.length) {
@@ -222,15 +224,7 @@ function touchmove (event) {
     var deltaX = startX - touches[0].pageX;
     var deltaY = startY - touches[0].pageY;
 
-    if (deltaX >= 50) {
-      var event = new Event ('swipeLeft');
-      document.dispatchEvent (event);
-    }
-    if (deltaX <= -50) {
-      var event = new Event ('swipeRight');
-      document.dispatchEvent (event);
-    }
-    if (deltaY >= 50) {
+    if (deltaY >= touchdeltatrigger) {
       if (current == container.length - 1) {
         current = 0;
       } else {
@@ -239,14 +233,17 @@ function touchmove (event) {
 
       smoothScroll (container[current]);
     }
-    if (deltaY <= -50) {
+    if (deltaY <= -touchdeltatrigger) {
       if (current != 0) {
         current--;
         smoothScroll (container[current]);
       }
     }
 
-    if (Math.abs (deltaX) >= 50 || Math.abs (deltaY) >= 50) {
+    if (
+      Math.abs (deltaX) >= touchdeltatrigger ||
+      Math.abs (deltaY) >= touchdeltatrigger
+    ) {
       document.removeEventListener ('touchmove', touchmove);
     }
   }
