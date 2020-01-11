@@ -66,34 +66,7 @@ a:hover {
     outline: none;
 }
 
-.campusam:hover {
-  font-family: 'Poppins';
-  text-decoration: none;
-  /* font-size: 1.0vw; */
-  /* color: #fff; */
-  /* background-color: white; */
-  border: 2px #fff solid;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 2vw;
-  font-weight: 600;
-  height: 4vh;
-  width: 12vw;
-  text-transform: uppercase;
-  margin-left: 3vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: -1%;
-    /* padding: 8px; */
-    text-decoration: none;
-    /* display: inline-block; */
-    color: white;
-    /* font-family: 'Raleway', sans-serif; */
-    font-weight: 500;
-    font-size: 1vw;
-    outline: none;
-    cursor: pointer;
+  .animation:hover{
     -webkit-animation: vibrate-1 0.3s linear infinite both;
 	        animation: vibrate-1 0.3s linear infinite both;
   }
@@ -400,18 +373,6 @@ a:hover {
   margin-top: 4px;
 }
 
-.icons:hover {
-  float: right;
-  width: 1.5vw;
-  height: 1.5vw;
-  border: 1.5px solid white;
-  border-radius: 50%;
-  padding: 7px;
-  margin-left: 6px;
-  margin-top: 4px;
-  -webkit-animation: vibrate-1 0.3s linear infinite both;
-  animation: vibrate-1 0.3s linear infinite both;
-}
 .icons img {
   width: 1.5vw;
   height: 1.5vw;
