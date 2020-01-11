@@ -46,7 +46,7 @@
   height: 40vw;
   width: 40vw;
   margin-left: 5vw;
-  margin-top: -5vw;
+  margin-top: 7vh;
 }
 
 .abo {
@@ -59,11 +59,12 @@
 
 .content {
   font-family: 'Poppins';
-  font-size: 1.3vw;
+  font-size: 1vw;
   color: #fff;
   font-weight: 300;
-  width: 80%;
-  height: 60vh;
+  width: 60%;
+  padding-top: 10vh;
+  height: 40vh;
   overflow: scroll;
   scrollbar-width: none;
 }
@@ -73,7 +74,7 @@
 }
 
 .so {
-  width: 80%;
+  width: 65%;
   margin-top: 1vw;
   margin-bottom: 3vw;
   color: #fff;
@@ -85,11 +86,12 @@
 
 .so-h {
   font-family: 'Poppins';
-  font-size: 1.3vw;
+  font-size: 1vw;
   color: #fff;
+  height: 1.9vh;
   border: 2px #fff solid;
   padding: 0.55vw 1.5vw;
-  border-radius: 2vw;
+  border-radius: 50px;
   font-weight: 600;
   text-transform: uppercase;
   display: flex;
@@ -160,7 +162,8 @@
     color: #fff;
     font-weight: 300;
     width: 80%;
-    height: 50vh;
+    height: 55vh;
+    padding-top: 1vh;
   }
   .so {
     width: 100%;
@@ -176,7 +179,7 @@
     font-family: 'Poppins';
     font-size: 3.3vw;
     color: #fff;
-    border: 4px #fff solid;
+    border: 3px #fff solid;
     padding: 0.55vw 2.5vw;
     border-radius: 7vw;
     font-weight: 600;

@@ -114,7 +114,7 @@ a {
   margin-top: 4.5%;
   margin-bottom: -6%;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .whole {
@@ -184,6 +184,8 @@ button:hover {
 
 #id5 {
   display: none;
+  margin-left:3%;
+  margin-right:5%;
 }
 
 #id6 {
@@ -414,12 +416,14 @@ button:hover {
   }
   #FOOTER {
     padding-right: 1.5vw;
-    padding-bottom: 3vh;
+    padding-bottom: 5vh;
+    width: 100%;
+    align-items: centre;
   }
   .rectangle {
-    width: 67%;
+    width: 100%;
     position: fixed;
-    bottom: 7vw;
+    bottom: 5vh;
     /* margin-bottom: -30vw; */
     margin-left: 20vw;
     color: #fff;
@@ -428,7 +432,7 @@ button:hover {
     align-items: center;
     border: 0px;
     z-index: 6;
-    margin-left: 16%;
+    margin-left: -3%;
   }
   .campusam {
     font-family: 'Poppins';

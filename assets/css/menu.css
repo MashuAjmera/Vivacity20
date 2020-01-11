@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
-
 nav {
   position: fixed;
   /* background: inherit; */
-  z-index: 1;
+  z-index: 4;
 }
 
 ul {
@@ -29,7 +28,6 @@ li {
   align-items: left;
   margin-left: auto;
   padding: 150px 10% 150px 15%;
-
   /* padding-left: 100%; */
   line-height: 2;
   font-weight: 900;
@@ -95,7 +93,6 @@ li {
   text-decoration: none;
   font-size: 3vw;
   font-family: 'Josefin Sans', sans-serif;
-
   /* padding-top: 30%; */
   /* padding-left: 10%; */
 }
@@ -435,25 +432,20 @@ li {
   .nav-links-bottom-mid {
     display: none;
   }
-
   .nav-links-top-mid.open {
     display: none;
   }
-
   .nav-links {
     width: 35%;
   }
-
   .nav-links li a {
     font-size: 4vw;
   }
-
   .nav-links-bottom {
     width: 25%;
     -webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
   }
-
   .nav-links-top {
     width: 25%;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
@@ -465,11 +457,9 @@ li {
   .nav-links-bottom {
     display: none;
   }
-
   .nav-links-top {
     display: none;
   }
-
   .nav-links {
     /* font-size: 1vw; */
     line-height: 1;
@@ -478,42 +468,33 @@ li {
     clip-path: circle(0 at 100% -10%);
     -webkit-clip-path: circle(0 at 100% -10%);
   }
-
   .nav-links li a {
     font-size: 4vw;
     /* line-height: 2; */
   }
-
   .nav-links.open {
     clip-path: circle(2000px at 100% -10%);
     -webkit-clip-path: circle(2000px at 100% -10%);
   }
-
   .small-li {
     display: block;
     font-size: 34px;
   }
-
   .nav-links li:nth-child(5) {
     transition: all 0.5s ease 0.6s;
   }
-
   .nav-links li:nth-child(6) {
     transition: all 0.5s ease 0.7s;
   }
-
   .nav-links li:nth-child(7) {
     transition: all 0.5s ease 0.8s;
   }
-
   .nav-links li:nth-child(8) {
     transition: all 0.5s ease 0.9s;
   }
-
   .nav-links li:nth-child(9) {
     transition: all 0.5s ease 1s;
   }
-
   .menu-hide {
     display: block;
   }
@@ -523,11 +504,9 @@ li {
   .nav-links-bottom {
     display: none;
   }
-
   .nav-links-top {
     display: none;
   }
-
   .nav-links {
     font-size: 13vw;
     width: 100vw;
@@ -535,42 +514,33 @@ li {
     clip-path: circle(0 at 100% -10%);
     -webkit-clip-path: circle(0 at 100% -10%);
   }
-
   .nav-links li a {
     font-size: 7vw;
     line-height: 2;
   }
-
   .nav-links.open {
     clip-path: circle(3000px at 100% -10%);
     -webkit-clip-path: circle(3000px at 100% -10%);
   }
-
   .small-li {
     display: block;
     font-size: 34px;
   }
-
   .nav-links li:nth-child(5) {
     transition: all 0.5s ease 0.6s;
   }
-
   .nav-links li:nth-child(6) {
     transition: all 0.5s ease 0.7s;
   }
-
   .nav-links li:nth-child(7) {
     transition: all 0.5s ease 0.8s;
   }
-
   .nav-links li:nth-child(8) {
     transition: all 0.5s ease 0.9s;
   }
-
   .nav-links li:nth-child(9) {
     transition: all 0.5s ease 1s;
   }
-
   .menu-hide {
     display: block;
   }
