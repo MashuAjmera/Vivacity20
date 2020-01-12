@@ -254,13 +254,13 @@ button {
     }
     
 .tp1 {
-    width: 9%;
+    width: 7.5%;
     margin-top: -12%;
 }
 
 .tp2 {
     width: 56%;
-    margin-top: -16%;
+    margin-top: -17%;
     font-size: 177%;
 }
 
@@ -268,9 +268,10 @@ button {
     width: 109%;
     height: 10%;
     margin-top: -16%;
-    margin-left: -3%;
+    margin-left: 5%;
     letter-spacing: 2.5px;
     font-size: 213%;
+    text-align: -webkit-center;
 }
 
 .tp4 {
