@@ -148,9 +148,9 @@
     position: absolute;
   }
   .abo {
-    font-family: 'Raleway';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 900;
-    font-size: 13vw;
+    font-size: 12vw;
     color: #fff;
     margin-top: 5vw;
     width: 60%;
