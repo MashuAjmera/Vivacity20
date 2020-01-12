@@ -141,7 +141,7 @@ html {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 100;
+  width: 100%;
   transition: 0.3s;
 }
 

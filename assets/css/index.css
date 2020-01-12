@@ -80,7 +80,7 @@ body, html {
 }
 
 .date {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'bebasneueregular';
   font-size: 50px;
   font-weight: bold;
   font-style: normal;
@@ -109,7 +109,7 @@ body, html {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.18;
-  letter-spacing: normal;
+  letter-spacing: 2px;
   text-align: center;
   color: #ffffff;
 }
@@ -170,7 +170,7 @@ body, html {
     color: #ffffff;
   }
   .date {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'bebasneueregular';
     font-size: 5vw;
     font-weight: 800;
     font-style: normal;
@@ -189,13 +189,13 @@ body, html {
   }
   .college {
     margin-top: 10%;
-    font-family: Raleway;
+    font-family: 'bebasneueregular';
     font-size: 35px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.18;
-    letter-spacing: normal;
+    letter-spacing: 1px;
     text-align: center;
     color: #ffffff;
   }
@@ -287,14 +287,14 @@ body, html {
 }
 
 .date {
-  font-family: 'Raleway';
+  font-family: 'bebasneueregular';
   font-weight: 600;
   font-size: 2.75vw;
   text-align: center;
   color: #ffffff;
   margin-top: -2%;
   margin-bottom: 6%;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -304,25 +304,25 @@ body, html {
 .date::after {
   content: '';
   display: block;
-  width: 20vw;
+  width: 16vw;
   height: 2px;
   margin-top: 1vw;
   background: #fff;
 }
 
 .college {
-  margin-top: -3.5%;
-  font-family: 'Poppins', sans-serif;
+  margin-top: -5vw;
+  font-family: 'bebasneueregular';
   font-weight: 300;
   font-size: 35px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.18;
-  letter-spacing: normal;
+  letter-spacing: 2px;
   text-align: center;
   color: #ffffff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .icon_size {
@@ -401,13 +401,13 @@ body, html {
   .date::after {
     content: '';
     display: block;
-    width: 50vw;
+    width: 45vw;
     height: 2px;
     margin-top: 3vw;
     background: #fff;
   }
   .college {
-    font-family: Raleway;
+    font-family: 'bebasneueregular';
     font-size: 6vw;
     font-weight: 500;
     font-style: normal;
@@ -416,7 +416,7 @@ body, html {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    margin-top: 8vw;
+    margin-top: 0vw;
   }
   .icon_size {
     width: 50px;
