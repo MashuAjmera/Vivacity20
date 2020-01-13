@@ -13,9 +13,7 @@ html {
 #theExperience {
   margin: 0;
   padding: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url("../img/bgnd/theme.png") 0% 0% / cover fixed,
-    linear-gradient(to top, #7b237b 0%, #ba39ad 74%);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/bgnd/theme.png") 0% 0% / cover fixed, linear-gradient(to top, #7b237b 0%, #ba39ad 74%);
   user-select: none;
 }
 
@@ -54,7 +52,7 @@ html {
   font-size: 140px;
   color: white;
   cursor: pointer;
-  z-index: 0;
+  z-index: 1;
 }
 
 .a1 {
@@ -148,11 +146,10 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .a1,
-  .a2 {
+  .a1, .a2 {
     top: 360vh;
     /* display: none; */
-    font-size: 50px;
+    font-size: 500px;
   }
   .theExp {
     font-size: 8vw;
@@ -180,8 +177,7 @@ html {
   .a2 {
     right: 10%;
   }
-  .a1,
-  .a2 {
+  .a1, .a2 {
     top: 345vh;
   }
   .middle {
