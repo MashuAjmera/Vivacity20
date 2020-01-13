@@ -47,7 +47,7 @@ body, html {
   align-items: center;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 150px 150px;
   background-color: transparent;
   padding: 86px;
@@ -61,14 +61,14 @@ body, html {
   justify-content: center;
   text-align: center;
   background-color: transparent;
-  grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 130px 130px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 48% 48%;
   height: 100px;
   border-radius: 10px;
   border: solid 5px #ffffff;
   padding: 20px;
   font-family: 'Bebas Neue', cursive;
-  font-size: 38px;
+  font-size: 3vw;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
