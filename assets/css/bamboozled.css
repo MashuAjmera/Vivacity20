@@ -64,7 +64,7 @@ nav {
 
 #imgBtn>button {
     border: none;
-    margin-left: 30%;
+    margin-left: 25%;
     margin-top: 4%;
     padding: 15px;
     font-size: 15px;
@@ -123,7 +123,7 @@ nav {
 
 @media screen and (max-width: 500px) {
     #imgBtn {
-        width: 30vh;
+        width: 45vh;
     }
     #imgBtn>img {
         width: 30vh;
@@ -133,7 +133,7 @@ nav {
     }
     #imgBtn>button {
         margin-top: 0;
-        margin-left: 60%;
+        margin-left: 50%;
     }
     #desc {
         height: 40vh;
