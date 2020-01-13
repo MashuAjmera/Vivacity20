@@ -133,19 +133,22 @@ nav {
     }
     #imgBtn>button {
         position: absolute;
-        margin-top: 90%;
+        margin-top: 54vh;
         align-items: center;
+        height: 10px;
+        padding: 12px;
     }
     #desc {
-        height: 40vh;
+        height: 47vh;
         overflow-y: scroll;
         width: 80%;
         margin-top: 35px;
         margin-left: 10%;
     }
     #cont {
+        margin: 0;
         padding-top: 0;
-        margin-top: 0%;
+        margin-top: -2vh;
     }
     .heading {
         padding-top: 10vh;
