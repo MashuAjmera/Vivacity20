@@ -132,8 +132,9 @@ nav {
         display: none;
     }
     #imgBtn>button {
-        margin-top: 0;
-        margin-left: 50%;
+        position: absolute;
+        margin-top: 90%;
+        align-items: center;
     }
     #desc {
         height: 40vh;
@@ -142,11 +143,20 @@ nav {
         margin-top: 35px;
         margin-left: 10%;
     }
+    #cont {
+        padding-top: 0;
+        margin-top: 0%;
+    }
     .heading {
-        font-size: 3.5em;
+        padding-top: 10vh;
+        margin-top: 0;
+        font-size: 10vw;
     }
     .lt {
-        height: 250px;
+        font-size: 3vw;
+    }
+    .ht {
+        font-size: 5vw;
     }
 }
 
