@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
 @font-face {
-  font-family: 'BebasNeue-Regular';
-  src: url('../font/BebasNeue-Regular.ttf');
+  font-family: "BebasNeue-Regular";
+  src: url("../font/BebasNeue-Regular.ttf");
 }
 
 html {
@@ -29,7 +29,10 @@ body {
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #29323c, #485563);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #29323c, #485563);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F81232885%2F145029945551%2F1%2Foriginal.20191115-041447?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C51%2C2404%2C1202&s=73a2a8ef63ad0b8c08f8d4b982840922")
+      0 0 / cover fixed,
+    linear-gradient(to right, #29323c, #485563);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
 }
@@ -57,7 +60,6 @@ button {
   background-color: #cebdbdd8;
   color: #3c4a58;
   font-size: 1.2vw;
-
 }
 
 #btn {
@@ -73,7 +75,7 @@ button {
 } */
 
 #heading-contactus {
-  font-family: 'Poppins', sans serif;
+  font-family: "Poppins", sans serif;
   text-align: center;
   margin: 0%;
   font-weight: bold;
@@ -84,7 +86,7 @@ button {
 }
 
 .hline-contactus {
-  font-family: 'BebasNeue-Regular';
+  font-family: "BebasNeue-Regular";
   font-size: 4vw;
   padding-top: 3vh;
 }
@@ -93,8 +95,9 @@ button {
   margin-top: 0px;
 }
 
-p, a {
-  font-family: 'Poppins', sans serif;
+p,
+a {
+  font-family: "Poppins", sans serif;
   /* text-align: left; */
 }
 
@@ -130,7 +133,7 @@ p, a {
   font-size: 1.3em;
 }
 
-#bodyPage-contactus>div {
+#bodyPage-contactus > div {
   flex: 25%;
   max-width: 31.5%;
   text-align: center;
@@ -154,14 +157,23 @@ p, a {
 #thirdpage {
   background: #667db6;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient( to right, #667db6, #0082c8, #0082c8, #667db6);
+  background: -webkit-linear-gradient(
+    to right,
+    #667db6,
+    #0082c8,
+    #0082c8,
+    #667db6
+  );
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F81232885%2F145029945551%2F1%2Foriginal.20191115-041447?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C51%2C2404%2C1202&s=73a2a8ef63ad0b8c08f8d4b982840922")
+      0 0 / cover fixed,
+    linear-gradient(to right, #29323c, #485563);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media screen and (max-width: 480px) {
-  #bodyPage-contactus>div {
+  #bodyPage-contactus > div {
     flex: 50%;
     max-width: 100%;
     font-size: 3.5vw;
@@ -190,7 +202,7 @@ p, a {
 }
 
 @media screen and (max-width: 600px) {
-  #bodyPage-contactus>div {
+  #bodyPage-contactus > div {
     flex: 100%;
     max-width: 100%;
   }

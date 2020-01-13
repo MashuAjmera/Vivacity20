@@ -1,5 +1,5 @@
 #aboutUs {
-  background: linear-gradient(to bottom, #61C0EC, #2483c2);
+  background: linear-gradient(to bottom, #61c0ec, #2483c2);
   background-color: aquamarine;
   margin: 0px;
   padding: 0px;
@@ -50,7 +50,7 @@
 }
 
 .abo {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
   font-size: 5vw;
   color: #fff;
@@ -58,7 +58,7 @@
 }
 
 .content {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 1vw;
   color: #fff;
   font-weight: 300;
@@ -85,7 +85,7 @@
 }
 
 .so-h {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 1vw;
   color: #fff;
   height: 1.9vh;
@@ -148,7 +148,7 @@
     position: absolute;
   }
   .abo {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 900;
     font-size: 12vw;
     color: #fff;
@@ -157,7 +157,7 @@
     margin-right: -15vw;
   }
   .content {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-size: 3.3vw;
     color: #fff;
     font-weight: 300;
@@ -176,7 +176,7 @@
     margin-bottom: -20vw;
   }
   .so-h {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-size: 3.3vw;
     color: #fff;
     border: 3px #fff solid;
