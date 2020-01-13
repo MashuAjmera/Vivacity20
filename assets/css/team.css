@@ -4,8 +4,7 @@ body {
   margin: 0vw;
   overflow: hidden;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://d2jv9003bew7ag.cloudfront.net/uploads/Bruce-Riley-Ganeshas-detail-14.-Courtesy-of-the-artist.jpg)
-      0% 0% / cover fixed,
+    url("../img/bgnd/team.jpg") 0% 0% / cover fixed,
     linear-gradient(to right, #e44d37, #e70364);
 }
 
