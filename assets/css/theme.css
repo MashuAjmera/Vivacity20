@@ -103,7 +103,7 @@ html {
 }
 
 .ecl-b-temp-year {
-  color: rgb(0, 74, 117);
+  color: rgb(0, 236, 225);
   font-size: 2vw;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
@@ -304,7 +304,7 @@ html {
     transition: 0.3s;
   }
   .ecl-b-temp-year {
-    color: rgb(0, 74, 117);
+    color: rgb(0, 236, 225);
     font-size: 4vw;
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
