@@ -35,52 +35,30 @@ a:hover {
 }
 
 .campusam {
-  width: 7vw;
+  width: 10vw;
+  height: 3vh;
+  font-size: 1.3vw;
 }
 
 #concert {
   padding-top: 10vh;
   font-family: Verdana, sans-serif;
   background: rgb(252, 92, 125);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../img/bgnd/concerts.jpg") 0 0 / cover fixed,
-    linear-gradient(
-      90deg,
-      rgba(252, 92, 125, 1) 0%,
-      rgba(106, 130, 251, 1) 100%
-    );
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bgnd/concerts.jpg") 0 0 / cover fixed, linear-gradient( 90deg, rgba(252, 92, 125, 1) 0%, rgba(106, 130, 251, 1) 100%);
 }
 
 #workshop {
   padding-top: 10vh;
   font-family: Verdana, sans-serif;
   background: rgb(203, 29, 65);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../img/bgnd/workshops.png") 0 0 / cover fixed,
-    linear-gradient(
-      90deg,
-      rgba(203, 29, 65, 1) 0%,
-      rgba(242, 117, 98, 1) 0%,
-      rgba(200, 64, 44, 1) 0%,
-      rgba(236, 24, 47, 1) 0%,
-      rgba(187, 41, 117, 1) 100%,
-      rgba(106, 130, 251, 1) 100%
-    );
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bgnd/workshops.png") 0 0 / cover fixed, linear-gradient( 90deg, rgba(203, 29, 65, 1) 0%, rgba(242, 117, 98, 1) 0%, rgba(200, 64, 44, 1) 0%, rgba(236, 24, 47, 1) 0%, rgba(187, 41, 117, 1) 100%, rgba(106, 130, 251, 1) 100%);
 }
 
 #informal {
   padding-top: 10vh;
   font-family: Verdana, sans-serif;
   background: rgb(252, 92, 125);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../img/bgnd/informals.jpg") 0 0 / cover fixed,
-    linear-gradient(
-      90deg,
-      rgba(252, 92, 125, 1) 0%,
-      rgba(242, 117, 98, 1) 0%,
-      rgba(218, 31, 7, 1) 100%,
-      rgba(106, 130, 251, 1) 100%
-    );
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bgnd/informals.jpg") 0 0 / cover fixed, linear-gradient( 90deg, rgba(252, 92, 125, 1) 0%, rgba(242, 117, 98, 1) 0%, rgba(218, 31, 7, 1) 100%, rgba(106, 130, 251, 1) 100%);
 }
 
 @font-face {
@@ -110,8 +88,7 @@ img {
 
 /* Next & previous buttons */
 
-.prev,
-.next {
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -157,8 +134,7 @@ img {
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover,
-.next:hover {
+.prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -222,8 +198,7 @@ p {
   font-family: "Poppins", sans serif;
 }
 
-.active,
-.dot:hover {
+.active, .dot:hover {
   background-color: white;
   color: #d642b7;
 }
@@ -237,6 +212,14 @@ p {
 
 .small {
   display: none;
+}
+
+button {
+  height: 2px;
+  line-height: 0;
+  width: 9vw;
+  font-size: 3vw;
+  background-color: #1E394B
 }
 
 @-webkit-keyframes fade {
@@ -276,12 +259,8 @@ p {
   border-radius: 30px;
 }
 
-@media only screen and (max-width: 900px) {
-  .dot-A,
-  .dot-B,
-  .dot-C,
-  .slideshow-container,
-  .mid {
+@media only screen and (max-width: 500px) {
+  .dot-A, .dot-B, .dot-C, .slideshow-container, .mid {
     display: none;
   }
   .small {
@@ -355,8 +334,7 @@ p {
     text-align: center;
     color: white;
   }
-  .active,
-  .dot1:hover {
+  .active, .dot1:hover {
     background-color: white;
     color: #d642b7;
   }
@@ -389,9 +367,9 @@ p {
   }
   .campusam {
     font-family: "Poppins";
-    font-size: 3vw;
+    font-size: 3.3vw;
     color: #fff;
-    width: 20vw;
+    width: 30vw;
     border: 3px #fff solid;
     padding: 2.5vw 2vw;
     border-radius: 6vw;
@@ -429,14 +407,14 @@ p {
     height: 5vw;
     padding-bottom: 10vh;
   }
+  button {
+    line-height: 0;
+    width: 30vw;
+  }
 }
 
 @media screen and (min-device-width: 0px) and (max-device-width: 1100px) {
-  .dot-A,
-  .dot-B,
-  .dot-C,
-  .slideshow-container,
-  .mid {
+  .dot-A, .dot-B, .dot-C, .slideshow-container, .mid {
     display: none;
   }
   .small {
@@ -491,8 +469,7 @@ p {
     text-align: center;
     color: white;
   }
-  .active,
-  .dot1:hover {
+  .active, .dot1:hover {
     background-color: white;
     color: #d642b7;
   }
