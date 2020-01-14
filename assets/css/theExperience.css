@@ -13,14 +13,13 @@ html {
 #theExperience {
   margin: 0;
   padding: 0;
-  background-color: #6617cb;
-  background-image: linear-gradient(to top, #7B237B 0%, #BA39AD 74%);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/bgnd/theme.png") 0% 0% / cover fixed, linear-gradient(to top, #7b237b 0%, #ba39ad 74%);
   user-select: none;
 }
 
 .theExp {
   display: inline-block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 5vw;
   color: white;
@@ -35,7 +34,7 @@ html {
   z-index: 0;
   opacity: 0.7;
   display: inline-block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 5vw;
   color: white;
@@ -53,7 +52,7 @@ html {
   font-size: 140px;
   color: white;
   cursor: pointer;
-  z-index: 0;
+  z-index: 1;
 }
 
 .a1 {

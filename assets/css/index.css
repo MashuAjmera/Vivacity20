@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'atlantis';
-  src: URL('../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf') format('truetype');
+  font-family: "atlantis";
+  src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf") format("truetype");
 }
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
 /* Scroll */
 
 html {
@@ -80,7 +80,7 @@ body, html {
 }
 
 .date {
-  font-family: 'bebasneueregular';
+  font-family: "bebasneueregular";
   font-size: 50px;
   font-weight: bold;
   font-style: normal;
@@ -103,7 +103,7 @@ body, html {
 .college {
   /* margin-top: -10%; */
   top: -20%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 55px;
   font-weight: 500;
   font-style: normal;
@@ -127,8 +127,8 @@ body, html {
 
 @media only screen and (max-device-width: 480px) {
   @font-face {
-    font-family: 'atlantis';
-    src: URL('../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf') format('truetype');
+    font-family: "atlantis";
+    src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf") format("truetype");
   }
   .container {
     /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
@@ -138,7 +138,7 @@ body, html {
     height: 100vh;
     margin: 0%;
     /* background-image: url("../images/Asset\ 1.svg") ; */
-    background-image: url('../images/Asset\ 1.svg'), linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)), linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+    background-image: url("../images/Asset\ 1.svg"), linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)), linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
   }
   #ad {
     margin-top: auto;
@@ -170,7 +170,7 @@ body, html {
     color: #ffffff;
   }
   .date {
-    font-family: 'bebasneueregular';
+    font-family: "bebasneueregular";
     font-size: 5vw;
     font-weight: 800;
     font-style: normal;
@@ -189,7 +189,7 @@ body, html {
   }
   .college {
     margin-top: 10%;
-    font-family: 'bebasneueregular';
+    font-family: "bebasneueregular";
     font-size: 35px;
     font-weight: 500;
     font-style: normal;
@@ -249,7 +249,10 @@ body, html {
   width: 100%;
   margin: 0%;
   /* background-image: url("../images/Asset\ 1.svg") ; */
-  background-image: url('../assets/images/Asset\ 1.svg'), linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)), linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+  /* background: url("assets/svg/Asset.svg"),
+    linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
+    linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3); */
+  background: url("../img/bgnd/landing.gif") fixed, linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)), linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
 }
 
 #ad {
@@ -287,7 +290,7 @@ body, html {
 }
 
 .date {
-  font-family: 'bebasneueregular';
+  font-family: "bebasneueregular";
   font-weight: 600;
   font-size: 2.75vw;
   text-align: center;
@@ -302,7 +305,7 @@ body, html {
 }
 
 .date::after {
-  content: '';
+  content: "";
   display: block;
   width: 16vw;
   height: 2px;
@@ -312,7 +315,7 @@ body, html {
 
 .college {
   margin-top: -5vw;
-  font-family: 'bebasneueregular';
+  font-family: "bebasneueregular";
   font-weight: 300;
   font-size: 35px;
   font-weight: 500;
@@ -332,14 +335,14 @@ body, html {
 
 #aboutus {
   margin-top: 0vw;
-  background: linear-gradient(to bottom, #61C0EC, #0082c8);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bgnd/about.jpg") 0 0 / cover fixed, linear-gradient(to bottom, #61c0ec, #0082c8);
   padding-top: 0.25vw;
 }
 
 @media only screen and (max-device-width: 480px) {
   @font-face {
-    font-family: 'atlantis';
-    src: URL('../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf') format('truetype');
+    font-family: "atlantis";
+    src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf") format("truetype");
   }
   .container {
     /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
@@ -349,7 +352,7 @@ body, html {
     height: 100vh;
     margin: 0%;
     /* background-image: url("../images/Asset\ 1.svg") ; */
-    background-image: url('../images/Asset\ 1.svg'), linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)), linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+    background-image: url("../images/Asset\ 1.svg"), linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)), linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -387,7 +390,7 @@ body, html {
     color: #ffffff;
   }
   .date {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 8vw;
     font-weight: 800;
     font-style: normal;
@@ -399,7 +402,7 @@ body, html {
     margin-top: 10%;
   }
   .date::after {
-    content: '';
+    content: "";
     display: block;
     width: 45vw;
     height: 2px;
@@ -407,7 +410,7 @@ body, html {
     background: #fff;
   }
   .college {
-    font-family: 'bebasneueregular';
+    font-family: "bebasneueregular";
     font-size: 6vw;
     font-weight: 500;
     font-style: normal;
@@ -452,7 +455,6 @@ body, html {
   }
   #aboutus {
     margin-top: 0vw;
-    background: rgb(0, 183, 255);
     padding-top: 0vw;
     display: flex;
     justify-content: center;
