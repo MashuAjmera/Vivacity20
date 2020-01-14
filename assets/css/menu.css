@@ -211,7 +211,9 @@ li {
   left: 0;
   top: 0;
   bottom: 30%;
-  background-color: #504646;
+  background: url("https://i.giphy.com/media/3oKIPpPTXhKjcIK7hS/giphy.webp")
+      bottom no-repeat,
+    #0d0d0d;
   /* background-image: linear-gradient(315deg, purple 0%, pink 74%);
     background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); */
   justify-content: space-around;
