@@ -271,22 +271,11 @@ button:hover {
 }
 
 #id6 a>button {
-  background-color: whitesmoke;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 100%;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s;
-  /* Safari */
-  transition-duration: 0.4s;
+  
   margin-top: -2%;
   margin-bottom: 4%;
-  width: 23%;
-  margin-left: 6%;
+  text-align: center;
+  margin-left: 3%;
 }
 
 #id7 a>button {
@@ -456,11 +445,12 @@ button:hover {
   }
   #id6 a>button {
     width: 74%;
-    margin-top: -1%;
+    margin-top: -2%;
+    margin-left: 6%;
     padding: 4px 32px;
   }
   #id6 {
-    margin-top: -69%;
+    margin-top: -68%;
     margin-left: 11%;
   }
   #id8 a>button {
@@ -524,7 +514,7 @@ button:hover {
     margin-left: 11%;
   }
   #id5 a>button {
-    width: 40%;
+    width: 45%;
     margin-top: -2%;
     margin-left: -3%;
     margin-right: 7%;
