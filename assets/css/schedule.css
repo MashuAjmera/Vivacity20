@@ -83,6 +83,7 @@ body {
   height: 10%;
   font-family: "Bebas Neue";
   margin-top: -7%;
+  font-size: 130%;
   letter-spacing: 2.5px;
 }
 
@@ -92,6 +93,7 @@ body {
   font-family: "Poppins";
   color: red;
   margin-top: -7%;
+  
 }
 
 button {
