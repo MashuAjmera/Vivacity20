@@ -1,15 +1,18 @@
-body {
-    margin: 0vw;
+#loader {
+    position: absolute;
+    display: flex;
+    margin: 0;
     background-color: black;
+    z-index: 100;
 }
 
 #loader {
-    display: flex;
-    height: 97%;
+    height: 100vh;
+    width: 100%;
     justify-content: center;
 }
 
-.slideUp {
+/* .slideUp {
     position: fixed;
     top: 0;
     z-index: 100;
@@ -21,6 +24,31 @@ body {
     width: 100%;
     cursor: default;
     pointer-events: none;
+} */
+
+/* 
+#pages {
+    float: down;
+    animation-duration: 2s;
+    animation-name: slideUp;
+}
+
+@keyframes slideUp {
+    from {
+        top: 100vh;
+    }
+    to {
+        top: 0;
+    }
+} */
+
+.loaded {
+    /* display: none; */
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all 0.3s 1s ease-out;
+    transition: all 0.3s 1s ease-out;
 }
 
 /* .slideUp {

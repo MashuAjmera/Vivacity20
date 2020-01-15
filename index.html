@@ -65,7 +65,7 @@
         <img src="../assets/gif/MOSHED-2020-1-13-0-29-17.gif">
     </div>
 
-    <div id="pages" style="display: none;" class="slideUp">
+    <div id="pages" class="slideUp">
         <nav id="nav-menu-container">
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
@@ -571,9 +571,10 @@
 
         }
         function showPage() {
-            document.getElementById("loader").style.display = "none";
-            document.getElementById("pages").style.display = "block";
+            document.getElementById("loader").classList.add("loaded");
+
         }
+
     </script>
 
 </body>
