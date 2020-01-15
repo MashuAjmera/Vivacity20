@@ -13,8 +13,8 @@ body {
     left: 0;
     padding-top: 2vh;
     padding-left: 2vw;
-    width: 40px;
-    z-index: 2;
+    width: 50px;
+    z-index: 4;
 }
 
 .back {
@@ -187,8 +187,7 @@ body {
         font-weight: 800;
         /* background: linear-gradient(to right, rgb(245, 149, 120), rgb(231, 93, 208)); */
     }
-
-    .topvid{
+    .topvid {
         width: 50%;
         height: 14vw;
         color: #fff;
