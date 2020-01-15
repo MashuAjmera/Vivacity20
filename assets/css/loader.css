@@ -1,10 +1,82 @@
-body{
+#loader {
+    position: absolute;
+    display: flex;
+    margin: 0;
     background-color: black;
-    height: 20%;
-    width: 64%;
-    margin-left: 17%;
-    margin-top: 9%;
+    z-index: 100;
 }
-.st3{
-    transition: margin-right 4s ease-in-out;
+
+#loader {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
 }
+
+/* .slideUp {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    min-height: 480px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    cursor: default;
+    pointer-events: none;
+} */
+
+/* 
+#pages {
+    float: down;
+    animation-duration: 2s;
+    animation-name: slideUp;
+}
+
+@keyframes slideUp {
+    from {
+        top: 100vh;
+    }
+    to {
+        top: 0;
+    }
+} */
+
+.loaded {
+    /* display: none; */
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all 0.3s 1s ease-out;
+    transition: all 0.3s 1s ease-out;
+}
+
+/* .slideUp {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+} */
