@@ -1,7 +1,6 @@
 @font-face {
   font-family: "atlantis";
-  src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf")
-    format("truetype");
+  src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf") format("truetype");
 }
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
@@ -28,8 +27,7 @@ body {
 
 /* scroll end */
 
-body,
-html {
+body, html {
   margin: 0;
   overflow: hidden;
 }
@@ -130,8 +128,7 @@ html {
 @media only screen and (max-device-width: 480px) {
   @font-face {
     font-family: "atlantis";
-    src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf")
-      format("truetype");
+    src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf") format("truetype");
   }
   .container {
     /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
@@ -254,10 +251,7 @@ html {
   /* background: url("assets/svg/Asset.svg"),
     linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
     linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3); */
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../img/bgnd/landing.gif") fixed,
-    linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)),
-    linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bgnd/landing.gif") fixed, linear-gradient(to right, #ff5ff4, #dd43cb 50%, rgb(146, 233, 210)), linear-gradient(to right, #5744b8, #2a56dc 49%, #9dfde3);
 }
 
 #ad {
@@ -340,17 +334,14 @@ html {
 
 #aboutus {
   margin-top: 0vw;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../img/bgnd/about.jpg") 0 0 / cover fixed,
-    linear-gradient(to bottom, #61c0ec, #0082c8);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bgnd/about.jpg") 0 0 / cover fixed, linear-gradient(to bottom, #61c0ec, #0082c8);
   padding-top: 0.25vw;
 }
 
 @media only screen and (max-device-width: 480px) {
   @font-face {
     font-family: "atlantis";
-    src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf")
-      format("truetype");
+    src: URL("../font/atlantis_the_lost_city/Atlantis\ the\ lost\ City.ttf") format("truetype");
   }
   .container {
     /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
@@ -448,6 +439,7 @@ html {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+    z-index: 15;
   }
   .rectangle {
     /* left: 68px;

@@ -441,7 +441,7 @@ a {
     justify-content: center;
     align-items: center;
     border: 0px;
-    z-index: 6;
+    z-index: 15;
     margin-left: 16%;
   }
   .campusam {
@@ -460,6 +460,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-bottom: -6vw;
+    z-index: 150;
   }
   .campusam:hover {
     font-family: 'Poppins';
