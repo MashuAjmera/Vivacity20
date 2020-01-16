@@ -20,8 +20,7 @@ body {
 
 body {
   margin: 0%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/bgnd/schedule.jpg") fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bgnd/schedule.jpg") fixed;
 }
 
 .flex-container {
@@ -32,7 +31,7 @@ body {
   height: 80vh;
 }
 
-.flex-container > div {
+.flex-container>div {
   background-color: transparent;
   margin: -4px;
   padding: 16px;
@@ -60,10 +59,12 @@ body {
   padding: 12% 4%;
   margin-bottom: -4%;
 }
+
 .box1 {
   margin-top: 4%;
   margin-bottom: -1%;
 }
+
 .tp1 {
   float: left;
   width: 4%;
@@ -93,7 +94,6 @@ body {
   font-family: "Poppins";
   color: red;
   margin-top: -7%;
-  
 }
 
 button {
@@ -224,7 +224,7 @@ button {
   .grid2 {
     width: 80%;
   }
-  .grid1 > h1 {
+  .grid1>h1 {
     margin-top: -22%;
   }
   button {
@@ -252,18 +252,15 @@ button {
     width: 60vw;
     margin-left: 20%;
   }
-
   .tp1 {
     width: 7.5%;
     margin-top: -12%;
   }
-
   .tp2 {
     width: 56%;
     margin-top: -17%;
     font-size: 177%;
   }
-
   .tp3 {
     width: 109%;
     height: 10%;
@@ -273,7 +270,6 @@ button {
     font-size: 213%;
     text-align: -webkit-center;
   }
-
   .tp4 {
     float: left;
     margin-top: 5%;
