@@ -175,6 +175,13 @@ button {
   width: 69%;
 }
 
+@media screen and (max-width: 1700px) {
+  
+  .xyz {
+    font-size: 39%;
+    width: 154%;
+  }
+}
 @media screen and (max-width: 1100px) {
   #nav-menu-container {
     display: none;
