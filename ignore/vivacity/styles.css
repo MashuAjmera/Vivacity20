@@ -100,7 +100,6 @@ li.fade {
   left: 50px;
   top: 90%;
   transform: translate(-5%, -50%);
-  z-index: 5;
 }
 
 .logoimg {

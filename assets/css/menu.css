@@ -363,7 +363,8 @@ li {
 .logo {
   position: absolute;
   cursor: pointer;
-  left: 32%;
+  align-items: center;
+  left: 34%;
   top: 50%;
   transform: translate(-5%, -50%);
   z-index: 4;
