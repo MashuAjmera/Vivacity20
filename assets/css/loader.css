@@ -1,15 +1,16 @@
 #loader {
-    position: absolute;
-    display: flex;
-    margin: 0;
-    background-color: black;
-    z-index: 100;
+  position: absolute;
+  display: flex;
+  margin: 0;
+  background-color: black;
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
 }
-
-#loader {
-    height: 100%;
-    width: 100%;
-    justify-content: center;
+#loader img {
+  width: auto;
+  height: 100%;
 }
 
 /* .slideUp {
@@ -43,12 +44,12 @@
 } */
 
 .loaded {
-    /* display: none; */
-    -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    transform: translateY(-100%);
-    -webkit-transition: all 0.3s 1s ease-out;
-    transition: all 0.3s 1s ease-out;
+  /* display: none; */
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: all 0.3s 1s ease-out;
+  transition: all 0.3s 1s ease-out;
 }
 
 /* .slideUp {
