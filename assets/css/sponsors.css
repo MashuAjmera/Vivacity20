@@ -78,7 +78,6 @@ body {
   width: 32vw;
   margin-left: 33vw;
   position: relative;
-
 }
 
 .contentt {
@@ -94,8 +93,7 @@ body {
   color: rgb(255, 255, 255);
   margin-top: -60%;
   height: 85%;
-  overflow: hidden;
-  overflow-x: hidden;
+  overflow: scroll;
 }
 
 body::-webkit-scrollbar {
@@ -120,7 +118,6 @@ body::-webkit-scrollbar {
   #nav-menu-container {
     display: none;
   }
-
   #headd {
     font-size: 14vw;
     margin-left: 1vw;
@@ -128,23 +125,19 @@ body::-webkit-scrollbar {
     padding-left: 6%;
     padding-top: 10vh;
   }
-
   .svg {
     margin-top: -54.2vw;
     width: 90vw;
     margin-left: -2.7vw;
-
     position: relative;
   }
-
   .contentt {
     font-size: 1em;
     padding: 2% 4% 2% 4%;
     /* overflow: scroll; */
-    height: 59vh;
-    margin-top: -80%;
+    height: 49vh;
+    margin-top: -100%;
   }
-
   #logo {
     width: 8%;
     height: 12%;
