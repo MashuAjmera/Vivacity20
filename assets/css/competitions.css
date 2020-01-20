@@ -374,6 +374,7 @@ button:hover {
     width: 89%;
     grid-gap: 5%;
     padding-top: 0;
+    margin-top: -70%;
   }
   .grid-item {
     display: flex;
@@ -453,6 +454,8 @@ button:hover {
   #id6 {
     margin-top: -68%;
     margin-left: 11%;
+    margin-bottom: 75%;
+
   }
   #id8 a>button {
     width: 74%;
@@ -463,6 +466,8 @@ button:hover {
   #id8 {
     margin-top: -69%;
     margin-left: 11%;
+    margin-bottom: 75%;
+
   }
   #id3 a>button {
     width: 74%;
@@ -473,6 +478,8 @@ button:hover {
   #id3 {
     margin-top: -69%;
     margin-left: 11%;
+    margin-bottom: 75%;
+
   }
   #id1 a>button {
     width: 74%;
@@ -483,6 +490,7 @@ button:hover {
   #id1 {
     margin-top: -68%;
     margin-left: 11%;
+    margin-bottom: 75%;
   }
   #id4 a>button {
     width: 74%;
@@ -493,6 +501,8 @@ button:hover {
   #id4 {
     margin-top: -68%;
     margin-left: 11%;
+    margin-bottom: 75%;
+
   }
   #id2 a>button {
     width: 74%;
@@ -503,6 +513,8 @@ button:hover {
   #id2 {
     margin-top: -68%;
     margin-left: 11%;
+    margin-bottom: 75%;
+
   }
   #id7 a>button {
     width: 74%;
@@ -513,6 +525,8 @@ button:hover {
   #id7 {
     margin-top: -68%;
     margin-left: 11%;
+    margin-bottom: 75%;
+
   }
   #id5 a>button {
     width: 45%;
@@ -524,6 +538,8 @@ button:hover {
   #id5 {
     margin-top: -68%;
     margin-left: 11%;
+    margin-bottom: 75%;
+
   }
   .eventDisplaySpace {
     margin-top: 68%;
