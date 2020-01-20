@@ -119,9 +119,11 @@
     }
     .groupSvg {
         width: 90vw;
+        display: none;
     }
     .man3 {
         width: 90vw;
+        display: none;
     }
 }
 
