@@ -357,6 +357,7 @@ button:hover {
     align-items: center;
     font-size: 9vw;
     font-weight: 800;
+    margin-top: -1%;
   }
   .grid-container1 {
     padding-top: 0vh;
