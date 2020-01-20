@@ -143,4 +143,8 @@ body::-webkit-scrollbar {
     height: 12%;
     margin: 6.5%;
   }
+  .heading {
+    padding-top: 10vh;
+    font-size: 7vw;
+  }
 }
