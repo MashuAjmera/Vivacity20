@@ -88,7 +88,42 @@
     height: 78%
 }
 
-@media screen and (max-width:500px) {}
+@media screen and (max-width:500px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .grid1 {
+        padding: 0;
+        margin: 0;
+    }
+    .heading-socialreach {
+        text-align: center;
+        font-size: 8vw;
+        width: 90vw;
+    }
+    .mediaName {
+        margin: 0;
+        padding-right: 5vw;
+        left: 0;
+        font-size: 5vw;
+        width: 70vw;
+    }
+    .grid2 {
+        width: 80vw;
+    }
+    .media-item-medianame {
+        padding: 0;
+        margin-left: 10vw;
+        margin-right: 10%;
+        width: 60vw;
+    }
+    .groupSvg {
+        width: 90vw;
+    }
+    .man3 {
+        width: 90vw;
+    }
+}
 
 /* @media screen and (max-width:330px) {
     .flex-container {
