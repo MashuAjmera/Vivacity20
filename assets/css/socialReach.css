@@ -30,6 +30,40 @@
     width: 30%;
 }
 
+.box {
+    width: 100%;
+    /* position: fixed; */
+    bottom: 3%;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    z-index: 0;
+
+  }
+  
+.answer {
+    font-family: 'Poppins';
+    border: 2px #fff solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2vw;
+    font-weight: 600;
+    height: 4vh;
+    width: 15vw;
+        margin-left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -1%;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2vw;
+    outline: none;
+    margin-top: 10%;
+  }
+  
 .heading-socialreach {
     text-align: center;
     font-family: 'Poppins', sans-serif;
