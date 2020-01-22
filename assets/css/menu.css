@@ -458,6 +458,9 @@ li {
   .nav-links-bottom {
     display: none;
   }
+  .menu {
+    right: 20px;
+  }
   .nav-links-top {
     display: none;
   }
@@ -498,6 +501,9 @@ li {
   }
   .menu-hide {
     display: block;
+  }
+  .menu::before {
+    display: none;
   }
 }
 
