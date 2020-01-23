@@ -1,12 +1,11 @@
 #whySponsorUs {
-  height: 100vh ;
+  height: 100vh;
   margin: 0%;
   background-attachment: fixed;
   background-image: linear-gradient(to bottom, #bc4e9c, #f80759);
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 .heading-whySponsor {
   text-align: center;
@@ -40,6 +39,13 @@
   text-align: justify;
 }
 
+.LOGO-team-menu {
+  position: relative;
+  width: 10vw;
+  padding-top: 35%;
+  padding-left: 30%;
+}
+
 #logo {
   width: 4%;
   height: 12%;
@@ -61,13 +67,11 @@
     padding-top: 20%;
     margin-right: 0%;
   }
-
   .content-whySponsor {
     font-size: 14px;
     padding: 2% 4% 2% 4%;
     margin-top: 4%;
   }
-
   #logo {
     width: 8%;
     height: 12%;
