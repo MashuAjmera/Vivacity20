@@ -71,6 +71,8 @@
   padding-top: 10vh;
   display: flex;
   flex-wrap: wrap;
+  width: 90vw;
+  padding-left: 5vw;
 }
 
 #bodyPage-am>div {
@@ -100,21 +102,22 @@
 
 @media screen and (max-width: 600px) {
   #heading-capage2 {
-    font-size: 9vw;
+    font-size: 8vw;
     padding-top: 10vh;
   }
   #bodyPage-am {
-    padding-top: 4vh;
+    padding-top: 9vh;
   }
   #bodyPage-am>div {
     flex: 50%;
-    font-size: 4.5vw;
+    font-size: 3.5vw;
   }
-  element {
-    font-size: 3vw;
+  .element {
+    padding-left: 6vw;
+    width: 80vw;
   }
   .hline-am {
-    font-size: 7vw;
+    font-size: 6vw;
   }
 }
 
