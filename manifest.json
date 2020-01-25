@@ -4,7 +4,7 @@
   "description": "Vivacity is the Annual Cultural Fest of LNMIIT, Jaipur",
   "icons": [
     {
-      "src": "/assets/svg/svgg.svg",
+      "src": "/assets/fav/favicon.ico",
       "type": "image/svg",
       "sizes": "192x192"
     }
