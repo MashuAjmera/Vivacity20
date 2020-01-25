@@ -1,16 +1,18 @@
 {
-    "short_name": "Vivacity20",
-    "name": "Vivacity | The LNM Institute of Technology",
-    "icons": [
-        {
-            "src": "/assets/svg/svgg/.svg",
-            "type": "image/svg",
-            "sizes": "192x192"
-        }
-    ],
-    "start_url": "/",
-    "background_color": "#3367D6",
-    "display": "minimal-ui",
-    "scope": "/",
-    "theme_color": "#3367D6"
+  "short_name": "Vivacity20",
+  "name": "Vivacity | 31 Jan - 2 Feb",
+  "description": "Vivacity is the Annual Cultural Fest of LNMIIT, Jaipur",
+  "icons": [
+    {
+      "src": "/assets/svg/svgg/.svg",
+      "type": "image/svg",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "theme_color": "#3367D6"
 }
