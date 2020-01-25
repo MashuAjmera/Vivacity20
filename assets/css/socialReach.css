@@ -189,3 +189,30 @@
         font-size: 66%;
     }
 } */
+@media screen and (max-width: 450px) {
+  
+  .answer {
+    font-family: 'Poppins';
+    border: 2px #fff solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2vw;
+    font-weight: 600;
+    height: 4vh;
+    width: 15vw;
+        margin-left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -1%;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.8vw;
+    outline: none;
+    margin-top: 10%;
+  }
+  
+  
+  }
+  
