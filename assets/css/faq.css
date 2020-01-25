@@ -558,3 +558,15 @@ button:hover {
 #cont {
     height: 55vh;
 }
+
+@media only screen and (max-width: 540px){
+    .grid-container1 {
+       grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    }
+    .grid-item{
+        height:70px;
+    }
+    .nav-menu a{
+        margin-right: 60px;
+    }
+} 
