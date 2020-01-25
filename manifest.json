@@ -1,18 +1,18 @@
 {
   "short_name": "Vivacity20",
-  "name": "Vivacity | 31 Jan - 2 Feb",
+  "name": "Vivacity 2020 | 31st JAN-2nd FEB",
   "description": "Vivacity is the Annual Cultural Fest of LNMIIT, Jaipur",
   "icons": [
     {
-      "src": "/assets/svg/svgg/.svg",
+      "src": "/assets/svg/svgg.svg",
       "type": "image/svg",
       "sizes": "192x192"
     }
   ],
   "start_url": "/",
-  "background_color": "#3367D6",
+  "background_color": "#000000",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
-  "theme_color": "#3367D6"
+  "theme_color": "#000000"
 }
