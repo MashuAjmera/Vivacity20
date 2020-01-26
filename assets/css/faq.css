@@ -560,9 +560,9 @@ button:hover {
 @media only screen and (max-width: 540px){
     .grid-container1 {
        grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
-        padding-left: 40px;
+        padding-left: 30px;
+        margin-top: 20px;
         grid-gap: 5px;
-        width: 90%;
     }
     .grid-item{
         height:70px;
