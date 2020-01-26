@@ -229,6 +229,20 @@ padding: 0.5% 1%;
     margin-right: 0%;
   }
   
+.heading-media {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 9vw;
+  font-weight: bolder;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  padding-top: 6%;
+}
+
+  
 .flex-containor {
   display: flex;
   flex-direction: row;

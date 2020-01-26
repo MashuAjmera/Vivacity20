@@ -141,6 +141,9 @@
   height: 105%;
   margin-left: 18%;
 }
+.media .containor {
+  margin-top: 13%;
+}
 
 .mediaCoverage .containor{
   position: absolute;
@@ -167,8 +170,8 @@
     font-size: 32px;
     padding-top: 20%;
     margin-right: 0%;
-  }  }
+  } 
   .media .containor {
-    margin-top: 13%;
-  }
-}
+    margin-top: 66%;
+  } }
+
