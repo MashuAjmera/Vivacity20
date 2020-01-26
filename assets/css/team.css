@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
 body {
   margin: 0vw;
-  overflow: hidden;
+  overflow: none;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bgnd/team.jpg") 0% 0% / cover fixed, linear-gradient(to right, #e44d37, #e70364);
 }
 
@@ -18,7 +18,7 @@ html {
 
 body, html {
   margin: 0;
-  overflow: hidden;
+  overflow: none;
 }
 
 .logoimg {
@@ -76,7 +76,6 @@ body, html {
   /* text-align: center; */
   color: #ffffff;
 }
-
 
 .grid-item:hover {
   background-color: white;
