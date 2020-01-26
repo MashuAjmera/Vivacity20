@@ -85,10 +85,10 @@
 
 .sponsor__grid {
   border-radius: 0.1rem;
-  height: 70vh;
+  height: 64vh;
   width: 95vw;
   margin: 0 auto;
-  /* margin-top: 1.5vw; */
+  margin-top: 1.8vw;
   display: -ms-grid;
   display: grid;
   overflow: auto;
@@ -106,7 +106,7 @@
 }
 
 .col {
-  width: 16vw;
+  width: 17.2vw;
 }
 
 .card {
@@ -309,13 +309,14 @@ body {
   }
 
   .sponsor__grid {
-    grid-template-columns: repeat(10, 60vw);
-    height: 60vh;
+    grid-template-columns: repeat(10, 44vw);
+    height: 56vh;
     padding-top: 5vh;
   }
 
   .col {
-    width: 50vw;
+    width: 36vw;
+    padding-left: 14%;
   }
   .card__side {
     height: 25vh;
