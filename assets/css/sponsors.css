@@ -35,7 +35,7 @@ background-attachment: fixed;
 #headd {
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 4vw;
+  font-size: 6vw;
   font-weight: bolder;
   font-style: normal;
   font-stretch: normal;
@@ -53,7 +53,7 @@ p.content{
 .heading {
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 4vw;
+  font-size: 5vw;
   font-weight: bolder;
   font-style: normal;
   font-stretch: normal;
@@ -66,7 +66,7 @@ p.content{
 .heading-media {
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 4vw;
+  font-size: 5vw;
   font-weight: bolder;
   font-style: normal;
   font-stretch: normal;
@@ -77,9 +77,9 @@ p.content{
 }
 
 .svg {
-  margin-top: -13.5%;
-  width: 21%;
-  margin-left: 35vw;
+  margin-top: -20.5%;
+  width: 33%;
+  margin-left: 28vw;
 }
 
 
@@ -89,7 +89,7 @@ p.content{
   background-color: transparent;
   width: 100%;
   height: 100vh;
-  margin-top: -15%;
+  margin-top: -25%;
 }
 
 .flex-containor>div {
@@ -98,6 +98,7 @@ p.content{
   padding: 16px;
   font-size: 145%;
   color: #ffffff;
+  margin-right: 3%;
 }
 
 .grid_area1 {
@@ -201,7 +202,7 @@ padding: 0.5% 1%;
   }
   .heading {
     padding-top: 10vh;
-    font-size: 7vw;
+    font-size: 9vw;
   }
 }
 @media screen and (max-width: 450px) {
@@ -237,7 +238,7 @@ padding: 0.5% 1%;
   margin-top: -69%;
 }
 p.content{
-  font-size: 3.2vw;
+  font-size: 2.8vw;
 }
 .box {
   width: 330%;
@@ -253,7 +254,7 @@ p.content{
 
 .answer {
   font-family: 'Poppins';
-  border: 2px #fff solid;
+  border: 1px #fff solid;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 2vw;
