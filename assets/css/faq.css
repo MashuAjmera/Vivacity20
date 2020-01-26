@@ -561,13 +561,14 @@ button:hover {
 
 @media only screen and (max-width: 540px){
     .grid-container1 {
-       grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+       grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
         margin-left: 40px;
         grid-gap: 0px;
     }
     .grid-item{
         height:70px;
         font-size: 30px;
+        width: 40%;
     }
     .nav-menu a{
         margin-right: 60px;
