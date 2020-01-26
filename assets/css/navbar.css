@@ -414,7 +414,7 @@ a {
     margin-top: 4%;
     /* margin-right: 40%; */
     height: 50px;
-    bottom: 30px;
+    bottom: 35px;
     z-index: 10;
   }
   .icons {
@@ -459,7 +459,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: -6vw;
     z-index: 150;
   }
   .campusam:hover {
