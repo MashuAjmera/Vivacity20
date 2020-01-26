@@ -502,6 +502,9 @@ li {
   .menu-hide {
     display: block;
   }
+  .nav-links li a:hover:after {
+    width: 100%;
+  }
   .menu::before {
     display: none;
   }
@@ -549,6 +552,6 @@ li {
     transition: all 0.5s ease 1s;
   }
   .menu-hide {
-    display: block;
+    display: inline-block;
   }
 }
