@@ -17,9 +17,9 @@ html {
     scroll-behavior: smooth;
 }
 
-/* html {
+html,body {
 width: 100%;
-} */
+}
 
 .container {
     width: 100%;
@@ -416,8 +416,6 @@ button:hover {
         line-height: 1.2;
         width: 51%;
         color: #ffffff;
-        margin-left: -10%;
-        margin-top: 8%;
     }
     .grid-item:hover {
         background-color: white;
@@ -561,13 +559,15 @@ button:hover {
 
 @media only screen and (max-width: 540px){
     .grid-container1 {
-       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        margin-left: 40px;
-        grid-gap: 0px;
+       grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+        padding-left: 30px;
+        margin-top: 20px;
+        grid-gap: 5px;
     }
     .grid-item{
         height:70px;
         font-size: 30px;
+        width: 130px;
     }
     .nav-menu a{
         margin-right: 60px;

@@ -57,12 +57,12 @@
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebasneueregular" type="text/css" />
 </head>
 
-<body style="margin:0;padding:0;width:100%;height:100%">
+<body style="margin:0;padding:0;width:100%;height:100%;">
     <div id="loader">
         <img src="../assets/img/bgnd/loader.gif" />
     </div>
 
-    <div id="pages" class="slideUp">
+    <div id="pages" class="slideUp" style="display:none;">
         <nav id="nav-menu-container">
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
@@ -121,8 +121,8 @@
                 </li>
             </ul>
             <ul class="nav-links-bottom">
-                <li><a class="menuAfterClick8" href="#">TERMS OF USE</a></li>
-                <li><a class="menuAfterClick9" href="#">PRIVACY POLICY</a></li>
+                <li><a class="menuAfterClick8" href="/templates/faq.html">FAQs</a></li>
+                <li><a class="menuAfterClick9" href="#"></a></li>
                 <li><a class="menuAfterClick10" href="#"></a></li>
             </ul>
             <div class="nav-links-top-mid">
@@ -558,6 +558,7 @@
         </div>
     </div>
 
+
     <script src="assets/js/about-us.js"></script>
     <script src="assets/js/scroll.js"></script>
     <script>
@@ -569,6 +570,7 @@
         }
         function showPage() {
             document.getElementById("loader").classList.add("loaded");
+            document.getElementById("pages").style.display = "block";
         }
     </script>
 </body>
