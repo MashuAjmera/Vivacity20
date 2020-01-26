@@ -14,13 +14,18 @@
     <link rel="stylesheet" href="../assets/css/navbar.css" />
     <link rel="stylesheet" href="../assets/css/menu.css" />
     <link rel="stylesheet" href="../assets/css/events.css" />
+    <link href="../assets/css/loader.css" type="text/css" rel="stylesheet" />
+
 
     <title>
       Our Events | Vivacity 2020 - Annual Cultural Festival of LNMIIT Jaipur
     </title>
   </head>
 
-  <body>
+  <body style="margin:0;padding:0;width:100%;height:100%">
+    <div id="loader">
+        <img src="../assets/img/bgnd/loader.gif" />
+    </div>
     <nav id="nav-menu-container">
       <ul class="nav-menu">
         <li><a href="#concert">Concerts</a></li>
@@ -578,6 +583,18 @@
 
     <script src="../assets/js/menu.js"></script>
     <script src="../assets/js/scroll.js"></script>
+    <script>
+
+        var timeout;
+        window.onload = function loader() {
+            console.log("Hello");
+            timeout = setTimeout(showPage, 30);
+        }
+        function showPage() {
+            document.getElementById("loader").classList.add("loaded");
+        }
+    </script>
+
   </body>
 
 </html>

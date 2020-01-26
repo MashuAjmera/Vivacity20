@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../assets/css/navbar.css">
     <link rel="stylesheet" href="../assets/css/contactUs.css">
     <link rel="stylesheet" href="../assets/css/team.css">
+     <link href="../assets/css/loader.css" type="text/css" rel="stylesheet" />
 
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebasneueregular" type="text/css" />
@@ -21,7 +22,10 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+  <body style="margin:0;padding:0;width:100%;height:100%">
+    <div id="loader">
+        <img src="../assets/img/bgnd/loader.gif" />
+    </div>
     <nav id="nav-menu-container">
       <ul class="nav-menu">
         <!-- <li><a href="#main">Top</a></li> -->
@@ -133,23 +137,23 @@
         <a href="#cultural-sec">
           <div class="grid-item">CULTURAL SECRETARIES</div>
         </a>
+        <a href=" #finance">
+          <div class="grid-item">FEST CONVENERS</div>
+        </a>
         <a href="#sponsor-art">
           <div class="grid-item">SPONSORSHIP & ARTISTS</div>
-        </a>
-        <a href="#media-marketing">
-          <div class="grid-item">MEDIA & MARKETING</div>
-        </a>
-        <a href="#creative">
-          <div class="grid-item">CREATIVE THINK TANK</div>
         </a>
         <a href="#event-management">
           <div class="grid-item">EVENTS & PR</div>
         </a>
-        <a href="#finance">
-          <div class="grid-item">FEST CONVENERS</div>
+        <a href="#media-marketing">
+          <div class="grid-item">MEDIA & MARKETING</div>
         </a>
         <a href="#tech">
           <div class="grid-item">TECHNICAL GEEKS</div>
+        </a>
+        <a href="#creative">
+          <div class="grid-item">CREATIVE THINK TANK</div>
         </a>
         <a href="#video">
           <div class="grid-item">VIDEOGRAPHY & COVERAGE</div>
@@ -804,6 +808,17 @@
     </div>
 
     <script src="../assets/js/scroll.js"></script>
+    <script>
+
+        var timeout;
+        window.onload = function loader() {
+            console.log("Hello");
+            timeout = setTimeout(showPage, 30);
+        }
+        function showPage() {
+            document.getElementById("loader").classList.add("loaded");
+        }
+    </script>
 
   </body>
 

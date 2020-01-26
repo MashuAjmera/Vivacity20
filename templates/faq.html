@@ -20,13 +20,17 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/navbar.css">
     <!-- <link rel="stylesheet" href="../assets/css/bamboozled.css"> -->
     <link rel="stylesheet" type="text/css" href="../assets/css/faq.css">
+    <link href="../assets/css/loader.css" type="text/css" rel="stylesheet" />
 
 
     <!-- Font Files -->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body style="margin:0;padding:0;width:100%;height:100%">
+    <div id="loader">
+        <img src="../assets/img/bgnd/loader.gif" />
+    </div>
     <!-- NAVBAR -->
 
     <nav id="nav-menu-container">
@@ -697,6 +701,18 @@
         }
     </script>
     <script src="../assets/js/scroll.js"></script>
+    <script>
+
+        var timeout;
+        window.onload = function loader() {
+            console.log("Hello");
+            timeout = setTimeout(showPage, 30);
+        }
+        function showPage() {
+            document.getElementById("loader").classList.add("loaded");
+        }
+    </script>
+
 </body>
 
 </html>
