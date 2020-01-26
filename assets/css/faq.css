@@ -17,9 +17,9 @@ html {
     scroll-behavior: smooth;
 }
 
-/* html {
+html,body {
 width: 100%;
-} */
+}
 
 .container {
     width: 100%;
