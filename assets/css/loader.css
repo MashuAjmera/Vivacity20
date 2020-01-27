@@ -10,8 +10,15 @@
 }
 
 #loader img {
-    width: 100vw;
-    /* height: 100vw; */
+    width: auto;
+    height: 100vh;
+}
+
+@media only screen and (max-device-width: 480px) {
+    #loader img {
+        width: 100vw;
+        height: 100vh;
+    }
 }
 
 /* .slideUp {
