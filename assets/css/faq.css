@@ -60,6 +60,7 @@ body::-webkit-scrollbar {
     /* grid-template-rows: 150px 150px; */
     background-color: transparent;
     padding: 4%;
+    padding-top: 7%;
     margin-top: -7%;
     margin-bottom: -9%;
     /* margin-right: 2%; */
