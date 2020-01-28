@@ -9,16 +9,8 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@viewport {
-  width: device-width;
-  zoom: 1;
-}
 
-.container {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-}
+
 
 body {
   margin: 0;
