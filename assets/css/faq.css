@@ -17,9 +17,9 @@ html {
     scroll-behavior: smooth;
 }
 
-/* html {
+html,body {
 width: 100%;
-} */
+}
 
 .container {
     width: 100%;
@@ -60,6 +60,7 @@ body::-webkit-scrollbar {
     /* grid-template-rows: 150px 150px; */
     background-color: transparent;
     padding: 4%;
+    padding-top: 7%;
     margin-top: -7%;
     margin-bottom: -9%;
     /* margin-right: 2%; */
@@ -115,19 +116,17 @@ a {
 }
 
 .ht {
-    font-size: 1.3vw;
+    font-size: 1.6vw;
 }
 
 .heading {
     padding-top: 10vh;
-    padding-left: 25%;
     align-self: center;
     color: white;
     font-size: 5vw;
 }
 
 #desc {
-    padding-top: 10vh;
     width: 100%;
     margin-left: 5%;
     padding-left: 10vw;
@@ -135,6 +134,7 @@ a {
 
 .lt {
     padding-bottom: 20px;
+    font-size: 1.2vw;
 }
 
 .eventDisplaySpace {
@@ -416,8 +416,6 @@ button:hover {
         line-height: 1.2;
         width: 51%;
         color: #ffffff;
-        margin-left: -10%;
-        margin-top: 8%;
     }
     .grid-item:hover {
         background-color: white;
@@ -562,13 +560,14 @@ button:hover {
 @media only screen and (max-width: 540px){
     .grid-container1 {
        grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
-        margin-left: 40px;
-        grid-gap: 0px;
+        padding-left: 30px;
+        margin-top: 20px;
+        grid-gap: 5px;
     }
     .grid-item{
         height:70px;
         font-size: 30px;
-        width: 145px;
+        width: 130px;
     }
     .nav-menu a{
         margin-right: 60px;
