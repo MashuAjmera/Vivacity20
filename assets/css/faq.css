@@ -116,7 +116,7 @@ a {
 }
 
 .ht {
-    font-size: 1.3vw;
+    font-size: 1.8vw;
 }
 
 .heading {
@@ -128,7 +128,6 @@ a {
 }
 
 #desc {
-    padding-top: 10vh;
     width: 100%;
     margin-left: 5%;
     padding-left: 10vw;
@@ -136,6 +135,7 @@ a {
 
 .lt {
     padding-bottom: 20px;
+    font-size: 1.2vw;
 }
 
 .eventDisplaySpace {
