@@ -6,31 +6,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
 /* Scroll */
 
-html {
-  scroll-behavior: smooth;
-  user-select: none;
-}
 
-body::-webkit-scrollbar {
-  width: 0;
-}
-
-body {
-  overflow: hidden;
-  /* overscroll-behavior: contain; */
-}
-
-.container {
-  width: 100%;
-  height: 100vh;
-}
-
-/* scroll end */
-
-body, html {
-  margin: 0;
-  overflow: hidden;
-}
 
 #home {
   /* background: linear-gradient(to right, #ff5ff4, #dd43cb 50%, #0068ff) ; */
