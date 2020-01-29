@@ -4,14 +4,21 @@
     margin: 0;
     background-color: black;
     z-index: 100;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     justify-content: center;
 }
 
 #loader img {
     width: auto;
-    height: 100%;
+    height: 100vh;
+}
+
+@media only screen and (max-device-width: 480px) {
+    #loader img {
+        width: 100vw;
+        height: 100vh;
+    }
 }
 
 /* .slideUp {

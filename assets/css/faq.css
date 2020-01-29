@@ -11,15 +11,9 @@ body {
     margin: 0;
 }
 
-html {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
 
-html,body {
-width: 100%;
-}
+
+
 
 .container {
     width: 100%;
@@ -60,6 +54,7 @@ body::-webkit-scrollbar {
     /* grid-template-rows: 150px 150px; */
     background-color: transparent;
     padding: 4%;
+    padding-top: 7%;
     margin-top: -7%;
     margin-bottom: -9%;
     /* margin-right: 2%; */
@@ -115,19 +110,17 @@ a {
 }
 
 .ht {
-    font-size: 1.3vw;
+    font-size: 1.6vw;
 }
 
 .heading {
     padding-top: 10vh;
-    padding-left: 25%;
     align-self: center;
     color: white;
     font-size: 5vw;
 }
 
 #desc {
-    padding-top: 10vh;
     width: 100%;
     margin-left: 5%;
     padding-left: 10vw;
@@ -135,6 +128,7 @@ a {
 
 .lt {
     padding-bottom: 20px;
+    font-size: 1.2vw;
 }
 
 .eventDisplaySpace {
@@ -556,6 +550,12 @@ button:hover {
 #cont {
     height: 55vh;
 }
+.ht,.lt{
+	padding-left: 15px;
+}
+#desc{
+	width: 70%;
+}
 
 @media only screen and (max-width: 540px){
     .grid-container1 {
@@ -573,3 +573,25 @@ button:hover {
         margin-right: 60px;
     }
 } 
+
+@media only screen and (max-width: 500px){
+	.ht{
+		font-size: 4.5vw; 
+		padding-right: 15px;
+		padding-left: 0;
+	}
+	.heading{
+		font-size: 7vw;
+
+	}
+	.lt{
+		font-size: 3vw;
+		padding-right: 15px;
+		padding-left: 0;
+	}
+	#desc{
+		width: 80%;
+		margin-top: 15%;
+	}
+}
+

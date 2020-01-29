@@ -19,6 +19,24 @@ window.addEventListener ('beforeinstallprompt', e => {
 var container = document.querySelectorAll ('.container');
 var current = 0;
 
+function hideAddressBar () {
+  if (!window.location.hash) {
+    if (document.height < window.outerHeight) {
+      document.body.style.height = window.outerHeight + 50 + 'px';
+    }
+
+    setTimeout (function () {
+      window.scrollTo (0, 1);
+    }, 50);
+  }
+}
+
+window.addEventListener ('load', function () {
+  if (!window.pageYOffset) {
+    hideAddressBar ();
+  }
+});
+
 var browser = (function () {
   var test = function (regexp) {
     return regexp.test (window.navigator.userAgent);
@@ -46,7 +64,7 @@ if (browser == 'firefox') {
   triggerdelta = 0.5;
 }
 
-var delayInAddRemove = 1000; //do not touch
+var delayInAddRemove = 700; //do not touch
 
 function currentYPosition () {
   // Firefox, Chrome, Opera, Safari
@@ -179,25 +197,23 @@ function touch (event) {
   // document.body.requestFullscreen();
 }
 
-// window.addEventListener('touchmove', touch);
-var startX, startY;
-
 // document.addEventListener('touchstart', handleTouchStart, false);
 
 var startX, startY, startTime, endTime;
+
+document.addEventListener ('touchstart', touchstart);
 
 function touchstart (event) {
   startTime = new Date ().getTime ();
 
   var touches = event.touches;
   if (touches && touches.length) {
-    startX = touches[0].pageX;
     startY = touches[0].pageY;
-    window.addEventListener ('touchmove', touchmove);
+    document.addEventListener ('touchmove', touchmove);
   }
 }
 
-var touchdeltatrigger = 1;
+// var touchdeltatrigger = 150;
 
 function touchmove (event) {
   endTime = new Date ().getTime ();
@@ -205,14 +221,12 @@ function touchmove (event) {
   var touches = event.touches;
   if (touches && touches.length) {
     event.preventDefault ();
-    var deltaX = startX - touches[0].pageX;
+    // var deltaX = startX - touches[0].pageX;
     var deltaY = startY - touches[0].pageY;
     var speed = deltaY / (endTime - startTime);
-
     console.log (speed);
 
-    if (speed >= touchdeltatrigger) {
-      speed = 0;
+    if (speed >= 0.5) {
       if (current == container.length - 1) {
         current = 0;
       } else {
@@ -220,29 +234,14 @@ function touchmove (event) {
       }
 
       smoothScroll (container[current]);
-      window.removeEventListener ('touchstart', touchstart);
-      window.removeEventListener ('touchmove', touchmove);
-      setTimeout (addMobScroll, delayInAddRemove);
     }
-    if (speed <= -touchdeltatrigger) {
-      speed = 0;
+    if (speed <= -0.5) {
       if (current != 0) {
         current--;
         smoothScroll (container[current]);
       }
-      window.removeEventListener ('touchstart', touchstart);
-      window.removeEventListener ('touchmove', touchmove);
-
-      setTimeout (addMobScroll, delayInAddRemove);
     }
   }
-}
-
-window.addEventListener ('touchstart', touchstart);
-
-function addMobScroll () {
-  window.addEventListener ('touchstart', touchstart);
-  window.addEventListener ('touchmove', touchmove);
 }
 
 // add line 494 to 496 to wheel event
