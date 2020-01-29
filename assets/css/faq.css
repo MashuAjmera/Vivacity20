@@ -571,6 +571,7 @@ button:hover {
 @media only screen and (max-width: 500px){
 	.ht{
 		font-size: 4.5vw; 
+		padding-right: 15px;
 	}
 	.heading{
 		font-size: 7vw;
@@ -578,8 +579,13 @@ button:hover {
 	}
 	.lt{
 		font-size: 3vw;
+		padding-right: 15px;
 	}
 	#desc{
 		width: 80%;
 	}
+}
+
+.ht,.lt{
+	padding-left: 15px;
 }
