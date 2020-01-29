@@ -94,7 +94,7 @@
   overflow: auto;
 
   /* -ms-grid-columns: (22.5rem)[5]; */
-  grid-template-columns: repeat(10, 19vw);
+  grid-template-columns: repeat(15, 19vw);
   grid-row-gap: calc((90vw - 10 * 19vh) / (5 + 1));
   justify-items: center;
   align-items: center;
