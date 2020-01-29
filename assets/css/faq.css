@@ -567,3 +567,19 @@ button:hover {
         margin-right: 60px;
     }
 } 
+
+@media only screen and (max-width: 500px){
+	.ht{
+		font-size: 4.5vw; 
+	}
+	.heading{
+		font-size: 7vw;
+
+	}
+	.lt{
+		font-size: 3vw;
+	}
+	#desc{
+		width: 80%;
+	}
+}
