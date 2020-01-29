@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="../assets/css/events.css" />
   <link href="../assets/css/loader.css" type="text/css" rel="stylesheet" />
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 
   <title>
     Our Events | Vivacity 2020 - Annual Cultural Festival of LNMIIT Jaipur
@@ -93,10 +94,11 @@
         </li>
         <li><a class="menuAfterClick7" href="/templates/sponsors.html">Sponsors</a></li>
       </ul>
-      <ul class="nav-links-bottom">
-        <li><a class="menuAfterClick8" href="/templates/faq.html">FAQs</a></li>
-        <li><a class="menuAfterClick9" href="#"></a></li>
-        <li><a class="menuAfterClick10" href="#"></a></li>
+       <ul class="nav-links-bottom">
+        <li><a class="menuAfterClick8" href="../templates/faq.html">FAQs</a></li>
+        <li><a class="menuAfterClick8" href="#">TERMS OF USE</a></li>
+        <li><a class="menuAfterClick9" href="#">PRIVACY POLICY</a></li>
+        <li><a class="menuAfterClick10" href="../templates/developer.html">DEVELOPERS</a></li>
       </ul>
       <div class="nav-links-top-mid">
         <div class="logo">
@@ -149,18 +151,25 @@
         <div class="mid" id="pic" style="margin-left:10%;width: 40%;float: left;margin-right: 10%;">
           <div class="slideshow-container">
             <div class="mySlides-A fade">
-              <img src="../assets/img/events/2.jpeg" style="width:100%; height:430px;">
-            </div>
-
-            <div class="mySlides-A fade">
               <img src="../assets/img/events/5.jpeg" style="width:100%; height:430px;">
             </div>
 
+
             <div class="mySlides-A fade">
-              <img src="../assets/img/events/7.jpg" style="width:100%">
+              <img src="../assets/img/events/2.jpeg" style="width:100%; height:430px;">
             </div>
+
+            
             <div class="mySlides-A fade">
-              <img src="../assets/img/events/8.jpg" style="width:100%">
+              <img src="../assets/img/events/julia.jpeg" style="width:100%; height:430px;">
+            </div>
+
+            <div class="mySlides-A fade">
+              <img src="../assets/img/events/yellow.jpeg" style="width:100%; height:430px;">
+            </div>
+            
+            <div class="mySlides-A fade">
+              <img src="../assets/img/events/innayat.jpeg" style="width:100%; height:430px;">
             </div>
 
             <a class="prev" onclick="plusSlidesA(-1)">&#10094;</a>
@@ -180,14 +189,56 @@
             <span class="dot-A animation" onclick="currentSlideA(2)">2</span>
             <span class="dot-A animation" onclick="currentSlideA(3)">3</span>
             <span class="dot-A animation" onclick="currentSlideA(4)">4</span>
+            <span class="dot-A animation" onclick="currentSlideA(5)">5</span>
           </div>
         </div>
 
         <div class="mid" style="width:90%; color: white;height: 100%;margin-top: 40px;">
           <div>
+            
             <div class="content-A fade">
-              <h2>Nishant Suri</h2>
-              <p style="overflow: auto; height: 50vh; width:27%;padding-right: 30px;font-size: 95%;">
+              <h1 style="padding-top: 1.5em; font-size: 3em;">Jubin Nautiyal</h1>
+              <!-- <p style="overflow: auto;height: 50vh;width:27%;padding-right: 30px;font-size: 95%;">
+                From singing along to 'Tujhe Kitna Chahne' to tapping your feet to 'The Humma Song', we have all had
+                our Jubin Nautiyal moments. Vivacity, in association with Gaana, is proud to announce its main stage
+                artist of the last day, Jubin Nautiyal. Come sing your hearts out, next to your friends with your
+                flashlights out.
+              </p> -->
+          
+              <div style="color: rgb(245, 42, 42);font-size: 1.7em;font-weight: bold;text-align:center; padding-top:50px;padding-bottom: 20px;">
+                Special Offer on Passes 
+              </div>
+              <button id="conbut" class="trigger" href="javascript:;"
+            style="margin-left: 10%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;">
+            GRAB IT NOW
+          </button>
+
+          <div class="modal-wrapper">
+            <div class="modal" style="background-color:white;">
+              <div class="head" style="background-color:white;">
+                <a class="btn-close trigger" href="javascript:;"></a>
+              </div>
+              <div class="content" style="background-color:white;color: black;font-size: 20px;font-weight: bold;">
+                ❖ <span>Buy single ticket(Rs 400 only)</span>
+                <br>
+                ❖ <span style="padding-top: 20px;"> Special Offer- </span><br><span style="font-size: 20px;font-weight: bold;color: red;">Buy 4 tickets and get 1 Free(Rs 1600 only)</span>
+              </div>
+
+              <div style="color: red; text-align: center;font-size: 20px;font-weight: bold;padding-top: 50px;">DM for Passes<br>
+                <button id="conbut1" style="margin-left: 0%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;"
+                onclick="window.open('https://api.whatsapp.com/send?phone=918966838333&text=&source=&data=')">
+                Click Here!
+              </button>
+              </div>
+ 
+            </div>
+          </div>
+            </div>
+
+
+            <div class="content-A fade">
+              <h1 style="padding-top: 1.5em; font-size: 3em;">Nishant Suri</h1>
+              <!-- <p style="overflow: auto; height: 50vh; width:27%;padding-right: 30px;font-size: 95%;">
                 A smile is a curve that sets everything straight. – Phyllis Diller
                 .<br>
                 There is no expression purer than laughter accompanied by the sparkle you find in those eyes.
@@ -197,32 +248,144 @@
                 .<br>
                 Special thanks to <a href="https://www.instagram.com/gaana/" target="_blank">@gaana</a><br>
                 <a href="https://www.instagram.com/spectal.management/" target="_blank">@spectal.management</a>
-              </p>
+              </p> -->
+              <div style="color: rgb(245, 42, 42);font-size: 1.7em;font-weight: bold;text-align:center; padding-top:50px;padding-bottom: 20px;">
+                Special Offer on Passes 
+              </div>
+              <button id="conbut" class="trigger" href="javascript:;"
+            style="margin-left: 10%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;">
+            GRAB IT NOW
+          </button>
+
+          <div class="modal-wrapper">
+            <div class="modal" style="background-color:white;">
+              <div class="head" style="background-color:white;">
+                <a class="btn-close trigger" href="javascript:;"></a>
+              </div>
+              <div class="content" style="background-color:white;color: black;font-size: 20px;font-weight: bold;">
+                ❖ <span>Buy single ticket(Rs 400 only)</span>
+                <br>
+                ❖ <span style="padding-top: 20px;"> Special Offer- </span><br><span style="font-size: 20px;font-weight: bold;color: red;">Buy 4 tickets and get 1 Free(Rs 1600 only)</span>
+              </div>
+
+              <div style="color: red; text-align: center;font-size: 20px;font-weight: bold;padding-top: 50px;">DM for Passes<br>
+                <button id="conbut1" style="margin-left: 0%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;"
+                onclick="window.open('https://api.whatsapp.com/send?phone=918966838333&text=&source=&data=')">
+                Click Here!
+              </button>
+              </div>
+ 
+            </div>
+          </div>
+            </div>
+
+
+            <div class="content-A fade">
+              <h1 style="padding-top: 1.5em; font-size: 3em;">Julia Bliss</h1>
+              <!-- <p style="overflow: auto;height: 50vh;width:27%;padding-right: 30px;font-size: 95%;">
+                We're all set to get you groovin' with <a href="https://www.instagram.com/juliabliss/" target="_blank">@juliabliss</a> to dance the night away on the evening of 31st January in Vivacity 2k20.! 
+                <br>
+                Supercharge your festive vibes with our Sunburn DJ Julia Bliss and gear up for an absolute treat with <a href="https://www.instagram.com/Vh1Supersonic/" target="_blank">@Vh1Supersonic</a>.
+              </p> -->
+              <div style="color: rgb(245, 42, 42);font-size: 1.7em;font-weight: bold;text-align:center; padding-top:50px;padding-bottom: 20px;">
+                Special Offer on Passes 
+              </div>
+              <button id="conbut" class="trigger" href="javascript:;"
+            style="margin-left: 10%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;">
+            GRAB IT NOW
+          </button>
+
+          <div class="modal-wrapper">
+            <div class="modal" style="background-color:white;">
+              <div class="head" style="background-color:white;">
+                <a class="btn-close trigger" href="javascript:;"></a>
+              </div>
+              <div class="content" style="background-color:white;color: black;font-size: 20px;font-weight: bold;">
+                ❖ <span>Buy single ticket(Rs 400 only)</span>
+                <br>
+                ❖ <span style="padding-top: 20px;"> Special Offer- </span><br><span style="font-size: 20px;font-weight: bold;color: red;">Buy 4 tickets and get 1 Free(Rs 1600 only)</span>
+              </div>
+
+              <div style="color: red; text-align: center;font-size: 20px;font-weight: bold;padding-top: 50px;">DM for Passes<br>
+                <button id="conbut1" style="margin-left: 0%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;"
+                onclick="window.open('https://api.whatsapp.com/send?phone=918966838333&text=&source=&data=')">
+                Click Here!
+              </button>
+              </div>
+ 
+            </div>
+          </div>
+            </div>
+  
+            <div class="content-A fade">
+              <h1 style="padding-top: 1.5em; font-size: 2.5em;color: white;">The Yellow Diary</h1>
+              <!-- <p style="overflow: auto;height: 50vh;width:27%;padding-right: 30px;font-size: 95%;">
+                Words can dig deep through the walls people build around their hearts and that combined with a soulful voice that has experienced the subtle playfulness of life can create the comfort for you to lie upon. This Vivacity, give in to the trance with The Yellow Diary. Stay Vivacious!
+              </p> -->
+              <div style="color: rgb(245, 42, 42);font-size: 1.7em;font-weight: bold;text-align:center; padding-top:50px;padding-bottom: 20px;">
+                Special Offer on Passes 
+              </div>
+              <button id="conbut" class="trigger" href="javascript:;"
+            style="margin-left: 10%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;">
+            GRAB IT NOW
+          </button>
+
+          <div class="modal-wrapper">
+            <div class="modal" style="background-color:white;">
+              <div class="head" style="background-color:white;">
+                <a class="btn-close trigger" href="javascript:;"></a>
+              </div>
+              <div class="content" style="background-color:white;color: black;font-size: 20px;font-weight: bold;">
+                ❖ <span>Buy single ticket(Rs 400 only)</span>
+                <br>
+                ❖ <span style="padding-top: 20px;"> Special Offer- </span><br><span style="font-size: 20px;font-weight: bold;color: red;">Buy 4 tickets and get 1 Free(Rs 1600 only)</span>
+              </div>
+
+              <div style="color: red; text-align: center;font-size: 20px;font-weight: bold;padding-top: 50px;">DM for Passes<br>
+                <button id="conbut1" style="margin-left: 0%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;"
+                onclick="window.open('https://api.whatsapp.com/send?phone=918966838333&text=&source=&data=')">
+                Click Here!
+              </button>
+              </div>
+ 
+            </div>
+          </div>
             </div>
 
             <div class="content-A fade">
-              <h2>Jubin Nautiyal</h2>
-              <p style="overflow: auto;height: 50vh;width:27%;padding-right: 30px;font-size: 95%;">
-                From singing along to 'Tujhe Kitna Chahne' to tapping your feet to 'The Humma Song', we have all had
-                our Jubin Nautiyal moments. Vivacity, in association with Gaana, is proud to announce its main stage
-                artist of the last day, Jubin Nautiyal. Come sing your hearts out, next to your friends with your
-                flashlights out.
-              </p>
-            </div>
+              <h1 style="padding-top: 1.5em; font-size: 3em;color: white;">Innayat</h1>
+              <!-- <p style="overflow: auto;height: 50vh;width:27%;padding-right: 30px;font-size: 95%;">
+                Life is about finding comfort in the smallest of things and this Vivacity, we bring to you Innayat, a hindi rock fusion band, whose performances hit a little too close to home.
+              </p> -->
+              <div style="color: rgb(245, 42, 42);font-size: 1.7em;font-weight: bold;text-align:center; padding-top:50px;padding-bottom: 20px;">
+                Special Offer on Passes 
+              </div>
+              <button id="conbut" class="trigger" href="javascript:;"
+            style="margin-left: 10%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;">
+            GRAB IT NOW
+          </button>
 
-            <div class="content-A fade">
-              <h2>WILL BE REVEALED SOON!!!</h2>
-              <p style="overflow: auto;height: 50vh;width:27%;padding-right: 30px;font-size: 95%;">
-                Stay tuned to know more!
-              </p>
-            </div>
+          <div class="modal-wrapper">
+            <div class="modal" style="background-color:white;">
+              <div class="head" style="background-color:white;">
+                <a class="btn-close trigger" href="javascript:;"></a>
+              </div>
+              <div class="content" style="background-color:white;color: black;font-size: 20px;font-weight: bold;">
+                ❖ <span>Buy single ticket(Rs 400 only)</span>
+                <br>
+                ❖ <span style="padding-top: 20px;"> Special Offer- </span><br><span style="font-size: 20px;font-weight: bold;color: red;">Buy 4 tickets and get 1 Free(Rs 1600 only)</span>
+              </div>
 
-            <div class="content-A fade">
-              <h2>WILL BE REVEALED SOON!!!</h2>
-              <p style="overflow: auto;height: 50vh;width:27%;padding-right: 30px;font-size: 95%;">
-                Stay tuned to know more!
-              </p>
+              <div style="color: red; text-align: center;font-size: 20px;font-weight: bold;padding-top: 50px;">DM for Passes<br>
+                <button id="conbut1" style="margin-left: 0%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;"
+                onclick="window.open('https://api.whatsapp.com/send?phone=918966838333&text=&source=&data=')">
+                Click Here!
+              </button>
+              </div>
+ 
             </div>
+          </div>
+          </div>
           </div>
         </div>
       </div>
@@ -231,9 +394,50 @@
         <h1 style="padding-top: 2vh;margin-left: -20px;">Concerts</h1>
         <div class="mid1" style="width:90%; color: white;height: 100%;">
           <div>
+
             <div class="content1-A fade">
-              <h2 style="text-align: center;">Nishant Suri</h2>
-              <p style="overflow: auto;font-size: 95%;">
+              <h2 style="text-align: center;font-size: 2.5em;">Jubin Nautiyal</h2>
+              <!-- <p style="overflow: auto;font-size: 95%;">
+                From singing along to 'Tujhe Kitna Chahne' to tapping your feet to 'The Humma Song', we have all had
+                our Jubin Nautiyal moments. Vivacity, in association with Gaana, is proud to announce its main stage
+                artist of the last day, Jubin Nautiyal. Come sing your hearts out, next to your friends with your
+                flashlights out.
+              </p> -->
+              <div style="color: rgb(245, 42, 42);font-size: 1.7em;font-weight: bold;text-align:center; padding-top:50px;padding-bottom: 20px;margin-left: 10%;">
+                Special Offer on Passes 
+              </div>
+              <button id="conbut" class="trigger" href="javascript:;"
+            style="text-align:center;
+            margin-left: 40%;margin-top: 0%; margin-bottom:2em;font-size: 15px;height: 38px;background-color: transparent;">
+            GRAB IT NOW
+          </button>
+
+          <div class="modal-wrapper">
+            <div class="modal" style="background-color:white;">
+              <div class="head" style="background-color:white;">
+                <a class="btn-close trigger" href="javascript:;"></a>
+              </div>
+              <div class="content" style="background-color:white;color: black;font-size: 20px;font-weight: bold;">
+                ❖ <span>Buy single ticket(Rs 400 only)</span>
+                <br>
+                ❖ <span style="padding-top: 20px;"> Special Offer- </span><br><span style="font-size: 20px;font-weight: bold;color: red;">Buy 4 tickets and get 1 Free(Rs 1600 only)</span>
+              </div>
+
+              <div style="color: red; text-align: center;font-size: 20px;font-weight: bold;padding-top: 50px;">DM for Passes<br>
+                <button id="conbut1" style="margin-left: 0%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;"
+                onclick="window.open('https://api.whatsapp.com/send?phone=918966838333&text=&source=&data=')">
+                Click Here!
+              </button>
+              </div>
+ 
+            </div>
+          </div>
+            </div>
+
+
+            <div class="content1-A fade">
+              <h2 style="text-align: center;font-size: 2.5em;">Nishant Suri</h2>
+              <!-- <p style="overflow: auto;font-size: 95%;">
                 A smile is a curve that sets everything straight. – Phyllis Diller
                 .
                 There is no expression purer than laughter accompanied by the sparkle you find in those eyes.
@@ -243,32 +447,153 @@
                 .
                 Special thanks to @gaana
                 @spectal.management
-              </p>
+              </p> -->
+              <div style="color: rgb(245, 42, 42);font-size: 1.7em;font-weight: bold;text-align:center; padding-top:50px;padding-bottom: 20px;margin-left: 10%;">
+                Special Offer on Passes 
+              </div>
+              <button id="conbut" class="trigger" href="javascript:;"
+            style="text-align:center;
+            margin-left: 40%;margin-top: 0%; margin-bottom:2em;font-size: 15px;height: 38px;background-color: transparent;">
+            GRAB IT NOW
+          </button>
+
+          <div class="modal-wrapper">
+            <div class="modal" style="background-color:white;">
+              <div class="head" style="background-color:white;">
+                <a class="btn-close trigger" href="javascript:;"></a>
+              </div>
+             
+              <div class="content" style="background-color:white;color: black;font-size: 20px;font-weight: bold;">
+                ❖ <span>Buy single ticket(Rs 400 only)</span>
+                <br>
+                ❖ <span style="padding-top: 20px;"> Special Offer- </span><br><span style="font-size: 20px;font-weight: bold;color: red;">Buy 4 tickets and get 1 Free(Rs 1600 only)</span>
+              </div>
+
+              <div style="color: red; text-align: center;font-size: 20px;font-weight: bold;padding-top: 50px;">DM for Passes<br>
+                <button id="conbut1" style="margin-left: 0%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;"
+                onclick="window.open('https://api.whatsapp.com/send?phone=918966838333&text=&source=&data=')">
+                Click Here!
+                </button>
+              </div>
+ 
+            </div>
+          </div></div>
+
+
+            <div class="content1-A fade">
+              <h2 style="text-align: center;font-size: 2.5em;">Julia Bliss</h2>
+              <!-- <p style="overflow: auto;font-size: 95%;">
+                We're all set to get you groovin' with @juliabliss to dance the night away on the evening of 31st January in Vivacity 2k20.! 
+                <br>
+                Supercharge your festive vibes with our Sunburn DJ Julia Bliss and gear up for an absolute treat with @Vh1Supersonic and @Vh1SupersonicCollege101.
+              </p> -->
+              <div style="color: rgb(245, 42, 42);font-size: 1.7em;font-weight: bold;text-align:center; padding-top:50px;padding-bottom: 20px;margin-left: 10%;">
+                Special Offer on Passes 
+              </div>
+              <button id="conbut" class="trigger" href="javascript:;"
+            style="text-align:center;
+            margin-left: 40%;margin-top: 0%; margin-bottom:2em;font-size: 15px;height: 38px;background-color: transparent;">
+            GRAB IT NOW
+          </button>
+
+          <div class="modal-wrapper">
+            <div class="modal" style="background-color:white;">
+              <div class="head" style="background-color:white;">
+                <a class="btn-close trigger" href="javascript:;"></a>
+              </div>
+             
+              <div class="content" style="background-color:white;color: black;font-size: 20px;font-weight: bold;">
+                ❖ <span>Buy single ticket(Rs 400 only)</span>
+                <br>
+                ❖ <span style="padding-top: 20px;"> Special Offer- </span><br><span style="font-size: 20px;font-weight: bold;color: red;">Buy 4 tickets and get 1 Free(Rs 1600 only)</span>
+              </div>
+
+              <div style="color: red; text-align: center;font-size: 20px;font-weight: bold;padding-top: 50px;">DM for Passes<br>
+                <button id="conbut1" style="margin-left: 0%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;"
+                onclick="window.open('https://api.whatsapp.com/send?phone=918966838333&text=&source=&data=')">
+                Click Here!
+                </button>
+              </div>
+ 
+            </div>
+          </div>
+              
             </div>
 
             <div class="content1-A fade">
-              <h2 style="text-align: center;">Jubin Nautiyal</h2>
-              <p style="overflow: auto;font-size: 95%;">
-                From singing along to 'Tujhe Kitna Chahne' to tapping your feet to 'The Humma Song', we have all had
-                our Jubin Nautiyal moments. Vivacity, in association with Gaana, is proud to announce its main stage
-                artist of the last day, Jubin Nautiyal. Come sing your hearts out, next to your friends with your
-                flashlights out.
-              </p>
+              <h2 style="text-align: center;font-size: 2.5em;">The Yellow Diary</h2>
+              <!-- <p style="overflow: auto;font-size: 95%;">
+                Words can dig deep through the walls people build around their hearts and that combined with a soulful voice that has experienced the subtle playfulness of life can create the comfort for you to lie upon. This Vivacity, give in to the trance with The Yellow Diary. Stay Vivacious!
+              </p> -->
+              <div style="color: rgb(245, 42, 42);font-size: 1.7em;font-weight: bold;text-align:center; padding-top:50px;padding-bottom: 20px;margin-left: 10%;">
+                Special Offer on Passes 
+              </div>
+              <button id="conbut" class="trigger" href="javascript:;"
+            style="text-align:center;
+            margin-left: 40%;margin-top: 0%; margin-bottom:2em;font-size: 15px;height: 38px;background-color: transparent;">
+            GRAB IT NOW
+          </button>
+
+          <div class="modal-wrapper">
+            <div class="modal" style="background-color:white;">
+              <div class="head" style="background-color:white;">
+                <a class="btn-close trigger" href="javascript:;"></a>
+              </div>
+             
+              <div class="content" style="background-color:white;color: black;font-size: 20px;font-weight: bold;">
+                ❖ <span>Buy single ticket(Rs 400 only)</span>
+                <br>
+                ❖ <span style="padding-top: 20px;"> Special Offer- </span><br><span style="font-size: 20px;font-weight: bold;color: red;">Buy 4 tickets and get 1 Free(Rs 1600 only)</span>
+              </div>
+
+              <div style="color: red; text-align: center;font-size: 20px;font-weight: bold;padding-top: 50px;">DM for Passes<br>
+                <button id="conbut1" style="margin-left: 0%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;"
+                onclick="window.open('https://api.whatsapp.com/send?phone=918966838333&text=&source=&data=')">
+                Click Here!
+                </button>
+              </div>
+ 
+            </div>
+          </div>
+            </div>
+                        
+            <div class="content1-A fade">
+              <h2 style="text-align: center;font-size: 2.5em;">Innayat</h2>
+              <!-- <p style="overflow: auto;font-size: 95%;">
+                Life is about finding comfort in the smallest of things and this Vivacity, we bring to you Innayat, a hindi rock fusion band, whose performances hit a little too close to home.
+              </p> -->
+              <div style="color: rgb(245, 42, 42);font-size: 1.7em;font-weight: bold;text-align:center; padding-top:50px;padding-bottom: 20px;margin-left: 10%;">
+                Special Offer on Passes 
+              </div>
+              <button id="conbut" class="trigger" href="javascript:;"
+            style="text-align:center;
+            margin-left: 40%;margin-top: 0%; margin-bottom:2em;font-size: 15px;height: 38px;background-color: transparent;">
+            GRAB IT NOW
+          </button>
+
+          <div class="modal-wrapper">
+            <div class="modal" style="background-color:white;">
+              <div class="head" style="background-color:white;">
+                <a class="btn-close trigger" href="javascript:;"></a>
+              </div>
+             
+              <div class="content" style="background-color:white;color: black;font-size: 20px;font-weight: bold;">
+                ❖ <span>Buy single ticket(Rs 400 only)</span>
+                <br>
+                ❖ <span style="padding-top: 20px;"> Special Offer- </span><br><span style="font-size: 20px;font-weight: bold;color: red;">Buy 4 tickets and get 1 Free(Rs 1600 only)</span>
+              </div>
+
+              <div style="color: red; text-align: center;font-size: 20px;font-weight: bold;padding-top: 50px;">DM for Passes<br>
+                <button id="conbut1" style="margin-left: 0%;margin-top: 0%; font-size: 15px;height: 38px;background-color: transparent;"
+                onclick="window.open('https://api.whatsapp.com/send?phone=918966838333&text=&source=&data=')">
+                Click Here!
+                </button>
+              </div>
+ 
+            </div>
+          </div>
             </div>
 
-            <div class="content1-A fade">
-              <h2 style="text-align: center;">WILL BE REVEALED SOON!!!</h2>
-              <p style="overflow: auto;font-size: 95%;">
-                Stay tuned to know more!
-              </p>
-            </div>
-
-            <div class="content1-A fade">
-              <h2 style="text-align: center;">WILL BE REVEALED SOON!!!</h2>
-              <p style="overflow: auto;font-size: 95%;">
-                Stay tuned to know more!
-              </p>
-            </div>
           </div>
         </div>
         <div style="text-align: center; ">
@@ -276,6 +601,7 @@
           <span class="dot1-A" onclick="currentSlideA(2)">2</span>
           <span class="dot1-A" onclick="currentSlideA(3)">3</span>
           <span class="dot1-A" onclick="currentSlideA(4)">4</span>
+          <span class="dot1-A" onclick="currentSlideA(5)">5</span>
         </div>
       </div>
     </div>
@@ -642,6 +968,14 @@
 
     }
   </script>
+   <script>
+    $( document ).ready(function() {
+  $('.trigger').click(function() {
+     $('.modal-wrapper').toggleClass('open');
+     return false;
+  });
+});
+</script>
 
 </body>
 
