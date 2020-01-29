@@ -578,6 +578,7 @@ button:hover {
 	.ht{
 		font-size: 4.5vw; 
 		padding-right: 15px;
+		padding-left: 0;
 	}
 	.heading{
 		font-size: 7vw;
@@ -586,6 +587,7 @@ button:hover {
 	.lt{
 		font-size: 3vw;
 		padding-right: 15px;
+		padding-left: 0;
 	}
 	#desc{
 		width: 80%;
