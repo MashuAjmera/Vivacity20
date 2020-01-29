@@ -550,6 +550,12 @@ button:hover {
 #cont {
     height: 55vh;
 }
+.ht,.lt{
+	padding-left: 15px;
+}
+#desc{
+	width: 70%;
+}
 
 @media only screen and (max-width: 540px){
     .grid-container1 {
@@ -586,6 +592,3 @@ button:hover {
 	}
 }
 
-.ht,.lt{
-	padding-left: 15px;
-}
