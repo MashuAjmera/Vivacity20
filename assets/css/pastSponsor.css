@@ -309,7 +309,7 @@ body {
   }
 
   .sponsor__grid {
-    grid-template-columns: repeat(10, 44vw);
+    grid-template-columns: repeat(15, 44vw);
     height: 56vh;
     padding-top: 5vh;
   }
