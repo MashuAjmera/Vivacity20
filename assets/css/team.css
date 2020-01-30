@@ -2,18 +2,13 @@
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
 body {
   margin: 0vw;
-  overflow: none;
+  overflow: hidden;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bgnd/team.jpg") 0% 0% / cover fixed, linear-gradient(to right, #e44d37, #e70364);
 }
 
-
-
-.container {
-  width: 100%;
-  height: 100vh;
+html {
+  scroll-behavior: smooth;
 }
-
-
 
 .logoimg {
   padding-top: 19vh;
